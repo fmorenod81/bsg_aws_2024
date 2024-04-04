@@ -2,7 +2,6 @@ README.md
 
 Technical Essentials 2024 - Start Date: 26 March 2024 - [Unofficial Introduction to the course](./00-Personal_Taughts_26032024.pdf)
 
-
 ## Cloud
 
 Course Overview - NOTE: Labs - Link: [Official Page](https://d1.awsstatic.com/training-and-certification/classroom-training/aws-technical-essentials.pdf)
@@ -43,7 +42,7 @@ Lambda Service - Link: [AWS Page](https://aws.amazon.com/lambda/)
 
 ## Networking
 
-Routing table as Forest Gump playing Football or Mailman  - Link[Youtube](https://youtu.be/g4OPX5P9DlQ?t=43)
+Routing table as Forest Gump playing Football or Mailman  - Link: [Youtube](https://youtu.be/g4OPX5P9DlQ?t=43)
 
 Mascara de red - Link: [cidr.xyz](https://cidr.xyz/)
 
@@ -78,3 +77,8 @@ Looks Intelligent Tier - S3 Pricing - Link: [Official Pricing Page](https://aws.
 Versioning for Dummies - Link: [AWS Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html)
 
 Delete Marker - Link: [AWS Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/versioning-workflows.html)
+
+-----
+## BUDGETS
+
+Budget Tutorial - Link: [AWS Tutorial](https://www.youtube.com/watch?v=O0sofGVT7uw)
