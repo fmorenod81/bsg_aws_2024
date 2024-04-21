@@ -1,4 +1,4 @@
-README.md
+Technical_Essentials_26032024.md
 
 Technical Essentials 2024 - Start Date: 26 March 2024 - [Unofficial Introduction to the course](./00-Personal_Taughts_26032024.pdf)
 
@@ -90,6 +90,8 @@ Budget Tutorial - Link: [AWS Tutorial](https://www.youtube.com/watch?v=O0sofGVT7
 
 Data 101: Data Classification & Storage - Link: [AWS Community](https://community.aws/posts/data-classification-and-storage)
 
+Types of Cloud Computing - IaaS/PaaS/SaaS - Link: [Official Documentation](https://aws.amazon.com/types-of-cloud-computing/)
+
 AWS DB Products - Link: [Official Documentation](https://aws.amazon.com/products/databases/)
 
 RDS Web Page - Link: [Official Page](https://aws.amazon.com/relational-database/)
@@ -139,3 +141,9 @@ Dyn ASG: Target Tracking ASG - Link: [Official Doc](https://docs.aws.amazon.com/
 Dyn ASG: Step vs Simple Policy - Link: [Official Doc](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-simple-step.html#SimpleScaling)
 
 Predictive ASG - Link: [Official Doc](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-predictive-scaling.html)
+
+
+## CodeWhisperer
+
+Simple Example - Link: [Official Demo Video](https://youtu.be/j8BoVmHKFlI)
+
