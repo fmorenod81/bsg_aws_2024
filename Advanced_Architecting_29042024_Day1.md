@@ -17,6 +17,16 @@ Advanced Architecting on AWS 2024 - Start Date: 29 April 2024 - [Unofficial Intr
   - [Direct Connect](#direct-connect)
   - [Transit Gateway](#transit-gateway)
   - [Route 53 Private Resolver](#route-53-private-resolver)
+- [Module 4: Specialized Infrastructure](#module-4-specialized-infrastructure)
+  - [Storage Gateway](#storage-gateway)
+  - [VmWare Cloud on AWS](#vmware-cloud-on-aws)
+  - [Outposts](#outposts)
+  - [Local Zones](#local-zones)
+  - [Wavelength](#wavelength)
+- [Module 5: Connecting Networks](#module-5-connecting-networks)
+  - [Transit Gateway](#transit-gateway-1)
+  - [Resource Access Manager](#resource-access-manager)
+  - [PrivateLink](#privatelink)
 
 ---
 
@@ -118,5 +128,77 @@ Working with Private Hosted Zones - Link: [Official Doc](https://docs.aws.amazon
 
 Resolving DNS Queries between VPCs and Your Network - Link: [Official Doc](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver.html)
 
-Getting Started with Route 53 Resolver:  - Link: [Official Doc](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-getting-started.html)
+Getting Started with Route 53 Resolver - Link: [Official Doc](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-getting-started.html)
 
+## Module 4: Specialized Infrastructure
+
+### Storage Gateway
+
+Tag: AWS File Gateway Tag on Blogs - Link: [AWS Storage Blog](https://aws.amazon.com/blogs/storage/tag/aws-file-gateway/)
+
+AWS Storage Gateway - Link: [Official FAQs](https://aws.amazon.com/storagegateway/faqs/)
+
+AWS Storage Gateway Primer: File Gateway - Link: [Official Training](https://www.aws.training/Details/Curriculum?id=38145)
+
+Deep Dive into AWS Storage Gateway - Link: [Official Training](https://www.aws.training/Details/Curriculum?id=19403)
+
+### VmWare Cloud on AWS
+
+VMware Cloud on AWS - Link: [Official FAQs](https://aws.amazon.com/vmware/faqs/)
+
+Enabling Business Continuity with VMware Cloud on AWS - Link: [AWS re:Invent 2020](https://youtu.be/w2mD0Z5eh6o)
+
+Migrate and Modernize with VMware Cloud on AWS - Link: [AWS re:Invent 2020](https://youtu.be/FQ_u9KsyQyE)
+
+### Outposts
+
+AWS Outposts: Storage Foundations - Amazon S3 on Outposts - Link: [AWS Online Tech Talks](https://youtu.be/A_khazmf6jU)
+
+
+### Local Zones
+
+Delivering low-latency applications at the edge - Link: [AWS re:Invent 2030 Video](https://www.youtube.com/watch?v=isYOTxCm5w4)
+
+### Wavelength
+
+Telecom Reference for AWS - Link: [Official Page](https://aws.amazon.com/telecom/resources/)
+
+At the cutting edge: AI driven sustainable 5G networks - Link: [AWS re:Invent 2030 Video](https://www.youtube.com/watch?v=uG70n3vJLzc)
+
+
+AWS Wavelength: Run Apps with Ultra-Low Latency at 5G Edge - Link: [AWS re:Invent 2020 Video](https://youtu.be/AQ-GbAFDvpM)
+
+Architecting 5G Apps for Ultra-Low Latency on AWS Wavelength - Link: [AWS re:Invent 2020 Video](https://youtu.be/KZX5FcsDfUQ)
+
+## Module 5: Connecting Networks
+
+### Transit Gateway
+
+FAQs: AWS Transit Gateway - Link: [Official FAQs](https://aws.amazon.com/transit-gateway/faqs/)
+
+Transit Gateway Guide: Examples - Link: [Official Doc](https://docs.aws.amazon.com/vpc/latest/tgw/TGW_Scenarios.html)
+
+Field Notes: Working with Route Tables in AWS Transit Gateway - Link: [Architecture Blog](https://aws.amazon.com/blogs/architecture/field-notes-working-with-route-tables-in-aws-transit-gateway/)
+
+Advanced Architectures with AWS Transit Gateway - Link: [AWS Online Tech Talks](https://youtu.be/awrdICiS6ug)
+
+Transit Gateway Networking and Scaling - Link: [Training](https://www.aws.training/Details/eLearning?id=40275)
+
+
+### Resource Access Manager
+
+FAQs: AWS Resource Access Manager - Link: [Official FAQs](https://aws.amazon.com/ram/faqs/)
+
+Sharing Your AWS Resources - Link: [Official Doc](https://docs.aws.amazon.com/ram/latest/userguide/getting-started-sharing.html)
+
+Shareable AWS Resources - Link: [Official Doc](https://docs.aws.amazon.com/ram/latest/userguide/shareable.html)
+
+### PrivateLink
+
+Integrating AWS Transit Gateway with AWS PrivateLink and Amazon Route 53 Resolver - Link: [BigData Blog](https://aws.amazon.com/blogs/big-data/how-goldman-sachs-builds-cross-account-connectivity-to-their-amazon-msk-clusters-with-aws-privatelink/)
+
+Configure and Deploy AWS PrivateLink - Link: [Training](https://www.aws.training/Details/eLearning?id=54077)
+
+Learn About Private Endpoints in Atlas (AWS Partner Solution)- Link: [Official Doc](https://www.mongodb.com/docs/atlas/security-private-endpoint/)
+
+VPC Endpoint Services for Interface Endpoints - Link: [Official Doc](https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-service-overview.html)

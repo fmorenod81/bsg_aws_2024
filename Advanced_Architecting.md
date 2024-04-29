@@ -186,11 +186,18 @@ Advanced Architectures with AWS Transit Gateway - AWS Online Tech Talks: https:/
 Transit Gateway Networking and Scaling: https://www.aws.training/Details/eLearning?id=40275
 Configure and Deploy AWS PrivateLink: https://www.aws.training/Details/eLearning?id=54077
 
+
 ---
 
 Transit Gateway Guide: Examples: https://docs.aws.amazon.com/vpc/latest/tgw/TGW_Scenarios.html
 Working with Transit Gateways: https://docs.aws.amazon.com/vpc/latest/tgw/working-with-transit-gateways.html
 AWS Transit Gateway entries from the AWS Architecture Blog: https://aws.amazon.com/blogs/architecture/category/networking-content-delivery/aws-transit-gateway/
+
+Sharing Your AWS Resources: https://docs.aws.amazon.com/ram/latest/userguide/getting-started-sharing.html
+Shareable AWS Resources: https://docs.aws.amazon.com/ram/latest/userguide/shareable.html
+
+VPC Endpoint Services (AWS PrivateLink): https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-service.html
+VPC Endpoint Services for Interface Endpoints: https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-service-overview.html
 
 
 ## Module 6
