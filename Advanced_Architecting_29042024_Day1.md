@@ -52,7 +52,17 @@ Comparing AWS Deployment Tools to Manage Multiple Accounts - Link: [AWS re:Inven
 
 Best Practices for Securing Your Multi-Account Environment  - Link: [AWS re:Invent 2020 Video](https://youtu.be/ip5sn3z5FNg)
 
+Policy Evaluation: IAM, Permission Boundaries, SCP - Link: [Official Doc](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
+
 ### Multiaccount strategies
+
+Cross-Account IAM Roles - Link: [Official Tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
+
+Permissions Boundaries Exercise - Link: [AWS Live re:Inforce Video](https://www.youtube.com/watch?v=eVNvjQ0wr84)
+
+Kahoot Answer 6 May - [PDF](./Kahoot_1_AA_06052024.pdf)
+
+### Identity Center
 
 AWS Organizations - Link: [Official FAQs](https://aws.amazon.com/organizations/faqs/)
 
@@ -60,9 +70,9 @@ Best Practices for AWS Organizations - Link: [Official Doc](https://docs.aws.ama
 
 Organizations Concepts - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html)
 
-Cross-Account IAM Roles - Link: [Official Tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
+Service Control Policies (SCP) Examples - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html)
 
-### Identity Center
+AWS Services integrated with Organizations - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_integrate_services_list.html)
 
 Identity Center - Link: [Official FAQs](https://aws.amazon.com/iam/identity-center/faqs/)
 
@@ -131,6 +141,8 @@ Resolving DNS Queries between VPCs and Your Network - Link: [Official Doc](https
 Getting Started with Route 53 Resolver - Link: [Official Doc](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-getting-started.html)
 
 ## Module 4: Specialized Infrastructure
+
+Hybrid Cloud with AWS - Link: [Whitepaper](https://d1.awsstatic.com/whitepapers/hybrid-cloud-with-aws.pdf?did=wp_card&trk=wp_card)
 
 ### Storage Gateway
 
