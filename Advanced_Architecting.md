@@ -127,6 +127,9 @@ Available Direct Connect locations: “AWS Direct Connect features” (https://a
 APN Partners that supporting AWS Direct Connect: “AWS Direct Connect Delivery Partners” (https://aws.amazon.com/directconnect/partners/)
 “How do I enable BFD for my Direct Connect connection?” (https://aws.amazon.com/premiumsupport/knowledge-center/enable-bfd-direct-connect/)
 “Setting network MTU for private virtual interfaces or transit virtual interfaces” (https://docs.aws.amazon.com/directconnect/latest/UserGuide/set-jumbo-frames-vif.html)
+PORQUE SE NECESITA UN DIRECT CONNECT GATEWAY PARA CONNECTARSE A UN TRANSIT GATEWAY?
+
+
 
 see “Amazon EFS Update – On-Premises Access via Direct Connect” in the AWS New Blog at https://aws.amazon.com/blogs/aws/amazon-efs-update-on-premises-access-via-direct-connect-vpc/.
 “Site-to-Site VPN routing options” (https://docs.aws.amazon.com/vpn/latest/s2svpn/VPNRoutingTypes.html).
@@ -166,6 +169,46 @@ AWS re:Invent 2020: Architecting 5G Apps for Ultra-Low Latency on AWS Wavelength
 
 AWS Storage Gateway Primer: File Gateway: https://www.aws.training/Details/Curriculum?id=38145(opens in a new tab)
 Deep Dive into AWS Storage Gateway: https://www.aws.training/Details/Curriculum?id=19403
+---
+Creating Your Gateway: https://docs.aws.amazon.com/storagegateway/latest/userguide/create-gateways.html(opens in a new tab)
+Managing Your Gateway: https://docs.aws.amazon.com/storagegateway/latest/userguide/managing-gateway-common.html
+https://aws.amazon.com/storagegateway/hardware-appliance/
+https://aws.amazon.com/storagegateway/features/
+On EC2 Hosting Option: https://docs.aws.amazon.com/storagegateway/latest/vgw/WhatIsStorageGateway.html
+Cached on S3, cache on Prem and Volume on EBS Snapshot, all onPrem.
+
+VMware Cloud on AWS FAQs: https://aws.amazon.com/vmware/faqs/(opens in a new tab)
+Backup and Restore to VMware Cloud on AWS: https://d1.awsstatic.com/VMwareCloudonAWS/VMwareCloudonAWS_DR_RA.pdf
+
+Los outpost se pueden comunicar con la red local del datacenter? es decir se puede establecer una comunicacion directa entre un EC2 del outputs y una maquina virtual del DC sin que el trafico salga?
+Outpost Site Requirements: (opens in a new tab)https://docs.aws.amazon.com/outposts/latest/userguide/outposts-requirements.html(opens in a new tab)
+Launch an Instance on your Outpost: https://docs.aws.amazon.com/outposts/latest/userguide/launch-instance.html(opens in a new tab)
+Amazon Elastic Container Service on AWS Outposts: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-on-outposts.html(opens in a new tab)
+EMR Clusters on AWS Outposts: https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-plan-outposts.html(opens in a new tab)
+Working with Amazon RDS on AWS Outposts: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-on-outposts.html(opens in a new tab)
+Using Amazon S3 on Outposts: https://docs.aws.amazon.com/AmazonS3/latest/userguide/S3onOutposts.html(opens in a new tab)
+AWS Outposts 1U and 2U form factor: https://aws.amazon.com/outposts/1u-2u/(opens in a new tab)
+
+
+AWS Local Zones: https://aws.amazon.com/about-aws/global-infrastructure/localzones/(opens in a new tab)
+AWS Local Zones FAQs: https://aws.amazon.com/about-aws/global-infrastructure/localzones/faqs/
+
+AWS Wavelength Use Cases: https://docs.aws.amazon.com/wavelength/latest/developerguide/wavelength-use-cases.html(opens in a new tab)
+How AWS Wavelength Works: https://docs.aws.amazon.com/wavelength/latest/developerguide/how-wavelengths-work.html
+
+
+https://docs.aws.amazon.com/vpc/latest/tgw/tgw-multicast-overview.html
+
+https://aws.amazon.com/blogs/networking-and-content-delivery/simplify-sd-wan-connectivity-with-aws-transit-gateway-connect/
+
+
+https://aws.amazon.com/blogs/apn/using-aws-privatelink-integrations-to-access-saas-solutions-from-apn-partners/
+https://aws.amazon.com/marketplace/saas/privatelink
+https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/building-scalable-secure-multi-vpc-network-infrastructure.pdf
+https://docs.aws.amazon.com/vpc/latest/tgw/working-with-transit-gateways.html
+https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-services-overview.html
+https://aws.amazon.com/blogs/networking-and-content-delivery/simplify-sd-wan-connectivity-with-aws-transit-gateway-connect/
+https://aws.amazon.com/ram/faqs/
 
 ## Module 5
 
