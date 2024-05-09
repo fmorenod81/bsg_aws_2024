@@ -20,14 +20,14 @@ https://aws.amazon.com/blogs/architecture/choosing-your-vpc-endpoint-strategy-fo
 
 Example Service Control Policies: https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html
 FAQs: AWS Organizations: https://aws.amazon.com/organizations/faqs/
-Best Practices for AWS Organizations: https://docs.aws.amazon.com/organizations/latest/userguide/orgs_best-practices.html(opens in a new tab)
+Best Practices for AWS Organizations: https://docs.aws.amazon.com/organizations/latest/userguide/orgs_best-practices.html
 FAQs: AWS Single Sign-On: https://aws.amazon.com/sso/faqs/
 AWS Well-Architected Guidance Engine Now Available in AWS Control Tower: https://aws.amazon.com/about-aws/whats-new/2020/12/aws-well-architected-guidance-engine-now-available-in-aws-control-tower/
 FAQs: AWS Control Tower: https://aws.amazon.com/controltower/faqs/
 
-AWS re:Invent 2020: Comparing AWS Deployment Tools to Manage Multiple Accounts: https://youtu.be/n_6QTYDavrM(opens in a new tab)
-AWS re:Invent 2020: Best Practices for Securing Your Multi-Account Environment: https://youtu.be/ip5sn3z5FNg(opens in a new tab)
-AWS re:Invent 2020: How to Onboard Existing AWS Accounts onto AWS Control Tower: https://youtu.be/43RBVFac7LU(opens in a new tab)
+AWS re:Invent 2020: Comparing AWS Deployment Tools to Manage Multiple Accounts: https://youtu.be/n_6QTYDavrM
+AWS re:Invent 2020: Best Practices for Securing Your Multi-Account Environment: https://youtu.be/ip5sn3z5FNg
+AWS re:Invent 2020: How to Onboard Existing AWS Accounts onto AWS Control Tower: https://youtu.be/43RBVFac7LU
 AWS re:Invent 2020: Build Governance at Scale with AWS Control Tower: https://youtu.be/Zxrs6YXMidk
 
 Training: Deep Dive with Security: AWS Identity and Access Management (IAM): https://www.aws.training/Details/eLearning?id=53780
@@ -41,18 +41,18 @@ AWS Organizations terminology and concepts at https://docs.aws.amazon.com/organi
 Managing organizational units (OUs) at https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_ous.html
 Example service control policies at https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html  
 “How to create and manage users within AWS IAM Identity Center” in the AWS Security Blog (https://aws.amazon.com/blogs/security/how-to-create-and-manage-users-within-aws-sso/).
-Enable a New Feature in the AWS Management Console: Cross-Account Access: https://aws.amazon.com/blogs/security/enable-a-new-feature-in-the-aws-management-console-cross-account-access/(opens in a new tab)
-Switching to an IAM Role (AWS API): https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-api.html(opens in a new tab)
-IAM Tutorial: Delegate Access across AWS Accounts Using IAM Roles: Switch Roles (Console): https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html#tutorial_cross-account-with-roles-3(opens in a new tab)
-Delegate access across AWS accounts using IAM roles: https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html(opens in a new tab)
+Enable a New Feature in the AWS Management Console: Cross-Account Access: https://aws.amazon.com/blogs/security/enable-a-new-feature-in-the-aws-management-console-cross-account-access/
+Switching to an IAM Role (AWS API): https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-api.html
+IAM Tutorial: Delegate Access across AWS Accounts Using IAM Roles: Switch Roles (Console): https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html#tutorial_cross-account-with-roles-3
+Delegate access across AWS accounts using IAM roles: https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html
 Establishing Your Best Practice AWS Environment: https://aws.amazon.com/organizations/getting-started/best-practices/
 
 --
 Identity Center Needs Organizations https://docs.aws.amazon.com/SetUp/latest/UserGuide/setup-IdCPrereqs.html
 
-AWS Single Sign-on FAQs: https://aws.amazon.com/single-sign-on/faqs/(opens in a new tab)
-Understanding Key AWS Single Sign-On Concepts: https://docs.aws.amazon.com/singlesignon/latest/userguide/understanding-key-concepts.html(opens in a new tab)
-Configuring the AWS CLI to Use AWS Single Sign-On: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html(opens in a new tab)
+AWS Single Sign-on FAQs: https://aws.amazon.com/single-sign-on/faqs/
+Understanding Key AWS Single Sign-On Concepts: https://docs.aws.amazon.com/singlesignon/latest/userguide/understanding-key-concepts.html
+Configuring the AWS CLI to Use AWS Single Sign-On: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html
 Creating and Managing an Organization: https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_org.html
 
 Proactive Controls
@@ -60,9 +60,9 @@ https://docs.aws.amazon.com/controltower/latest/userguide/proactive-controls.htm
 
 “About controls in AWS Control Tower” in the AWS Control Tower User Guide: https://docs.aws.amazon.com/controltower/latest/userguide/controls.html.
 
-Using Lifecycle Events to Track AWS Control Tower Actions and Trigger Automated Workflows: https://aws.amazon.com/blogs/mt/using-lifecycle-events-to-track-aws-control-tower-actions-and-trigger-automated-workflows/(opens in a new tab)
-Extend a Self-Managed Active Directory to AWS Control Tower: https://aws.amazon.com/blogs/mt/extend-a-self-managed-active-directory-to-aws-control-tower/(opens in a new tab)
-Best Practices for AWS Control Tower Administrators: https://docs.aws.amazon.com/controltower/latest/userguide/best-practices.html(opens in a new tab)
+Using Lifecycle Events to Track AWS Control Tower Actions and Trigger Automated Workflows: https://aws.amazon.com/blogs/mt/using-lifecycle-events-to-track-aws-control-tower-actions-and-trigger-automated-workflows/
+Extend a Self-Managed Active Directory to AWS Control Tower: https://aws.amazon.com/blogs/mt/extend-a-self-managed-active-directory-to-aws-control-tower/
+Best Practices for AWS Control Tower Administrators: https://docs.aws.amazon.com/controltower/latest/userguide/best-practices.html
 How AWS Control Tower Works: https://docs.aws.amazon.com/controltower/latest/userguide/how-control-tower-works.html
 
 “About controls in AWS Control Tower” in the AWS Control Tower User Guide: https://docs.aws.amazon.com/controltower/latest/userguide/controls.html.
@@ -70,31 +70,30 @@ How AWS Control Tower Works: https://docs.aws.amazon.com/controltower/latest/use
 
 ## Module 3
 
-FAQs: AWS VPN: https://aws.amazon.com/vpn/faqs/(opens in a new tab)
-AWS Client VPN Administrator Guide: https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is.html(opens in a new tab)
-AWS Client VPN Now Supports Client to Client Connectivity: https://aws.amazon.com/about-aws/whats-new/2020/09/aws-client-vpn-now-supports-client-to-client-connectivity/(opens in a new tab)
-AWS Client VPN Now Support Client Connect Handler: (opens in a new tab)https://aws.amazon.com/about-aws/whats-new/2020/11/aws-client-vpn-supports-client-connect-handler/(opens in a new tab)
-Accelerated Site-to-Site VPN Connections: https://docs.aws.amazon.com/vpn/latest/s2svpn/accelerated-vpn.html(opens in a new tab)
-AWS Site-to-Site VPN Now Supports IPv6 Traffic: https://aws.amazon.com/about-aws/whats-new/2020/08/aws-site-to-site-vpn-supports-ipv6-traffic/(opens in a new tab)
-FAQs: AWS Direct Connect: https://aws.amazon.com/directconnect/faqs/(opens in a new tab)
-AWS Direct Connect Announces Native 100 Gbps Dedicated Connections at Select Locations: https://aws.amazon.com/about-aws/whats-new/2021/02/aws-direct-connect-announces-native-100-gbps-connections-select-locations/(opens in a new tab)
-Whitepaper: Hybrid Connectivity: https://aws.amazon.com/directconnect/faqs/(opens in a new tab)
-Working with Private Hosted Zones: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-private.html(opens in a new tab)
-Resolving DNS Queries between VPCs and Your Network: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver.html(opens in a new tab)
+FAQs: AWS VPN: https://aws.amazon.com/vpn/faqs/
+AWS Client VPN Administrator Guide: https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is.html
+AWS Client VPN Now Supports Client to Client Connectivity: https://aws.amazon.com/about-aws/whats-new/2020/09/aws-client-vpn-now-supports-client-to-client-connectivity/
+AWS Client VPN Now Support Client Connect Handler: https://aws.amazon.com/about-aws/whats-new/2020/11/aws-client-vpn-supports-client-connect-handler/
+Accelerated Site-to-Site VPN Connections: https://docs.aws.amazon.com/vpn/latest/s2svpn/accelerated-vpn.html
+AWS Site-to-Site VPN Now Supports IPv6 Traffic: https://aws.amazon.com/about-aws/whats-new/2020/08/aws-site-to-site-vpn-supports-ipv6-traffic/
+FAQs: AWS Direct Connect: https://aws.amazon.com/directconnect/faqs/
+AWS Direct Connect Announces Native 100 Gbps Dedicated Connections at Select Locations: https://aws.amazon.com/about-aws/whats-new/2021/02/aws-direct-connect-announces-native-100-gbps-connections-select-locations/
+Whitepaper: Hybrid Connectivity: https://aws.amazon.com/directconnect/faqs/
+Working with Private Hosted Zones: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-private.html
+Resolving DNS Queries between VPCs and Your Network: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver.html
 FAQs: Amazon Route 53: https://aws.amazon.com/route53/faqs/
 
-Better Security and Performance with AWS VPN Innovations - AWS Online Tech Talks: https://youtu.be/FrhVV9nG4UM(opens in a new tab)
-Deep Dive on Global Connectivity with AWS Direct Connect Connections and AWS Transit Gateway: https://youtu.be/7FHiGfG7H_E(opens in a new tab)
-AWS re:Invent 2018: AWS Direct Connect: Deep Dive: https://youtu.be/DXFooR95BYc(opens in a new tab)
-AWS re:Invent 2020: Global Traffic Management with Amazon Route 53: https://youtu.be/E33dA6n9O7I(opens in a new tab)
+Better Security and Performance with AWS VPN Innovations - AWS Online Tech Talks: https://youtu.be/FrhVV9nG4UM
+Deep Dive on Global Connectivity with AWS Direct Connect Connections and AWS Transit Gateway: https://youtu.be/7FHiGfG7H_E
+AWS re:Invent 2018: AWS Direct Connect: Deep Dive: https://youtu.be/DXFooR95BYc
+AWS re:Invent 2020: Global Traffic Management with Amazon Route 53: https://youtu.be/E33dA6n9O7I
 DNS Design Using Amazon Route 53 - AWS Online Tech Talks: https://youtu.be/2y_RBjDkRgY
 
 Configure and Deploy AWS Client VPN: https://www.aws.training/Details/eLearning?id=49725
 ----
-VPCs and Subnets: https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html(opens in a new tab)
-AWS Client VPN Administrator Guide: https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is.html(opens in a new tab)
-VPN Connections: https://docs.aws.amazon.com/vpc/latest/userguide/vpn-connections.html(opens in a new tab)
-Access to A VPC: https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/scenario-vpc.html(opens in a new tab)
+VPCs and Subnets: https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
+VPN Connections: https://docs.aws.amazon.com/vpc/latest/userguide/vpn-connections.html
+Access to A VPC: https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/scenario-vpc.html
 Client VPN Endpoints: https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/cvpn-working-endpoints.html
 
  ”Limitations and rules of Client VPN” (https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is.html#what-is-limitations).
@@ -105,10 +104,10 @@ https://en.wikipedia.org/wiki/NAT_traversal
 https://tailscale.com/blog/how-nat-traversal-works
 https://forum.huawei.com/enterprise/es/nat-y-nat-transversal/thread/681058948695867392-667212890693840896
 
-Your Customer Gateway Device: https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html(opens in a new tab)
-Site-to-Site VPN Tunnel Initiation Options: https://docs.aws.amazon.com/vpn/latest/s2svpn/initiate-vpn-tunnels.html(opens in a new tab)
-Customer Gateway Options for Your Site-to-Site VPN Connection:(opens in a new tab) https://docs.aws.amazon.com/vpn/latest/s2svpn/cgw-options.html(opens in a new tab)
-Scaling VPN Throughput Using AWS Transit Gateway: https://aws.amazon.com/blogs/networking-and-content-delivery/scaling-vpn-throughput-using-aws-transit-gateway/(opens in a new tab)
+Your Customer Gateway Device: https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html
+Site-to-Site VPN Tunnel Initiation Options: https://docs.aws.amazon.com/vpn/latest/s2svpn/initiate-vpn-tunnels.html
+Customer Gateway Options for Your Site-to-Site VPN Connection: https://docs.aws.amazon.com/vpn/latest/s2svpn/cgw-options.html
+Scaling VPN Throughput Using AWS Transit Gateway: https://aws.amazon.com/blogs/networking-and-content-delivery/scaling-vpn-throughput-using-aws-transit-gateway/
 Improve VPN Network Performance of AWS Hybrid Cloud with Global Accelerator: https://aws.amazon.com/blogs/architecture/improve-vpn-network-performance-of-aws-hybrid-cloud-with-global-accelerator/
 
 Your customer gateway device” (https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html). 
@@ -141,33 +140,33 @@ https://docs.aws.amazon.com/directconnect/latest/UserGuide/direct-connect-gatewa
 
 BLACK HOLE FOR THE TRANSITE GATEWAY
 
-Getting Started with Route 53 Resolver: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-getting-started.html(opens in a new tab)
+Getting Started with Route 53 Resolver: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-getting-started.html
 New – Amazon Route 53 Resolver for Hybrid Clouds: https://aws.amazon.com/blogs/aws/new-amazon-route-53-resolver-for-hybrid-clouds/
 
 ## Module 4
 
-AWS Storage Gateway in 2020 – Year in Review: https://aws.amazon.com/blogs/storage/aws-storage-gateway-in-2020-year-in-review/(opens in a new tab)
-FAQs: AWS Storage Gateway: https://aws.amazon.com/storagegateway/faqs/(opens in a new tab)
-Implementing a Backup Solution with AWS Storage Gateway: https://aws.amazon.com/blogs/storage/implementing-a-backup-solution-with-aws-storage-gateway/(opens in a new tab)
-FAQs: VMware Cloud on AWS: https://aws.amazon.com/vmware/faqs/(opens in a new tab)
-Whitepaper: Hybrid Cloud with AWS: https://d1.awsstatic.com/whitepapers/hybrid-cloud-with-aws.pdf?did=wp_card&trk=wp_card(opens in a new tab)
-Whitepaper: 5G Network Evolution with AWS: https://d1.awsstatic.com/whitepapers/5g-network-evolution-with-aws.pdf(opens in a new tab)
-Creating an EC2 Instance in the AWS Wavelength Zone: https://aws.amazon.com/blogs/compute/creating-an-ec2-instance-in-the-aws-wavelength-zone/?nc1=b_rp(opens in a new tab)
-FAQs: AWS Wavelength: https://aws.amazon.com/wavelength/faqs/(opens in a new tab)
-PCI DSS Compliance for AWS Wavelength: https://aws.amazon.com/about-aws/whats-new/2021/01/pci-dss-compliance-for-aws-wavelength/(opens in a new tab)
+AWS Storage Gateway in 2020 – Year in Review: https://aws.amazon.com/blogs/storage/aws-storage-gateway-in-2020-year-in-review/
+FAQs: AWS Storage Gateway: https://aws.amazon.com/storagegateway/faqs/
+Implementing a Backup Solution with AWS Storage Gateway: https://aws.amazon.com/blogs/storage/implementing-a-backup-solution-with-aws-storage-gateway/
+FAQs: VMware Cloud on AWS: https://aws.amazon.com/vmware/faqs/
+Whitepaper: Hybrid Cloud with AWS: https://d1.awsstatic.com/whitepapers/hybrid-cloud-with-aws.pdf?did=wp_card&trk=wp_card
+Whitepaper: 5G Network Evolution with AWS: https://d1.awsstatic.com/whitepapers/5g-network-evolution-with-aws.pdf
+Creating an EC2 Instance in the AWS Wavelength Zone: https://aws.amazon.com/blogs/compute/creating-an-ec2-instance-in-the-aws-wavelength-zone/?nc1=b_rp
+FAQs: AWS Wavelength: https://aws.amazon.com/wavelength/faqs/
+PCI DSS Compliance for AWS Wavelength: https://aws.amazon.com/about-aws/whats-new/2021/01/pci-dss-compliance-for-aws-wavelength/
 Announcing New AWS Wavelength Zones in Denver and Seattle: https://aws.amazon.com/about-aws/whats-new/2020/12/announcing-new-aws-wavelength-zones-denver-seattle/
 
-AWS re:Invent 2020: Enabling Business Continuity with VMware Cloud on AWS: https://youtu.be/w2mD0Z5eh6o(opens in a new tab)
-AWS re:Invent 2020: Build, Run, Manage, Connect, & Protect Hybrid Clouds with VMware: https://youtu.be/_EnqlcvJ-Gg(opens in a new tab)
-AWS re:Invent 2020: Migrate and Modernize with VMware Cloud on AWS: https://youtu.be/FQ_u9KsyQyE(opens in a new tab)
-AWS re:Invent 2020: AWS Outposts: Cloud Where You Want It: https://youtu.be/VcMdq_j34dA(opens in a new tab)
-AWS re:Invent 2020: AWS Outposts: Networking Foundations: https://youtu.be/mrnkvuH0--E(opens in a new tab)
-AWS Outposts: Storage Foundations - Amazon S3 on Outposts - AWS Online Tech Talks: https://youtu.be/A_khazmf6jU(opens in a new tab)
-AWS re:Invent 2020: Introducing 15 New Local Zones for Ultra-Low Latency Compute across the US: https://youtu.be/VmlqP9a_Xd8(opens in a new tab)
-AWS re:Invent 2020: AWS Wavelength: Run Apps with Ultra-Low Latency at 5G Edge: https://youtu.be/AQ-GbAFDvpM(opens in a new tab)
+AWS re:Invent 2020: Enabling Business Continuity with VMware Cloud on AWS: https://youtu.be/w2mD0Z5eh6o
+AWS re:Invent 2020: Build, Run, Manage, Connect, & Protect Hybrid Clouds with VMware: https://youtu.be/_EnqlcvJ-Gg
+AWS re:Invent 2020: Migrate and Modernize with VMware Cloud on AWS: https://youtu.be/FQ_u9KsyQyE
+AWS re:Invent 2020: AWS Outposts: Cloud Where You Want It: https://youtu.be/VcMdq_j34dA
+AWS re:Invent 2020: AWS Outposts: Networking Foundations: https://youtu.be/mrnkvuH0--E
+AWS Outposts: Storage Foundations - Amazon S3 on Outposts - AWS Online Tech Talks: https://youtu.be/A_khazmf6jU
+AWS re:Invent 2020: Introducing 15 New Local Zones for Ultra-Low Latency Compute across the US: https://youtu.be/VmlqP9a_Xd8
+AWS re:Invent 2020: AWS Wavelength: Run Apps with Ultra-Low Latency at 5G Edge: https://youtu.be/AQ-GbAFDvpM
 AWS re:Invent 2020: Architecting 5G Apps for Ultra-Low Latency on AWS Wavelength: https://youtu.be/KZX5FcsDfUQ
 
-AWS Storage Gateway Primer: File Gateway: https://www.aws.training/Details/Curriculum?id=38145(opens in a new tab)
+AWS Storage Gateway Primer: File Gateway: https://www.aws.training/Details/Curriculum?id=38145
 Deep Dive into AWS Storage Gateway: https://www.aws.training/Details/Curriculum?id=19403
 ---
 Creating Your Gateway: https://docs.aws.amazon.com/storagegateway/latest/userguide/create-gateways.html(opens in a new tab)
@@ -212,191 +211,204 @@ https://aws.amazon.com/ram/faqs/
 
 ## Module 5
 
-FAQs: AWS Transit Gateway: https://aws.amazon.com/transit-gateway/faqs/(opens in a new tab)
-Field Notes: Working with Route Tables in AWS Transit Gateway: https://aws.amazon.com/blogs/architecture/field-notes-working-with-route-tables-in-aws-transit-gateway/(opens in a new tab)
-AWS Transit Gateway Customers Can Now Use Their Own Prefix Lists to Simplify IP Management: https://aws.amazon.com/about-aws/whats-new/2020/08/amazon-transit-gateway-customers-use-own-prefix-lists-simplify-ip-management/(opens in a new tab)
-New – VPC Reachability Analyzer: https://aws.amazon.com/blogs/aws/new-vpc-insights-analyzes-reachability-and-visibility-in-vpcs/?nc1=b_rp(opens in a new tab)
-Introducing AWS Transit Gateway Connect to Simplify SD-WAN Branch Connectivity: https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-aws-transit-gateway-connect-to-simplify-sd-wan-branch-connectivity/(opens in a new tab)
-Integrating AWS Transit Gateway with AWS PrivateLink and Amazon Route 53 Resolver: https://aws.amazon.com/blogs/big-data/how-goldman-sachs-builds-cross-account-connectivity-to-their-amazon-msk-clusters-with-aws-privatelink/(opens in a new tab)
-FAQs: Amazon VPC: https://aws.amazon.com/vpc/faqs/(opens in a new tab)
-FAQs: AWS Resource Access Manager: https://aws.amazon.com/ram/faqs/(opens in a new tab)
+FAQs: AWS Transit Gateway: https://aws.amazon.com/transit-gateway/faqs/
+Field Notes: Working with Route Tables in AWS Transit Gateway: https://aws.amazon.com/blogs/architecture/field-notes-working-with-route-tables-in-aws-transit-gateway/
+AWS Transit Gateway Customers Can Now Use Their Own Prefix Lists to Simplify IP Management: https://aws.amazon.com/about-aws/whats-new/2020/08/amazon-transit-gateway-customers-use-own-prefix-lists-simplify-ip-management/
+New – VPC Reachability Analyzer: https://aws.amazon.com/blogs/aws/new-vpc-insights-analyzes-reachability-and-visibility-in-vpcs/?nc1=b_rp
+Introducing AWS Transit Gateway Connect to Simplify SD-WAN Branch Connectivity: https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-aws-transit-gateway-connect-to-simplify-sd-wan-branch-connectivity/
+Integrating AWS Transit Gateway with AWS PrivateLink and Amazon Route 53 Resolver: https://aws.amazon.com/blogs/big-data/how-goldman-sachs-builds-cross-account-connectivity-to-their-amazon-msk-clusters-with-aws-privatelink/
+FAQs: Amazon VPC: https://aws.amazon.com/vpc/faqs/
+FAQs: AWS Resource Access Manager: https://aws.amazon.com/ram/faqs/
 AWS Resource Access Manager User Guide: https://docs.aws.amazon.com/ram/latest/userguide/what-is.html
 
-AWS re:Invent 2020: Advanced VPC Design and New Capabilities for Amazon VPC: https://youtu.be/tkaMmFoWwaA(opens in a new tab)
-AWS re:Invent 2020: Connect Your Network to the AWS Cloud with the New AWS Transit Gateway Connect: https://youtu.be/_MPY_LHSKtM(opens in a new tab)
-AWS re:Invent 2020: Using AWS Transit Gateway for Your Multicast Workloads: https://youtu.be/7TOgcS4Uj2E(opens in a new tab)
+AWS re:Invent 2020: Advanced VPC Design and New Capabilities for Amazon VPC: https://youtu.be/tkaMmFoWwaA
+AWS re:Invent 2020: Connect Your Network to the AWS Cloud with the New AWS Transit Gateway Connect: https://youtu.be/_MPY_LHSKtM
+AWS re:Invent 2020: Using AWS Transit Gateway for Your Multicast Workloads: https://youtu.be/7TOgcS4Uj2E
 Advanced Architectures with AWS Transit Gateway - AWS Online Tech Talks: https://youtu.be/awrdICiS6ug
 
-Transit Gateway Networking and Scaling: https://www.aws.training/Details/eLearning?id=40275(opens in a new tab)
+Transit Gateway Networking and Scaling: https://www.aws.training/Details/eLearning?id=40275
 Configure and Deploy AWS PrivateLink: https://www.aws.training/Details/eLearning?id=54077
+
+
+---
+
+Transit Gateway Guide: Examples: https://docs.aws.amazon.com/vpc/latest/tgw/TGW_Scenarios.html
+Working with Transit Gateways: https://docs.aws.amazon.com/vpc/latest/tgw/working-with-transit-gateways.html
+AWS Transit Gateway entries from the AWS Architecture Blog: https://aws.amazon.com/blogs/architecture/category/networking-content-delivery/aws-transit-gateway/
+
+Sharing Your AWS Resources: https://docs.aws.amazon.com/ram/latest/userguide/getting-started-sharing.html
+Shareable AWS Resources: https://docs.aws.amazon.com/ram/latest/userguide/shareable.html
+
+VPC Endpoint Services (AWS PrivateLink): https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-service.html
+VPC Endpoint Services for Interface Endpoints: https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-service-overview.html
 
 
 ## Module 6
 
-Docker Guides: https://docs.docker.com/get-started/overview/(opens in a new tab)
-FAQs: Amazon Elastic Container Service: https://aws.amazon.com/ecs/faqs/(opens in a new tab)
-FAQs: Amazon Elastic Container Registry: https://aws.amazon.com/ecr/faqs/(opens in a new tab)
-Amazon ECS Capacity Providers: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-capacity-providers.html(opens in a new tab)
-FAQs: AWS Fargate: https://aws.amazon.com/fargate/faqs/(opens in a new tab)
-FAQs: Amazon EKS: https://aws.amazon.com/eks/faqs/(opens in a new tab)
+Docker Guides: https://docs.docker.com/get-started/overview/
+FAQs: Amazon Elastic Container Service: https://aws.amazon.com/ecs/faqs/
+FAQs: Amazon Elastic Container Registry: https://aws.amazon.com/ecr/faqs/
+Amazon ECS Capacity Providers: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-capacity-providers.html
+FAQs: AWS Fargate: https://aws.amazon.com/fargate/faqs/
+FAQs: Amazon EKS: https://aws.amazon.com/eks/faqs/
 Introducing Amazon EKS Distro (EKS-D): https://aws.amazon.com/blogs/opensource/introducing-amazon-eks-distro/
 
-AWS Cloud Containers Conference - Build and Deploy Straight from Docker to AWS: https://youtu.be/V88Iqdm8GkE(opens in a new tab)
-Containers on AWS: An Introduction: https://www.youtube.com/watch?v=kBi-s3eV2Ec(opens in a new tab)
-AWS re:Invent 2020: Getting Up and Running with Amazon ECS: https://youtu.be/9u_HKS_Lv6o(opens in a new tab)
-AWS re:Invent 2020: AWS Fargate: Are Serverless Containers Right for You?: https://youtu.be/Vtymod0nPBo(opens in a new tab)
-AWS re:Invent 2020: Amazon EKS on AWS Fargate Deep Dive: https://youtu.be/9tQFXEhHdn0(opens in a new tab)
-AWS re:Invent 2020: Amazon EKS: To 40,000 CPUs and Beyond!: https://youtu.be/ppOZ2jFSPWU(opens in a new tab)
-AWS re:Invent 2020: Amazon EKS Anywhere: Manage Your Kubernetes Clusters on Premises: https://youtu.be/IK5hyKHnpDs(opens in a new tab)
-AWS re:Invent 2020: Building Resilient Kubernetes Deployments with AWS App Mesh: https://youtu.be/lAbts-SWiAA(opens in a new tab)
-AWS re:Invent 2020: An Introduction to Amazon ECS Anywhere: https://youtu.be/Q_NUxxD5YXY(opens in a new tab)
-AWS re:Invent 2020: Amazon ECS on AWS Fargate Deep Dive with Affirm: https://youtu.be/Hq5cUQ1rLMM(opens in a new tab)
-AWS Container Day - Amazon EKS and AWS Fargate: Better Together:  https://www.youtube.com/watch?v=-xMNbys0tF8(opens in a new tab)
+AWS Cloud Containers Conference - Build and Deploy Straight from Docker to AWS: https://youtu.be/V88Iqdm8GkE
+Containers on AWS: An Introduction: https://www.youtube.com/watch?v=kBi-s3eV2Ec
+AWS re:Invent 2020: Getting Up and Running with Amazon ECS: https://youtu.be/9u_HKS_Lv6o
+AWS re:Invent 2020: AWS Fargate: Are Serverless Containers Right for You?: https://youtu.be/Vtymod0nPBo
+AWS re:Invent 2020: Amazon EKS on AWS Fargate Deep Dive: https://youtu.be/9tQFXEhHdn0
+AWS re:Invent 2020: Amazon EKS: To 40,000 CPUs and Beyond!: https://youtu.be/ppOZ2jFSPWU
+AWS re:Invent 2020: Amazon EKS Anywhere: Manage Your Kubernetes Clusters on Premises: https://youtu.be/IK5hyKHnpDs
+AWS re:Invent 2020: Building Resilient Kubernetes Deployments with AWS App Mesh: https://youtu.be/lAbts-SWiAA
+AWS re:Invent 2020: An Introduction to Amazon ECS Anywhere: https://youtu.be/Q_NUxxD5YXY
+AWS re:Invent 2020: Amazon ECS on AWS Fargate Deep Dive with Affirm: https://youtu.be/Hq5cUQ1rLMM
+AWS Container Day - Amazon EKS and AWS Fargate: Better Together:  https://www.youtube.com/watch?v=-xMNbys0tF8
 AWS re:Invent 2020: Introducing Container Image Support for AWS Lambda: https://youtu.be/X-1xf-DbCBk
 
-Amazon Elastic Container Service (ECS) Primer: https://www.aws.training/Details/eLearning?id=30260(opens in a new tab)
-Amazon Elastic Kubernetes Service (EKS) Primer: https://www.aws.training/Details/eLearning?id=32894(opens in a new tab)
-Deep Dive on AWS Fargate: Building Serverless Containers at Scale: https://www.aws.training/Details/Video?id=26855(opens in a new tab)
+Amazon Elastic Container Service (ECS) Primer: https://www.aws.training/Details/eLearning?id=30260
+Amazon Elastic Kubernetes Service (EKS) Primer: https://www.aws.training/Details/eLearning?id=32894
+Deep Dive on AWS Fargate: Building Serverless Containers at Scale: https://www.aws.training/Details/Video?id=26855
 Deep Dive on Container Security: https://www.aws.training/Details/Video?id=26841
 
 ## Module 7
 
-Whitepaper: Introduction to DevOps on AWS: https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-devops-aws.pdf(opens in a new tab)
-Blue/Green Deployment with CodeDeploy: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-bluegreen.html(opens in a new tab)
-How Vendia Leverages the AWS CDK to Dynamically Provision Cloud Infrastructure: https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure/?nc1=b_rp(opens in a new tab)
-Fine-Tuning Blue/Green Deployments on Application Load Balancer: https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer/(opens in a new tab)
+Whitepaper: Introduction to DevOps on AWS: https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-devops-aws.pdf
+Blue/Green Deployment with CodeDeploy: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-bluegreen.html
+How Vendia Leverages the AWS CDK to Dynamically Provision Cloud Infrastructure: https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure/?nc1=b_rp
+Fine-Tuning Blue/Green Deployments on Application Load Balancer: https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer/
 Working with AWS CloudFormation StackSets: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html
 
-AWS re:Invent 2020: Developing CI/CD Pipelines with Amazon ECS and AWS Fargate: https://youtu.be/lXELASv2Mwo(opens in a new tab)
-AWS re:Invent 2020: Hands-Off: Automating Continuous Delivery Pipelines at Amazon: https://youtu.be/ngnMj1zbMPY(opens in a new tab)
-AWS re:Invent 2020: AWS CDK: What’s New and What’s Next: https://youtu.be/UCYICoV5aEk(opens in a new tab)
-AWS re:Invent 2020: Thinking Serverless: From Business Problem to Serverless Solution: https://youtu.be/Z57KLdJZnGA(opens in a new tab)
-Infrastructure as Code on AWS - AWS Online Tech Talks: https://youtu.be/cKQtPZwf97s(opens in a new tab)
-AWS re:Invent 2020: Understanding How Deployments Affect Application Performance:  https://youtu.be/O9tDtJje-EA(opens in a new tab)
+AWS re:Invent 2020: Developing CI/CD Pipelines with Amazon ECS and AWS Fargate: https://youtu.be/lXELASv2Mwo
+AWS re:Invent 2020: Hands-Off: Automating Continuous Delivery Pipelines at Amazon: https://youtu.be/ngnMj1zbMPY
+AWS re:Invent 2020: AWS CDK: What’s New and What’s Next: https://youtu.be/UCYICoV5aEk
+AWS re:Invent 2020: Thinking Serverless: From Business Problem to Serverless Solution: https://youtu.be/Z57KLdJZnGA
+Infrastructure as Code on AWS - AWS Online Tech Talks: https://youtu.be/cKQtPZwf97s
+AWS re:Invent 2020: Understanding How Deployments Affect Application Performance:  https://youtu.be/O9tDtJje-EA
 AWS re:Invent 2020: Test Twice, Deploy Once: Testing Infrastructure Code on AWS:  https://youtu.be/qlzX65SdNdQ
 
-AWS Cloud Development Kit Primer: https://www.aws.training/Details/Curriculum?id=64511(opens in a new tab)
+AWS Cloud Development Kit Primer: https://www.aws.training/Details/Curriculum?id=64511
 Getting Started with DevOps on AWS: https://www.aws.training/Details/Curriculum?id=67465
 
 ## Module 8
-Whitepaper: AWS Best Practices for DDoS Resiliency: https://d0.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf(opens in a new tab)
-AWS Firewall Manager Now Supports Centralized Management of AWS Network Firewall: https://aws.amazon.com/about-aws/whats-new/2020/11/aws-firewall-manager-supports-centralized-management-aws-network-firewall/(opens in a new tab)
-AWS Network Firewall – New Managed Firewall Service in VPC: https://aws.amazon.com/blogs/aws/aws-network-firewall-new-managed-firewall-service-in-vpc/(opens in a new tab)
-Introducing AWS Gateway Load Balancer: https://aws.amazon.com/about-aws/whats-new/2020/11/introducing-aws-gateway-load-balancer/(opens in a new tab)
-FAQs: AWS Network Firewall: https://aws.amazon.com/network-firewall/faqs/(opens in a new tab)
-FAQs: AWS WAF: https://aws.amazon.com/waf/faq/(opens in a new tab)
-FAQs: AWS Shield: https://aws.amazon.com/shield/faqs/(opens in a new tab)
-How AWS Shield Works: https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html(opens in a new tab)
-AWS Shield Advanced Now Supports Proactive Response to Events: https://aws.amazon.com/about-aws/whats-new/2020/06/aws-shield-advanced-now-supports-proactive-event-response/(opens in a new tab)
-AWS Centralized WAF and VPC Security Group Management Solution Is Generally Available: https://aws.amazon.com/about-aws/whats-new/2020/09/aws-centralized-waf-and-vpc-security-group-management-solution-generally-available/(opens in a new tab)
-FAQs: AWS Firewall Manager: https://aws.amazon.com/firewall-manager/faqs/(opens in a new tab)
+Whitepaper: AWS Best Practices for DDoS Resiliency: https://d0.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf
+AWS Firewall Manager Now Supports Centralized Management of AWS Network Firewall: https://aws.amazon.com/about-aws/whats-new/2020/11/aws-firewall-manager-supports-centralized-management-aws-network-firewall/
+AWS Network Firewall – New Managed Firewall Service in VPC: https://aws.amazon.com/blogs/aws/aws-network-firewall-new-managed-firewall-service-in-vpc/
+Introducing AWS Gateway Load Balancer: https://aws.amazon.com/about-aws/whats-new/2020/11/introducing-aws-gateway-load-balancer/
+FAQs: AWS Network Firewall: https://aws.amazon.com/network-firewall/faqs/
+FAQs: AWS WAF: https://aws.amazon.com/waf/faq/
+FAQs: AWS Shield: https://aws.amazon.com/shield/faqs/
+How AWS Shield Works: https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html
+AWS Shield Advanced Now Supports Proactive Response to Events: https://aws.amazon.com/about-aws/whats-new/2020/06/aws-shield-advanced-now-supports-proactive-event-response/
+AWS Centralized WAF and VPC Security Group Management Solution Is Generally Available: https://aws.amazon.com/about-aws/whats-new/2020/09/aws-centralized-waf-and-vpc-security-group-management-solution-generally-available/
+FAQs: AWS Firewall Manager: https://aws.amazon.com/firewall-manager/faqs/
 AWS Firewall Manager Now Supports Security Groups on Application Load Balancers and Classic Load Balancers: https://aws.amazon.com/about-aws/whats-new/2020/08/aws-firewall-manager-now-supports-security-groups-on-albs-and-elbs/
 
-AWS re:Invent 2020: Use Amazon GuardDuty and AWS Security Hub to Secure Multiple Accounts: https://youtu.be/Rg2ZzAAi1nY(opens in a new tab)
-AWS re:Invent 2020: Using AWS WAF and AWS Secrets Manager to Enforce Amazon CloudFront Origins: https://youtu.be/32jU3lVumAk(opens in a new tab)
-Protecting Your Web Application Using AWS Managed Rules for AWS WAF - AWS Online Tech Talks: https://youtu.be/ll-uvVgQ3Jg(opens in a new tab)
-Centrally Manage AWS WAF and AWS Managed Rules Using AWS Firewall Manager - AWS Online Tech Talks: https://youtu.be/u27HLad-Wi8(opens in a new tab)
+AWS re:Invent 2020: Use Amazon GuardDuty and AWS Security Hub to Secure Multiple Accounts: https://youtu.be/Rg2ZzAAi1nY
+AWS re:Invent 2020: Using AWS WAF and AWS Secrets Manager to Enforce Amazon CloudFront Origins: https://youtu.be/32jU3lVumAk
+Protecting Your Web Application Using AWS Managed Rules for AWS WAF - AWS Online Tech Talks: https://youtu.be/ll-uvVgQ3Jg
+Centrally Manage AWS WAF and AWS Managed Rules Using AWS Firewall Manager - AWS Online Tech Talks: https://youtu.be/u27HLad-Wi8
 AWS re:Invent 2020: Introducing AWS Network Firewall: https://youtu.be/CISgqpVn75Q
 
 Protect Your Web-Facing Workloads with AWS Security Services: https://www.aws.training/Details/Video?id=27496
 
 ## Module 9
-FAQs: AWS Key Management Service: https://aws.amazon.com/kms/faqs/(opens in a new tab)
-Architecting for Database Encryption on AWS: https://aws.amazon.com/blogs/security/architecting-for-database-encryption-on-aws/(opens in a new tab)
-Combining Encryption and Signing with AWS KMS Asymmetric Keys: https://aws.amazon.com/blogs/security/combining-encryption-and-signing-with-aws-asymmetric-keys/(opens in a new tab)
-FAQs: AWS CloudHSM: https://aws.amazon.com/cloudhsm/faqs/(opens in a new tab)
-How to Lower Costs by Automatically Deleting and Recreating HSMs: https://aws.amazon.com/blogs/security/how-to-lower-costs-by-automatically-deleting-and-recreating-hsms/(opens in a new tab)
-How to Run AWS CloudHSM Workloads on AWS Lambda: https://aws.amazon.com/blogs/security/how-to-run-aws-cloudhsm-workloads-on-aws-lambda/(opens in a new tab)
-FAQ: AWS Secrets Manager: https://aws.amazon.com/secrets-manager/faqs/(opens in a new tab)
+FAQs: AWS Key Management Service: https://aws.amazon.com/kms/faqs/
+Architecting for Database Encryption on AWS: https://aws.amazon.com/blogs/security/architecting-for-database-encryption-on-aws/
+Combining Encryption and Signing with AWS KMS Asymmetric Keys: https://aws.amazon.com/blogs/security/combining-encryption-and-signing-with-aws-asymmetric-keys/
+FAQs: AWS CloudHSM: https://aws.amazon.com/cloudhsm/faqs/
+How to Lower Costs by Automatically Deleting and Recreating HSMs: https://aws.amazon.com/blogs/security/how-to-lower-costs-by-automatically-deleting-and-recreating-hsms/
+How to Run AWS CloudHSM Workloads on AWS Lambda: https://aws.amazon.com/blogs/security/how-to-run-aws-cloudhsm-workloads-on-aws-lambda/
+FAQ: AWS Secrets Manager: https://aws.amazon.com/secrets-manager/faqs/
 Key Terms and Concepts for AWS Secrets Manager: https://docs.aws.amazon.com/secretsmanager/latest/userguide/terms-concepts.html
 
-AWS re:Invent 2020: Using AWS WAF and AWS Secrets Manager to Enforce Amazon CloudFront Origins: https://youtu.be/32jU3lVumAk(opens in a new tab)
-AWS re:Invent 2020: Do You Need an AWS KMS Custom Key Store?: https://youtu.be/0_s2pn-84O4(opens in a new tab)
-AWS re:Inforce 2019: Achieving Security Goals with AWS CloudHSM: https://youtu.be/_gezaWmwzYY(opens in a new tab)
+AWS re:Invent 2020: Using AWS WAF and AWS Secrets Manager to Enforce Amazon CloudFront Origins: https://youtu.be/32jU3lVumAk
+AWS re:Invent 2020: Do You Need an AWS KMS Custom Key Store?: https://youtu.be/0_s2pn-84O4
+AWS re:Inforce 2019: Achieving Security Goals with AWS CloudHSM: https://youtu.be/_gezaWmwzYY
 AWS re:Inforce 2019: Best Practices for Privileged Access & Secrets Management in the Cloud: https://youtu.be/TFMgT6NxKEk
 
 ## Module 10
-FAQs: Amazon S3: https://aws.amazon.com/s3/faqs/(opens in a new tab)
-AWS PrivateLink for Amazon S3 is Now Generally Available: https://aws.amazon.com/blogs/aws/aws-privatelink-for-amazon-s3-now-available/(opens in a new tab)
-Amazon S3 Update – Strong Read-After-Write Consistency: https://aws.amazon.com/blogs/aws/amazon-s3-update-strong-read-after-write-consistency/(opens in a new tab)
-Setting Up Cross-Account Amazon S3 Access with S3 Access Points: https://aws.amazon.com/blogs/storage/setting-up-cross-account-amazon-s3-access-with-s3-access-points/?nc1=b_rp(opens in a new tab)
-Building AWS Data Lake Visualizations with Amazon Athena and Tableau: https://aws.amazon.com/blogs/big-data/building-aws-data-lake-visualizations-with-amazon-athena-and-tableau/?nc1=b_rp(opens in a new tab)
+FAQs: Amazon S3: https://aws.amazon.com/s3/faqs/
+AWS PrivateLink for Amazon S3 is Now Generally Available: https://aws.amazon.com/blogs/aws/aws-privatelink-for-amazon-s3-now-available/
+Amazon S3 Update – Strong Read-After-Write Consistency: https://aws.amazon.com/blogs/aws/amazon-s3-update-strong-read-after-write-consistency/
+Setting Up Cross-Account Amazon S3 Access with S3 Access Points: https://aws.amazon.com/blogs/storage/setting-up-cross-account-amazon-s3-access-with-s3-access-points/?nc1=b_rp
+Building AWS Data Lake Visualizations with Amazon Athena and Tableau: https://aws.amazon.com/blogs/big-data/building-aws-data-lake-visualizations-with-amazon-athena-and-tableau/?nc1=b_rp
 FAQs: AWS Lake Formation: https://aws.amazon.com/lake-formation/faqs/
 
-AWS re:Invent 2020: Migrate Your Data to AWS Quickly and Securely Using AWS DataSync: https://youtu.be/8l4cka4AXjE(opens in a new tab)
-AWS re:Invent 2020: What’s New with Amazon S3: https://youtu.be/tiPF5kMk3io(opens in a new tab)
-AWS re:Invent 2020: Architecting for High Availability on Amazon S3: https://youtu.be/Qib1snR9FhA(opens in a new tab)
-AWS re:Invent 2020: Achieving Unparalleled Scale on Amazon S3: Manage and Analyze Your Data: https://youtu.be/piHAXFyakcU(opens in a new tab)
-AWS re:Invent 2020: Data Lake Security in Amazon S3: Perimeters and Fine-Grained Controls: https://youtu.be/6AROHrwj9GQ(opens in a new tab)
-AWS Lake Formation Cross Account – Deep Dive: https://youtu.be/MJ9_hsCk52w(opens in a new tab)
-Cross Account Catalog Access Using Amazon Athena and AWS Lake Formation: https://youtu.be/He8GvOFdjnE(opens in a new tab)
+AWS re:Invent 2020: Migrate Your Data to AWS Quickly and Securely Using AWS DataSync: https://youtu.be/8l4cka4AXjE
+AWS re:Invent 2020: What’s New with Amazon S3: https://youtu.be/tiPF5kMk3io
+AWS re:Invent 2020: Architecting for High Availability on Amazon S3: https://youtu.be/Qib1snR9FhA
+AWS re:Invent 2020: Achieving Unparalleled Scale on Amazon S3: Manage and Analyze Your Data: https://youtu.be/piHAXFyakcU
+AWS re:Invent 2020: Data Lake Security in Amazon S3: Perimeters and Fine-Grained Controls: https://youtu.be/6AROHrwj9GQ
+AWS Lake Formation Cross Account – Deep Dive: https://youtu.be/MJ9_hsCk52w
+Cross Account Catalog Access Using Amazon Athena and AWS Lake Formation: https://youtu.be/He8GvOFdjnE
 AWS re:Invent 2020: An Introduction to Data Lakes and Analytics on AWS: https://youtu.be/V2tV4aa_x8U
 
-Managing Amazon Simple Storage Service (Amazon S3): https://www.aws.training/Details/Curriculum?id=66254(opens in a new tab)
-Deep Dive into Amazon Simple Storage Service (Amazon S3): https://www.aws.training/Details/Curriculum?id=26930(opens in a new tab)
+Managing Amazon Simple Storage Service (Amazon S3): https://www.aws.training/Details/Curriculum?id=66254
+Deep Dive into Amazon Simple Storage Service (Amazon S3): https://www.aws.training/Details/Curriculum?id=26930
 AWS DataSync Primer: https://www.aws.training/Details/eLearning?id=47599
 
 ## Module 11
 
-FAQs: Amazon CloudFront: https://aws.amazon.com/cloudfront/faqs/(opens in a new tab)
-Lambda@Edge Example Functions: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-examples.html(opens in a new tab)
-FAQs: AWS Global Accelerator: https://aws.amazon.com/global-accelerator/faqs/(opens in a new tab)
-Improve VPN Network Performance of AWS Hybrid Cloud with Global Accelerator: https://aws.amazon.com/blogs/architecture/improve-vpn-network-performance-of-aws-hybrid-cloud-with-global-accelerator/(opens in a new tab)
-Values That You Specify When You Create or Update a Distribution: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-values-specify.html(opens in a new tab)
-Tutorial: Creating a Simple Lambda@Edge Function: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-how-it-works-tutorial.html(opens in a new tab)
+FAQs: Amazon CloudFront: https://aws.amazon.com/cloudfront/faqs/
+Lambda@Edge Example Functions: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-examples.html
+FAQs: AWS Global Accelerator: https://aws.amazon.com/global-accelerator/faqs/
+Improve VPN Network Performance of AWS Hybrid Cloud with Global Accelerator: https://aws.amazon.com/blogs/architecture/improve-vpn-network-performance-of-aws-hybrid-cloud-with-global-accelerator/
+Values That You Specify When You Create or Update a Distribution: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-values-specify.html
+Tutorial: Creating a Simple Lambda@Edge Function: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-how-it-works-tutorial.html
 FAQs: AWS Lambda: https://aws.amazon.com/lambda/faqs/
 
-AWS re:Invent 2020: Amazon CloudFront Fundamentals: Features, Benefits, and What’s New: https://youtu.be/WZjFBxEgjvg(opens in a new tab)
-AWS re:Invent 2020: AWS Lambda Networking Best Practices: https://youtu.be/Ax6cnBEDnsM(opens in a new tab)
-AWS re:Invent 2020: Improving Website Performance Using Amazon CloudFront: https://youtu.be/JUtM0hRoo8Q(opens in a new tab)
-BuildOn: Rendering Websites at the Edge with Lambda@Edge: https://youtu.be/RF7x4HcQ8lM(opens in a new tab)
-(opens in a new tab)AWS re:Invent 2020: What’s New in Serverless: https://youtu.be/aW5EtKHTMuQ
+AWS re:Invent 2020: Amazon CloudFront Fundamentals: Features, Benefits, and What’s New: https://youtu.be/WZjFBxEgjvg
+AWS re:Invent 2020: AWS Lambda Networking Best Practices: https://youtu.be/Ax6cnBEDnsM
+AWS re:Invent 2020: Improving Website Performance Using Amazon CloudFront: https://youtu.be/JUtM0hRoo8Q
+BuildOn: Rendering Websites at the Edge with Lambda@Edge: https://youtu.be/RF7x4HcQ8lM
+AWS re:Invent 2020: What’s New in Serverless: https://youtu.be/aW5EtKHTMuQ
 
 Deep Dive: Lambda@Edge: https://www.aws.training/Details/Video?id=27500
 
 ## Module 12
 
-Whitepaper: How AWS Pricing Works: https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf(opens in a new tab)
-Echoing Andy’s AWS re:Invent 2020 Keynote for Technology Financial Management Success: https://aws.amazon.com/blogs/aws-cost-management/echoing-andys-2020-reinvent-keynote-for-technology-financial-management/(opens in a new tab)
-Announcing General Availability of AWS Cost Anomaly Detection: https://aws.amazon.com/blogs/aws-cost-management/announcing-general-availability-of-aws-cost-anomaly-detection/(opens in a new tab)
-How EMX Reduced Data Pipeline Costs by 85% with Amazon Athena: https://aws.amazon.com/blogs/big-data/how-emx-reduced-data-pipeline-costs-by-85-with-amazon-athena/?nc1=b_rp(opens in a new tab)
-Whitepaper: Cost Optimization Pillar: https://d1.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf(opens in a new tab)
+Whitepaper: How AWS Pricing Works: https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
+Echoing Andy’s AWS re:Invent 2020 Keynote for Technology Financial Management Success: https://aws.amazon.com/blogs/aws-cost-management/echoing-andys-2020-reinvent-keynote-for-technology-financial-management/
+Announcing General Availability of AWS Cost Anomaly Detection: https://aws.amazon.com/blogs/aws-cost-management/announcing-general-availability-of-aws-cost-anomaly-detection/
+How EMX Reduced Data Pipeline Costs by 85% with Amazon Athena: https://aws.amazon.com/blogs/big-data/how-emx-reduced-data-pipeline-costs-by-85-with-amazon-athena/?nc1=b_rp
+Whitepaper: Cost Optimization Pillar: https://d1.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf
 Finding Savings from 2020 re:Invent Announcements: https://aws.amazon.com/blogs/aws-cost-management/finding-savings-from-2020-reinvent-announcements/
 
-AWS re:Invent 2020: Cost Allocation Best Practices: https://youtu.be/leDfPdXHDzs(opens in a new tab)
-AWS re:Invent 2020: Optimize Compute for Performance and Cost: https://youtu.be/L173l1RdVxs(opens in a new tab)
-AWS Cost Optimization: Tools and Methods to Reduce Your Spend With Us: https://youtu.be/XHwFJDw9Mec(opens in a new tab)
-AWS re:Invent 2020: Selecting the Right Amazon EC2 Instance for Your Workloads: https://youtu.be/q5Dn9gcmpJg(opens in a new tab)
-Introducing Savings Plans for Amazon EC2, AWS Fargate, and AWS Lambda - AWS Online Tech Talks: https://youtu.be/cbV8bnbMe9w(opens in a new tab)
+AWS re:Invent 2020: Cost Allocation Best Practices: https://youtu.be/leDfPdXHDzs
+AWS re:Invent 2020: Optimize Compute for Performance and Cost: https://youtu.be/L173l1RdVxs
+AWS Cost Optimization: Tools and Methods to Reduce Your Spend With Us: https://youtu.be/XHwFJDw9Mec
+AWS re:Invent 2020: Selecting the Right Amazon EC2 Instance for Your Workloads: https://youtu.be/q5Dn9gcmpJg
+Introducing Savings Plans for Amazon EC2, AWS Fargate, and AWS Lambda - AWS Online Tech Talks: https://youtu.be/cbV8bnbMe9w
 AWS re:Invent 2020: Better, Faster, and Lower-Cost Storage: Optimizing Amazon S3: https://youtu.be/Ac8GaKD0mkg
 
 ## Module 13
 
-Whitepaper: Understanding Your Application Readiness when Migrating to AWS:  https://d1.awsstatic.com/whitepapers/understanding-application-readiness-when-migrating-to-aws.pdf?did=wp_card&trk=wp_card(opens in a new tab)
-FAQs: AWS Migration Hub: https://aws.amazon.com/migration-hub/faqs/(opens in a new tab)
-FAQs: AWS Application Discovery Service: https://aws.amazon.com/application-discovery/faqs/(opens in a new tab)
-FAQs: AWS Server Migration Service: https://aws.amazon.com/server-migration-service/faqs/(opens in a new tab)
-Oracle Data Workload Migration to AWS Cloud: https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/oracle-data-workload-migration-to-aws-ra.pdf?did=wp_card&trk=wp_card(opens in a new tab)
-Whitepaper: Amazon Aurora Migration Handbook: https://d1.awsstatic.com/whitepapers/Migration/amazon-aurora-migration-handbook.pdf?did=wp_card&trk=wp_card(opens in a new tab)
-Migrating to AWS: Best Practices and Strategies: https://d1.awsstatic.com/Migration/migrating-to-aws-ebook.pdf(opens in a new tab)
+Whitepaper: Understanding Your Application Readiness when Migrating to AWS:  https://d1.awsstatic.com/whitepapers/understanding-application-readiness-when-migrating-to-aws.pdf?did=wp_card&trk=wp_card
+FAQs: AWS Migration Hub: https://aws.amazon.com/migration-hub/faqs/
+FAQs: AWS Application Discovery Service: https://aws.amazon.com/application-discovery/faqs/
+FAQs: AWS Server Migration Service: https://aws.amazon.com/server-migration-service/faqs/
+Oracle Data Workload Migration to AWS Cloud: https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/oracle-data-workload-migration-to-aws-ra.pdf?did=wp_card&trk=wp_card
+Whitepaper: Amazon Aurora Migration Handbook: https://d1.awsstatic.com/whitepapers/Migration/amazon-aurora-migration-handbook.pdf?did=wp_card&trk=wp_card
+Migrating to AWS: Best Practices and Strategies: https://d1.awsstatic.com/Migration/migrating-to-aws-ebook.pdf
 FAQs: AWS Database Migration Service: https://aws.amazon.com/dms/faqs/
 
-AWS re:Invent 2020: CloudEndure Migration Factory Best Practices: https://youtu.be/is7cOcNUHlw(opens in a new tab)
-AWS re:Invent 2020: Executing a Large-Scale Migration to AWS: https://youtu.be/adRag6vEy8w(opens in a new tab)
-AWS re:Invent 2020: Amazon Aurora Serverless v2: Instant Scaling for Demanding Workloads: https://youtu.be/PQHZrtIgdiA(opens in a new tab)
-AWS re:Invent 2020: Migrating a Legacy Data Warehouse to Amazon Redshift: https://youtu.be/hbM4OSYj3zQ(opens in a new tab)
-AWS re:Invent 2020: Migrating Databases to Amazon DocumentDB (with MongoDB Compatibility): https://youtu.be/Png6NIV73qc(opens in a new tab)
-AWS re:Invent 2020: Migrate Microsoft SQL Server to AWS: https://youtu.be/3HVVoufd9TM(opens in a new tab)
-AWS re:Invent 2020: Migrating Microsoft Workloads to AWS: https://youtu.be/hcxdL5hcCaA(opens in a new tab)
-AWS re:Invent 2020: AWS Networking Best Practices in Large-Scale Migrations: https://youtu.be/qCQvwLBjcbs(opens in a new tab)
-AWS re:Invent 2020: Ignite Migration and Modernization with DevSecOps: https://youtu.be/lGA9K7S7zqQ(opens in a new tab)
-AWS re:Invent 2020: JPMC: Migrations at Scale through Cloud Blueprints and Automation: https://youtu.be/_JiwdieD45E(opens in a new tab)
+AWS re:Invent 2020: CloudEndure Migration Factory Best Practices: https://youtu.be/is7cOcNUHlw
+AWS re:Invent 2020: Executing a Large-Scale Migration to AWS: https://youtu.be/adRag6vEy8w
+AWS re:Invent 2020: Amazon Aurora Serverless v2: Instant Scaling for Demanding Workloads: https://youtu.be/PQHZrtIgdiA
+AWS re:Invent 2020: Migrating a Legacy Data Warehouse to Amazon Redshift: https://youtu.be/hbM4OSYj3zQ
+AWS re:Invent 2020: Migrating Databases to Amazon DocumentDB (with MongoDB Compatibility): https://youtu.be/Png6NIV73qc
+AWS re:Invent 2020: Migrate Microsoft SQL Server to AWS: https://youtu.be/3HVVoufd9TM
+AWS re:Invent 2020: Migrating Microsoft Workloads to AWS: https://youtu.be/hcxdL5hcCaA
+AWS re:Invent 2020: AWS Networking Best Practices in Large-Scale Migrations: https://youtu.be/qCQvwLBjcbs
+AWS re:Invent 2020: Ignite Migration and Modernization with DevSecOps: https://youtu.be/lGA9K7S7zqQ
+AWS re:Invent 2020: JPMC: Migrations at Scale through Cloud Blueprints and Automation: https://youtu.be/_JiwdieD45E
 AWS re:Invent 2020: Planning & Executing Your Database Migration to Amazon RDS for Oracle: https://youtu.be/qwoiCMwiEk0
 
-Migrating from Microsoft SQL Server to Amazon RDS: https://www.aws.training/Details/eLearning?id=59021(opens in a new tab)
-AWS Server Migration Service (SMS) Primer: https://www.aws.training/Details/eLearning?id=65692(opens in a new tab)
-Migrating from Oracle to Amazon Aurora: https://www.aws.training/Details/eLearning?id=61143(opens in a new tab)
-CloudEndure Migration Training - Technical: https://www.aws.training/Details/eLearning?id=39068(opens in a new tab)
+Migrating from Microsoft SQL Server to Amazon RDS: https://www.aws.training/Details/eLearning?id=59021
+AWS Server Migration Service (SMS) Primer: https://www.aws.training/Details/eLearning?id=65692
+Migrating from Oracle to Amazon Aurora: https://www.aws.training/Details/eLearning?id=61143
+CloudEndure Migration Training - Technical: https://www.aws.training/Details/eLearning?id=39068
 Migrating from Microsoft SQL Server to Amazon DynamoDB: https://www.aws.training/Details/eLearning?id=61144
 
 
