@@ -126,6 +126,8 @@ FAQs: AWS Direct Connect: - Link: [Official FAQs](https://aws.amazon.com/directc
 
 Hosted virtual interfaces on VIF - Note IP Requisites - Link: [Official Doc](https://docs.aws.amazon.com/directconnect/latest/UserGuide/WorkingWithVirtualInterfaces.html#hosted-vif)
 
+Traffic encription Options for DC - Link: [Official Doc](https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/traffic-encryption-options-direct-connect-ra.pdf)
+
 ### Transit Gateway
 
 Amazon Virtual Private Cloud Connectivity Options - Link: [Official Doc](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-direct-connect-aws-transit-gateway.html)
