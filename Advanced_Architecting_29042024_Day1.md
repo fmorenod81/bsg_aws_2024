@@ -146,11 +146,14 @@ Getting Started with Route 53 Resolver - Link: [Official Doc](https://docs.aws.a
 
 Hybrid Cloud with AWS - Link: [Whitepaper](https://d1.awsstatic.com/whitepapers/hybrid-cloud-with-aws.pdf?did=wp_card&trk=wp_card)
 
-QUESTIONS:
-a) What is the charge for having EC2 on Outposts?
+**QUESTIONS**:
+
+**a) What is the charge for having EC2 on Outposts?**
+
 R:/ According to [AWS Questions on Repost](https://repost.aws/questions/QU5UM3emo5R4ypbOElxg4dQA/is-the-pricing-of-using-services-in-outpost-the-same-as-using-on-cloud) and [Outposts section on the How AWS Pricing Works Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/aws-outposts.html); you have to pay for the service usage no for the capacity. On the repost, it appears the Load Balancer Example. To complement the pricing scheme, you can review [Outposts Pricing Guide](https://aws.amazon.com/outposts/rack/pricing/)
 
-b) What is the procedure of ASG on Outposts ?
+**b) What is the procedure of ASG on Outposts ?**
+
 R:/I like this tech article about the capacity of [Load Balancer on Outposts](https://aws.amazon.com/blogs/networking-and-content-delivery/configuring-an-application-load-balancer-on-aws-outposts/)
 
 ### Storage Gateway

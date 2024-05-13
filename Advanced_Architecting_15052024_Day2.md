@@ -42,7 +42,7 @@ Deep Dive on Container Security - Link: [Training](https://www.aws.training/Deta
 
 Docker Guides- Link: [Docker Page](https://docs.docker.com/get-started/overview/)
 
-Containers on AWS: An Introduction - Link: [AWS Public Sector Summir Video](https://www.youtube.com/watch?v=kBi-s3eV2Ec)
+Containers on AWS: An Introduction - Link: [AWS Public Sector T Video](https://www.youtube.com/watch?v=kBi-s3eV2Ec)
 
 Build and Deploy Straight from Docker to AWS - Link: [AWS Cloud Containers Conference](https://youtu.be/V88Iqdm8GkE)
 
