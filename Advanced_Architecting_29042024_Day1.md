@@ -96,7 +96,7 @@ Proactive Controls on Control Tower User Guide - Link: [Official Doc](https://do
 
 Hybrid Connectivity - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/hybrid-connectivity/hybrid-connectivity.html)
 
-MANDATORY!! Amazon Virtual Private Cloud Connectivity Options- Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/welcome.html)
+MANDATORY!! Amazon Virtual Private Cloud Connectivity Options - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/welcome.html)
 
 ### Client VPN
 
@@ -144,6 +144,13 @@ Getting Started with Route 53 Resolver - Link: [Official Doc](https://docs.aws.a
 
 Hybrid Cloud with AWS - Link: [Whitepaper](https://d1.awsstatic.com/whitepapers/hybrid-cloud-with-aws.pdf?did=wp_card&trk=wp_card)
 
+QUESTIONS:
+a) What is the charge for having EC2 on Outposts?
+R:/ According to [AWS Questions on Repost](https://repost.aws/questions/QU5UM3emo5R4ypbOElxg4dQA/is-the-pricing-of-using-services-in-outpost-the-same-as-using-on-cloud) and [Outposts section on the How AWS Pricing Works Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/aws-outposts.html); you have to pay for the service usage no for the capacity. On the repost, it appears the Load Balancer Example. To complement the pricing scheme, you can review [Outposts Pricing Guide](https://aws.amazon.com/outposts/rack/pricing/)
+
+b) What is the procedure of ASG on Outposts ?
+R:/I like this tech article about the capacity of [Load Balancer on Outposts](https://aws.amazon.com/blogs/networking-and-content-delivery/configuring-an-application-load-balancer-on-aws-outposts/)
+
 ### Storage Gateway
 
 Tag: AWS File Gateway Tag on Blogs - Link: [AWS Storage Blog](https://aws.amazon.com/blogs/storage/tag/aws-file-gateway/)
@@ -166,7 +173,6 @@ Migrate and Modernize with VMware Cloud on AWS - Link: [AWS re:Invent 2020](http
 
 AWS Outposts: Storage Foundations - Amazon S3 on Outposts - Link: [AWS Online Tech Talks](https://youtu.be/A_khazmf6jU)
 
-
 ### Local Zones
 
 Delivering low-latency applications at the edge - Link: [AWS re:Invent 2030 Video](https://www.youtube.com/watch?v=isYOTxCm5w4)
@@ -175,14 +181,15 @@ Delivering low-latency applications at the edge - Link: [AWS re:Invent 2030 Vide
 
 Telecom Reference for AWS - Link: [Official Page](https://aws.amazon.com/telecom/resources/)
 
-At the cutting edge: AI driven sustainable 5G networks - Link: [AWS re:Invent 2030 Video](https://www.youtube.com/watch?v=uG70n3vJLzc)
-
+At the cutting edge: AI driven sustainable 5G networks - Link: [AWS re:Invent 2023 Video](https://www.youtube.com/watch?v=uG70n3vJLzc)
 
 AWS Wavelength: Run Apps with Ultra-Low Latency at 5G Edge - Link: [AWS re:Invent 2020 Video](https://youtu.be/AQ-GbAFDvpM)
 
 Architecting 5G Apps for Ultra-Low Latency on AWS Wavelength - Link: [AWS re:Invent 2020 Video](https://youtu.be/KZX5FcsDfUQ)
 
 ## Module 5: Connecting Networks
+
+ MANDATORY!! Building a Scalable and Secure Multi-VPC AWS Network Infrastructure - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/building-scalable-secure-multi-vpc-network-infrastructure.pdf)
 
 ### Transit Gateway
 
@@ -195,7 +202,6 @@ Field Notes: Working with Route Tables in AWS Transit Gateway - Link: [Architect
 Advanced Architectures with AWS Transit Gateway - Link: [AWS Online Tech Talks](https://youtu.be/awrdICiS6ug)
 
 Transit Gateway Networking and Scaling - Link: [Training](https://www.aws.training/Details/eLearning?id=40275)
-
 
 ### Resource Access Manager
 

@@ -120,7 +120,7 @@ Amazon Cloudwatch Concepts - Link: [Official Doc](https://docs.aws.amazon.com/Am
 
 Amazon Cloudwatch Logs Concepts - Link: [Official Doc](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CloudWatchLogsConcepts.html)
 
-Extract metrics from a log  - Link: [Official Docs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/ExtractBytesExample.html)
+Extract metrics from a log  - Link: [Official Doc](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/ExtractBytesExample.html)
 
 Use Cloudwatch Contributor Insights for analyze VPC Flow Logs  - Link: [Official Blog](https://aws.amazon.com/blogs/mt/improve-security-by-analyzing-vpc-flow-logs-with-amazon-cloudwatch-contributor-insights/)
 
