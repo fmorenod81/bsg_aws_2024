@@ -36,13 +36,17 @@ Advanced_Architecting_15052024.md
 
 Docker Guides - Link: [Docker Page](https://docs.docker.com/get-started/overview/)
 
+Docker Engine overview - Link: [Docker Page](https://docs.docker.com/engine/)
+
+Understanding Docker Container Architecture - Link: [No-Official Blog](https://collabnix.com/understanding-docker-container-image/)
+
+Docker Tag  - Link: [Docker Page](https://docs.docker.com/engine/reference/commandline/tag/)
+
 Deep Dive on Container Security - Link: [Training](https://www.aws.training/Details/Video?id=26841)
 
 ### Containers hosting on AWS
 
-Docker Guides- Link: [Docker Page](https://docs.docker.com/get-started/overview/)
-
-Containers on AWS: An Introduction - Link: [AWS Public Sector T Video](https://www.youtube.com/watch?v=kBi-s3eV2Ec)
+Containers on AWS: An Introduction - Link: [AWS Public Sector Summit Video](https://www.youtube.com/watch?v=kBi-s3eV2Ec)
 
 Build and Deploy Straight from Docker to AWS - Link: [AWS Cloud Containers Conference](https://youtu.be/V88Iqdm8GkE)
 
