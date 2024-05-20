@@ -32,6 +32,27 @@ Advanced_Architecting_15052024.md
 
 ## Module 6: Containers
 
+**QUESTIONS**:
+
+**a) What is Capacity Provider on ECS?**
+
+R:/ According to Amazon Q:
+Capacity Providers in Amazon ECS (Elastic Container Service) are a feature that allows you to define the compute capacity that your ECS tasks can run on. Here's a summary of how Capacity Providers work:
+
+- **Fargate Capacity Providers:** When using Fargate, the Fargate and Fargate Spot capacity providers are automatically available. You can associate these capacity providers with your ECS cluster to distribute tasks between Fargate on-demand and Fargate Spot instances.
+
+- **EC2 Capacity Providers:** When using EC2 instances, you can create custom capacity providers that are backed by Auto Scaling groups. This allows you to mix different instance types, on-demand and spot instances, and define strategies to distribute tasks among them.
+
+- **Task Distribution:** Capacity providers help you distribute tasks across different compute options. For example, you can define a strategy to run 50% of tasks on Fargate on-demand and 50% on Fargate Spot.
+
+- **Autoscaling Integration:** Capacity providers can be integrated with Auto Scaling groups to enable Cluster Auto Scaling (CAS). This allows ECS to automatically scale the underlying EC2 capacity based on the number of pending tasks.
+
+- **Managed Scaling and Draining:** Capacity providers offer features like managed scale-in protection and managed draining to ensure graceful handling of instance termination and task migrations.
+
+- **Troubleshooting:** If you encounter scaling issues with your capacity providers, you can check factors like service association, scaling policy configuration, task placement strategy, and Auto Scaling group issues.
+
+For the most up-to-date information on Capacity Providers, pricing, limits, and other details, please refer to the [Amazon ECS documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-capacity-provider-console-v2.html).
+
 ### Containers
 
 Docker Guides - Link: [Docker Page](https://docs.docker.com/get-started/overview/)
@@ -66,6 +87,12 @@ Getting Up and Running with Amazon ECS - Link: [AWS re:Invent 2020 Video](https:
 
 Amazon Elastic Container Service (ECS) Primer - Link: [Training](https://www.aws.training/Details/eLearning?id=30260)
 
+ECS Task Execution roles at Computing Host (ECS Agent) Level - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html)
+
+ECS Task role at Container (Task) Level - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html)
+
+ECS Workshop, section of Capacity Provider - Link: [ECS Workshop](https://ecsworkshop.com/capacity_providers/capacityprovider_primer/)
+
 ### Amazon EKS
 
 FAQs: Amazon EKS - Link: [Official FAQs](https://aws.amazon.com/eks/faqs/)
@@ -96,6 +123,10 @@ AWS Cloud Development Kit Primer - Link: [Training](https://www.aws.training/Det
 
 Hands-Off: Automating Continuous Delivery Pipelines at Amazon - Link: [AWS re:Invent 2020 Video](https://youtu.be/ngnMj1zbMPY)
 
+AWS CodePipeline product integrations - Link: [Official Webpage](https://aws.amazon.com/codepipeline/product-integrations/)
+
+AWS CodeDeploy Integrations - Link: [Official Webpage](https://docs.aws.amazon.com/codedeploy/latest/userguide/integrations.html)
+
 ### Deployment Models
 
 Blue/Green Deployment with CodeDeploy - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-bluegreen.html)
@@ -107,6 +138,8 @@ Understanding How Deployments Affect Application Performance- Link: [AWS re:Inve
 ### AWS Cloudformation Stacksets
 
 Working with AWS CloudFormation StackSets - Link: [Official Doc](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html)
+
+Prerequisites for stack set operations on "Self-Managed" and "Trusted Access" - Link: [Official Doc](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacksets-prereqs.html)
 
 ## Module 8: High Availability and DDoS
 
