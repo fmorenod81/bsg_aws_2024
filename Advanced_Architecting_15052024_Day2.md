@@ -177,17 +177,27 @@ Introducing AWS Gateway Load Balancer - Link: [Official News](https://aws.amazon
 
 FAQs: AWS Network Firewall - Link: [Official FAQs](https://aws.amazon.com/network-firewall/faqs/)
 
-Introducing AWS Network Firewall- Link: [AWS re:Invent 2020 Video](https://youtu.be/CISgqpVn75Q)
+Introducing AWS Network Firewall - Link: [AWS re:Invent 2020 Video](https://youtu.be/CISgqpVn75Q)
 
 ## Module 9: Securing Data
 
 ### Cryptography
 
+Architecting for Database Encryption on AWS - Link: [AWS Blog](https://aws.amazon.com/blogs/security/architecting-for-database-encryption-on-aws/)
+
 ### AWS KMS
+
+FAQs: AWS Key Management Service - Link: [Official FAQs](https://aws.amazon.com/kms/faqs/)
 
 ### AWS Cloud HSM
 
+FAQs: AWS CloudHSM - Link: [Official FAQs](https://aws.amazon.com/cloudhsm/faqs/)
+
 ### AWS Secret Manager
+
+FAQ: AWS Secrets Manager - Link: [Official FAQs](https://aws.amazon.com/secrets-manager/faqs/)
+
+Key Terms and Concepts for AWS Secrets Manager - Link: [Official Doc](https://docs.aws.amazon.com/secretsmanager/latest/userguide/terms-concepts.html)
 
 ## Module 10: Large Scale Data Stores
 
