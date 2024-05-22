@@ -157,6 +157,11 @@ FAQs: AWS WAF - Link: [Official FAQs](https://aws.amazon.com/waf/faq/)
 
 Using AWS WAF and AWS Secrets Manager to Enforce Amazon CloudFront Origins - Link: [AWS re:Invent 2020 Video](https://youtu.be/32jU3lVumAk)
 
+Deploy a dashboard for AWS WAF with minimal effort - Link: [AWS Security Blog](https://aws.amazon.com/blogs/security/deploy-dashboard-for-aws-waf-minimal-effort/)
+
+AWS WAF Workshop - Link: [No-Official Workshop for Classic WAF](https://github.com/toshke/aws-waf-demo-workshop/tree/master)
+
+
 ### AWS Shield Advanced
 
 FAQs: AWS Shield - Link: [Official FAQs](https://aws.amazon.com/shield/faqs/)
