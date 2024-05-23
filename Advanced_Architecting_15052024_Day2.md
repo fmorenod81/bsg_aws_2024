@@ -161,6 +161,9 @@ Deploy a dashboard for AWS WAF with minimal effort - Link: [AWS Security Blog](h
 
 AWS WAF Workshop - Link: [No-Official Workshop for Classic WAF](https://github.com/toshke/aws-waf-demo-workshop/tree/master)
 
+Security Automations for AWS WAF - Link: [AWS Page](https://aws.amazon.com/solutions/implementations/aws-waf-security-automations/)
+
+Jump to a Console - Link: [AWS WAF Console](https://us-east-1.console.aws.amazon.com/wafv2/homev2/web-acls/new?region=us-east-2)
 
 ### AWS Shield Advanced
 
@@ -169,6 +172,8 @@ FAQs: AWS Shield - Link: [Official FAQs](https://aws.amazon.com/shield/faqs/)
 How AWS Shield Works - Link: [Official Doc](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html)
 
 ### AWS Firewall Manager
+
+AWS Firewall Manager prerequisites - Link: [Official Docs](https://docs.aws.amazon.com/waf/latest/developerguide/fms-prereq.html)
 
 FAQs: AWS Firewall Manager - Link: [Official FAQs](https://aws.amazon.com/firewall-manager/faqs/)
 
@@ -193,6 +198,8 @@ Architecting for Database Encryption on AWS - Link: [AWS Blog](https://aws.amazo
 ### AWS KMS
 
 FAQs: AWS Key Management Service - Link: [Official FAQs](https://aws.amazon.com/kms/faqs/)
+
+Using server-side encryption with customer-provided keys (SSE-C) - Link: [Official Doc](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html#sse-c-highlights)
 
 ### AWS Cloud HSM
 
