@@ -53,6 +53,10 @@ Capacity Providers in Amazon ECS (Elastic Container Service) are a feature that 
 
 For the most up-to-date information on Capacity Providers, pricing, limits, and other details, please refer to the [Amazon ECS documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-capacity-provider-console-v2.html).
 
+
+**a) What is EKS Anywhere?**
+R:/ I have to correct myself, because I thought it was a Kubernetes operator for multicloud and hybrid environments; however it applies for hybrid environments ONLY, when you have on-premises resources and you like to manage using AWS Console. More information about [Amazon EKS Anywhere](https://aws.amazon.com/es/eks/eks-anywhere/)
+
 ### Containers
 
 Docker Guides - Link: [Docker Page](https://docs.docker.com/get-started/overview/)
@@ -146,6 +150,19 @@ Working with AWS CloudFormation StackSets - Link: [Official Doc](https://docs.aw
 Prerequisites for stack set operations on "Self-Managed" and "Trusted Access" - Link: [Official Doc](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacksets-prereqs.html)
 
 ## Module 8: High Availability and DDoS
+
+**QUESTIONS**:
+
+**a) Are there any pricing difference between Global WAF deployment (for Cloudfront) and Regional WAF Deployment (ELB, API Gateway and others) ?**
+
+R:/ No, according to [AWS WAF Pricing](https://aws.amazon.com/waf/pricing/), it says: "You will be charged for each web ACL that you create and each rule that you create per web ACL". Therefore, you are charging by ACL, rules and rule type (Bot Control and Fraud control), please check the page to have a better perspective.
+
+**a) What are the coverage of Firewall Manager ? Includes Network Firewall?**
+
+R:/ Yes, it includes Network Firewall and others like: AWS WAF rules, AWS Shield Advanced protections, VPC security groups, VPC network access control lists (ACLs) and Amazon Route 53 Resolver DNS Firewall rules across multiple AWS accounts and resources from a single place. More info at [AWS Firewall Manager FAQs](https://aws.amazon.com/firewall-manager/faqs/)
+
+
+--
 
 AWS Best Practices for DDoS Resiliency - Link: [Whitepaper](https://d0.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf)
 
