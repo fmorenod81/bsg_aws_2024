@@ -240,6 +240,10 @@ FAQs: Amazon S3 - Link: [Official FAQs](https://aws.amazon.com/s3/faqs/)
 
 Amazon S3 Update – Strong Read-After-Write Consistency - Link: [AWS Blog](https://aws.amazon.com/blogs/aws/amazon-s3-update-strong-read-after-write-consistency/)
 
+Managing data access with Amazon S3 access points - Link: [AWS Blog](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-points.html)
+
+Configuring Amazon S3 security settings and access controls - Link: [AWS Re:Invent 2023 PDF](https://d1.awsstatic.com/events/Summits/reinvent2023/STG317-R_Configuring-Amazon-S3-security-settings-and-access-controls-REPEAT.pdf)
+
 Setting Up Cross-Account Amazon S3 Access with S3 Access Points - Link: [AWS Blog](https://aws.amazon.com/blogs/storage/setting-up-cross-account-amazon-s3-access-with-s3-access-points/?nc1=b_rp)
 
 Architecting for High Availability on Amazon S3 - Link: [AWS re:Invent 2020 Video](https://youtu.be/Qib1snR9FhA)

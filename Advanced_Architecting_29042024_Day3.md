@@ -36,15 +36,25 @@ What is AWS Migration Hub? - Link: [Official Doc](https://docs.aws.amazon.com/mi
 
 AWS Application Discovery Service - Link: [Official FAQs](https://aws.amazon.com/application-discovery/faqs/)
 
+AWS Application Discovery Service - Link: [Official Page](https://aws.amazon.com/es/application-discovery/)
+
 AWS Server Migration Service - Link: [Official FAQs](https://aws.amazon.com/server-migration-service/faqs/)
 
+AWS DataSync FAQ  - Link: [Official FAQs](https://aws.amazon.com/datasync/faqs/)
+
 AWS DataSync - Link: [Official Doc](https://docs.aws.amazon.com/datasync/latest/userguide/how-datasync-works.html)
+
+AWS DataSync vs Storage Gateway - Link: [Unofficial Blog](https://medium.com/@vasanthabalaji/aws-datasync-vs-storage-gateway-39570b060c36)
 
 AWS Networking Best Practices in Large-Scale Migrations- Link: [AWS re:Invent 2020 Video](https://youtu.be/qCQvwLBjcbs)
 
 Migrating from Oracle to Amazon Aurora - Link: [Training](https://www.aws.training/Details/eLearning?id=61143)
 
 Agentless snapshot based replication for vCenter source environments - Link: [Official Doc](https://docs.aws.amazon.com/mgn/latest/ug/agentless-mgn.html)
+
+Application Migration Service Description - Link: [Unofficial Blog](https://hidekazu-konishi.com/entry/aws_mgn_architecture_lifecycle_usage_notes.html)
+
+How to Use the New AWS Application Migration Service for Lift-and-Shift Migrations - Link: [AWS Blog](https://aws.amazon.com/blogs/aws/how-to-use-the-new-aws-application-migration-service-for-lift-and-shift-migrations/)
 
 ### Migration Databases
 
