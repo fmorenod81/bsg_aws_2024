@@ -6,5 +6,6 @@ Links for Official AWS Courses
 
 [Advanced Architecting 15-May-2024 Day 2](./Advanced_Architecting_15052024_Day2.md)
 
+[Advanced Architecting 29-May-2024 Day 3](./Advanced_Architecting_15052024_Day3.md)
 
 [Technical Essentials 26-March-2024](./Technical_Essentials_26032024.md)

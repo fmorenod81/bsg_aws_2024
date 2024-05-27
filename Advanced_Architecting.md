@@ -411,4 +411,11 @@ Migrating from Oracle to Amazon Aurora: https://www.aws.training/Details/eLearni
 CloudEndure Migration Training - Technical: https://www.aws.training/Details/eLearning?id=39068
 Migrating from Microsoft SQL Server to Amazon DynamoDB: https://www.aws.training/Details/eLearning?id=61144
 
+Agentless snapshot based replication for vCenter source environments https://docs.aws.amazon.com/mgn/latest/ug/agentless-mgn.html
+Understanding the “7 Rs” - Cloud Migration Strategies https://community.aws/content/2cKbgI3WsAYTiDM0J48uEMVqOVW/understanding-the-7-rs?lang=en
+https://docs.aws.amazon.com/migrationhub/latest/ug/whatishub.html
+
+https://aws.amazon.com/migration-hub/faqs/ << Q: What migration tools integrate with AWS Migration Hub?>>
+
+https://docs.aws.amazon.com/datasync/latest/userguide/how-datasync-works.html
 
