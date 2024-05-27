@@ -350,40 +350,6 @@ AWS DataSync Primer: https://www.aws.training/Details/eLearning?id=47599
 
 ## Module 11
 
-FAQs: Amazon CloudFront: https://aws.amazon.com/cloudfront/faqs/
-Lambda@Edge Example Functions: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-examples.html
-FAQs: AWS Global Accelerator: https://aws.amazon.com/global-accelerator/faqs/
-Improve VPN Network Performance of AWS Hybrid Cloud with Global Accelerator: https://aws.amazon.com/blogs/architecture/improve-vpn-network-performance-of-aws-hybrid-cloud-with-global-accelerator/
-Values That You Specify When You Create or Update a Distribution: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-values-specify.html
-Tutorial: Creating a Simple Lambda@Edge Function: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-how-it-works-tutorial.html
-FAQs: AWS Lambda: https://aws.amazon.com/lambda/faqs/
-
-AWS re:Invent 2020: Amazon CloudFront Fundamentals: Features, Benefits, and What’s New: https://youtu.be/WZjFBxEgjvg
-AWS re:Invent 2020: AWS Lambda Networking Best Practices: https://youtu.be/Ax6cnBEDnsM
-AWS re:Invent 2020: Improving Website Performance Using Amazon CloudFront: https://youtu.be/JUtM0hRoo8Q
-BuildOn: Rendering Websites at the Edge with Lambda@Edge: https://youtu.be/RF7x4HcQ8lM
-AWS re:Invent 2020: What’s New in Serverless: https://youtu.be/aW5EtKHTMuQ
-
-Deep Dive: Lambda@Edge: https://www.aws.training/Details/Video?id=27500
-
-## Module 12
-
-Whitepaper: How AWS Pricing Works: https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
-Echoing Andy’s AWS re:Invent 2020 Keynote for Technology Financial Management Success: https://aws.amazon.com/blogs/aws-cost-management/echoing-andys-2020-reinvent-keynote-for-technology-financial-management/
-Announcing General Availability of AWS Cost Anomaly Detection: https://aws.amazon.com/blogs/aws-cost-management/announcing-general-availability-of-aws-cost-anomaly-detection/
-How EMX Reduced Data Pipeline Costs by 85% with Amazon Athena: https://aws.amazon.com/blogs/big-data/how-emx-reduced-data-pipeline-costs-by-85-with-amazon-athena/?nc1=b_rp
-Whitepaper: Cost Optimization Pillar: https://d1.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf
-Finding Savings from 2020 re:Invent Announcements: https://aws.amazon.com/blogs/aws-cost-management/finding-savings-from-2020-reinvent-announcements/
-
-AWS re:Invent 2020: Cost Allocation Best Practices: https://youtu.be/leDfPdXHDzs
-AWS re:Invent 2020: Optimize Compute for Performance and Cost: https://youtu.be/L173l1RdVxs
-AWS Cost Optimization: Tools and Methods to Reduce Your Spend With Us: https://youtu.be/XHwFJDw9Mec
-AWS re:Invent 2020: Selecting the Right Amazon EC2 Instance for Your Workloads: https://youtu.be/q5Dn9gcmpJg
-Introducing Savings Plans for Amazon EC2, AWS Fargate, and AWS Lambda - AWS Online Tech Talks: https://youtu.be/cbV8bnbMe9w
-AWS re:Invent 2020: Better, Faster, and Lower-Cost Storage: Optimizing Amazon S3: https://youtu.be/Ac8GaKD0mkg
-
-## Module 13
-
 Whitepaper: Understanding Your Application Readiness when Migrating to AWS:  https://d1.awsstatic.com/whitepapers/understanding-application-readiness-when-migrating-to-aws.pdf?did=wp_card&trk=wp_card
 FAQs: AWS Migration Hub: https://aws.amazon.com/migration-hub/faqs/
 FAQs: AWS Application Discovery Service: https://aws.amazon.com/application-discovery/faqs/
@@ -419,3 +385,38 @@ https://aws.amazon.com/migration-hub/faqs/ << Q: What migration tools integrate 
 
 https://docs.aws.amazon.com/datasync/latest/userguide/how-datasync-works.html
 
+## Module 12
+
+Whitepaper: How AWS Pricing Works: https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf
+Echoing Andy’s AWS re:Invent 2020 Keynote for Technology Financial Management Success: https://aws.amazon.com/blogs/aws-cost-management/echoing-andys-2020-reinvent-keynote-for-technology-financial-management/
+Announcing General Availability of AWS Cost Anomaly Detection: https://aws.amazon.com/blogs/aws-cost-management/announcing-general-availability-of-aws-cost-anomaly-detection/
+How EMX Reduced Data Pipeline Costs by 85% with Amazon Athena: https://aws.amazon.com/blogs/big-data/how-emx-reduced-data-pipeline-costs-by-85-with-amazon-athena/?nc1=b_rp
+Whitepaper: Cost Optimization Pillar: https://d1.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf
+Finding Savings from 2020 re:Invent Announcements: https://aws.amazon.com/blogs/aws-cost-management/finding-savings-from-2020-reinvent-announcements/
+
+AWS re:Invent 2020: Cost Allocation Best Practices: https://youtu.be/leDfPdXHDzs
+AWS re:Invent 2020: Optimize Compute for Performance and Cost: https://youtu.be/L173l1RdVxs
+AWS Cost Optimization: Tools and Methods to Reduce Your Spend With Us: https://youtu.be/XHwFJDw9Mec
+AWS re:Invent 2020: Selecting the Right Amazon EC2 Instance for Your Workloads: https://youtu.be/q5Dn9gcmpJg
+Introducing Savings Plans for Amazon EC2, AWS Fargate, and AWS Lambda - AWS Online Tech Talks: https://youtu.be/cbV8bnbMe9w
+AWS re:Invent 2020: Better, Faster, and Lower-Cost Storage: Optimizing Amazon S3: https://youtu.be/Ac8GaKD0mkg
+
+
+
+## Module 13
+
+FAQs: Amazon CloudFront: https://aws.amazon.com/cloudfront/faqs/
+Lambda@Edge Example Functions: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-examples.html
+FAQs: AWS Global Accelerator: https://aws.amazon.com/global-accelerator/faqs/
+Improve VPN Network Performance of AWS Hybrid Cloud with Global Accelerator: https://aws.amazon.com/blogs/architecture/improve-vpn-network-performance-of-aws-hybrid-cloud-with-global-accelerator/
+Values That You Specify When You Create or Update a Distribution: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-values-specify.html
+Tutorial: Creating a Simple Lambda@Edge Function: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-how-it-works-tutorial.html
+FAQs: AWS Lambda: https://aws.amazon.com/lambda/faqs/
+
+AWS re:Invent 2020: Amazon CloudFront Fundamentals: Features, Benefits, and What’s New: https://youtu.be/WZjFBxEgjvg
+AWS re:Invent 2020: AWS Lambda Networking Best Practices: https://youtu.be/Ax6cnBEDnsM
+AWS re:Invent 2020: Improving Website Performance Using Amazon CloudFront: https://youtu.be/JUtM0hRoo8Q
+BuildOn: Rendering Websites at the Edge with Lambda@Edge: https://youtu.be/RF7x4HcQ8lM
+AWS re:Invent 2020: What’s New in Serverless: https://youtu.be/aW5EtKHTMuQ
+
+Deep Dive: Lambda@Edge: https://www.aws.training/Details/Video?id=27500

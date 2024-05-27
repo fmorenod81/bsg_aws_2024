@@ -19,11 +19,42 @@ Advanced_Architecting_29042024.md
 ---
 ## Module 11: Migration Workloads
 
+Whitepaper: Understanding Your Application Readiness when Migrating to AWS - Link: [Whitepaper](https://d1.awsstatic.com/whitepapers/understanding-application-readiness-when-migrating-to-aws.pdf?did=wp_card&trk=wp_card)
+
+Migrating to AWS: Best Practices and Strategies - Link: [Whitepaper](https://d1.awsstatic.com/Migration/migrating-to-aws-ebook.pdf)
+
 ### Migration Process
+
+Understanding the “7 Rs” - Cloud Migration Strategies - Link: [AWS Community](https://community.aws/content/2cKbgI3WsAYTiDM0J48uEMVqOVW/understanding-the-7-rs?lang=en)
+
 
 ### Migration Workloads
 
+AWS Migration Hub "Q: What migration tools integrate with AWS Migration Hub?" - Link: [Official FAQs](https://aws.amazon.com/migration-hub/faqs/)
+
+What is AWS Migration Hub? - Link: [Official Doc](https://docs.aws.amazon.com/migrationhub/latest/ug/whatishub.html)
+
+AWS Application Discovery Service - Link: [Official FAQs](https://aws.amazon.com/application-discovery/faqs/)
+
+AWS Server Migration Service - Link: [Official FAQs](https://aws.amazon.com/server-migration-service/faqs/)
+
+AWS DataSync - Link: [Official Doc](https://docs.aws.amazon.com/datasync/latest/userguide/how-datasync-works.html)
+
+AWS Networking Best Practices in Large-Scale Migrations- Link: [AWS re:Invent 2020 Video](https://youtu.be/qCQvwLBjcbs)
+
+Migrating from Oracle to Amazon Aurora - Link: [Training](https://www.aws.training/Details/eLearning?id=61143)
+
+Agentless snapshot based replication for vCenter source environments - Link: [Official Doc](https://docs.aws.amazon.com/mgn/latest/ug/agentless-mgn.html)
+
 ### Migration Databases
+
+FAQs: AWS Database Migration Service - Link: [Official FAQs](https://aws.amazon.com/dms/faqs/)
+
+Oracle Data Workload Migration to AWS Cloud - Link: [Architecture Diagram](https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/oracle-data-workload-migration-to-aws-ra.pdf?did=wp_card&trk=wp_card)
+
+Amazon Aurora Migration Handbook - Link: [Whitepaper](https://d1.awsstatic.com/whitepapers/Migration/amazon-aurora-migration-handbook.pdf?did=wp_card&trk=wp_card)
+
+Executing a Large-Scale Migration to AWS - Link: [AWS re:Invent 2020 Video](https://youtu.be/adRag6vEy8w)
 
 ## Module 12: Optimizing Costs
 
