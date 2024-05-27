@@ -230,8 +230,24 @@ Key Terms and Concepts for AWS Secrets Manager - Link: [Official Doc](https://do
 
 ## Module 10: Large Scale Data Stores
 
+Managing Amazon Simple Storage Service (Amazon S3) - Link: [Training](https://www.aws.training/Details/Curriculum?id=66254)
+
+Deep Dive into Amazon Simple Storage Service (Amazon S3) - Link: [Training](https://www.aws.training/Details/Curriculum?id=26930)
+
 ### S3 Data Management
+
+FAQs: Amazon S3 - Link: [Official FAQs](https://aws.amazon.com/s3/faqs/)
+
+Amazon S3 Update – Strong Read-After-Write Consistency - Link: [AWS Blog](https://aws.amazon.com/blogs/aws/amazon-s3-update-strong-read-after-write-consistency/)
+
+Setting Up Cross-Account Amazon S3 Access with S3 Access Points - Link: [AWS Blog](https://aws.amazon.com/blogs/storage/setting-up-cross-account-amazon-s3-access-with-s3-access-points/?nc1=b_rp)
+
+Architecting for High Availability on Amazon S3 - Link: [AWS re:Invent 2020 Video](https://youtu.be/Qib1snR9FhA)
 
 ### Data Lakes
 
 ### AWS Lake Formation
+
+FAQs: AWS Lake Formation - Link: [Official FAQs](https://aws.amazon.com/lake-formation/faqs/)
+
+Cross Account Catalog Access Using Amazon Athena and AWS Lake Formation - Link: [AWS re:Invent 2020 Video](https://youtu.be/He8GvOFdjnE)
