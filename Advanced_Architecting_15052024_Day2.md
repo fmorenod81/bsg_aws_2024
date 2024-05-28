@@ -232,13 +232,15 @@ Key Terms and Concepts for AWS Secrets Manager - Link: [Official Doc](https://do
 
 Managing Amazon Simple Storage Service (Amazon S3) - Link: [Training](https://www.aws.training/Details/Curriculum?id=66254)
 
-Deep Dive into Amazon Simple Storage Service (Amazon S3) - Link: [Training](https://www.aws.training/Details/Curriculum?id=26930)
+Deep Dive into Amazon Simple Storage Service (Amazon S3) - Link: [Training](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/497/amazon-simple-storage-service-amazon-s3-storage-classes-deep-dive)
+
+ Auditing Amazon Simple Storage Service (Amazon S3) Security - Link: [Training](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/502/auditing-amazon-simple-storage-service-amazon-s3-security)
 
 ### S3 Data Management
 
 FAQs: Amazon S3 - Link: [Official FAQs](https://aws.amazon.com/s3/faqs/)
 
-Amazon S3 Update – Strong Read-After-Write Consistency - Link: [AWS Blog](https://aws.amazon.com/blogs/aws/amazon-s3-update-strong-read-after-write-consistency/)
+Amazon S3 Update – Strong Read-After-Write Consistency - Link: [AWS Blog](https://aws.amazon.com/blogs/aws/amazon-s3-update-strong-read-after-write-consistency/) and [Consistency Page](https://aws.amazon.com/s3/consistency/)
 
 Managing data access with Amazon S3 access points - Link: [AWS Blog](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-points.html)
 
@@ -248,7 +250,11 @@ Setting Up Cross-Account Amazon S3 Access with S3 Access Points - Link: [AWS Blo
 
 Architecting for High Availability on Amazon S3 - Link: [AWS re:Invent 2020 Video](https://youtu.be/Qib1snR9FhA)
 
+S3 Access Point Demo - Link: [No-Official Video](https://www.youtube.com/watch?v=iqCmDLMT4qU&t=463s)
+
 ### Data Lakes
+
+Introduction to Designing Data Lakes on AWS - Link: [Coursera Course](https://www.coursera.org/learn/introduction-to-designing-data-lakes-in-aws?)
 
 ### AWS Lake Formation
 
