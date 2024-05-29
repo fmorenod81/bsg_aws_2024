@@ -112,6 +112,22 @@ Cost Optimization with AWS - Link: [AWS Page](https://aws.amazon.com/aws-cost-ma
 
 ### Cloudfront
 
+Amazon CloudFront - Link: [Official FAQs](https://aws.amazon.com/cloudfront/faqs/)
+
+Values That You Specify When You Create or Update a Distribution - Link: [Official Doc](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-values-specify.html)
+
 ### Lambda@Edge
 
+Deep Dive: Lambda@Edge - Link: [Training](https://www.aws.training/Details/Video?id=27500)
+
+Rendering Websites at the Edge with Lambda@Edge - Link: [BuildOn Video](https://youtu.be/RF7x4HcQ8lM)
+
+Tutorial: Creating a Simple Lambda@Edge Function - Link: [Tutorial](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-how-it-works-tutorial.html)
+
+Lambda@Edge Example Functions - Link: [Official Doc](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-examples.html)
+
 ### Global Accelerator
+
+AWS Global Accelerator - Link: [Official FAQs](https://aws.amazon.com/global-accelerator/faqs/)
+
+Improve VPN Network Performance of AWS Hybrid Cloud with Global Accelerator - Link: [Official Blogs](https://aws.amazon.com/blogs/architecture/)
