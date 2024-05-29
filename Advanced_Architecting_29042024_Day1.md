@@ -2,6 +2,8 @@ Advanced_Architecting_29042024.md
 
 Advanced Architecting on AWS 2024 - Start Date: 29 April 2024 - [Unofficial Introduction to the course](./00-Personal_Taughts_28042024.pdf)
 
+AWS Blogs en Español - Link: [AWS Blogs](https://aws.amazon.com/es/blogs/aws-spanish/)
+
 ---
 
 **Table of Contents**

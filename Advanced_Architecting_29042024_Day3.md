@@ -1,8 +1,11 @@
 Advanced_Architecting_29042024.md
 
+AWS Blogs en Español - Link: [AWS Blogs](https://aws.amazon.com/es/blogs/aws-spanish/)
+
 ---
 
 **Table of Contents**
+
 - [Module 11: Migration Workloads](#module-11-migration-workloads)
   - [Migration Process](#migration-process)
   - [Migration Workloads](#migration-workloads)
@@ -25,8 +28,15 @@ Migrating to AWS: Best Practices and Strategies - Link: [Whitepaper](https://d1.
 
 ### Migration Process
 
-Understanding the “7 Rs” - Cloud Migration Strategies - Link: [AWS Community](https://community.aws/content/2cKbgI3WsAYTiDM0J48uEMVqOVW/understanding-the-7-rs?lang=en)
+AWS Cloud Readiness Assessment - Link: [Official Page](https://cloudreadiness.amazonaws.com/#/cart)
 
+“AWS Migration Acceleration Program” - Professional Services Workshop - Link: [Official Page](https://aws.amazon.com/migration-acceleration-program/)
+
+Migration Evaluator - Link: [Official Page](https://aws.amazon.com/migration-evaluator/)
+
+AWS Prescriptive Guidance - Link: [Official Page](https://aws.amazon.com/prescriptive-guidance/)
+
+Understanding the “7 Rs” - Cloud Migration Strategies - Link: [AWS Community](https://community.aws/content/2cKbgI3WsAYTiDM0J48uEMVqOVW/understanding-the-7-rs?lang=en)
 
 ### Migration Workloads
 
@@ -68,11 +78,35 @@ Executing a Large-Scale Migration to AWS - Link: [AWS re:Invent 2020 Video](http
 
 ## Module 12: Optimizing Costs
 
+How AWS Pricing Works - Link: [Whitepaper](https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf)
+
+Cost Optimization Pillar - Link: [Whitepaper](https://d1.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf)
+
+Cost Allocation Best Practices - Link: [AWS re:Invent 2020 video](https://youtu.be/leDfPdXHDzs)
+
+Optimize Compute for Performance and Cost - Link: [AWS re:Invent 2020 video](https://youtu.be/L173l1RdVxs)
+
+Tools and Methods to Reduce Your Spend With Us  - Link: [AWS Cost Optimization video](https://youtu.be/XHwFJDw9Mec)
+
 ### Cloud Cost Management
 
 ### Cost Optimization
 
+Configuring AWS Budgets actions - Link: [Official Doc](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-controls.html)
+
+AWS Budgets - Link: [AWS Pricing Page](https://aws.amazon.com/aws-cost-management/aws-budgets/pricing/)
+
+Tag policies on AWS Organizations Docs - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_tag-policies.html)
+
 ### Cloud Cost Management Tools
+
+Instance Scheduler on AWS - Link: [AWS Solutions Page](https://aws.amazon.com/solutions/implementations/instance-scheduler-on-aws/)
+
+Using the AWS CLI to manage DynamoDB auto scaling - Link: [AWS Pricing Page](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AutoScaling.CLI.html)
+
+Amazon EC2 Reserved Instances and Other AWS Reservation Models - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-reservation-models/savings-plans.html)
+
+Cost Optimization with AWS - Link: [AWS Page](https://aws.amazon.com/aws-cost-management/aws-cost-optimization/)
 
 ## Module 13: Architecting for the Edge
 

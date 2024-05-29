@@ -1,5 +1,7 @@
 Advanced_Architecting_15052024.md
 
+AWS Blogs en Español - Link: [AWS Blogs](https://aws.amazon.com/es/blogs/aws-spanish/)
+
 ---
 
 **Table of Contents**
