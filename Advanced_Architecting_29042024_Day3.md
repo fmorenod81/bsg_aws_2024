@@ -18,6 +18,7 @@ AWS Blogs en Español - Link: [AWS Blogs](https://aws.amazon.com/es/blogs/aws-sp
   - [Cloudfront](#cloudfront)
   - [Lambda@Edge](#lambdaedge)
   - [Global Accelerator](#global-accelerator)
+- [Module 14: Review](#module-14-review)
 
 ---
 ## Module 11: Migration Workloads
@@ -131,3 +132,34 @@ Lambda@Edge Example Functions - Link: [Official Doc](https://docs.aws.amazon.com
 AWS Global Accelerator - Link: [Official FAQs](https://aws.amazon.com/global-accelerator/faqs/)
 
 Improve VPN Network Performance of AWS Hybrid Cloud with Global Accelerator - Link: [Official Blogs](https://aws.amazon.com/blogs/architecture/)
+
+## Module 14: Review
+
+SAA Ramp-Up Guides - Link: [AWS Page](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Architect.pdf)
+
+Advanced Architecting on AWS - Online Course Supplement - Link: [Training](https://explore.skillbuilder.aws/learn/course/external/view/elearning/1283/advanced-architecting-on-aws-online-course-supplement)
+
+AWS Certification exam preparation - Link: [AWS Page](https://aws.amazon.com/certification/certification-prep/)
+
+AWS Certification - Link: [AWS Page](https://aws.amazon.com/certification/)
+
+Explore AWS Certification exams - Link: [AWS Page](https://aws.amazon.com/certification/exams/)
+
+AWS Skill Builder: Your learning center to build in-demand cloud skills - Link: [AWS Page](https://explore.skillbuilder.aws/learn)
+
+AWS Builder Labs: Learn cloud skills in a live AWS environment - Link: [AWS Page](https://aws.amazon.com/training/digital/aws-builder-labs/)
+
+Schedule an Exam - Link: [AWS Page](https://aws.amazon.com/certification/certification-prep/testing/)
+
+AWS Skill Builder - Link: [AWS Page](https://aws.amazon.com/training/digital)
+
+Digital training - Link: [AWS Page](https://explore.skillbuilder.aws/)
+
+Classroom training - Link: [AWS Page](https://aws.amazon.com/training )
+
+AWS Workshops - Link: [AWS Page](https://workshops.aws/)
+
+Tech Talks - Link: [AWS Page](https://aws.amazon.com/events/online-tech-talks/on-demand/)
+
+AWS Ramp-Up Guides - Link: [AWS Page](https://aws.amazon.com/training/ramp-up-guides/)
+
