@@ -20,7 +20,13 @@ AWS Products - NOTE: Amazon RDS for DB2 - Link: [AWS Page](https://aws.amazon.co
 
 What is Virtualization and Benefits - Link: [Official Introduction](https://aws.amazon.com/iam/features/mfa)
 
-Example to use roles on IAM - Link: [AWS Respost](https://repost.aws/knowledge-center/iam-assume-role-cli)
+Example to use roles on IAM - Link: [AWS Repost](https://repost.aws/knowledge-center/iam-assume-role-cli)
+
+## Question IAM:
+
+* Cual es la pagina para medir la latencia desde mi posicion actual a una region de AWS ?
+
+R:/ Se puede usar [Connection Health Check website](https://docs.aws.amazon.com/whitepapers/latest/best-practices-deploying-amazon-workspaces/how-to-check-latency-to-the-closest-aws-region.html)
 
 ## BUDGETS
 
