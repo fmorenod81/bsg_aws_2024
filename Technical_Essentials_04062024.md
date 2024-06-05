@@ -24,6 +24,10 @@ Example to use roles on IAM - Link: [AWS Repost](https://repost.aws/knowledge-ce
 
 ## Question IAM:
 
+* Que es latencia ?
+
+R:/ Se puede mirar las opciones y las implicaciones desde [What is Network Latency?](https://aws.amazon.com/what-is/latency/)
+
 * Cual es la pagina para medir la latencia desde mi posicion actual a una region de AWS ?
 
 R:/ Se puede usar [Connection Health Check website](https://docs.aws.amazon.com/whitepapers/latest/best-practices-deploying-amazon-workspaces/how-to-check-latency-to-the-closest-aws-region.html)
