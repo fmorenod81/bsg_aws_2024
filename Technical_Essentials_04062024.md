@@ -90,6 +90,13 @@ Sec Groups - Ejemplo - Link [Official Documentation](https://docs.aws.amazon.com
 
 Transit Gateways Scenarios - Link: [AWS Docs](https://docs.aws.amazon.com/vpc/latest/tgw/TGW_Scenarios.html)
 
+
+## Question Compute:
+
+* Despues de detener una instancia EC2, que puede generar cargos?
+
+R:/ Me corrigo y no depende de la familia, unicamente se cobra los recursos asociados que se mantengan (almacenamiento, IP Publica, etc). Aqui se deja la respuesta oficial AWS [AWS Repost](https://repost.aws/questions/QUonMeCW1WSe6zYKIz_neqCw/do-i-get-charged-for-stopped-instances)
+
 ## Storage
 
 EBS Types - Use Cases- Link: [Official Service Page](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html)
