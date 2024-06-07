@@ -32,6 +32,10 @@ R:/ Se puede mirar las opciones y las implicaciones desde [What is Network Laten
 
 R:/ Se puede usar [Connection Health Check website](https://docs.aws.amazon.com/whitepapers/latest/best-practices-deploying-amazon-workspaces/how-to-check-latency-to-the-closest-aws-region.html)
 
+* Como se podria determinar la latencia entre regiones AWS o  con mayor profundidad.
+
+R:/ Se puede usar [Monitor network infrastructure performance](https://docs.aws.amazon.com/network-manager/latest/infrastructure-performance/getting-started-nmip-console.html) y comparar con otros medios independientes [encontrados en su buscador favorito](https://www.cloudping.co/grid/latency/timeframe/1D)
+
 ## BUDGETS
 
 Budget Tutorial - Link: [AWS Tutorial](https://www.youtube.com/watch?v=O0sofGVT7uw)
@@ -52,9 +56,15 @@ Instance Family on Console - Link: [AWS Console](https://us-east-1.console.aws.a
 
 AWS Calculator, case on EC2 - Link: [Official Page](https://calculator.aws/#/addService/ec2-enhancement)
 
+How Amazon EC2 instance hibernation works - Link: [Official Page](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-hibernate-overview.html)
+
+Amazon EC2 Reserved Instances and Other AWS Reservation Models - Link: [Savings Plans](https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-reservation-models/savings-plans.html) and [Reserved Instances](https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-reservation-models/introduction.html)
+
 How to explain spot instances for Dummies - Link [No-Official Video](https://youtu.be/mgWZls55ATs?t=17)
 
 VM vs Containers - Technical Definition - Link [RedHat Definition](https://www.redhat.com/en/topics/containers/whats-a-linux-container#:~:text=Containers%20share%20the%20same%20operating,systems%20run%20x86%20Windows%20containers.)
+
+How ECS works - Link [Official Page]((https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)
 
 Serverless Portfolio - Link: [AWS Page](https://aws.amazon.com/serverless/)
 
