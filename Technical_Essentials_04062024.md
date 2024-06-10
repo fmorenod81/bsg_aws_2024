@@ -22,7 +22,7 @@ What is Virtualization and Benefits - Link: [Official Introduction](https://aws.
 
 Example to use roles on IAM - Link: [AWS Repost](https://repost.aws/knowledge-center/iam-assume-role-cli)
 
-## Question IAM:
+## Question IAM
 
 * Que es latencia ?
 
@@ -64,7 +64,7 @@ How to explain spot instances for Dummies - Link [No-Official Video](https://you
 
 VM vs Containers - Technical Definition - Link [RedHat Definition](https://www.redhat.com/en/topics/containers/whats-a-linux-container#:~:text=Containers%20share%20the%20same%20operating,systems%20run%20x86%20Windows%20containers.)
 
-How ECS works - Link [Official Page]((https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)
+How ECS works - Link [Official Page]((<https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html>)
 
 Serverless Portfolio - Link: [AWS Page](https://aws.amazon.com/serverless/)
 
@@ -90,8 +90,7 @@ Sec Groups - Ejemplo - Link [Official Documentation](https://docs.aws.amazon.com
 
 Transit Gateways Scenarios - Link: [AWS Docs](https://docs.aws.amazon.com/vpc/latest/tgw/TGW_Scenarios.html)
 
-
-## Question Compute:
+## Question Compute
 
 * Despues de detener una instancia EC2, que puede generar cargos?
 
@@ -136,6 +135,8 @@ Multi-AZ DB instance deployments - Link: [Official Documentation](https://docs.a
 MultiAZ DB Cluster - !Readable! MultiAZ Deploy - Link: [Official Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/multi-az-db-clusters-concepts.html)
 
 Comparison MultiAZ Instances and Read Replica - Link: [No-Official Documentation](https://jayendrapatil.com/aws-rds-replication-multi-az-read-replica/)
+
+Key concepts and definitions for burstable performance instances - Link: [Official Documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-credits-baseline-concepts.html)
 
 Core Components of Amazon DynamoDB - Link: [Official Page](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html)
 
