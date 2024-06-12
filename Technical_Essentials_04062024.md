@@ -2,6 +2,21 @@ Technical_Essentials_26032024.md
 
 Technical Essentials 2024 - Start Date: 26 March 2024 - [Unofficial Introduction to the course](./00-Personal_Taughts_26032024.pdf)
 
+TABLE OF CONTENTS
+- [Cloud](#cloud)
+- [IAM](#iam)
+- [Question IAM:](#question-iam)
+- [BUDGETS](#budgets)
+- [Compute Services](#compute-services)
+- [Networking](#networking)
+- [Question Compute:](#question-compute)
+- [Storage](#storage)
+- [Databases](#databases)
+- [Monitoring](#monitoring)
+- [Load Balancers](#load-balancers)
+- [AutoScaling](#autoscaling)
+- [CodeWhisperer](#codewhisperer)
+
 ## Cloud
 
 Course Overview - NOTE: Labs - Link: [Official Page](https://d1.awsstatic.com/training-and-certification/classroom-training/aws-technical-essentials.pdf)
@@ -100,6 +115,8 @@ R:/ Me corrigo y no depende de la familia, unicamente se cobra los recursos asoc
 ## Storage
 
 EBS Types - Use Cases- Link: [Official Service Page](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html)
+
+Amazon FSx - Link: [Official Page](https://aws.amazon.com/fsx/)
 
 FSx for Windows - Use Cases - Link: [Official Documentation](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/using-file-shares.html)
 
