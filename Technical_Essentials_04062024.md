@@ -5,17 +5,17 @@ Technical Essentials 2024 - Start Date: 26 March 2024 - [Unofficial Introduction
 TABLE OF CONTENTS
 - [Cloud](#cloud)
 - [IAM](#iam)
-- [Question IAM:](#question-iam)
+- [Question IAM](#question-iam)
 - [BUDGETS](#budgets)
 - [Compute Services](#compute-services)
 - [Networking](#networking)
-- [Question Compute:](#question-compute)
+- [Question Compute](#question-compute)
 - [Storage](#storage)
 - [Databases](#databases)
 - [Monitoring](#monitoring)
 - [Load Balancers](#load-balancers)
 - [AutoScaling](#autoscaling)
-- [CodeWhisperer](#codewhisperer)
+- [Amazon Q Developer (former Code Whisperer)](#amazon-q-developer-former-code-whisperer)
 
 ## Cloud
 
@@ -179,6 +179,8 @@ Elastic Load Balancer - Link: [Official Page](https://aws.amazon.com/elasticload
 
 Elastic Load Balancer FAQs - Link: [Official Page](https://aws.amazon.com/elasticloadbalancing/faqs/?nc=sn&loc=5)
 
+Configure sticky sessions for your Classic Load Balancer - Link: [Official Doc](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-sticky-sessions.html#:~:text=PDFRSS,session%20to%20a%20specific%20instance.)
+
 Gateway Load Balancer - Link: [Official Page](https://aws.amazon.com/elasticloadbalancing/gateway-load-balancer/)
 
 ## AutoScaling
@@ -191,6 +193,6 @@ Dyn ASG: Step vs Simple Policy - Link: [Official Doc](https://docs.aws.amazon.co
 
 Predictive ASG - Link: [Official Doc](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-predictive-scaling.html)
 
-## CodeWhisperer
+## Amazon Q Developer (former Code Whisperer)
 
-Simple Example - Link: [Official Demo Video](https://youtu.be/j8BoVmHKFlI)
+Simple Example - Link: [Official Demo Video](https://youtu.be/j8BoVmHKFlI?t=49)
