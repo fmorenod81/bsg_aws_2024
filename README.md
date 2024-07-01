@@ -4,7 +4,7 @@ Links for Official AWS Courses
 
 ![Current Courses](./current_course.png)**Current Courses**:
 
-[Technical Essentials 4-June-2024](./Technical_Essentials_04062024.md)
+[Technical Essentials 1-July-2024](./Technical_Essentials_04062024.md)
 
 ![Inactive Courses](./old_courses.png)**Inactive Courses**:
 
@@ -15,3 +15,5 @@ Links for Official AWS Courses
 [Advanced Architecting 29-April-2024 Day 1](./Advanced_Architecting_29042024_Day1.md)
 
 [Technical Essentials 26-March-2024](./Technical_Essentials_26032024.md)
+
+[Technical Essentials 4-June-2024](./Technical_Essentials_04062024.md)
