@@ -5,7 +5,7 @@ Technical Essentials 2024 - Start Date: 1 July 2024 - [Unofficial Introduction t
 TABLE OF CONTENTS
 - [Cloud](#cloud)
 - [IAM](#iam)
-- [BUDGETS](#budgets)
+- [Budget](#budget)
 - [Compute Services](#compute-services)
 - [Networking](#networking)
 - [Storage](#storage)
@@ -31,11 +31,11 @@ AWS Products - NOTE: Amazon RDS for DB2 - Link: [AWS Page](https://aws.amazon.co
 
 ## IAM
 
-What is Virtualization and Benefits - Link: [Official Introduction](https://aws.amazon.com/iam/features/mfa)
+Multifactor Authenticator - Link: [Official Introduction](https://aws.amazon.com/iam/features/mfa)
 
 Example to use roles on IAM - Link: [AWS Repost](https://repost.aws/knowledge-center/iam-assume-role-cli)
 
-## BUDGETS
+## Budget
 
 Budget Tutorial - Link: [AWS Tutorial](https://www.youtube.com/watch?v=O0sofGVT7uw)
 
@@ -44,6 +44,8 @@ Budget Tutorial - Link: [AWS Tutorial](https://www.youtube.com/watch?v=O0sofGVT7
 AMI Definition - Link: [Official Documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html)
 
 Bootstrapping Options - Link: [Example](https://s3.amazonaws.com/cloudformation-examples/BoostrappingApplicationsWithAWSCloudFormation.pdf)
+
+Instance Naming Convention - Link: [Official Doc](https://docs.aws.amazon.com/ec2/latest/instancetypes/instance-type-names.html)
 
 What is Virtualization and Benefits - Link: [Official Introduction](https://aws.amazon.com/what-is/virtualization/)
 
@@ -63,7 +65,7 @@ How to explain spot instances for Dummies - Link [No-Official Video](https://you
 
 VM vs Containers - Technical Definition - Link [RedHat Definition](https://www.redhat.com/en/topics/containers/whats-a-linux-container#:~:text=Containers%20share%20the%20same%20operating,systems%20run%20x86%20Windows%20containers.)
 
-How ECS works - Link [Official Page]((<https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html>)
+How ECS works - Link [Official Page](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)
 
 Serverless Portfolio - Link: [AWS Page](https://aws.amazon.com/serverless/)
 
@@ -73,13 +75,13 @@ Lambda Service - Link: [AWS Page](https://aws.amazon.com/lambda/)
 
 Routing table as Forest Gump playing Football or Mailman  - Link: [Youtube](https://youtu.be/g4OPX5P9DlQ?t=43)
 
-Mascara de red - Link: [cidr.xyz](https://cidr.xyz/)
+Subnetting and network mask - Link: [cidr.xyz](https://cidr.xyz/)
 
-VPC - Revision de todos los elementos - Link: [Official Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
+VPC - All VPC Elements/Components - Link: [Official Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
 
 Networking Essentials - Link: [Official Documentation](https://aws.amazon.com/getting-started/aws-networking-essentials/)
 
-EIP - Cambios de Costos - Link [Official Documentation](https://aws.amazon.com/blogs/aws/new-aws-public-ipv4-address-charge-public-ip-insights/)
+EIP - Pricing Change - Link [Official Documentation](https://aws.amazon.com/blogs/aws/new-aws-public-ipv4-address-charge-public-ip-insights/)
 
 Create Routing Table for My Own Web Console - Link [Create Routing Table](https://us-east-1.console.aws.amazon.com/vpcconsole/home?region=us-east-1#RouteTables:) and [Link RT to subnet](https://us-east-1.console.aws.amazon.com/vpcconsole/home?region=us-east-1#subnets:)
 
