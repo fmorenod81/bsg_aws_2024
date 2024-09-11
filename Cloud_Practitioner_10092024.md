@@ -8,9 +8,15 @@ Cloud Practitioner 2024 - Start Date: 10 September 2024
 
 Instructor' Badges - Link: [Official Page](https://www.credly.com/users/francisco-javier-moreno-diaz)
 
+**Table Of Contents** 
 - [Introduction to Amazon Web Services](#introduction-to-amazon-web-services)
 - [Compute in the Cloud](#compute-in-the-cloud)
 - [Global Infrastructure and Reliability](#global-infrastructure-and-reliability)
+- [Networking](#networking)
+- [Storage and Databases](#storage-and-databases)
+  - [Storage](#storage)
+  - [Databases](#databases)
+- [Security](#security)
 
 ## Introduction to Amazon Web Services
 
@@ -19,6 +25,8 @@ Cloud Definition - National Institute of Standards and Technology - Link: [Offic
 What is AWS - Link: [Official Page](https://aws.amazon.com/what-is-aws/)
 
 ![Mandatory](./mandatory.png) Overview of Amazon Web Services - Categories - Link: [Whitepaper](https://d1.awsstatic.com/whitepapers/aws-overview.pdf)
+
+![Mandatory](./mandatory.png) AWS architecture icons - Link: [Official Page](https://aws.amazon.com/architecture/icons/)
 
 How AWS Pricing Works - Archived - Link: [Whitepaper](http://d1.awsstatic.com/whitepapers/aws_pricing_overview.pdf)
 
@@ -36,7 +44,7 @@ AWS Compute - Link: [Official Page](https://aws.amazon.com/products/compute)
 
 ![Mandatory](./mandatory.png) Amazon EC2 - Link: [Official Page](https://aws.amazon.com/ec2/)
 
-![Mandatory](./mandatory.png) Amazon EC2 Instance Types, specs - Link: [Official Documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/compute-optimized-instances.html)
+![Mandatory](./mandatory.png) Amazon EC2 Instance Types, specs - Link: [Official Docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/compute-optimized-instances.html)
 
 Instance Explorer - Link: [Official Page](https://aws.amazon.com/ec2/instance-explorer/)
 
@@ -50,25 +58,25 @@ Instance Family on Console - Link: [AWS Console](https://us-east-1.console.aws.a
 
 Elastic Load Balancing - Link: [Official Page](https://aws.amazon.com/elasticloadbalancing)
 
-Elastic Load Balancer - Link: [Official Page](https://aws.amazon.com/elasticloadbalancing/features/?nc=sn&loc=2)
+Elastic Load Balancing features - Link: [Official Page](https://aws.amazon.com/elasticloadbalancing/features/?nc=sn&loc=2)
 
 ![Mandatory](./mandatory.png) Elastic Load Balancer FAQs - Link: [Official Page](https://aws.amazon.com/elasticloadbalancing/faqs/?nc=sn&loc=5)
 
 Amazon EC2 Auto Scaling - Link: [Official Page](https://aws.amazon.com/ec2/autoscaling)
 
-AWS Application AutoScaling, no EC2 but MORE services - Link: [Official Doc](https://docs.aws.amazon.com/autoscaling/application/userguide/what-is-application-auto-scaling.html)
+AWS Application AutoScaling, no EC2 but MORE services - Link: [Official Docs](https://docs.aws.amazon.com/autoscaling/application/userguide/what-is-application-auto-scaling.html)
 
-Types of scaling: manual, dynamic, scheduled, predictive - Link: [Official Doc](https://docs.aws.amazon.com/autoscaling/ec2/userguide/scale-your-group.html)
+Types of scaling: manual, dynamic, scheduled, predictive - Link: [Official Docs](https://docs.aws.amazon.com/autoscaling/ec2/userguide/scale-your-group.html)
 
 AWS Compute Blog - Link: [Blogs](https://aws.amazon.com/blogs/compute/)
 
 ![Mandatory](./mandatory.png) Overview of Amazon Web Services/AWS Services/Compute - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html)
 
-Hands-on Tutorials/Compute - Link: [Hands-on Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23compute&awsf.getting-started-content-type=content-type%23hands-on)
+Hands-on Tutorials/Compute - Link: [Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23compute&awsf.getting-started-content-type=content-type%23hands-on)
 
 What is Virtualization and Benefits - Link: [Official Introduction](https://aws.amazon.com/iam/features/mfa)
 
-How to choose Modern Strategy - Link: [Official Doc](https://docs.aws.amazon.com/decision-guides/latest/modern-apps-strategy-on-aws-how-to-choose/modern-apps-strategy-on-aws-how-to-choose.html)
+How to choose Modern Strategy - Link: [Official Docs](https://docs.aws.amazon.com/decision-guides/latest/modern-apps-strategy-on-aws-how-to-choose/modern-apps-strategy-on-aws-how-to-choose.html)
 
 AWS Lambda - Link: [Official Page](https://aws.amazon.com/lambda)
 
@@ -93,3 +101,109 @@ AWS Infrastructure - Local Zones - Link: [Official Page](https://aws.amazon.com/
 Networking & Content Delivery - Link: [Blogs](https://aws.amazon.com/blogs/networking-and-content-delivery/)
 
 ![Mandatory](./mandatory.png) Tools to Build on AWS - Link: [Official Page](https://aws.amazon.com/tools/)
+
+## Networking
+
+![Mandatory](./mandatory.png) Networking Essentials - Link: [Official Docs](https://aws.amazon.com/getting-started/aws-networking-essentials/)
+
+AWS Networking and Content Delivery - Link: [Official Page](https://aws.amazon.com/products/networking)
+
+AWS Networking and Content Delivery - Link: [Blogs](https://aws.amazon.com/blogs/networking-and-content-delivery/)
+
+Amazon Virtual Private Cloud - Link: [Service Page](https://aws.amazon.com/vpc)
+
+![Mandatory](./mandatory.png) What is Amazon VPC - All VPC Components - Link: [Official Docs](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
+
+![Mandatory](./mandatory.png) How Amazon VPC works - Link: [Official Docs](https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html)
+
+ACL - Better Explanation - Link [Official Docs](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html)
+
+Sec Groups - Example - Link [Official Docs](https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html)
+
+Direct Connect - Dedicated Connection - Link: [Service Page](https://aws.amazon.com/directconnect/)
+
+Route 53 - DNS Management - Link: [Service Page](https://aws.amazon.com/route53)
+
+## Storage and Databases
+
+### Storage
+
+![Mandatory](./mandatory.png) Cloud Storage on AWS - Link: [Official Page](https://aws.amazon.com/products/storage)
+
+Amazon Elastic Block Store - Amazon EBS - - Link: [Service Page](https://aws.amazon.com/ebs)
+
+Instance store temporary block storage for EC2 instances - Link: [Official Docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html)
+
+Amazon Simple Storage Service - Amazon S3 - - Link: [Service Page](https://aws.amazon.com/s3/)
+
+![Mandatory](./mandatory.png) Simple Storage Service - S3 - Link: [Official Features Page](https://aws.amazon.com/s3/features/)
+
+Looks Intelligent Tier - S3 Pricing - Link: [Official Pricing Page](https://aws.amazon.com/s3/pricing/)
+
+Amazon S3 security - Link: [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/security.html)
+
+Amazon Elastic File System - Amazon EFS- - Link: [Service Page](https://aws.amazon.com/efs/)
+
+![Mandatory](./mandatory.png) Which Data Storage Option Should I Choose? - Link: [Official Page](https://community.aws/content/2iClwJnscRUEUbna4TCRTVRK3Hu/which-data-storage-option-do-i-choose)
+
+AWS Storage Blog - Link: [Blogs](https://aws.amazon.com/blogs/storage/)
+
+Hands-On Tutorials: Storage - Link: [Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23storage&awsf.getting-started-content-type=content-type%23hands-on)
+
+### Databases
+
+![Mandatory](./mandatory.png) Databases on AWS - Link: [Official Page](https://aws.amazon.com/products/databases)
+
+![Mandatory](./mandatory.png) Amazon Relational Database Service - Amazon RDS - - Link: [Official Page](https://aws.amazon.com/rds/)
+
+![Mandatory](./mandatory.png) Amazon Aurora - Link: [Service Page](https://aws.amazon.com/rds/aurora/)
+
+![Mandatory](./mandatory.png) Amazon DynamoDB - Link: [Service Page](https://aws.amazon.com/dynamodb/)
+
+Amazon Redshift - Link: [Service Page](https://aws.amazon.com/redshift)
+
+AWS Database Migration Service - AWS DMS - - Link: [Service Page](https://aws.amazon.com/dms/)
+
+Schema Conversion - Link: [Official Page](https://aws.amazon.com/dms/schema-conversion-tool/?nc=sn&loc=2)
+
+Category Deep Dive: Databases - Link: [Official Page](https://aws.amazon.com/getting-started/deep-dive-databases/)
+
+AWS Database Blog - Link: [Blogs](https://aws.amazon.com/blogs/database/)
+
+## Security
+
+Security, Identity, and Compliance on AWS - Link: [Official Page](https://aws.amazon.com/security/)
+
+![Mandatory](./mandatory.png) Introduction to AWS Security - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/welcome.html)
+
+![Mandatory](./mandatory.png) Amazon Web Services - Overview of Security Processes - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-overview-security-processes/aws-overview-security-processes.pdf)
+
+AWS Security Blog - Link: [Blogs](https://aws.amazon.com/blogs/security/)
+
+AWS Compliance - Link: [Official Page](https://aws.amazon.com/compliance)
+
+![Mandatory](./mandatory.png) Shared responsibility model - Link: [Official Page](https://aws.amazon.com/compliance/shared-responsibility-model/)
+
+Data Privacy FAQ - Link: [Official Page](https://aws.amazon.com/compliance/data-privacy-faq/)
+
+![Mandatory](./mandatory.png) AWS Identity and Access Management - IAM - - Link: [Service Page](https://aws.amazon.com/iam/)
+
+Multi-factor Authentication - Link: [Official Page]()https://aws.amazon.com/iam/features/mfa/
+
+![Mandatory](./mandatory.png) AWS Organizations - Link: [Service Page](https://aws.amazon.com/organizations)
+
+Service control policies - SCPs - - Link: [Official Docs](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html)
+
+AWS Artifact  - Link: [Service Page](https://aws.amazon.com/artifact)
+
+Customer Compliance Center - Link: [Service Page](https://aws.amazon.com/compliance/customer-center/)
+
+AWS Shield - Link: [Service Page](https://aws.amazon.com/shield)
+
+![Mandatory](./mandatory.png) AWS WAF - Link: [Service Page](https://aws.amazon.com/waf)
+
+![Mandatory](./mandatory.png) AWS Key Management Service - AWS KMS - - Link: [Service Page](https://aws.amazon.com/kms)
+
+Amazon Inspector - Link: [Service Page](https://aws.amazon.com/inspector/)
+
+Amazon GuardDuty - Link: [Service Page](https://aws.amazon.com/guardduty)
