@@ -9,16 +9,20 @@ Cloud Practitioner 2024 - Start Date: 10 September 2024
 Instructor' Badges - Link: [Official Page](https://www.credly.com/users/francisco-javier-moreno-diaz)
 
 **Table Of Contents** 
-- [Introduction to Amazon Web Services](#introduction-to-amazon-web-services)
-- [Compute in the Cloud](#compute-in-the-cloud)
-- [Global Infrastructure and Reliability](#global-infrastructure-and-reliability)
-- [Networking](#networking)
-- [Storage and Databases](#storage-and-databases)
+- [1.1. Introduction to Amazon Web Services](#11-introduction-to-amazon-web-services)
+- [1.2 Compute in the Cloud](#12-compute-in-the-cloud)
+- [1.3 Global Infrastructure and Reliability](#13-global-infrastructure-and-reliability)
+- [2.1 Networking](#21-networking)
+- [2.2 Storage and Databases](#22-storage-and-databases)
   - [Storage](#storage)
   - [Databases](#databases)
-- [Security](#security)
+- [2.3 Security](#23-security)
+- [3.1 Monitoring and Analytics](#31-monitoring-and-analytics)
+- [3.2 Pricing and Support](#32-pricing-and-support)
+- [3.3 Migration and Innovation](#33-migration-and-innovation)
+- [3.4 AWS Certified Cloud Practitioner Basics](#34-aws-certified-cloud-practitioner-basics)
 
-## Introduction to Amazon Web Services
+## 1.1. Introduction to Amazon Web Services
 
 Cloud Definition - National Institute of Standards and Technology - Link: [Official NIST Page](https://ccsp.alukos.com/standards/nist-sp-800-145/)
 
@@ -38,7 +42,7 @@ What is Cloud Computing - Link: [Official Page](https://aws.amazon.com/what-is-c
 
 AWS Glossary - Link: [Official Glossary](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
 
-## Compute in the Cloud
+## 1.2 Compute in the Cloud
 
 AWS Compute - Link: [Official Page](https://aws.amazon.com/products/compute)
 
@@ -88,7 +92,7 @@ Amazon Elastic Kubernetes Service (Amazon EKS) - Link: [Official Page](https://a
 
 AWS Fargate - Link: [Official Page](https://aws.amazon.com/fargate/)
 
-## Global Infrastructure and Reliability
+## 1.3 Global Infrastructure and Reliability
 
 AWS Global Infrastructure - Link: [Official Page](https://aws.amazon.com/about-aws/global-infrastructure/)
 
@@ -102,7 +106,7 @@ Networking & Content Delivery - Link: [Blogs](https://aws.amazon.com/blogs/netwo
 
 ![Mandatory](./mandatory.png) Tools to Build on AWS - Link: [Official Page](https://aws.amazon.com/tools/)
 
-## Networking
+## 2.1 Networking
 
 ![Mandatory](./mandatory.png) Networking Essentials - Link: [Official Docs](https://aws.amazon.com/getting-started/aws-networking-essentials/)
 
@@ -124,7 +128,7 @@ Direct Connect - Dedicated Connection - Link: [Service Page](https://aws.amazon.
 
 Route 53 - DNS Management - Link: [Service Page](https://aws.amazon.com/route53)
 
-## Storage and Databases
+## 2.2 Storage and Databases
 
 ### Storage
 
@@ -144,7 +148,7 @@ Amazon S3 security - Link: [Official Docs](https://docs.aws.amazon.com/AmazonS3/
 
 Amazon Elastic File System - Amazon EFS- - Link: [Service Page](https://aws.amazon.com/efs/)
 
-![Mandatory](./mandatory.png) Which Data Storage Option Should I Choose? - Link: [Official Page](https://community.aws/content/2iClwJnscRUEUbna4TCRTVRK3Hu/which-data-storage-option-do-i-choose)
+![Mandatory](./mandatory.png) Which Data Storage Option Should I Choose? - Link: [AWS Community](https://community.aws/content/2iClwJnscRUEUbna4TCRTVRK3Hu/which-data-storage-option-do-i-choose)
 
 AWS Storage Blog - Link: [Blogs](https://aws.amazon.com/blogs/storage/)
 
@@ -170,7 +174,7 @@ Category Deep Dive: Databases - Link: [Official Page](https://aws.amazon.com/get
 
 AWS Database Blog - Link: [Blogs](https://aws.amazon.com/blogs/database/)
 
-## Security
+## 2.3 Security
 
 Security, Identity, and Compliance on AWS - Link: [Official Page](https://aws.amazon.com/security/)
 
@@ -188,7 +192,7 @@ Data Privacy FAQ - Link: [Official Page](https://aws.amazon.com/compliance/data-
 
 ![Mandatory](./mandatory.png) AWS Identity and Access Management - IAM - - Link: [Service Page](https://aws.amazon.com/iam/)
 
-Multi-factor Authentication - Link: [Official Page]()https://aws.amazon.com/iam/features/mfa/
+Multi-factor Authentication - Link: [Official Page](https://aws.amazon.com/iam/features/mfa/)
 
 ![Mandatory](./mandatory.png) AWS Organizations - Link: [Service Page](https://aws.amazon.com/organizations)
 
@@ -207,3 +211,131 @@ AWS Shield - Link: [Service Page](https://aws.amazon.com/shield)
 Amazon Inspector - Link: [Service Page](https://aws.amazon.com/inspector/)
 
 Amazon GuardDuty - Link: [Service Page](https://aws.amazon.com/guardduty)
+
+## 3.1 Monitoring and Analytics
+
+Amazon CloudWatch Pricing - Link: [Service Page](https://aws.amazon.com/cloudwatch/pricing/)
+
+Amazon CloudWatch - Link: [Service Page](https://aws.amazon.com/cloudwatch/)
+
+metrics - Link: [Service Page](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/working_with_metrics.html)
+
+alarms - Link: [Service Page](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/AlarmThatSendsEmail.html) 
+
+dashboard - Link: [Service Page](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Dashboards.html)
+
+AWS CloudTrail - Link: [Service Page](https://aws.amazon.com/cloudtrail/)
+
+CloudTrail Insight - Link: [Service Page](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-insights-events-with-cloudtrail.html)
+
+AWS Trusted Advisor - Link: [Service Page](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
+
+Management and Governance on AWS - Link: [Service Page](https://aws.amazon.com/products/management-tools)
+
+Monitoring and Observability - Link: [Service Page](https://aws.amazon.com/products/management-tools/use-cases/monitoring-and-observability/)
+
+Configuration, Compliance, and Auditing - Link: [Service Page](https://aws.amazon.com/products/management-tools/use-cases/configuration-compliance-and-auditing/)
+
+AWS Management & Governance Blog - Link: [Service Page](https://aws.amazon.com/blogs/mt/)
+
+Whitepaper: AWS Governance at Scale  - Link: [Service Page](https://docs.aws.amazon.com/whitepapers/latest/aws-governance-at-scale/introduction.html)
+
+## 3.2 Pricing and Support
+
+the AWS Free Tier website  - Link: [Service Page](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc)
+
+the AWS Free Tier website - Link: [Service Page](https://aws.amazon.com/free/)
+
+AWS Marketplace - Link: [Service Page](https://aws.amazon.com/marketplace)
+
+AWS Pricing Calculator - Link: [Service Page](https://calculator.aws/#/)
+
+AWS Lambda pricing - Link: [Service Page](https://aws.amazon.com/lambda/pricing/)
+
+Amazon EC2 pricing - Link: [Service Page](https://aws.amazon.com/ec2/pricing/)
+
+Amazon S3 pricing  - Link: [Service Page](https://aws.amazon.com/s3/pricing/)
+
+AWS Billing & Cost Management dashboard - Link: [Service Page](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html)
+
+AWS Cost and Usage Reports - Link: [Service Page](https://docs.aws.amazon.com/cur/latest/userguide/what-is-cur.html)
+
+Consolidated billing - Link: [Service Page](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html)
+
+AWS Budgets - Link: [Service Page](https://aws.amazon.com/aws-cost-management/aws-budgets)
+
+AWS Cost Explorer - Link: [Service Page](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/)
+
+AWS Support (Basic, Developer, Business, Enterprise) - Link: [Service Page](https://aws.amazon.com/premiumsupport/plans/)
+
+AWS Marketplace - Link: [Service Page](https://aws.amazon.com/marketplace)
+
+AWS Pricing - Link: [Service Page](https://aws.amazon.com/pricing)
+
+AWS Free Tier - Link: [Service Page](https://aws.amazon.com/free)
+
+AWS Cost Management - Link: [Service Page](https://aws.amazon.com/aws-cost-management/)
+
+Whitepaper: How AWS Pricing Works - Link: [Service Page](https://d1.awsstatic.com/whitepapers/aws_pricing_overview.pdf)
+
+Whitepaper: Introduction to AWS Economics - Link: [Service Page](https://d1.awsstatic.com/whitepapers/introduction-to-aws-cloud-economics-final.pdf)
+
+AWS Support - Link: [Service Page](https://aws.amazon.com/premiumsupport)
+
+AWS Knowledge Center - Link: [Service Page](https://aws.amazon.com/premiumsupport/knowledge-center/)
+
+## 3.3 Migration and Innovation
+
+the website for the Well-Architected Tool - Link: [Service Page](https://aws.amazon.com/well-architected-tool/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)
+
+Well-Architected Framework - Link: [Service Page](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
+
+The Facts on Facial Recognition with Artificial Intelligence - Link: [Service Page](https://aws.amazon.com/rekognition/the-facts-on-facial-recognition-with-artificial-intelligence/)
+
+Cloud Adoption Framework  - Link: [Service Page](https://d1.awsstatic.com/whitepapers/aws_cloud_adoption_framework.pdf)
+
+migration strategies - Link: [Service Page](https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud/)
+
+AWS Snow Family  - Link: [Service Page](https://aws.amazon.com/snow)
+
+AWS Snowcone - Link: [Service Page](https://aws.amazon.com/snowcone)
+
+AWS Snowball - Link: [Service Page](https://aws.amazon.com/snowball/)
+
+AWS Snowmobile - Link: [Service Page](https://aws.amazon.com/snowmobile)
+
+Migration & Transfer on AWS - Link: [Service Page](https://aws.amazon.com/products/migration-and-transfer)
+
+A Process for Mass Migrations to the Cloud - Link: [Service Page](https://aws.amazon.com/blogs/enterprise-strategy/214-2/)
+
+6 Strategies for Migrating Applications to the Cloud - Link: [Service Page](https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud/ )
+
+AWS Cloud Adoption Framework - Link: [Service Page](https://aws.amazon.com/professional-services/CAF/)
+
+AWS Fundamentals: Core Concepts - Link: [Service Page](https://aws.amazon.com/getting-started/fundamentals-core-concepts/)
+
+AWS Cloud Enterprise Strategy Blog - Link: [Service Page](https://aws.amazon.com/blogs/enterprise-strategy/)
+
+Modernizing with AWS Blog - Link: [Service Page](https://aws.amazon.com/blogs/modernizing-with-aws/)
+
+AWS Well-Architected - Link: [Service Page](https://aws.amazon.com/architecture/well-architected/)
+
+Whitepaper: AWS Well-Architected Framework - Link: [Service Page](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
+
+AWS Architecture Center - Link: [Service Page](https://aws.amazon.com/architecture)
+
+AWS Architecture Blog - Link: [Service Page](https://aws.amazon.com/blogs/architecture)
+
+## 3.4 AWS Certified Cloud Practitioner Basics
+
+the official exam guide - Link: [Service Page](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
+
+Demystifying Your AWS Certification Exam Score - Link: [Service Page](https://aws.amazon.com/blogs/training-and-certification/demystifying-your-aws-certification-exam-score/)
+
+AWS Certified Cloud Practitioner website - Link: [Service Page](https://aws.amazon.com/certification/certified-cloud-practitioner/)
+
+Overview of Amazon Web Services - Link: [Service Page](https://d1.awsstatic.com/whitepapers/aws-overview.pdf)
+
+How AWS Pricing Works - Link: [Service Page](http://d1.awsstatic.com/whitepapers/aws_pricing_overview.pdf)
+
+Compare AWS Support Plans - Link: [Service Page](https://aws.amazon.com/premiumsupport/plans/)
