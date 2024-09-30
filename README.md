@@ -4,9 +4,11 @@ Links for Official AWS Courses
 
 ![Current Courses](./current_course.png)  **Current Courses**:
 
-[Cloud Practitioner 10-September-2024](./Cloud_Practitioner_10092024.md)
+[Technical Essentials 01-October-2024](./Technical_Essentials_20082024.md)
 
 ![Inactive Courses](./old_courses.png)  **Inactive Courses**:
+
+[Cloud Practitioner 10-September-2024](./Cloud_Practitioner_10092024.md)
 
 [Technical Essentials 20-August-2024](./Technical_Essentials_20082024.md)
 
