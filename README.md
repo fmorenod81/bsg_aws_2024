@@ -4,7 +4,7 @@ Links for Official AWS Courses
 
 ![Current Courses](./current_course.png)  **Current Courses**:
 
-[Technical Essentials 01-October-2024](./Technical_Essentials_20082024.md)
+[Technical Essentials 01-October-2024](./Technical_Essentials_01102024.md)
 
 ![Inactive Courses](./old_courses.png)  **Inactive Courses**:
 
