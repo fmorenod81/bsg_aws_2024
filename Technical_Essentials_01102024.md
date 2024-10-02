@@ -18,6 +18,11 @@ AWS Products - NOTE: Amazon RDS for DB2 - Link: [AWS Page](https://aws.amazon.co
 
 AWS Learning Badges - Link: [Training Page](https://aws.amazon.com/training/badges/)
 
+### QUESTIONS
+
+*Q. Cuales son los lenguajes de SDK para AWS ?*
+A. Puedes ver el listado actualizado [aqui](https://aws.amazon.com/developer/tools/), pero es mejor que escogas tu lenguaje y empieces a mirar codigo, por ejemplo para [Python](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/ec2-example-managing-instances.html) y empezar a hacer tus propios experimentos.
+
 ## IAM
 
 What is Virtualization and Benefits - Link: [Official Introduction](https://aws.amazon.com/iam/features/mfa)
