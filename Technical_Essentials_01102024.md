@@ -47,8 +47,6 @@ Instance Naming Convention - Link: [Official Doc](https://docs.aws.amazon.com/ec
 
 What is Virtualization and Benefits - Link: [Official Introduction](https://aws.amazon.com/what-is/virtualization/)
 
-How to learn Instance Families Names - Link: [No-Official Page](https://jaychapel.medium.com/ec2-instance-types-comparison-and-how-to-remember-them-bbb96b578aea)
-
 Instance Explorer - Link: [Official Page](https://aws.amazon.com/ec2/instance-explorer/)
 
 Instance Family on Console - Link: [AWS Console](https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#InstanceTypes:)
