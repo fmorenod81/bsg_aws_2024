@@ -21,6 +21,7 @@ AWS Learning Badges - Link: [Training Page](https://aws.amazon.com/training/badg
 ### QUESTIONS
 
 *Q. Cuales son los lenguajes de SDK para AWS ?*
+
 A. Puedes ver el listado actualizado [aqui](https://aws.amazon.com/developer/tools/), pero es mejor que escogas tu lenguaje y empieces a mirar codigo, por ejemplo para [Python](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/ec2-example-managing-instances.html) y empezar a hacer tus propios experimentos.
 
 ## IAM
@@ -66,6 +67,16 @@ How ECS works - Link [Official Page](https://docs.aws.amazon.com/AmazonECS/lates
 Serverless Portfolio - Link: [AWS Page](https://aws.amazon.com/serverless/)
 
 Lambda Service - Link: [AWS Page](https://aws.amazon.com/lambda/)
+
+### QUESTIONS
+
+*Q. Que pasa si AWS me reclama la Spot instance antes de una hora?*
+
+A. Acorde a la [documentacion oficial](https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-leveraging-ec2-spot-instances/how-spot-instances-work.html), si AWS reclama la instancia en la primera hora no te la cobraria, pero si tu la devuelves antes de la primera hora, se pagaria la razon parcial. Sin embargo para mayor informacion consultar [Spot Instance interruptions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-interruptions.html#billing-for-interrupted-spot-instances).
+
+*Q. Se puede disparar Lambda desde un punto externo?*
+
+A. Si, la manera que invocas a Lambda puede ser directamente al [API](https://docs.aws.amazon.com/lambda/latest/api/API_Invoke.html) o [CLI Using Invoke](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/lambda/invoke.html) de Lambda. Tambien puedes exponer lambda despues de un API Gateway, aqui esta un [ejemplo sencillo](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html) de como usarlo.
 
 ## Networking
 
