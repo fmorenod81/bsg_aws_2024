@@ -13,6 +13,8 @@ Instructor' Badges - Link: [Official Page](https://www.credly.com/users/francisc
 - [1.2 Compute in the Cloud](#12-compute-in-the-cloud)
 - [1.3 Global Infrastructure and Reliability](#13-global-infrastructure-and-reliability)
 - [2.1 Networking](#21-networking)
+- [2.2 Storage and Databases](#22-storage-and-databases)
+  - [Storage](#storage)
 
 ## 1.1. Introduction to Amazon Web Services
 
@@ -137,3 +139,29 @@ Sec Groups - Example - Link [Official Docs](https://docs.aws.amazon.com/vpc/late
 Direct Connect - Dedicated Connection - Link: [Service Page](https://aws.amazon.com/directconnect/)
 
 Route 53 - DNS Management - Link: [Service Page](https://aws.amazon.com/route53)
+
+## 2.2 Storage and Databases
+
+### Storage
+
+![Mandatory](./mandatory.png) Cloud Storage on AWS - Link: [Official Page](https://aws.amazon.com/products/storage)
+
+Amazon Elastic Block Store - Amazon EBS - - Link: [Service Page](https://aws.amazon.com/ebs)
+
+Instance store temporary block storage for EC2 instances - Link: [Official Docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html)
+
+Amazon Simple Storage Service - Amazon S3 - - Link: [Service Page](https://aws.amazon.com/s3/)
+
+![Mandatory](./mandatory.png) Simple Storage Service - S3 - Link: [Official Features Page](https://aws.amazon.com/s3/features/)
+
+Looks Intelligent Tier - S3 Pricing - Link: [Official Pricing Page](https://aws.amazon.com/s3/pricing/)
+
+Amazon S3 security - Link: [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/security.html)
+
+Amazon Elastic File System - Amazon EFS- - Link: [Service Page](https://aws.amazon.com/efs/)
+
+![Mandatory](./mandatory.png) Which Data Storage Option Should I Choose? - Link: [AWS Community](https://community.aws/content/2iClwJnscRUEUbna4TCRTVRK3Hu/which-data-storage-option-do-i-choose)
+
+AWS Storage Blog - Link: [Blogs](https://aws.amazon.com/blogs/storage/)
+
+Hands-On Tutorials: Storage - Link: [Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23storage&awsf.getting-started-content-type=content-type%23hands-on)
