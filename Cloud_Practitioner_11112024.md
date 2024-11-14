@@ -15,6 +15,8 @@ Instructor' Badges - Link: [Official Page](https://www.credly.com/users/francisc
 - [2.1 Networking](#21-networking)
 - [2.2 Storage and Databases](#22-storage-and-databases)
   - [Storage](#storage)
+  - [Databases](#databases)
+- [2.3 Security](#23-security)
 
 ## 1.1. Introduction to Amazon Web Services
 
@@ -165,3 +167,61 @@ Amazon Elastic File System - Amazon EFS- - Link: [Service Page](https://aws.amaz
 AWS Storage Blog - Link: [Blogs](https://aws.amazon.com/blogs/storage/)
 
 Hands-On Tutorials: Storage - Link: [Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23storage&awsf.getting-started-content-type=content-type%23hands-on)
+
+### Databases
+
+![Mandatory](./mandatory.png) Databases on AWS - Link: [Official Page](https://aws.amazon.com/products/databases)
+
+![Mandatory](./mandatory.png) Amazon Relational Database Service - Amazon RDS - - Link: [Official Page](https://aws.amazon.com/rds/)
+
+![Mandatory](./mandatory.png) Amazon Aurora - Link: [Service Page](https://aws.amazon.com/rds/aurora/)
+
+![Mandatory](./mandatory.png) Amazon DynamoDB - Link: [Service Page](https://aws.amazon.com/dynamodb/)
+
+Amazon Redshift - Link: [Service Page](https://aws.amazon.com/redshift)
+
+AWS Database Migration Service - AWS DMS - - Link: [Service Page](https://aws.amazon.com/dms/)
+
+Schema Conversion - Link: [Official Page](https://aws.amazon.com/dms/schema-conversion-tool/?nc=sn&loc=2)
+
+Category Deep Dive: Databases - Link: [Official Page](https://aws.amazon.com/getting-started/deep-dive-databases/)
+
+AWS Database Blog - Link: [Blogs](https://aws.amazon.com/blogs/database/)
+
+## 2.3 Security
+
+Security, Identity, and Compliance on AWS - Link: [Official Page](https://aws.amazon.com/security/)
+
+![Mandatory](./mandatory.png) Introduction to AWS Security - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/welcome.html)
+
+![Mandatory](./mandatory.png) Amazon Web Services - Overview of Security Processes - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-overview-security-processes/aws-overview-security-processes.pdf)
+
+AWS Security Blog - Link: [Blogs](https://aws.amazon.com/blogs/security/)
+
+AWS Compliance - Link: [Official Page](https://aws.amazon.com/compliance)
+
+![Mandatory](./mandatory.png) Shared responsibility model - Link: [Official Page](https://aws.amazon.com/compliance/shared-responsibility-model/)
+
+Data Privacy FAQ - Link: [Official Page](https://aws.amazon.com/compliance/data-privacy-faq/)
+
+![Mandatory](./mandatory.png) AWS Identity and Access Management - IAM - - Link: [Service Page](https://aws.amazon.com/iam/)
+
+Multi-factor Authentication - Link: [Official Page](https://aws.amazon.com/iam/features/mfa/)
+
+![Mandatory](./mandatory.png) AWS Organizations - Link: [Service Page](https://aws.amazon.com/organizations)
+
+Service control policies - SCPs - - Link: [Official Docs](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html)
+
+AWS Artifact  - Link: [Service Page](https://aws.amazon.com/artifact)
+
+Customer Compliance Center - Link: [Service Page](https://aws.amazon.com/compliance/customer-center/)
+
+AWS Shield - Link: [Service Page](https://aws.amazon.com/shield)
+
+![Mandatory](./mandatory.png) AWS WAF - Link: [Service Page](https://aws.amazon.com/waf)
+
+![Mandatory](./mandatory.png) AWS Key Management Service - AWS KMS - - Link: [Service Page](https://aws.amazon.com/kms)
+
+Amazon Inspector - Link: [Service Page](https://aws.amazon.com/inspector/)
+
+Amazon GuardDuty - Link: [Service Page](https://aws.amazon.com/guardduty)
