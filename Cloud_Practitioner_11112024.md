@@ -230,6 +230,8 @@ Amazon Inspector - Link: [Service Page](https://aws.amazon.com/inspector/)
 
 Amazon GuardDuty - Link: [Service Page](https://aws.amazon.com/guardduty)
 
+AWS Security Services - Link: [Official Page](https://aws.amazon.com/products/security/)
+
 **QUESTIONS**:
 
 **a) La diferencia entre Instance Store y Elastic Block Service ?**
@@ -353,6 +355,8 @@ AWS Architecture Blog - Link: [Service Page](https://aws.amazon.com/blogs/archit
 
 ![Mandatory](./mandatory.png) Official exam guide - Link: [Service Page](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 
+![Mandatory](./mandatory.png) Cloud Practitioner - Link: [Lean About](https://aws.amazon.com/training/learn-about/cloud-practitioner/)
+
 Demystifying Your AWS Certification Exam Score - Link: [Service Page](https://aws.amazon.com/blogs/training-and-certification/demystifying-your-aws-certification-exam-score/)
 
 AWS Certified Cloud Practitioner website - Link: [Service Page](https://aws.amazon.com/certification/certified-cloud-practitioner/)
@@ -360,3 +364,5 @@ AWS Certified Cloud Practitioner website - Link: [Service Page](https://aws.amaz
 Overview of Amazon Web Services - Link: [Service Page](https://d1.awsstatic.com/whitepapers/aws-overview.pdf)
 
 How AWS Pricing Works - Link: [Service Page](http://d1.awsstatic.com/whitepapers/aws_pricing_overview.pdf)
+
+Cloud Essentials - Link: [RampUp Guide](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Cloud_Essentials.pdf)
