@@ -351,6 +351,34 @@ AWS Architecture Center - Link: [Service Page](https://aws.amazon.com/architectu
 
 AWS Architecture Blog - Link: [Service Page](https://aws.amazon.com/blogs/architecture)
 
+**QUESTIONS**:
+
+**a) Que servicios existen para migracion hacia la nube ?**
+
+R:/ Primero es importante seguir el flujo de trabajo, que nos pide el Cloud Adoption Framework, y despues empezar a usar las herramientas tecnicas que realizar los procesos de analis, descubrimiento e inventario como lo son:
+
+[AWS Cloud Readiness Assessment (CRA)](https://cloudreadiness.amazonaws.com/#/)
+
+[Migration Evaluator](https://aws.amazon.com/migration-evaluator/?pg=htm&cp=tb&sec=s)
+
+[AWS Application Discovery Service](https://aws.amazon.com/application-discovery/)
+
+Cuando ya este es proceso de implementacion:
+
+[Control Tower - Landing Zone Service](https://aws.amazon.com/controltower/)
+
+[AWS Migration Hub](https://aws.amazon.com/migration-hub/)
+
+[AWS Application Migration Service](https://aws.amazon.com/application-migration-service/)
+
+[AWS Database Migration Service](https://aws.amazon.com/dms/)
+
+Para cumplir procesos de:
+
+[Migrate and Modernize with AWS](https://aws.amazon.com/migrate-modernize-build/cloud-migration/)
+
+[Migrate and Modernize on AWS](https://aws.amazon.com/products/migration-and-transfer/)
+
 ## 3.4 AWS Certified Cloud Practitioner Basics
 
 ![Mandatory](./mandatory.png) Official exam guide - Link: [Service Page](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
