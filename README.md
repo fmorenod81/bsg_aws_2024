@@ -4,9 +4,11 @@ Links for Official AWS Courses
 
 ![Current Courses](./current_course.png)  **Current Courses**:
 
-[Cloud Practitioner 11-November-2024](./Cloud_Practitioner_11112024.md)
+[Advanced Architecting 27-Nov-2024 Day 1](./Advanced_Architecting_27112024_Day1.md)
 
 ![Inactive Courses](./old_courses.png)  **Inactive Courses**:
+
+[Cloud Practitioner 11-November-2024](./Cloud_Practitioner_11112024.md)
 
 [Technical Essentials 01-October-2024](./Technical_Essentials_01102024.md)
 
@@ -25,6 +27,3 @@ Links for Official AWS Courses
 [Advanced Architecting 29-April-2024 Day 1](./Advanced_Architecting_29042024_Day1.md)
 
 [Technical Essentials 26-March-2024](./Technical_Essentials_26032024.md)
-
-
-
