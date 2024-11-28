@@ -1,7 +1,9 @@
 Advanced_Architecting_27112024.md
 
 
-Advanced Architecting on AWS 2024 - Start Date: 27 November 2024 - [Unofficial Introduction to the course](./00-Personal_Taughts_28042024.pdf)
+Advanced Architecting on AWS 2024 - Start Date: 27 November 2024
+
+[Unofficial Introduction to the course](./00-Personal_Taughts_28042024.pdf)
 
 AWS Blogs en Español - Link: [AWS Blogs](https://aws.amazon.com/es/blogs/aws-spanish/)
 
@@ -16,42 +18,68 @@ AWS Blogs en Español - Link: [AWS Blogs](https://aws.amazon.com/es/blogs/aws-sp
 - [Module 2: Single To Multiple Accounts](#module-2-single-to-multiple-accounts)
   - [Multiaccount strategies](#multiaccount-strategies)
   - [Identity Center](#identity-center)
+  - [Control Tower](#control-tower)
+- [Module 3: Hybrid Connectivity](#module-3-hybrid-connectivity)
+  - [Client VPN](#client-vpn)
+  - [Site-To-Site VPN](#site-to-site-vpn)
+  - [Direct Connect](#direct-connect)
+  - [Transit Gateway](#transit-gateway)
+  - [Route 53 Private Resolver](#route-53-private-resolver)
+- [Module 4: Specialized Infrastructure](#module-4-specialized-infrastructure)
+  - [Storage Gateway](#storage-gateway)
+  - [VmWare Cloud on AWS](#vmware-cloud-on-aws)
+  - [Outposts](#outposts)
+  - [Local Zones](#local-zones)
+  - [Wavelength](#wavelength)
+- [Module 5: Connecting Networks](#module-5-connecting-networks)
+  - [Transit Gateway](#transit-gateway-1)
+  - [Resource Access Manager](#resource-access-manager)
+  - [PrivateLink](#privatelink)
 
 ---
 
 ## The exam and the course
 
-AWS Solutions Architect Professional - Note Prerequisites - Link: [Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf)
+![Mandatory](./mandatory.png) AWS Solutions Architect Professional - Note Prerequisites - Link: [Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf)
 
 Exam Prep: AWS Certified Solutions Architect - Professional - 5h - Link: [Digital Training](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14951/exam-prep-aws-certified-solutions-architect-professional-sap-c02)
 
-Advanced Architecting on AWS - Link: [Course Outline](https://d1.awsstatic.com/training-and-certification/classroom-training/advanced-architecting-on-aws.pdf)
+![Mandatory](./mandatory.png) Advanced Architecting on AWS - Link: [Course Outline](https://d1.awsstatic.com/training-and-certification/classroom-training/advanced-architecting-on-aws.pdf)
 
-Advanced Architecting on AWS - Online Course Supplement - Link: [Digital Training](https://explore.skillbuilder.aws/learn/course/8319/play/75962/architecting-on-aws-online-course-supplement)
+![Mandatory](./mandatory.png) Advanced Architecting on AWS - Online Course Supplement - Link: [Digital Training](https://explore.skillbuilder.aws/learn/course/8319/play/75962/architecting-on-aws-online-course-supplement)
 
 Advanced Architecting on AWS - Online Course Supplement - All Languages - Link: [Digital Training](https://www.aws.training/Details/eLearning?id=56205)
 
 ## Module 1: Review Architecting Concepts
 
-Compare Options for VPC Endpoint for S3 - Link: [Official Blog](https://aws.amazon.com/blogs/architecture/choosing-your-vpc-endpoint-strategy-for-amazon-s3/)
+![Mandatory](./mandatory.png) Compare Options for VPC Endpoint for S3 - Link: [Official Blog](https://aws.amazon.com/blogs/architecture/choosing-your-vpc-endpoint-strategy-for-amazon-s3/)
 
-
-High availability for Amazon Aurora - Link: [Official Docs](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.html)
+![Mandatory](./mandatory.png) High availability for Amazon Aurora - Link: [Official Docs](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.html)
 
 Understand Amazon Aurora high availability and disaster recovery from an Oracle perspective - Link: [Official Blog](https://aws.amazon.com/blogs/database/understand-amazon-aurora-high-availability-and-disaster-recovery-from-an-oracle-perspective/)
+
+**QUESTIONS**:
+
+**a) Como se puede habilitar cache en el API Gateway ?**
+
+R:/ Aqui esta el [documento oficial](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-caching.html)
+
+**b)Como se podria configurar un healthcheck desde DNS ?**
+
+R:/Se puede mirar las configuraciones del [healthcheck en Route 53](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/health-checks-types.html), a que elementos se apuntan y adicionalmente si es necesario configurarlo con un servicio manejo para garantizar HA en multiAZ o multiregion se puede aplicar [ARC](https://docs.aws.amazon.com/r53recovery/latest/dg/what-is-route53-recovery.html).
 
 
 ## Module 2: Single To Multiple Accounts
 
 Comparing AWS Deployment Tools to Manage Multiple Accounts - Link: [AWS re:Invent 2020 Video](https://youtu.be/n_6QTYDavrM)
 
-Best Practices for Securing Your Multi-Account Environment  - Link: [AWS re:Invent 2020 Video](https://youtu.be/ip5sn3z5FNg)
+ Best Practices for Securing Your Multi-Account Environment  - Link: [AWS re:Invent 2020 Video](https://youtu.be/ip5sn3z5FNg)
 
-Policy Evaluation: IAM, Permission Boundaries, SCP - Link: [Official Doc](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
+![Mandatory](./mandatory.png) Policy Evaluation: IAM, Permission Boundaries, SCP - Link: [Official Doc](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
 
 ### Multiaccount strategies
 
-Cross-Account IAM Roles - Link: [Official Tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
+![Mandatory](./mandatory.png) Cross-Account IAM Roles - Link: [Official Tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
 Permissions Boundaries Exercise - Link: [AWS Live re:Inforce Video](https://www.youtube.com/watch?v=eVNvjQ0wr84)
 
@@ -59,19 +87,152 @@ Permissions Boundaries Exercise - Link: [AWS Live re:Inforce Video](https://www.
 
 AWS Organizations - Link: [Official FAQs](https://aws.amazon.com/organizations/faqs/)
 
-Best Practices for AWS Organizations - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_best-practices.html)
+![Mandatory](./mandatory.png) Best Practices for AWS Organizations - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_best-practices.html)
 
-Organizations Concepts - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html)
+![Mandatory](./mandatory.png) Organizations Concepts - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html)
 
 Service Control Policies (SCP) Examples - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html)
 
-AWS Services integrated with Organizations - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_integrate_services_list.html)
+![Mandatory](./mandatory.png) AWS Services integrated with Organizations - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_integrate_services_list.html)
 
 Identity Center - Link: [Official FAQs](https://aws.amazon.com/iam/identity-center/faqs/)
 
-Understanding Key AWS Single Identity Center Concepts - Link: [Official Doc](https://docs.aws.amazon.com/singlesignon/latest/userguide/understanding-key-concepts.html)
+![Mandatory](./mandatory.png) Understanding Key AWS Single Identity Center Concepts - Link: [Official Doc](https://docs.aws.amazon.com/singlesignon/latest/userguide/understanding-key-concepts.html)
 
 How to create and manage users within AWS IAM Identity Center  - Link: [AWS Security Blog](https://aws.amazon.com/blogs/security/how-to-create-and-manage-users-within-aws-sso/)
 
-Configure the AWS CLI to use IAM Identity Center token provider credentials with automatic authentication refresh  - Link: [Official Doc](https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html)
+![Mandatory](./mandatory.png) Configure the AWS CLI to use IAM Identity Center token provider credentials with automatic authentication refresh  - Link: [Official Doc](https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html)
 
+### Control Tower
+
+About controls in AWS Control Tower - Link: [Official Doc](https://docs.aws.amazon.com/controltower/latest/userguide/controls.html)
+
+![Mandatory](./mandatory.png) How AWS Control Tower Works - Link: [Official Doc](https://docs.aws.amazon.com/controltower/latest/userguide/how-control-tower-works.html)
+
+![Mandatory](./mandatory.png) Best Practices for AWS Control Tower Administrators - Link: [Official Doc](https://docs.aws.amazon.com/controltower/latest/userguide/best-practices.html)
+
+Proactive Controls on Control Tower User Guide - Link: [Official Doc](https://docs.aws.amazon.com/controltower/latest/userguide/proactive-controls.html)
+
+## Module 3: Hybrid Connectivity
+
+Hybrid Connectivity - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/hybrid-connectivity/hybrid-connectivity.html)
+
+![Mandatory](./mandatory.png) Amazon Virtual Private Cloud Connectivity Options - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/welcome.html)
+
+### Client VPN
+
+AWS Client VPN Administrator Guide - Link: [Official Doc](https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is.html)
+
+Accelerated Site-to-Site VPN Connections - Link: [Official Doc](https://docs.aws.amazon.com/vpn/latest/s2svpn/accelerated-vpn.html)
+
+ClientVPN Rules & Best Practices - Link: [Official Doc](https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is-best-practices.html)
+
+Client VPN Scenarios and examples - Link: [Official Doc](https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/scenario.html)
+
+NAT-Transversal - Link: [Wikipedia](https://en.wikipedia.org/wiki/NAT_traversal)
+
+### Site-To-Site VPN
+
+Site-to-Site VPN Tunnel Initiation Options - Link: [Official Doc](https://docs.aws.amazon.com/vpn/latest/s2svpn/initiate-vpn-tunnels.html)
+
+Customer Gateway Options for Your Site-to-Site VPN Connection - Link: [Official Doc](https://docs.aws.amazon.com/vpn/latest/s2svpn/cgw-options.html)
+
+Improve VPN Network Performance of AWS Hybrid Cloud with Global Accelerator - Link: [Official Doc](https://aws.amazon.com/blogs/architecture/improve-vpn-network-performance-of-aws-hybrid-cloud-with-global-accelerator)
+
+Site-to-Site VPN routing options - Link: [Official Doc](https://docs.aws.amazon.com/vpn/latest/s2svpn/VPNRoutingTypes.html)
+
+### Direct Connect
+
+![Mandatory](./mandatory.png) FAQs: AWS Direct Connect: - Link: [Official FAQs](https://aws.amazon.com/directconnect/faqs/)
+
+![Mandatory](./mandatory.png) Hosted virtual interfaces on VIF - Note IP Requisites - Link: [Official Doc](https://docs.aws.amazon.com/directconnect/latest/UserGuide/WorkingWithVirtualInterfaces.html#hosted-vif)
+
+Traffic encription Options for DC - Link: [Official Doc](https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/traffic-encryption-options-direct-connect-ra.pdf)
+
+### Transit Gateway
+
+![Mandatory](./mandatory.png) Amazon Virtual Private Cloud Connectivity Options - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-direct-connect-aws-transit-gateway.html)
+
+![Mandatory](./mandatory.png) Scaling VPN throughput using AWS Transit Gateway  - Link: [Official Doc](https://aws.amazon.com/blogs/networking-and-content-delivery/scaling-vpn-throughput-using-aws-transit-gateway/)
+
+### Route 53 Private Resolver
+
+![Mandatory](./mandatory.png) Working with Private Hosted Zones - Link: [Official Doc](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-private.html)
+
+![Mandatory](./mandatory.png) Resolving DNS Queries between VPCs and Your Network - Link: [Official Doc](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver.html)
+
+Getting Started with Route 53 Resolver - Link: [Official Doc](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-getting-started.html)
+
+## Module 4: Specialized Infrastructure
+
+Hybrid Cloud with AWS - Link: [Whitepaper](https://d1.awsstatic.com/whitepapers/hybrid-cloud-with-aws.pdf?did=wp_card&trk=wp_card)
+
+### Storage Gateway
+
+Tag: AWS File Gateway Tag on Blogs - Link: [AWS Storage Blog](https://aws.amazon.com/blogs/storage/tag/aws-file-gateway/)
+
+AWS Storage Gateway - Link: [Official FAQs](https://aws.amazon.com/storagegateway/faqs/)
+
+![Mandatory](./mandatory.png) AWS Storage Gateway Primer: File Gateway - Link: [Official Training](https://www.aws.training/Details/Curriculum?id=38145)
+
+![Mandatory](./mandatory.png) Deep Dive into AWS Storage Gateway - Link: [Official Training](https://www.aws.training/Details/Curriculum?id=19403)
+
+### VmWare Cloud on AWS
+
+VMware Cloud on AWS - Link: [Official FAQs](https://aws.amazon.com/vmware/faqs/)
+
+Enabling Business Continuity with VMware Cloud on AWS - Link: [AWS re:Invent 2020](https://youtu.be/w2mD0Z5eh6o)
+
+Migrate and Modernize with VMware Cloud on AWS - Link: [AWS re:Invent 2020](https://youtu.be/FQ_u9KsyQyE)
+
+### Outposts
+
+AWS Outposts: Storage Foundations - Amazon S3 on Outposts - Link: [AWS Online Tech Talks](https://youtu.be/A_khazmf6jU)
+
+### Local Zones
+
+Delivering low-latency applications at the edge - Link: [AWS re:Invent 2030 Video](https://www.youtube.com/watch?v=isYOTxCm5w4)
+
+### Wavelength
+
+Telecom Reference for AWS - Link: [Official Page](https://aws.amazon.com/telecom/resources/)
+
+At the cutting edge: AI driven sustainable 5G networks - Link: [AWS re:Invent 2023 Video](https://www.youtube.com/watch?v=uG70n3vJLzc)
+
+AWS Wavelength: Run Apps with Ultra-Low Latency at 5G Edge - Link: [AWS re:Invent 2020 Video](https://youtu.be/AQ-GbAFDvpM)
+
+Architecting 5G Apps for Ultra-Low Latency on AWS Wavelength - Link: [AWS re:Invent 2020 Video](https://youtu.be/KZX5FcsDfUQ)
+
+## Module 5: Connecting Networks
+
+![Mandatory](./mandatory.png) Building a Scalable and Secure Multi-VPC AWS Network Infrastructure - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/building-scalable-secure-multi-vpc-network-infrastructure.pdf)
+
+### Transit Gateway
+
+![Mandatory](./mandatory.png) FAQs: AWS Transit Gateway - Link: [Official FAQs](https://aws.amazon.com/transit-gateway/faqs/)
+
+![Mandatory](./mandatory.png) Transit Gateway Guide: Examples - Link: [Official Doc](https://docs.aws.amazon.com/vpc/latest/tgw/TGW_Scenarios.html)
+
+Field Notes: Working with Route Tables in AWS Transit Gateway - Link: [Architecture Blog](https://aws.amazon.com/blogs/architecture/field-notes-working-with-route-tables-in-aws-transit-gateway/)
+
+Advanced Architectures with AWS Transit Gateway - Link: [AWS Online Tech Talks](https://youtu.be/awrdICiS6ug)
+
+Transit Gateway Networking and Scaling - Link: [Training](https://www.aws.training/Details/eLearning?id=40275)
+
+### Resource Access Manager
+
+![Mandatory](./mandatory.png) FAQs: AWS Resource Access Manager - Link: [Official FAQs](https://aws.amazon.com/ram/faqs/)
+
+Sharing Your AWS Resources - Link: [Official Doc](https://docs.aws.amazon.com/ram/latest/userguide/getting-started-sharing.html)
+
+Shareable AWS Resources - Link: [Official Doc](https://docs.aws.amazon.com/ram/latest/userguide/shareable.html)
+
+### PrivateLink
+
+![Mandatory](./mandatory.png) Integrating AWS Transit Gateway with AWS PrivateLink and Amazon Route 53 Resolver - Link: [BigData Blog](https://aws.amazon.com/blogs/big-data/how-goldman-sachs-builds-cross-account-connectivity-to-their-amazon-msk-clusters-with-aws-privatelink/)
+
+![Mandatory](./mandatory.png) Configure and Deploy AWS PrivateLink - Link: [Training](https://www.aws.training/Details/eLearning?id=54077)
+
+Learn About Private Endpoints in Atlas (AWS Partner Solution)- Link: [Official Doc](https://www.mongodb.com/docs/atlas/security-private-endpoint/)
+
+VPC Endpoint Services for Interface Endpoints - Link: [Official Doc](https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-service-overview.html)
