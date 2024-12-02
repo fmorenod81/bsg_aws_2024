@@ -68,24 +68,35 @@ R:/ Aqui esta el [documento oficial](https://docs.aws.amazon.com/apigateway/late
 
 R:/Se puede mirar las configuraciones del [healthcheck en Route 53](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/health-checks-types.html), a que elementos se apuntan y adicionalmente si es necesario configurarlo con un servicio manejo para garantizar HA en multiAZ o multiregion se puede aplicar [ARC](https://docs.aws.amazon.com/r53recovery/latest/dg/what-is-route53-recovery.html).
 
-
 ## Module 2: Single To Multiple Accounts
 
-Comparing AWS Deployment Tools to Manage Multiple Accounts - Link: [AWS re:Invent 2020 Video](https://youtu.be/n_6QTYDavrM)
+Providing access to an IAM user in another AWS account that you own - Link: [IAM Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_aws-accounts.html)
 
- Best Practices for Securing Your Multi-Account Environment  - Link: [AWS re:Invent 2020 Video](https://youtu.be/ip5sn3z5FNg)
+Switching to an IAM role (AWS API) - Link: [Official Docs]  (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-api.html
+
+Delegate Access across AWS Accounts Using IAM Roles: Switch Roles (Console) - Link: [Official Docs] (https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
+
+Comparing AWS Deployment Tools to Manage Multiple Accounts - Link: [AWS re:Invent 2020 Video](https://youtu.be/n_6QTYDavrM)
 
 ![Mandatory](./mandatory.png) Policy Evaluation: IAM, Permission Boundaries, SCP - Link: [Official Doc](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
 
 ### Multiaccount strategies
 
-![Mandatory](./mandatory.png) Cross-Account IAM Roles - Link: [Official Tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
+![Mandatory](./mandatory.png) Establishing Your Best Practice AWS Environment- Link: [Official Docs](https://aws.amazon.com/organizations/getting-started/best-practices/)
+
+Best Practices for Securing Your Multi-Account Environment  - Link: [AWS re:Invent 2020 Video](https://youtu.be/ip5sn3z5FNg)
+
+![Mandatory](./mandatory.png) Cross-Account IAM Roles - Link: [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
+
+Delegate Access across AWS Accounts Using IAM Roles: Switch Roles (Console) - Link: [Official Tutorial]  (https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html#tutorial_cross-account-with-roles-3).
 
 Permissions Boundaries Exercise - Link: [AWS Live re:Inforce Video](https://www.youtube.com/watch?v=eVNvjQ0wr84)
 
 ### Identity Center
 
-AWS Organizations - Link: [Official FAQs](https://aws.amazon.com/organizations/faqs/)
+![Mandatory](./mandatory.png)AWS Organizations - Link: [Official FAQs](https://aws.amazon.com/organizations/faqs/)
+
+Creating and Managing an Organization - Link: [Official Docs](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_org.html)
 
 ![Mandatory](./mandatory.png) Best Practices for AWS Organizations - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_best-practices.html)
 
@@ -110,6 +121,8 @@ About controls in AWS Control Tower - Link: [Official Doc](https://docs.aws.amaz
 ![Mandatory](./mandatory.png) How AWS Control Tower Works - Link: [Official Doc](https://docs.aws.amazon.com/controltower/latest/userguide/how-control-tower-works.html)
 
 ![Mandatory](./mandatory.png) Best Practices for AWS Control Tower Administrators - Link: [Official Doc](https://docs.aws.amazon.com/controltower/latest/userguide/best-practices.html)
+
+Using Lifecycle Events to Track AWS Control Tower Actions and Trigger Automated Workflows - Link: [Blogs](https://aws.amazon.com/blogs/mt/using-lifecycle-events-to-track-aws-control-tower-actions-and-trigger-automated-workflows/)
 
 Proactive Controls on Control Tower User Guide - Link: [Official Doc](https://docs.aws.amazon.com/controltower/latest/userguide/proactive-controls.html)
 
