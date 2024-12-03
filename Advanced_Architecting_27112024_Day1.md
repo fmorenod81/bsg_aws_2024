@@ -72,7 +72,7 @@ R:/Se puede mirar las configuraciones del [healthcheck en Route 53](https://docs
 
 Providing access to an IAM user in another AWS account that you own - Link: [IAM Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_aws-accounts.html)
 
-Switching to an IAM role (AWS API) - Link: [Official Docs]  (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-api.html
+Switching to an IAM role (AWS API) - Link: [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-api.html
 
 Delegate Access across AWS Accounts Using IAM Roles: Switch Roles (Console) - Link: [Official Docs] (https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
@@ -88,7 +88,7 @@ Best Practices for Securing Your Multi-Account Environment  - Link: [AWS re:Inve
 
 ![Mandatory](./mandatory.png) Cross-Account IAM Roles - Link: [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
-Delegate Access across AWS Accounts Using IAM Roles: Switch Roles (Console) - Link: [Official Tutorial]  (https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html#tutorial_cross-account-with-roles-3).
+Delegate Access across AWS Accounts Using IAM Roles: Switch Roles (Console) - Link: [Official Tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html#tutorial_cross-account-with-roles-3).
 
 Permissions Boundaries Exercise - Link: [AWS Live re:Inforce Video](https://www.youtube.com/watch?v=eVNvjQ0wr84)
 
@@ -111,6 +111,8 @@ Identity Center - Link: [Official FAQs](https://aws.amazon.com/iam/identity-cent
 ![Mandatory](./mandatory.png) Understanding Key AWS Single Identity Center Concepts - Link: [Official Doc](https://docs.aws.amazon.com/singlesignon/latest/userguide/understanding-key-concepts.html)
 
 How to create and manage users within AWS IAM Identity Center  - Link: [AWS Security Blog](https://aws.amazon.com/blogs/security/how-to-create-and-manage-users-within-aws-sso/)
+
+Provision users and groups from Active Directory  - Link: [Official Doc](https://docs.aws.amazon.com/singlesignon/latest/userguide/provision-users-groups-AD.html)
 
 ![Mandatory](./mandatory.png) Configure the AWS CLI to use IAM Identity Center token provider credentials with automatic authentication refresh  - Link: [Official Doc](https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html)
 
