@@ -128,6 +128,21 @@ Using Lifecycle Events to Track AWS Control Tower Actions and Trigger Automated 
 
 Proactive Controls on Control Tower User Guide - Link: [Official Doc](https://docs.aws.amazon.com/controltower/latest/userguide/proactive-controls.html)
 
+**QUESTIONS**:
+
+**a) Cual es costo de transferencia de datos en la misma region ?**
+
+R:/ La mejor guia que encontre esta en este [blog](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/), otros escenarios pueden encontrarse en la [documentacion oficial](https://docs.aws.amazon.com/cur/latest/userguide/cur-data-transfers-charges.html).
+
+**b) Se puede personalizar Control Tower?**
+
+R:/ Si, se puede mirar el video de Re:Invent 2021 y la [documenacion oficial](https://docs.aws.amazon.com/controltower/latest/userguide/cfct-overview.html), o la [pagina de implementaciones](https://aws.amazon.com/solutions/implementations/customizations-for-aws-control-tower/).
+
+**c) Como se puede conectar el VPN con Transit Gateway?**
+
+R:/ En este [whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-transit-gateway-vpn.html) se encuentra este y otros escenarios, y las instructtiones se encuentran [aqui](https://docs.aws.amazon.com/vpc/latest/tgw/tgw-vpn-attachments.html).
+
+
 ## Module 3: Hybrid Connectivity
 
 Hybrid Connectivity - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/hybrid-connectivity/hybrid-connectivity.html)
