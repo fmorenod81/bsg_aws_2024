@@ -187,6 +187,8 @@ Un necesario RFC sobre BGP: AS Path Prepending - Link: [Unofficial Blog](https:/
 
 ![Mandatory](./mandatory.png) Scaling VPN throughput using AWS Transit Gateway  - Link: [Official Doc](https://aws.amazon.com/blogs/networking-and-content-delivery/scaling-vpn-throughput-using-aws-transit-gateway/)
 
+Create a private IP AWS Site-to-Site VPN over AWS Direct Connect: Step-by-step  - Link: [User Guid](https://docs.aws.amazon.com/vpn/latest/s2svpn/private-ip-dx-steps.html)
+
 ### Route 53 Private Resolver
 
 ![Mandatory](./mandatory.png) Working with Private Hosted Zones - Link: [Official Doc](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-private.html)
