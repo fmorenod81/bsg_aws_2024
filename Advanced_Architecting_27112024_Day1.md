@@ -164,6 +164,8 @@ Site-to-Site VPN routing options - Link: [Official Doc](https://docs.aws.amazon.
 
 Traffic encription Options for DC - Link: [Official Doc](https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/traffic-encryption-options-direct-connect-ra.pdf)
 
+Un necesario RFC sobre BGP: AS Path Prepending - Link: [Unofficial Blog](https://blog.lacnic.net/un-necesario-rfc-sobre-bgp-as-path-prepending/#:~:text=El%20AS%20Path%20Prepending%20es,para%20el%20tr%C3%A1fico%20entrante%2Fsaliente.)
+
 ### Transit Gateway
 
 ![Mandatory](./mandatory.png) Amazon Virtual Private Cloud Connectivity Options - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-direct-connect-aws-transit-gateway.html)
@@ -188,19 +190,27 @@ Tag: AWS File Gateway Tag on Blogs - Link: [AWS Storage Blog](https://aws.amazon
 
 AWS Storage Gateway - Link: [Official FAQs](https://aws.amazon.com/storagegateway/faqs/)
 
+AWS DataSync FAQ, specially "When to choose AWS DataSync" section  - Link: [Official FAQs](https://aws.amazon.com/datasync/faqs/) 
+
 ![Mandatory](./mandatory.png) AWS Storage Gateway Primer: File Gateway - Link: [Official Training](https://www.aws.training/Details/Curriculum?id=38145)
 
 ![Mandatory](./mandatory.png) Deep Dive into AWS Storage Gateway - Link: [Official Training](https://www.aws.training/Details/Curriculum?id=19403)
 
 ### VmWare Cloud on AWS
 
-VMware Cloud on AWS - Link: [Official FAQs](https://aws.amazon.com/vmware/faqs/)
+VMware Cloud on AWS, see Notes  - Link: [Official FAQs](https://aws.amazon.com/vmware/faqs/)
+
+VMware Cloud on AWS, according Broadcom  - Link: [Official Broadcom Page](https://vmc.vmware.com/infrastructure/aws/overview)
 
 Enabling Business Continuity with VMware Cloud on AWS - Link: [AWS re:Invent 2020](https://youtu.be/w2mD0Z5eh6o)
 
 Migrate and Modernize with VMware Cloud on AWS - Link: [AWS re:Invent 2020](https://youtu.be/FQ_u9KsyQyE)
 
 ### Outposts
+
+AWS resources on Outposts - Link: [Official Docs](https://docs.aws.amazon.com/outposts/latest/userguide/what-is-outposts.html#services)
+
+AWS Outposts Servers features  - Link: [Official Docs](https://aws.amazon.com/outposts/servers/features/)
 
 AWS Outposts: Storage Foundations - Amazon S3 on Outposts - Link: [AWS Online Tech Talks](https://youtu.be/A_khazmf6jU)
 
