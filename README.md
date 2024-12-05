@@ -6,6 +6,9 @@ Links for Official AWS Courses
 
 [Advanced Architecting 27-Nov-2024 Day 1](./Advanced_Architecting_27112024_Day1.md)
 
+[Advanced Architecting 27-Nov-2024 Day 3](./Advanced_Architecting_27112024_Day3.md)
+
+
 As prerequisite, you need to take Architecting on AWS, so I add some links for that course:
 [Architecting on AWS](./Architecting_On_AWS_1.md)
 
