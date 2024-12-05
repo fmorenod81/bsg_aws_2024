@@ -142,7 +142,6 @@ R:/ Si, se puede mirar el video de Re:Invent 2021 y la [documenacion oficial](ht
 
 R:/ En este [whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-transit-gateway-vpn.html) se encuentra este y otros escenarios, y las instructtiones se encuentran [aqui](https://docs.aws.amazon.com/vpc/latest/tgw/tgw-vpn-attachments.html).
 
-
 ## Module 3: Hybrid Connectivity
 
 Hybrid Connectivity - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/hybrid-connectivity/hybrid-connectivity.html)
@@ -215,7 +214,7 @@ AWS DataSync FAQ, specially "When to choose AWS DataSync" section  - Link: [Offi
 
 ### VmWare Cloud on AWS
 
-VMware Cloud on AWS, see Notes  - Link: [Official FAQs](https://aws.amazon.com/vmware/faqs/)
+![Mandatory](./mandatory.png)VMware Cloud on AWS, see Notes  - Link: [Official FAQs](https://aws.amazon.com/vmware/faqs/)
 
 VMware Cloud on AWS, according Broadcom  - Link: [Official Broadcom Page](https://vmc.vmware.com/infrastructure/aws/overview)
 
@@ -244,6 +243,20 @@ At the cutting edge: AI driven sustainable 5G networks - Link: [AWS re:Invent 20
 AWS Wavelength: Run Apps with Ultra-Low Latency at 5G Edge - Link: [AWS re:Invent 2020 Video](https://youtu.be/AQ-GbAFDvpM)
 
 Architecting 5G Apps for Ultra-Low Latency on AWS Wavelength - Link: [AWS re:Invent 2020 Video](https://youtu.be/KZX5FcsDfUQ)
+
+**QUESTIONS**:
+
+**a) En el Escenario 4 de Direct Connect, VPN over Public VIF. Necesito IP Publica para mi Customer Gateway (CPE) ?**
+
+R:/ Si, aunque la definicion que da AWS es Internet-Routable IP, es porque es necesario que el circuito VPN encuentra la IP, como es un Public VIF es necesario que se pueda ver. En este [AWS Re:Post 1](https://repost.aws/knowledge-center/create-vpn-direct-connect) nos pide en el paso 3 del Public VIF que configuremos la IP Publica, finalmente en un caso de uso de [AWS Re:Post 2](https://repost.aws/questions/QUqpca6CqRRN6EanTaP10Wdg/direct-connect-public-vif) es mas especifico y al decir que cualquier Public VIF necesita IPs publicas tanto del lado de AWS (todos los servicios alcanzables) como del Customer Gateway por tanto, son necesario. Finalmente, desde [esta pagina](https://repost.aws/questions/QUo78M4QPDRiaVOKMDu0xiSw/vpn-s2s-with-public-vif-enabled) asumen la condicion del CPE para conectar hacia la IP Publica para la salida de trafico. Otra manera de verlo es que la VPN Site-2-Site necesita una tipo de IP en ambos lados para poder intercambiar las llaves de encripcion, en el caso de que el canal sea un Public VIF se necesita que ambos sean publicas, ya que el Public VIF alcanza todos los servicios con endpoints publicos y en este caso en especifico seria la IP del Virtual Private Gateway publico.
+
+**b) Donde se encuentran la ruta para descargar las imagenes del Storage Gateway ?**
+
+R:/ Las imagenes de las maquinas virtuales se descargan cuando se habilita el Storage Gateway, un ejemplo se puede ver en ![Imagen_1](./Storage_Gateway_1.gif) y ![Imagen_2](./Storage_Gateway_2.gif).
+
+**c) Donde se encuentran la ruta para descargar las imagenes del Storage Gateway ?**
+
+R:/ DataSync tiene optimizacion de red que permite usar canal de 10GBps, se puede mirar en su pagina de [Caracteristicas](https://aws.amazon.com/datasync/features/) y en el [FAQs](https://aws.amazon.com/datasync/faqs/), seccion de "When to choose AWS DataSync".
 
 ## Module 5: Connecting Networks
 
