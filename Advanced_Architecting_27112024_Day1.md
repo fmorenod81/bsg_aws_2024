@@ -282,6 +282,8 @@ Transit Gateway Networking and Scaling - Link: [Training](https://www.aws.traini
 
 ![Mandatory](./mandatory.png) FAQs: AWS Resource Access Manager - Link: [Official FAQs](https://aws.amazon.com/ram/faqs/)
 
+How do I share my transit gateway with another account or within an AWS Organization? - Link: [Re:Post](https://repost.aws/knowledge-center/transit-gateway-sharing)
+
 Sharing Your AWS Resources - Link: [Official Doc](https://docs.aws.amazon.com/ram/latest/userguide/getting-started-sharing.html)
 
 Shareable AWS Resources - Link: [Official Doc](https://docs.aws.amazon.com/ram/latest/userguide/shareable.html)
