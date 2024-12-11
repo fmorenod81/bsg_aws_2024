@@ -268,6 +268,10 @@ R:/ DataSync tiene optimizacion de red que permite usar canal de 10GBps, se pued
 
 ![Mandatory](./mandatory.png) Transit Gateway Guide: Examples - Link: [Official Doc](https://docs.aws.amazon.com/vpc/latest/tgw/TGW_Scenarios.html)
 
+VPC Peering vs Transit Gateway with Simple Analogies - Link: [Community Blog](https://community.aws/content/2nrZ0lMno8jnIhR8IAWaP4IL5FN/vpc-peering-vs-transit-gateway-with-simple-analogies?lang=en)
+
+AWS Direct Connect gateways and transit gateway associations - Link: [Official Doc](https://docs.aws.amazon.com/directconnect/latest/UserGuide/direct-connect-transit-gateways.html)
+
 Field Notes: Working with Route Tables in AWS Transit Gateway - Link: [Architecture Blog](https://aws.amazon.com/blogs/architecture/field-notes-working-with-route-tables-in-aws-transit-gateway/)
 
 Advanced Architectures with AWS Transit Gateway - Link: [AWS Online Tech Talks](https://youtu.be/awrdICiS6ug)
@@ -284,10 +288,16 @@ Shareable AWS Resources - Link: [Official Doc](https://docs.aws.amazon.com/ram/l
 
 ### PrivateLink
 
+Gateway endpoints: Is VPC Gateway Endpoint use PrivateLink? - Link: [Official Doc](https://docs.aws.amazon.com/vpc/latest/privatelink/gateway-endpoints.html)
+
 ![Mandatory](./mandatory.png) Integrating AWS Transit Gateway with AWS PrivateLink and Amazon Route 53 Resolver - Link: [BigData Blog](https://aws.amazon.com/blogs/big-data/how-goldman-sachs-builds-cross-account-connectivity-to-their-amazon-msk-clusters-with-aws-privatelink/)
 
 ![Mandatory](./mandatory.png) Configure and Deploy AWS PrivateLink - Link: [Training](https://www.aws.training/Details/eLearning?id=54077)
 
-Learn About Private Endpoints in Atlas (AWS Partner Solution)- Link: [Official Doc](https://www.mongodb.com/docs/atlas/security-private-endpoint/)
+Supported Services - Link: [Official Doc](https://docs.aws.amazon.com/vpc/latest/privatelink/aws-services-privatelink-support.html)
+
+Identity-based policy examples for AWS PrivateLink - Link: [Official Doc](https://docs.aws.amazon.com/vpc/latest/privatelink/security_iam_id-based-policy-examples.html)
+
+Learn About Private Endpoints in Atlas (AWS Partner Solution) - Link: [Official Doc](https://www.mongodb.com/docs/atlas/security-private-endpoint/)
 
 VPC Endpoint Services for Interface Endpoints - Link: [Official Doc](https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-service-overview.html)
