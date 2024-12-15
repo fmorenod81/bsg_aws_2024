@@ -74,6 +74,10 @@ ECS Task role at Container (Task) Level - Link: [Official Doc](https://docs.aws.
 
 ECS Workshop, section of Capacity Provider - Link: [ECS Workshop](https://ecsworkshop.com/capacity_providers/capacityprovider_primer/)
 
+Specify an Amazon EFS file system in an Amazon ECS task definition - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specify-efs-config.html)
+
+Store an elastic file system with Amazon EFS (for EKS) - Link: [Official Doc](https://docs.aws.amazon.com/eks/latest/userguide/efs-csi.html)
+
 ### Amazon EKS
 
 FAQs: Amazon EKS - Link: [Official FAQs](https://aws.amazon.com/eks/faqs/)
