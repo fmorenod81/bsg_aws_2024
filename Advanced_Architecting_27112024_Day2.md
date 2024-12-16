@@ -36,11 +36,11 @@ AWS Blogs en Español - Link: [AWS Blogs](https://aws.amazon.com/es/blogs/aws-sp
 
 ### Containers
 
-![Mandatory](./mandatory.png)Docker Guides - Link: [Docker Page](https://docs.docker.com/get-started/overview/)
+![Mandatory](./mandatory.png) Docker Guides - Link: [Docker Page](https://docs.docker.com/get-started/overview/)
 
-![Mandatory](./mandatory.png)Docker Engine overview - Link: [Docker Page](https://docs.docker.com/engine/)
+![Mandatory](./mandatory.png) Docker Engine overview - Link: [Docker Page](https://docs.docker.com/engine/)
 
-![Mandatory](./mandatory.png)Understanding Docker Container Architecture - Link: [No-Official Blog](https://collabnix.com/understanding-docker-container-image/)
+![Mandatory](./mandatory.png) Understanding Docker Container Architecture - Link: [No-Official Blog](https://collabnix.com/understanding-docker-container-image/)
 
 Docker Tag  - Link: [Docker Page](https://docs.docker.com/engine/reference/commandline/tag/)
 
@@ -48,43 +48,53 @@ Deep Dive on Container Security - Link: [Training](https://www.aws.training/Deta
 
 ### Containers hosting on AWS
 
-![Mandatory](./mandatory.png)Containers on AWS: An Introduction - Link: [AWS Public Sector Summit Video](https://www.youtube.com/watch?v=kBi-s3eV2Ec)
+![Mandatory](./mandatory.png) Containers on AWS: An Introduction - Link: [AWS Public Sector Summit Video](https://www.youtube.com/watch?v=kBi-s3eV2Ec)
 
 Build and Deploy Straight from Docker to AWS - Link: [AWS Cloud Containers Conference](https://youtu.be/V88Iqdm8GkE)
 
 FAQs: Amazon Elastic Container Registry - Link: [Official FAQs](https://aws.amazon.com/ecr/faqs/)
 
+How Amazon Elastic Container Registry works with IAM - Link: [Official Docs](https://docs.aws.amazon.com/AmazonECR/latest/userguide/security_iam_service-with-iam.html)
+
+Using Tag-Based Access Control - Link: [Official Docs](https://docs.aws.amazon.com/AmazonECR/latest/userguide/ecr-supported-iam-actions-tagging.html)
+
 FAQs: AWS Fargate - Link: [Official FAQs](https://aws.amazon.com/fargate/faqs/)
 
-![Mandatory](./mandatory.png)AWS Fargate: Are Serverless Containers Right for You? - Link: [AWS re:Invent 2020 Video](https://youtu.be/Vtymod0nPBo)
+![Mandatory](./mandatory.png) AWS Fargate: Are Serverless Containers Right for You? - Link: [AWS re:Invent 2020 Video](https://youtu.be/Vtymod0nPBo)
 
-![Mandatory](./mandatory.png)Deep Dive on AWS Fargate: Building Serverless Containers at Scale - Link: [Training](https://www.aws.training/Details/Video?id=26855)
+![Mandatory](./mandatory.png) Deep Dive on AWS Fargate: Building Serverless Containers at Scale - Link: [Training](https://www.aws.training/Details/Video?id=26855)
 
 ### Amazon ECS
 
-![Mandatory](./mandatory.png)What is Amazon Elastic Container Service? - Link: [Official Docs](https://docs.aws.amazon.com/AmazonECS/latest/userguide/clusters-concepts.html)
+![Mandatory](./mandatory.png) What is Amazon Elastic Container Service? - Link: [Official Docs](https://docs.aws.amazon.com/AmazonECS/latest/userguide/clusters-concepts.html)
 
-![Mandatory](./mandatory.png)FAQs: Amazon Elastic Container Service - Link: [Official FAQs](https://aws.amazon.com/ecs/faqs/)
+![Mandatory](./mandatory.png) FAQs: Amazon Elastic Container Service - Link: [Official FAQs](https://aws.amazon.com/ecs/faqs/)
 
 Getting Up and Running with Amazon ECS - Link: [AWS re:Invent 2020 Video](https://youtu.be/9u_HKS_Lv6o)
 
 Amazon Elastic Container Service (ECS) Primer - Link: [Training](https://www.aws.training/Details/eLearning?id=30260)
 
+Start AWS Fargate logging for your cluster - Link: [Official Doc](https://docs.aws.amazon.com/eks/latest/userguide/fargate-logging.html)
+
 ![Mandatory](./mandatory.png) ECS Task Execution roles at Computing Host (ECS Agent) Level - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_role.html)
 
-![Mandatory](./mandatory.png)ECS Task role at Container (Task) Level - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html)
+![Mandatory](./mandatory.png) ECS Task role at Container (Task) Level - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html)
+
+![Mandatory](./mandatory.png)Amazon ECS Capacity Provider: Optimizing Container Scaling with Fargate and Fargate Spot. 7 min video - Link: [AWS TV](https://aws.amazon.com/awstv/watch/a30119192a0/)
 
 ECS Workshop, section of Capacity Provider - Link: [ECS Workshop](https://ecsworkshop.com/capacity_providers/capacityprovider_primer/)
 
-![Mandatory](./mandatory.png)Storage options for Amazon ECS tasks - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using_data_volumes.html)
+![Mandatory](./mandatory.png) Storage options for Amazon ECS tasks - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using_data_volumes.html)
 
-![Mandatory](./mandatory.png)Specify an Amazon EFS file system in an Amazon ECS task definition - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specify-efs-config.html)
+![Mandatory](./mandatory.png) Specify an Amazon EFS file system in an Amazon ECS task definition - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specify-efs-config.html)
 
-![Mandatory](./mandatory.png)Store an elastic file system with Amazon EFS (for EKS) - Link: [Official Doc](https://docs.aws.amazon.com/eks/latest/userguide/efs-csi.html)
+![Mandatory](./mandatory.png) Store an elastic file system with Amazon EFS (for EKS) - Link: [Official Doc](https://docs.aws.amazon.com/eks/latest/userguide/efs-csi.html)
 
-![Mandatory](./mandatory.png)Amazon ECS task placement strategies - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-placement-strategies.html)
+![Mandatory](./mandatory.png) Amazon ECS task placement strategies - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-placement-strategies.html)
 
-![Mandatory](./mandatory.png)Amazon ECS task placement constraints - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-placement-constraints.html)
+![Mandatory](./mandatory.png) Amazon ECS Task Placement. Better Explanation - Link: [AWS Compute Blog](https://aws.amazon.com/blogs/compute/amazon-ecs-task-placement/)
+
+![Mandatory](./mandatory.png) Amazon ECS task placement constraints - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-placement-constraints.html)
 
 Automate responses to Amazon ECS errors using EventBridge - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cloudwatch_event_stream.html)
 
@@ -94,17 +104,17 @@ Optimize cost for container workloads with ECS capacity providers and EC2 Spot I
 
 FAQs: Amazon EKS - Link: [Official FAQs](https://aws.amazon.com/eks/faqs/)
 
-![Mandatory](./mandatory.png)Amazon EKS on AWS Fargate Deep Dive - Link: [AWS re:Invent 2020 Video](https://youtu.be/9tQFXEhHdn0)
+![Mandatory](./mandatory.png) Amazon EKS on AWS Fargate Deep Dive - Link: [AWS re:Invent 2020 Video](https://youtu.be/9tQFXEhHdn0)
 
 Amazon EKS and AWS Fargate: Better Together - Link: [AWS Container Day](https://www.youtube.com/watch?v=-xMNbys0tF8)
 
-![Mandatory](./mandatory.png)Amazon Elastic Kubernetes Service (EKS) Primer - Link: [Training](https://www.aws.training/Details/eLearning?id=32894)
+![Mandatory](./mandatory.png) Amazon Elastic Kubernetes Service (EKS) Primer - Link: [Training](https://www.aws.training/Details/eLearning?id=32894)
 
 Introducing Amazon EKS Distro (EKS-D) - Link: [AWS Blog](https://aws.amazon.com/blogs/opensource/introducing-amazon-eks-distro/)
 
 ## Module 7: Continuous Integration/Continuous Delivery (CI/CD)
 
-![Mandatory](./mandatory.png)Whitepaper: Introduction to DevOps on AWS - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-devops-aws.pdf)
+![Mandatory](./mandatory.png) Whitepaper: Introduction to DevOps on AWS - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-devops-aws.pdf)
 
 ### CI/CD
 
