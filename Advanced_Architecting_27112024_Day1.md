@@ -228,6 +228,8 @@ AWS resources on Outposts - Link: [Official Docs](https://docs.aws.amazon.com/ou
 
 AWS Outposts Servers features  - Link: [Official Docs](https://aws.amazon.com/outposts/servers/features/)
 
+AWS Outposts Servers in Two Form Factors - Link: [AWS Blogs](https://aws.amazon.com/blogs/aws/new-aws-outposts-servers-in-two-form-factors/)
+
 AWS Outposts: Storage Foundations - Amazon S3 on Outposts - Link: [AWS Online Tech Talks](https://youtu.be/A_khazmf6jU)
 
 ### Local Zones
