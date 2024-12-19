@@ -118,11 +118,11 @@ Introducing Amazon EKS Distro (EKS-D) - Link: [AWS Blog](https://aws.amazon.com/
 
 ### CI/CD
 
-Thinking Serverless: From Business Problem to Serverless Solution - Link: [AWS re:Invent 2020 Video](https://youtu.be/Z57KLdJZnGA)
+![Mandatory](./mandatory.png) Thinking Serverless: From Business Problem to Serverless Solution - Link: [AWS re:Invent 2020 Video](https://youtu.be/Z57KLdJZnGA)
 
-Infrastructure as Code on AWS - Link: [AWS Online Tech Talks](https://youtu.be/cKQtPZwf97s)
+![Mandatory](./mandatory.png) Infrastructure as Code on AWS - Link: [AWS Online Tech Talks](https://youtu.be/cKQtPZwf97s)
 
-Getting Started with DevOps on AWS - Link: [Training](https://www.aws.training/Details/Curriculum?id=67465)
+![Mandatory](./mandatory.png) Getting Started with DevOps on AWS - Link: [Training](https://www.aws.training/Details/Curriculum?id=67465)
 
 AWS Cloud Development Kit Primer - Link: [Training](https://www.aws.training/Details/Curriculum?id=64511)
 
@@ -130,45 +130,69 @@ AWS Cloud Development Kit Primer - Link: [Training](https://www.aws.training/Det
 
 Hands-Off: Automating Continuous Delivery Pipelines at Amazon - Link: [AWS re:Invent 2020 Video](https://youtu.be/ngnMj1zbMPY)
 
+![Mandatory](./mandatory.png) How to migrate your AWS CodeCommit repository to another Git provider - Link: [Blog](https://aws.amazon.com/blogs/devops/how-to-migrate-your-aws-codecommit-repository-to-another-git-provider/)
+
 AWS CodePipeline product integrations - Link: [Official Webpage](https://aws.amazon.com/codepipeline/product-integrations/)
 
-AWS CodeDeploy Integrations - Link: [Official Webpage](https://docs.aws.amazon.com/codedeploy/latest/userguide/integrations.html)
+Amazon CodeGuru Security - Link: [Official Webpage](https://aws.amazon.com/codeguru/)
+
+![Mandatory](./mandatory.png) Developer Tools on AWS - Link: [Official Webpage](https://aws.amazon.com/products/developer-tools)
+
+Section "Developer tools" on AWS Overview - Link: [AWS Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/developer-tools.html)
+
+![Mandatory](./mandatory.png) Amazon Q – Generative AI Assistant - Link: [Official Webpage](https://aws.amazon.com/q/ )
+
+Amazon Q Developer Getting Started - Link: [SkillBuilder](https://explore.skillbuilder.aws/learn/course/external/view/elearning/19491/amazon-q-developer-getting-started)
+
+Amazon Q Business Getting Started- Link: [SkillBuilder](https://explore.skillbuilder.aws/learn/course/external/view/elearning/19320/amazon-q-business-getting-started)
+
+![Mandatory](./mandatory.png) Accelerate your Software Development Lifecycle with Amazon Q -Link: [Official Webpage]()
+
+![Mandatory](./mandatory.png) AWS CodeDeploy Integrations - Link: [Official Webpage](https://docs.aws.amazon.com/codedeploy/latest/userguide/integrations.html)
+
+![Mandatory](./mandatory.png) Tutorial: Create a simple pipeline (CodeCommit repository) - Link: [Tutorial](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-simple-codecommit.html)
 
 Build specification reference for CodeBuild (buildspec.yaml) - Link: [Official Docs](https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html)
 
 CodeDeploy AppSpec file reference (AppSpec .yaml) - Link: [Official Docs](https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file.html)
 
+AppSpec 'hooks' section on AWS CodeDeploy - Link: [Official Docs](https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-structure-hooks.html)
+
 ### Deployment Models
 
-Blue/Green Deployment with CodeDeploy - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-bluegreen.html)
+![Mandatory](./mandatory.png) Blue/Green Deployment with CodeDeploy - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-bluegreen.html)
 
 Fine-Tuning Blue/Green Deployments on Application Load Balancer- Link: [Official Doc](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer/)
 
-Understanding How Deployments Affect Application Performance- Link: [AWS re:Invent 2020 Video](https://youtu.be/O9tDtJje-EA)
+Understanding How Deployments Affect Application Performance - Link: [AWS re:Invent 2020 Video](https://youtu.be/O9tDtJje-EA)
 
 ### AWS Cloudformation Stacksets
 
-Working with AWS CloudFormation StackSets - Link: [Official Doc](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html)
+![Mandatory](./mandatory.png) Managing stacks across accounts and Regions with StackSets - Link: [Official Docs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html)
+
+Working with AWS CloudFormation StackSets - Link: [Official Docs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html)
 
 Prerequisites for stack set operations on "Self-Managed" and "Trusted Access" - Link: [Official Doc](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacksets-prereqs.html)
 
 ## Module 8: High Availability and DDoS
 
-AWS Best Practices for DDoS Resiliency - Link: [Whitepaper](https://d0.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf)
+![Mandatory](./mandatory.png) AWS Best Practices for DDoS Resiliency - Link: [Whitepaper](https://d0.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf)
 
 Protect Your Web-Facing Workloads with AWS Security Services - Link: [Training](https://www.aws.training/Details/Video?id=27496)
 
 ### AWS WAF
 
-FAQs: AWS WAF - Link: [Official FAQs](https://aws.amazon.com/waf/faq/)
+![Mandatory](./mandatory.png) FAQs: AWS WAF - Link: [Official FAQs](https://aws.amazon.com/waf/faq/)
 
 Using AWS WAF and AWS Secrets Manager to Enforce Amazon CloudFront Origins - Link: [AWS re:Invent 2020 Video](https://youtu.be/32jU3lVumAk)
 
-Deploy a dashboard for AWS WAF with minimal effort - Link: [AWS Security Blog](https://aws.amazon.com/blogs/security/deploy-dashboard-for-aws-waf-minimal-effort/)
+![Mandatory](./mandatory.png) Deploy a dashboard for AWS WAF with minimal effort - Link: [AWS Security Blog](https://aws.amazon.com/blogs/security/deploy-dashboard-for-aws-waf-minimal-effort/)
 
-AWS WAF Workshop - Link: [No-Official Workshop for Classic WAF](https://github.com/toshke/aws-waf-demo-workshop/tree/master)
+![Mandatory](./mandatory.png) AWS WAF Workshop - Link: [No-Official Workshop for Classic WAF](https://github.com/toshke/aws-waf-demo-workshop/tree/master)
 
 Security Automations for AWS WAF - Link: [AWS Page](https://aws.amazon.com/solutions/implementations/aws-waf-security-automations/)
+
+How to use Amazon GuardDuty and AWS Web Application Firewall to automatically block suspicious hosts  - Link: [AWS Security Blog] (https://aws.amazon.com/blogs/security/how-to-use-amazon-guardduty-and-aws-web-application-firewall-to-automatically-block-suspicious-hosts/)
 
 Jump to a Console - Link: [AWS WAF Console](https://us-east-1.console.aws.amazon.com/wafv2/homev2/web-acls/new?region=us-east-2)
 
