@@ -280,6 +280,20 @@ Introduction to Designing Data Lakes on AWS - Link: [Coursera Course](https://ww
 
 ### AWS Lake Formation
 
+Build a Lake House Architecture on AWS - Link: [AWS Big Data Blog](https://aws.amazon.com/blogs/big-data/build-a-lake-house-architecture-on-aws/)
+
+Get started managing partitions for Amazon S3 tables backed by the AWS Glue Data Catalog - Link: [AWS Big Data Blog](https://aws.amazon.com/blogs/big-data/get-started-managing-partitions-for-amazon-s3-tables-backed-by-the-aws-glue-data-catalog/)
+
+Implicit Lake Formation permissions - Link: [Official Docs](https://docs.aws.amazon.com/lake-formation/latest/dg/implicit-permissions.html)
+
 FAQs: AWS Lake Formation - Link: [Official FAQs](https://aws.amazon.com/lake-formation/faqs/)
 
 Cross Account Catalog Access Using Amazon Athena and AWS Lake Formation - Link: [AWS re:Invent 2020 Video](https://youtu.be/He8GvOFdjnE)
+
+
+
+aws s3 cp s3://aws-tc-largeobjects/ILT-TF-300-ADVARC-3/lab-4/Music_Data.csv \
+s3://labstack-21d82c96-ec49-43f0-9978-742ad2-databucket-s1dmy4qxjvcd/review/
+
+
+s3://labstack-21d82c96-ec49-43f0-9978-742ad2-databucket-s1dmy4qxjvcd/review/
