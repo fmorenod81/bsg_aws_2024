@@ -98,7 +98,7 @@ ECS Workshop, section of Capacity Provider - Link: [ECS Workshop](https://ecswor
 
 Automate responses to Amazon ECS errors using EventBridge - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cloudwatch_event_stream.html)
 
-Optimize cost for container workloads with ECS capacity providers and EC2 Spot Instances - Link: [Official Doc](https://aws.amazon.com/blogs/containers/optimize-cost-for-container-workloads-with-ecs-capacity-providers-and-ec2-spot-instances/)
+![Mandatory](./mandatory.png) Optimize cost for container workloads with ECS capacity providers and EC2 Spot Instances - Link: [Official Doc](https://aws.amazon.com/blogs/containers/optimize-cost-for-container-workloads-with-ecs-capacity-providers-and-ec2-spot-instances/)
 
 ### Amazon EKS
 
@@ -246,7 +246,7 @@ Key Terms and Concepts for AWS Secrets Manager - Link: [Official Doc](https://do
 
 Managing Amazon Simple Storage Service (Amazon S3) - Link: [Training](https://www.aws.training/Details/Curriculum?id=66254)
 
-Deep Dive into Amazon Simple Storage Service (Amazon S3) - Link: [Training](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/497/amazon-simple-storage-service-amazon-s3-storage-classes-deep-dive)
+![Mandatory](./mandatory.png) Deep Dive into Amazon Simple Storage Service (Amazon S3) - Link: [Training](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/497/amazon-simple-storage-service-amazon-s3-storage-classes-deep-dive)
 
  Auditing Amazon Simple Storage Service (Amazon S3) Security - Link: [Training](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/502/auditing-amazon-simple-storage-service-amazon-s3-security)
 
@@ -256,36 +256,36 @@ FAQs: Amazon S3 - Link: [Official FAQs](https://aws.amazon.com/s3/faqs/)
 
 Amazon S3 Update – Strong Read-After-Write Consistency - Link: [AWS Blog](https://aws.amazon.com/blogs/aws/amazon-s3-update-strong-read-after-write-consistency/) and [Consistency Page](https://aws.amazon.com/s3/consistency/)
 
-Understanding archive retrieval options - Batch Op & Bulk Retrieval - Link: [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/restoring-objects-retrieval-options.html)
+![Mandatory](./mandatory.png) Understanding archive retrieval options - Batch Op & Bulk Retrieval - Link: [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/restoring-objects-retrieval-options.html)
 
-S3 restore-object command - Link: [CLI Cmd](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/restore-object.html?highlight=restore%20object)
+![Mandatory](./mandatory.png) S3 restore-object command - Link: [CLI Cmd](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/restore-object.html?highlight=restore%20object)
 
 Tutorial: Batch-transcoding videos with S3 Batch Operations - Link: [Tutorial](https://docs.aws.amazon.com/AmazonS3/latest/userguide/tutorial-s3-batchops-lambda-mediaconvert-video.html)
 
-Managing data access with Amazon S3 access points - Link: [AWS Blog](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-points.html)
+![Mandatory](./mandatory.png) Managing data access with Amazon S3 access points - Link: [AWS Blog](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-points.html)
 
-Configuring Amazon S3 security settings and access controls - Link: [AWS Re:Invent 2023 PDF](https://d1.awsstatic.com/events/Summits/reinvent2023/STG317-R_Configuring-Amazon-S3-security-settings-and-access-controls-REPEAT.pdf)
+![Mandatory](./mandatory.png) Configuring Amazon S3 security settings and access controls - Link: [AWS Re:Invent 2023 PDF](https://d1.awsstatic.com/events/Summits/reinvent2023/STG317-R_Configuring-Amazon-S3-security-settings-and-access-controls-REPEAT.pdf)
 
 Setting Up Cross-Account Amazon S3 Access with S3 Access Points - Link: [AWS Blog](https://aws.amazon.com/blogs/storage/setting-up-cross-account-amazon-s3-access-with-s3-access-points/?nc1=b_rp)
 
 Architecting for High Availability on Amazon S3 - Link: [AWS re:Invent 2020 Video](https://youtu.be/Qib1snR9FhA)
 
-S3 Access Point Demo - Link: [No-Official Video](https://www.youtube.com/watch?v=iqCmDLMT4qU&t=463s)
+![Mandatory](./mandatory.png) S3 Access Point Demo - Link: [No-Official Video](https://www.youtube.com/watch?v=iqCmDLMT4qU&t=463s)
 
 ### Data Lakes
 
-AWS breaking changes and price increases - Link: [No-Official Page - Ref to Jeff Barr' X messages](https://github.com/SummitRoute/aws_breaking_changes)
+![Mandatory](./mandatory.png) AWS breaking changes and price increases - Link: [No-Official Page - Ref to Jeff Barr' X messages](https://github.com/SummitRoute/aws_breaking_changes)
 
-Introduction to Designing Data Lakes on AWS - Link: [Coursera Course](https://www.coursera.org/learn/introduction-to-designing-data-lakes-in-aws?)
+![Mandatory](./mandatory.png) Introduction to Designing Data Lakes on AWS - Link: [Coursera Course](https://www.coursera.org/learn/introduction-to-designing-data-lakes-in-aws?)
 
 ### AWS Lake Formation
 
-Build a Lake House Architecture on AWS - Link: [AWS Big Data Blog](https://aws.amazon.com/blogs/big-data/build-a-lake-house-architecture-on-aws/)
+![Mandatory](./mandatory.png) Build a Lake House Architecture on AWS - Link: [AWS Big Data Blog](https://aws.amazon.com/blogs/big-data/build-a-lake-house-architecture-on-aws/)
 
 Get started managing partitions for Amazon S3 tables backed by the AWS Glue Data Catalog - Link: [AWS Big Data Blog](https://aws.amazon.com/blogs/big-data/get-started-managing-partitions-for-amazon-s3-tables-backed-by-the-aws-glue-data-catalog/)
 
-Implicit Lake Formation permissions - Link: [Official Docs](https://docs.aws.amazon.com/lake-formation/latest/dg/implicit-permissions.html)
+![Mandatory](./mandatory.png) Implicit Lake Formation permissions - Link: [Official Docs](https://docs.aws.amazon.com/lake-formation/latest/dg/implicit-permissions.html)
 
-FAQs: AWS Lake Formation - Link: [Official FAQs](https://aws.amazon.com/lake-formation/faqs/)
+![Mandatory](./mandatory.png) FAQs: AWS Lake Formation - Link: [Official FAQs](https://aws.amazon.com/lake-formation/faqs/)
 
 Cross Account Catalog Access Using Amazon Athena and AWS Lake Formation - Link: [AWS re:Invent 2020 Video](https://youtu.be/He8GvOFdjnE)
