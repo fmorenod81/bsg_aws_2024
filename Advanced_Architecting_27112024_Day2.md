@@ -256,6 +256,12 @@ FAQs: Amazon S3 - Link: [Official FAQs](https://aws.amazon.com/s3/faqs/)
 
 Amazon S3 Update – Strong Read-After-Write Consistency - Link: [AWS Blog](https://aws.amazon.com/blogs/aws/amazon-s3-update-strong-read-after-write-consistency/) and [Consistency Page](https://aws.amazon.com/s3/consistency/)
 
+Understanding archive retrieval options - Batch Op & Bulk Retrieval - Link: [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/restoring-objects-retrieval-options.html)
+
+S3 restore-object command - Link: [CLI Cmd](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/restore-object.html?highlight=restore%20object)
+
+Tutorial: Batch-transcoding videos with S3 Batch Operations - Link: [Tutorial](https://docs.aws.amazon.com/AmazonS3/latest/userguide/tutorial-s3-batchops-lambda-mediaconvert-video.html)
+
 Managing data access with Amazon S3 access points - Link: [AWS Blog](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-points.html)
 
 Configuring Amazon S3 security settings and access controls - Link: [AWS Re:Invent 2023 PDF](https://d1.awsstatic.com/events/Summits/reinvent2023/STG317-R_Configuring-Amazon-S3-security-settings-and-access-controls-REPEAT.pdf)
@@ -267,6 +273,8 @@ Architecting for High Availability on Amazon S3 - Link: [AWS re:Invent 2020 Vide
 S3 Access Point Demo - Link: [No-Official Video](https://www.youtube.com/watch?v=iqCmDLMT4qU&t=463s)
 
 ### Data Lakes
+
+AWS breaking changes and price increases - Link: [No-Official Page - Ref to Jeff Barr' X messages](https://github.com/SummitRoute/aws_breaking_changes)
 
 Introduction to Designing Data Lakes on AWS - Link: [Coursera Course](https://www.coursera.org/learn/introduction-to-designing-data-lakes-in-aws?)
 
