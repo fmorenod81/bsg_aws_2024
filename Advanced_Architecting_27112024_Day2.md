@@ -289,11 +289,3 @@ Implicit Lake Formation permissions - Link: [Official Docs](https://docs.aws.ama
 FAQs: AWS Lake Formation - Link: [Official FAQs](https://aws.amazon.com/lake-formation/faqs/)
 
 Cross Account Catalog Access Using Amazon Athena and AWS Lake Formation - Link: [AWS re:Invent 2020 Video](https://youtu.be/He8GvOFdjnE)
-
-
-
-aws s3 cp s3://aws-tc-largeobjects/ILT-TF-300-ADVARC-3/lab-4/Music_Data.csv \
-s3://labstack-21d82c96-ec49-43f0-9978-742ad2-databucket-s1dmy4qxjvcd/review/
-
-
-s3://labstack-21d82c96-ec49-43f0-9978-742ad2-databucket-s1dmy4qxjvcd/review/
