@@ -3,8 +3,25 @@ Advanced_Architecting_27112024_Day2
 AWS Blogs en Español - Link: [AWS Blogs](https://aws.amazon.com/es/blogs/aws-spanish/)
 
 ---
+Encuesta:
+
+Opcion 0: Traer una opcion de [Hands-On Labs](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=*all&awsf.getting-started-content-type=content-type%2523hands-on&getting-started-all.sort-by=item.additionalFields.content-latest-publish-date&getting-started-all.sort-order=desc)
+
+Opcion 1: Amazon ECS Workshop  - Link: [Workshop](https://ecsworkshop.com/introduction/)
+
+Opcion 2: Tutorial: Create a simple pipeline (CodeCommit repository) - Link: [Tutorial](https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-simple-codecommit.html)
+
+Opcion 3: CI/CD on AWS Workshop - Link: [Tutorial](https://catalog.workshops.aws/cicdonaws/en-US/50-blue-green)
+
+Opcion 4: Delegate Access across AWS Accounts Using IAM Roles: Switch Roles (Console) - Link: [Official Docs] (https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
+
+Opcion 5: Tutorial: Creating a Simple Lambda@Edge Function - Link: [Tutorial](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-how-it-works-tutorial.html)
+
+Opcion 6: AWS WAF Workshop - Link: [No-Official Workshop for Classic WAF](https://github.com/toshke/aws-waf-demo-workshop/tree/master)
+---
 
 **Table of Contents**
+- [Opcion 6: AWS WAF Workshop - Link: No-Official Workshop for Classic WAF](#opcion-6-aws-waf-workshop---link-no-official-workshop-for-classic-waf)
 - [Module 6: Containers](#module-6-containers)
   - [Containers](#containers)
   - [Containers hosting on AWS](#containers-hosting-on-aws)
