@@ -19,7 +19,6 @@ Opcion 5: Tutorial: Creating a Simple Lambda@Edge Function - Link: [Tutorial](ht
 
 Opcion 6: AWS WAF Workshop - Link: [No-Official Workshop for Classic WAF](https://github.com/toshke/aws-waf-demo-workshop/tree/master)
 
-
 ---
 
 **Table of Contents**
@@ -218,13 +217,13 @@ Jump to a Console - Link: [AWS WAF Console](https://us-east-1.console.aws.amazon
 
 FAQs: AWS Shield - Link: [Official FAQs](https://aws.amazon.com/shield/faqs/)
 
-How AWS Shield Works - Link: [Official Doc](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html)
+![Mandatory](./mandatory.png) How AWS Shield Works - Link: [Official Doc](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html)
 
 ### AWS Firewall Manager
 
-AWS Firewall Manager prerequisites - Link: [Official Docs](https://docs.aws.amazon.com/waf/latest/developerguide/fms-prereq.html)
+![Mandatory](./mandatory.png)  AWS Firewall Manager prerequisites - Link: [Official Docs](https://docs.aws.amazon.com/waf/latest/developerguide/fms-prereq.html)
 
-FAQs: AWS Firewall Manager - Link: [Official FAQs](https://aws.amazon.com/firewall-manager/faqs/)
+![Mandatory](./mandatory.png) FAQs: AWS Firewall Manager - Link: [Official FAQs](https://aws.amazon.com/firewall-manager/faqs/)
 
 AWS Firewall Manager Now Supports Security Groups on Application Load Balancers and Classic Load Balancers - Link: [Official News](https://aws.amazon.com/about-aws/whats-new/2020/08/aws-firewall-manager-now-supports-security-groups-on-albs-and-elbs/)
 
@@ -234,7 +233,7 @@ Centrally Manage AWS WAF and AWS Managed Rules Using AWS Firewall Manager - Link
 
 Introducing AWS Gateway Load Balancer - Link: [Official News](https://aws.amazon.com/about-aws/whats-new/2020/11/introducing-aws-gateway-load-balancer/)
 
-FAQs: AWS Network Firewall - Link: [Official FAQs](https://aws.amazon.com/network-firewall/faqs/)
+![Mandatory](./mandatory.png) FAQs: AWS Network Firewall - Link: [Official FAQs](https://aws.amazon.com/network-firewall/faqs/)
 
 Introducing AWS Network Firewall - Link: [AWS re:Invent 2020 Video](https://youtu.be/CISgqpVn75Q)
 
@@ -242,21 +241,33 @@ Introducing AWS Network Firewall - Link: [AWS re:Invent 2020 Video](https://yout
 
 ### Cryptography
 
-Architecting for Database Encryption on AWS - Link: [AWS Blog](https://aws.amazon.com/blogs/security/architecting-for-database-encryption-on-aws/)
+![Mandatory](./mandatory.png) Architecting for Database Encryption on AWS - Link: [AWS Blog](https://aws.amazon.com/blogs/security/architecting-for-database-encryption-on-aws/)
 
 ### AWS KMS
 
-FAQs: AWS Key Management Service - Link: [Official FAQs](https://aws.amazon.com/kms/faqs/)
+![Mandatory](./mandatory.png) FAQs: AWS Key Management Service, Question: "Do I have to re-encrypt my data after keys in AWS KMS are rotated?" - Link: [Official FAQs](https://aws.amazon.com/kms/faqs/)
 
-Using server-side encryption with customer-provided keys (SSE-C) - Link: [Official Doc](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html#sse-c-highlights)
+Symetric and Asymetric Algorithms (and functions: Enc/Dec and sign/verify as exclusive operations) - Link: [Official Doc](https://docs.aws.amazon.com/kms/latest/developerguide/symmetric-asymmetric.html)
+
+![Mandatory](./mandatory.png) Using server-side encryption with customer-provided keys (SSE-C) - Link: [Official Doc](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html#sse-c-highlights)
+
+![Mandatory](./mandatory.png) Best Practice: Attribute-based access control (ABAC) for AWS KMS - Link: [Official Doc](https://docs.aws.amazon.com/kms/latest/developerguide/abac.html)
+
+Use aliases to control access to KMS keys - Link: [Official Doc](https://docs.aws.amazon.com/kms/latest/developerguide/alias-authorization.html)
+
+![Mandatory](./mandatory.png)How multi-Region keys work - Link: [Official Doc](https://docs.aws.amazon.com/kms/latest/developerguide/mrk-how-it-works.html)
 
 ### AWS Cloud HSM
 
-FAQs: AWS CloudHSM - Link: [Official FAQs](https://aws.amazon.com/cloudhsm/faqs/)
+![Mandatory](./mandatory.png) FAQs: AWS CloudHSM - Link: [Official FAQs](https://aws.amazon.com/cloudhsm/faqs/)
+
+Oracle database transparent data encryption (TDE) with AWS CloudHSM - Link: [Official FAQs](https://docs.aws.amazon.com/cloudhsm/latest/userguide/oracle-tde.html)
 
 ### AWS Secret Manager
 
-FAQ: AWS Secrets Manager - Link: [Official FAQs](https://aws.amazon.com/secrets-manager/faqs/)
+![Mandatory](./mandatory.png)FAQ: AWS Secrets Manager - Link: [Official FAQs](https://aws.amazon.com/secrets-manager/faqs/)
+
+![Mandatory](./mandatory.png) How to securely provide database credentials to Lambda functions by using AWS Secrets Manager - Link: [AWS Security Blog](https://aws.amazon.com/blogs/security/how-to-securely-provide-database-credentials-to-lambda-functions-by-using-aws-secrets-manager/)
 
 Key Terms and Concepts for AWS Secrets Manager - Link: [Official Doc](https://docs.aws.amazon.com/secretsmanager/latest/userguide/terms-concepts.html)
 
