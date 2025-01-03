@@ -32,7 +32,7 @@ Actualizando el trigger de Lambda@Edge
 
 Despues de S3 + Cloudfront + Lambda@Edge
 
-<img src="./img/ActualizandoLambda.png">
+<img src="./img/DespuesCfront.png.png">
 
 
 Opcion 6: AWS WAF Workshop - Link: [No-Official Workshop for Classic WAF](https://github.com/toshke/aws-waf-demo-workshop/tree/master)
