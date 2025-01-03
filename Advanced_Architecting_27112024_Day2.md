@@ -21,13 +21,26 @@ Opcion 5: Tutorial: Creating a Simple Lambda@Edge Function - Link: [Tutorial](ht
 
 Note 2-Enero: El problema de clase, es que al reusar el bucket era necesario actualizar la politica OAC desde Cloudfront y no el bucket policy desde S3, como se intento hacer en clase. Despues ya funciono adecuadamente.
 
+Desplegando solo S3 + Cloudfrount
+
+<img src="./img/AntesCfront.png">
+
+
+Actualizando el trigger de Lambda@Edge
+
+<img src="./img/ActualizandoLambda.png">
+
+Despues de S3 + Cloudfront + Lambda@Edge
+
+<img src="./img/ActualizandoLambda.png">
+
+
 Opcion 6: AWS WAF Workshop - Link: [No-Official Workshop for Classic WAF](https://github.com/toshke/aws-waf-demo-workshop/tree/master)
 
-:
+
 ---
 
 **Table of Contents**
-- [:](#)
 - [Module 6: Containers](#module-6-containers)
   - [Containers](#containers)
   - [Containers hosting on AWS](#containers-hosting-on-aws)
