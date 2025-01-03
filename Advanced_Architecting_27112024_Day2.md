@@ -13,6 +13,8 @@ Opcion 2: Tutorial: Create a simple pipeline (CodeCommit repository) - Link: [Tu
 
 Opcion 3: CI/CD on AWS Workshop - Link: [Tutorial](https://catalog.workshops.aws/cicdonaws/en-US/50-blue-green)
 
+Opcion 3A: Set Up a Continuous Deployment Pipeline Using AWS CodePipeline - - Link: [Tutorial](https://aws.amazon.com/getting-started/hands-on/continuous-deployment-pipeline/?ref=gsrchandson)
+
 Opcion 4: Delegate Access across AWS Accounts Using IAM Roles: Switch Roles (Console) - Link: [Official Docs] (https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
 Opcion 5: Tutorial: Creating a Simple Lambda@Edge Function - Link: [Tutorial](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-how-it-works-tutorial.html)

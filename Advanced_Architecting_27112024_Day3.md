@@ -79,13 +79,15 @@ Amazon Aurora Migration Handbook - Link: [Whitepaper](https://d1.awsstatic.com/w
 
 ## Module 12: Optimizing Costs
 
-How AWS Pricing Works - Link: [Whitepaper](https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf)
+![Mandatory](./mandatory.png) How AWS Pricing Works - Link: [Whitepaper](https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf)
 
-Cost Optimization Pillar - Link: [Whitepaper](https://d1.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf)
+![Mandatory](./mandatory.png) Cost Optimization Pillar - Link: [Whitepaper](https://d1.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf)
 
-Cost Allocation Best Practices - Link: [AWS re:Invent 2020 video](https://youtu.be/leDfPdXHDzs)
+![Mandatory](./mandatory.png) Cost Allocation Best Practices - Link: [AWS re:Invent 2020 video](https://youtu.be/leDfPdXHDzs)
 
-Optimize Compute for Performance and Cost - Link: [AWS re:Invent 2020 video](https://youtu.be/L173l1RdVxs)
+![Mandatory](./mandatory.png) Optimize Compute for Performance and Cost - Link: [AWS re:Invent 2020 video](https://youtu.be/L173l1RdVxs)
+
+![Mandatory](./mandatory.png) AWS Compute Optimizer - Link: [Service Page](https://aws.amazon.com/compute-optimizer/)
 
 Tools and Methods to Reduce Your Spend With Us - Link: [AWS Cost Optimization video](https://youtu.be/XHwFJDw9Mec)
 
@@ -97,17 +99,17 @@ Tools and Methods to Reduce Your Spend With Us - Link: [AWS Cost Optimization vi
 
 Configuring AWS Budgets actions - Link: [Official Doc](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-controls.html)
 
-AWS Budgets - Link: [AWS Pricing Page](https://aws.amazon.com/aws-cost-management/aws-budgets/pricing/)
+![Mandatory](./mandatory.png) AWS Budgets - Link: [AWS Pricing Page](https://aws.amazon.com/aws-cost-management/aws-budgets/pricing/)
 
 Tag policies on AWS Organizations Docs - Link: [Official Doc](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_tag-policies.html)
 
 ### Cloud Cost Management Tools
 
-Instance Scheduler on AWS - Link: [AWS Solutions Page](https://aws.amazon.com/solutions/implementations/instance-scheduler-on-aws/)
+![Mandatory](./mandatory.png) Instance Scheduler on AWS - Link: [AWS Solutions Page](https://aws.amazon.com/solutions/implementations/instance-scheduler-on-aws/)
 
 Using the AWS CLI to manage DynamoDB auto scaling - Link: [AWS Pricing Page](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AutoScaling.CLI.html)
 
-Amazon EC2 Reserved Instances and Other AWS Reservation Models - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-reservation-models/savings-plans.html)
+![Mandatory](./mandatory.png) Amazon EC2 Reserved Instances and Other AWS Reservation Models - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-reservation-models/savings-plans.html)
 
 Cost Optimization with AWS - Link: [AWS Page](https://aws.amazon.com/aws-cost-management/aws-cost-optimization/)
 
@@ -115,19 +117,19 @@ Cost Optimization with AWS - Link: [AWS Page](https://aws.amazon.com/aws-cost-ma
 
 ### Cloudfront
 
-Amazon CloudFront - Link: [Official FAQs](https://aws.amazon.com/cloudfront/faqs/)
+![Mandatory](./mandatory.png) Amazon CloudFront - Link: [Official FAQs](https://aws.amazon.com/cloudfront/faqs/)
 
-Values That You Specify When You Create or Update a Distribution - Link: [Official Doc](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-values-specify.html)
+![Mandatory](./mandatory.png) Values That You Specify When You Create or Update a Distribution - Link: [Official Doc](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-values-specify.html)
 
 ### Lambda@Edge
 
-Deep Dive: Lambda@Edge - Link: [Training](https://www.aws.training/Details/Video?id=27500)
+![Mandatory](./mandatory.png) Deep Dive: Lambda@Edge - Link: [Training](https://www.aws.training/Details/Video?id=27500)
 
 Rendering Websites at the Edge with Lambda@Edge - Link: [BuildOn Video](https://youtu.be/RF7x4HcQ8lM)
 
 Tutorial: Creating a Simple Lambda@Edge Function - Link: [Tutorial](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-how-it-works-tutorial.html)
 
-Lambda@Edge Example Functions - Link: [Official Doc](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-examples.html)
+![Mandatory](./mandatory.png) Lambda@Edge Example Functions - Link: [Official Doc](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-examples.html)
 
 ### Global Accelerator
 
