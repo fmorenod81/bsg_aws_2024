@@ -10,9 +10,11 @@ Technical Essentials 2024 - Start Date: 1 July 2024 - [Unofficial Introduction t
 
 ## Introduction
 
-[Tiempo - 4 certfs en 4 meses](https://aws.amazon.com/blogs/training-and-certification/how-one-learner-earned-four-aws-certifications-in-four-months/)
+[Deadlines - 4 certfs in 4 months](https://aws.amazon.com/blogs/training-and-certification/how-one-learner-earned-four-aws-certifications-in-four-months/)
 
 [Official SAA C03](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
+
+[Architecting on AWS – Online Course Supplement on Skill Builder](https://explore.skillbuilder.aws/learn/course/external/view/elearning/8319/architecting-on-aws-online-course-supplement)
 
 [Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
@@ -36,13 +38,21 @@ Technical Essentials 2024 - Start Date: 1 July 2024 - [Unofficial Introduction t
 
 ## Fundamentals
 
+[The future of business is here](https://aws.amazon.com/campaigns/migrating-to-the-cloud/)
+
+[Our Data Centers](https://aws.amazon.com/compliance/data-center/data-centers/)
+
 [AZ - 100 km](https://docs.aws.amazon.com/sap/latest/general/arch-guide-architecture-guidelines-and-decisions.html)
 
 [Costs-due to country taxes-Calculator for S3, east-1, Melbourne, Osaka, Zurich, Sao Paulo](https://calculator.aws/#/)
 
 [Services by Region](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/)
 
+[Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
+
 [Local Zone](https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/?nc=sn&loc=3)
+
+[Amazon CloudFront Key Features](https://aws.amazon.com/cloudfront/features/)
 
 [Edge Location Vs Regional Edge Cache](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/HowCloudFrontWorks.html#CloudFrontRegionaledgecaches)
 
@@ -62,52 +72,52 @@ Technical Essentials 2024 - Start Date: 1 July 2024 - [Unofficial Introduction t
 
 ## Account Security
 
-- [Usuario Raiz](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html)
 
-- [PRACTICAS: No tareas diarias, MFA, no CLI/ acceso programatico](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege)
+[Root Account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html)
 
-- [IDp - Example SAML Fed](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_saml.html#CreatingSAML-configuring)
+[PRACTICES: No daily tasks, MFA, no CLI/Programmatice Access](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege)
 
-- [Official](https://aws.amazon.com/identity/federation/)
+[IDp - SAML Federation Example](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_saml.html#CreatingSAML-configuring)
 
-- [Quickstart](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
+[Federation Page](https://aws.amazon.com/identity/federation/)
 
-- [Create admin user](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-set-up.html)
+[Quickstart for CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
 
-- [Rol-Temporal](https://repost.aws/knowledge-center/iam-assume-role-cli)
+[Create admin user](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-set-up.html)
 
-- [Variables de Entorno](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
+[TUTORIAL: IAM Assume Role CLI](https://repost.aws/knowledge-center/iam-assume-role-cli)
 
-- [Servicios AWS e IdP - Otra cuenta](https://repost.aws/knowledge-center/cross-account-access-iam)
+[Env Variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
 
-- [Manejadas por AWS o Usuario-Con](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies)
+[Cross-Account access using IAM](https://repost.aws/knowledge-center/cross-account-access-iam)
 
-- [No-Manejadas - No Explicitas-Con](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/test2?section=permissions)
+[Manejadas por AWS o Usuario-Con](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies)
 
-- [Basadas en Recursos](https://s3.console.aws.amazon.com/s3/buckets/testfjmd?region=us-east-1&tab=permissions)
+[No-Manejadas - No Explicitas-Con](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/test2?section=permissions)
 
+[Basadas en Recursos](https://s3.console.aws.amazon.com/s3/buckets/testfjmd?region=us-east-1&tab=permissions)
 
-- [SCP](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples_general.html#example-scp-deny-region)
+[SCP](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples_general.html#example-scp-deny-region)
 
-- [Re:Inforce Vid](https://www.youtube.com/watch?v=eVNvjQ0wr84)
+[Re:Inforce Vid](https://www.youtube.com/watch?v=eVNvjQ0wr84)
 
-- [Official Doc](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html)
+[Official Doc](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html)
 
-- [Ejemplo No Oficial](https://www.youtube.com/watch?v=D-1u0dBM-q8)
+[Ejemplo No Oficial](https://www.youtube.com/watch?v=D-1u0dBM-q8)
 
-- [Simple](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonS3ReadOnlyAccess)
+[Simple](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonS3ReadOnlyAccess)
 
-- [With Conditions](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3A768312754627%3Apolicy%2FFJMD_IAMRotateOwnAcessKeys?section=policy_permissions)
+[With Conditions](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3A768312754627%3Apolicy%2FFJMD_IAMRotateOwnAcessKeys?section=policy_permissions)
 
-- [Listado Explicitos: Permisivos o De negacion](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
+[Listado Explicitos: Permisivos o De negacion](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
 
-- [Evaluacion de politicas 1 - Alto Nivel. Deny Explicited Rules! Not? Deny Implicied Rules!](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html#policies_evaluation_example)
+[Evaluacion de politicas 1 - Alto Nivel. Deny Explicited Rules! Not? Deny Implicied Rules!](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html#policies_evaluation_example)
 
-- [Policy Evaluation](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html#policy-eval-denyallow)
+[Policy Evaluation](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html#policy-eval-denyallow)
 
-- [Ejemplo, S3..but SQS](https://s3.console.aws.amazon.com/s3/buckets/testfjmd?region=us-east-1&tab=permissions)
+[Ejemplo, S3..but SQS](https://s3.console.aws.amazon.com/s3/buckets/testfjmd?region=us-east-1&tab=permissions)
 
-- [Shared Responsability Model](https://aws.amazon.com/compliance/shared-responsibility-model/)
+[Shared Responsability Model](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
 ## Network 1
 

@@ -4,17 +4,17 @@ Links for Official AWS Courses
 
 ![Current Courses](./current_course.png)  **Current Courses**:
 
+[Architecting on AWS](./Architecting_On_AWS_07012025_Day1.md)
+
+As prerequisite, you need to take Architecting on AWS, so I add some links for that course:
+
+![Inactive Courses](./old_courses.png)  **Inactive Courses**:
+
 [Advanced Architecting 27-Nov-2024 Day 1](./Advanced_Architecting_27112024_Day1.md)
 
 [Advanced Architecting 27-Nov-2024 Day 2](./Advanced_Architecting_27112024_Day2.md)
 
 [Advanced Architecting 27-Nov-2024 Day 3](./Advanced_Architecting_27112024_Day3.md)
-
-
-As prerequisite, you need to take Architecting on AWS, so I add some links for that course:
-[Architecting on AWS](./Architecting_On_AWS_1.md)
-
-![Inactive Courses](./old_courses.png)  **Inactive Courses**:
 
 [Cloud Practitioner 11-November-2024](./Cloud_Practitioner_11112024.md)
 
