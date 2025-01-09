@@ -95,27 +95,21 @@ Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introductio
 
 [No-Manejadas - No Explicitas-Con](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/test2?section=permissions)
 
-[Basadas en Recursos](https://s3.console.aws.amazon.com/s3/buckets/testfjmd?region=us-east-1&tab=permissions)
+[Basadas en Recursos](https://s3.console.aws.amazon.com/s3/buckets/testfmorenodpublichtml?region=us-east-1&tab=permissions)
 
 [SCP](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples_general.html#example-scp-deny-region)
 
-[Re:Inforce Vid](https://www.youtube.com/watch?v=eVNvjQ0wr84)
+[Re:Inforce Vid for Permission Boundaries](https://www.youtube.com/watch?v=eVNvjQ0wr84)
 
-[Official Doc](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html)
+[Official Doc for Permission Boundaries](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html)
 
-[Ejemplo No Oficial](https://www.youtube.com/watch?v=D-1u0dBM-q8)
+[No-Official Video for Permission Boundaries](https://www.youtube.com/watch?v=D-1u0dBM-q8)
 
-[Simple](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonS3ReadOnlyAccess)
+[Simple Policies for AWS Services - Review Link](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonS3ReadOnlyAccess)
 
-[With Conditions](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3A768312754627%3Apolicy%2FFJMD_IAMRotateOwnAcessKeys?section=policy_permissions)
+[Advanced Policies With Conditions - Review Link](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3A768312754627%3Apolicy%2FFJMD_IAMRotateOwnAcessKeys?section=policy_permissions)
 
-[Listado Explicitos: Permisivos o De negacion](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
-
-[Evaluacion de politicas 1 - Alto Nivel. Deny Explicited Rules! Not? Deny Implicied Rules!](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html#policies_evaluation_example)
-
-[Policy Evaluation](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html#policy-eval-denyallow)
-
-[Ejemplo, S3..but SQS](https://s3.console.aws.amazon.com/s3/buckets/testfjmd?region=us-east-1&tab=permissions)
+[Evaluation Logic - Pages ](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
 
 [Shared Responsability Model](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
