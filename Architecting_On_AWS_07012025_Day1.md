@@ -72,7 +72,6 @@ Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introductio
 
 ## Account Security
 
-
 [Root Account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html)
 
 [PRACTICES: No daily tasks, MFA, no CLI/Programmatice Access](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege)
@@ -91,78 +90,92 @@ Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introductio
 
 [Cross-Account access using IAM](https://repost.aws/knowledge-center/cross-account-access-iam)
 
-[Manejadas por AWS o Usuario-Con](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies)
+[MI CUENTA SOLAMENTE: Manejadas por AWS o Usuario-Con](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies)
 
-[No-Manejadas - No Explicitas-Con](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/test2?section=permissions)
+[MI CUENTA SOLAMENTE: No-Manejadas - No Explicitas-Con](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/test2?section=permissions)
 
-[Basadas en Recursos](https://s3.console.aws.amazon.com/s3/buckets/testfmorenodpublichtml?region=us-east-1&tab=permissions)
+[MI CUENTA SOLAMENTE: Basadas en Recursos](https://s3.console.aws.amazon.com/s3/buckets/testfmorenodpublichtml?region=us-east-1&tab=permissions)
 
 [SCP](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples_general.html#example-scp-deny-region)
 
-[Re:Inforce Vid for Permission Boundaries](https://www.youtube.com/watch?v=eVNvjQ0wr84)
+[Re:Inforce Video for Permission Boundaries](https://www.youtube.com/watch?v=eVNvjQ0wr84)
 
 [Official Doc for Permission Boundaries](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html)
 
 [No-Official Video for Permission Boundaries](https://www.youtube.com/watch?v=D-1u0dBM-q8)
 
-[Simple Policies for AWS Services - Review Link](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonS3ReadOnlyAccess)
+[MI CUENTA SOLAMENTE: Simple Policies for AWS Services - Review Link](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonS3ReadOnlyAccess)
 
-[Advanced Policies With Conditions - Review Link](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3A768312754627%3Apolicy%2FFJMD_IAMRotateOwnAcessKeys?section=policy_permissions)
+[MI CUENTA SOLAMENTE: Advanced Policies With Conditions - Review Link](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3A768312754627%3Apolicy%2FFJMD_IAMRotateOwnAcessKeys?section=policy_permissions)
 
-[Evaluation Logic - Pages ](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
+[Evaluation Logic - Pages](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
 
 [Shared Responsability Model](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
+
+**QUESTIONS :**
+Q: Se puede establecer la duracion del token ?
+R: Dentro de la Doc del CLI de [Assume Role](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sts/assume-role.html), se especifica en la opcion duration-seconds.
+
+Q: Como se puede limitar quien puede hacer las llamadas a AssumeRole?
+R: Aunque no he encontrado documentacion oficial, ve las siguientes opciones: 
+
+a) en el lab realizado en clase con [Bob]](https://repost.aws/knowledge-center/iam-assume-role-cli), se puede limitar en las APIs que puede llamar el usuario. 
+
+b) En las condiciones del Trusted Policy al configurar la seccion de Conditions o Principal.
+
+c) Limitar los servicios que lo llaman [Doc Official](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-calledvia)
+
 ## Network 1
 
-- [Subnetting](https://cidr.xyz/)
+[Subnetting](https://cidr.xyz/)
 
-- [VPC-Region-Con](https://us-east-1.console.aws.amazon.com/vpc/home?region=us-east-1#CreateVpc:createMode=vpcOnly)
+[VPC-Region-Con](https://us-east-1.console.aws.amazon.com/vpc/home?region=us-east-1#CreateVpc:createMode=vpcOnly)
 
-- [EIP - ENI - Use Cases](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/scenarios-enis.html)
+[EIP - ENI - Use Cases](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/scenarios-enis.html)
 
-- [NACL](https://youtu.be/RBMcBBaM58E)
+[NACL](https://youtu.be/RBMcBBaM58E)
 
-- [Practicas mas implementada-Ejemplos](https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html)
+[Practicas mas implementada-Ejemplos](https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html)
 
 ## Compute
 
-- [Nombre:familia-gen-addicional.\*Tamano-Con](https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#InstanceTypes:)
+[MI CUENTA: Nombre:familia-gen-addicional.\*Tamano-Con](https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#InstanceTypes:)
 
-- [Tamano:large,xlarge,2xlarge-$$](https://calculator.aws/#/addService/ec2-enhancement)
+[Tamano:large,xlarge,2xlarge-$$](https://calculator.aws/#/addService/ec2-enhancement)
 
-- [Tenancy](https://aws.amazon.com/ec2/dedicated-hosts/#:~:text=An%20important%20difference%20between%20a,same%20physical%20server%20over%20time.)
+[Tenancy](https://aws.amazon.com/ec2/dedicated-hosts/#:~:text=An%20important%20difference%20between%20a,same%20physical%20server%20over%20time.)
 
-- [Dedicated instance (mismo cuenta no mismo payer account, paga consumo instancia) vs Dedicated Hosts (mayor visibilidad cores, afinidad). Ambas mismo performance, seguridad y elemento fisico.](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/dedicated-instance.html)
+[Dedicated instance (mismo cuenta no mismo payer account, paga consumo instancia) vs Dedicated Hosts (mayor visibilidad cores, afinidad). Ambas mismo performance, seguridad y elemento fisico.](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/dedicated-instance.html)
 
-- [Placement Groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html)
+[Placement Groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html)
 
-- [User-Data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html)
+[User-Data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html)
 
-- [Tipos EBS - replicado en la misma AZ](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volumes.html)
+[Tipos EBS - replicado en la misma AZ](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volumes.html)
 
-- [GP](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/general-purpose.html)
+[GP](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/general-purpose.html)
 
-- [GP2 Burst < 1TiB](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/general-purpose.html#gp2-performance)
+[GP2 Burst < 1TiB](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/general-purpose.html#gp2-performance)
 
-- [IO-Multiattached](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/provisioned-iops.html)
+[IO-Multiattached](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/provisioned-iops.html)
 
-- [Instace Store](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html)
+[Instace Store](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html)
 
-- [Link Tabla](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-store-volumes.html)
+[Link Tabla](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-store-volumes.html)
 
-- [Compra Computo (Otros modelos) - No RESERVA](https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-reservation-models/reservation-models-for-other-aws-services.html)
+[Compra Computo (Otros modelos) - No RESERVA](https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-reservation-models/reservation-models-for-other-aws-services.html)
 
-- [Interensante diferencia entre RESERVA de Capacidades, instancias, Savings Plan - No se puede vender diferencia con Reserved Instance.](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-reservations.html#capacity-reservations-differences)
+[Interensante diferencia entre RESERVA de Capacidades, instancias, Savings Plan - No se puede vender diferencia con Reserved Instance.](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-reservations.html#capacity-reservations-differences)
 
-- [Link No Official](https://www.cloudzero.com/blog/savings-plans-vs-reserved-instances)
+[Link No Official](https://www.cloudzero.com/blog/savings-plans-vs-reserved-instances)
 
-- [Vender RI Mktplace](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-general.html)
+[Vender RI Mktplace](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-general.html)
 
-- [Spot](https://youtu.be/mgWZls55ATs)
+[Spot](https://youtu.be/mgWZls55ATs)
 
-- [curl](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-instance-termination-notices.html)
+[curl](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-instance-termination-notices.html)
 
-- [EventBridge](https://aws.amazon.com/blogs/compute/taking-advantage-of-amazon-ec2-spot-instance-interruption-notices/)
+[EventBridge](https://aws.amazon.com/blogs/compute/taking-advantage-of-amazon-ec2-spot-instance-interruption-notices/)
 
-- [URL](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices/)
+[URL](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices/)
