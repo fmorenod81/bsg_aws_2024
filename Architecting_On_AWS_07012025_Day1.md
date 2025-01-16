@@ -126,6 +126,9 @@ b) En las condiciones del Trusted Policy al configurar la seccion de Conditions 
 
 c) Limitar los servicios que lo llaman [Doc Official](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-calledvia)
 
+Q: Existe algun servicio de Disaster Recovery en AWS ?
+
+R: Existe un servicio llaamdos [Elastic Recovery Service](https://aws.amazon.com/disaster-recovery/features/?nc=sn&loc=2) aunque es importante conocer las limitaciones que ofrece, para ellos es importante leer los [FAQs](https://aws.amazon.com/disaster-recovery/faqs/?nc=sn&loc=4)
 ## Network 1
 
 [Subnetting](https://cidr.xyz/)
