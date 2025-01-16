@@ -128,7 +128,9 @@ c) Limitar los servicios que lo llaman [Doc Official](https://docs.aws.amazon.co
 
 Q: Existe algun servicio de Disaster Recovery en AWS ?
 
-R: Existe un servicio llaamdos [Elastic Recovery Service](https://aws.amazon.com/disaster-recovery/features/?nc=sn&loc=2) aunque es importante conocer las limitaciones que ofrece, para ellos es importante leer los [FAQs](https://aws.amazon.com/disaster-recovery/faqs/?nc=sn&loc=4)
+R: Existe un servicio llamado [Elastic Recovery Service](https://aws.amazon.com/disaster-recovery/features/?nc=sn&loc=2) aunque es importante conocer las limitaciones que ofrece, para ellos es importante leer los [FAQs](https://aws.amazon.com/disaster-recovery/faqs/?nc=sn&loc=4). Si se desea tener mas informacion, puede tomar el curso en [SkillBuilder](https://explore.skillbuilder.aws/learn/courses/11123/aws-elastic-disaster-recovery-a-technical-introduction)
+
+
 ## Network 1
 
 [Subnetting](https://cidr.xyz/)
