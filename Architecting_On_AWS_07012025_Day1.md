@@ -112,12 +112,12 @@ Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introductio
 
 [Shared Responsability Model](https://aws.amazon.com/compliance/shared-responsibility-model/)
 
-
 **QUESTIONS :**
-Q: Se puede establecer la duracion del token ?
+
+**Q: Se puede establecer la duracion del token ?**
 R: Dentro de la Doc del CLI de [Assume Role](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sts/assume-role.html), se especifica en la opcion duration-seconds.
 
-Q: Como se puede limitar quien puede hacer las llamadas a AssumeRole?
+**Q: Como se puede limitar quien puede hacer las llamadas a AssumeRole?**
 R: Aunque no he encontrado documentacion oficial, ve las siguientes opciones: 
 
 a) en el lab realizado en clase con [Bob]](https://repost.aws/knowledge-center/iam-assume-role-cli), se puede limitar en las APIs que puede llamar el usuario. 
@@ -126,7 +126,7 @@ b) En las condiciones del Trusted Policy al configurar la seccion de Conditions 
 
 c) Limitar los servicios que lo llaman [Doc Official](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-calledvia)
 
-Q: AWS tiene un tool para simular la caida de una region o algo por el estilo? 
+**Q: AWS tiene un tool para simular la caida de una region o algo por el estilo?**
 
 R: Lo mas cercano puede ser un serivicio de Disaster Recovery. Existe un servicio llamado [Elastic Recovery Service](https://aws.amazon.com/disaster-recovery/features/?nc=sn&loc=2) aunque es importante conocer las limitaciones que ofrece, para ellos es importante leer los [FAQs](https://aws.amazon.com/disaster-recovery/faqs/?nc=sn&loc=4). Si se desea tener mas informacion, puede tomar el curso en [SkillBuilder](https://explore.skillbuilder.aws/learn/courses/11123/aws-elastic-disaster-recovery-a-technical-introduction).
 
@@ -184,3 +184,18 @@ R: Lo mas cercano puede ser un serivicio de Disaster Recovery. Existe un servici
 [EventBridge](https://aws.amazon.com/blogs/compute/taking-advantage-of-amazon-ec2-spot-instance-interruption-notices/)
 
 [URL](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices/)
+
+**QUESTIONS :**
+
+**Q: Tienes referencias externas a AWS sobre el subnetting ?**
+R:/ Este curso explica a un nivel aceptable la parte de [subnetting (division de redes)](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-vpc-and-subnets/) aunque se puede ver otros videos con [explicacion aplicado hacia AWS](https://www.youtube.com/watch?app=desktop&v=TUTqYEZZUdc&t=887s)
+
+**Q: El uso del Internet Gateway tiene costo o como se realiza el cobro del trafico ?**
+R:/ Como tal el uso del Internet Gateway no tiene costo. Ver Nota [aqui](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html). Sin embargo, si existe costo de transferencia de datos entre zonas de disponibilidad, uso del NAT Gateway, [componentes VPC](https://aws.amazon.com/vpc/pricing/), etc. Para ello es mejor que leas este [articulo](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/) y el [pricing de EC2 seccion Data Transfer](https://aws.amazon.com/ec2/pricing/on-demand/#Data_Transfer)
+
+**Q: Existe una tabla con la isntancia de las familias EC2?**
+R:/ Como tal no es una tabla pero las primeras 6 opciones de la izquierda son las familias de instancias. Se encuentra [aqui](https://aws.amazon.com/ec2/instance-types/)
+
+**Q: Dentro de los casos de uso de familias EC2, cual seria el adecuado para entrenamiento de ML?**
+R:/ Encontre una blog alineado a la respuesta de GenAI, asi que aqui esta el [blog](https://www.techtarget.com/searchcloudcomputing/tip/Selecting-an-AWS-EC2-instance-for-machine-learning-workloads). Adicionalmente dentro otros blogs encontramos los casos de uso por ejemplo [este](https://www.geeksforgeeks.org/amazon-ec2-instance-types/).
+
