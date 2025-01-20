@@ -4,7 +4,9 @@ Links for Official AWS Courses
 
 ![Current Courses](./current_course.png)  **Current Courses**:
 
-[Architecting on AWS](./Architecting_On_AWS_07012025_Day1.md)
+[Architecting on AWS Day 1](./Architecting_On_AWS_07012025_Day1.md)
+
+[Architecting on AWS Day 2](./Architecting_On_AWS_07012025_Day2.md)
 
 As prerequisite, you need to take Architecting on AWS, so I add some links for that course:
 

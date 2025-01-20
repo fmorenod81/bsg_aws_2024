@@ -1,4 +1,4 @@
-Technical_Essentials_01072024.md
+Architecting_On_AWS_07012025_Day1.md
 
 Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introduction to the course](./00-Personal_Taughts_07012025.pdf)
 
