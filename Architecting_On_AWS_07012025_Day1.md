@@ -159,7 +159,7 @@ R: Lo mas cercano puede ser un serivicio de Disaster Recovery. Existe un servici
 
 [Tipos EBS - replicado en la misma AZ](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volumes.html)
 
-[GP](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/general-purpose.html)
+[GP EBS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/general-purpose.html)
 
 [GP2 Burst < 1TiB](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/general-purpose.html#gp2-performance)
 
@@ -173,15 +173,15 @@ R: Lo mas cercano puede ser un serivicio de Disaster Recovery. Existe un servici
 
 [Interensante diferencia entre RESERVA de Capacidades, instancias, Savings Plan - No se puede vender diferencia con Reserved Instance.](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-reservations.html#capacity-reservations-differences)
 
-[Link No Official](https://www.cloudzero.com/blog/savings-plans-vs-reserved-instances)
+[Savings Plan vs Reserved Instance - Link No Official](https://www.cloudzero.com/blog/savings-plans-vs-reserved-instances)
 
-[Vender RI Mktplace](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-general.html)
+[Sell RI on Mktplace](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-general.html)
 
 [Spot](https://youtu.be/mgWZls55ATs)
 
-[curl](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-instance-termination-notices.html)
+[[Como conocerlo el aviso Spot Instance Termination -curl](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-instance-termination-notices.html)
 
-[EventBridge](https://aws.amazon.com/blogs/compute/taking-advantage-of-amazon-ec2-spot-instance-interruption-notices/)
+[Como conocerlo el aviso Spot Instance Termination - EventBridge](https://aws.amazon.com/blogs/compute/taking-advantage-of-amazon-ec2-spot-instance-interruption-notices/)
 
 [URL](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices/)
 
@@ -198,4 +198,8 @@ R:/ Como tal no es una tabla pero las primeras 6 opciones de la izquierda son la
 
 **Q: Dentro de los casos de uso de familias EC2, cual seria el adecuado para entrenamiento de ML?**
 R:/ Encontre una blog alineado a la respuesta de GenAI, asi que aqui esta el [blog](https://www.techtarget.com/searchcloudcomputing/tip/Selecting-an-AWS-EC2-instance-for-machine-learning-workloads). Adicionalmente dentro otros blogs encontramos los casos de uso por ejemplo [este](https://www.geeksforgeeks.org/amazon-ec2-instance-types/).
+
+**Q: Como se llama el servicio Windows que ejecuta el script User Data, similar a cloud-init en Linux?**
+R:/ El servicio se llama [EC2Launch](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2launch-v2.html). Una mayor cantidad de informacion se encuentra [aqui.](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html)
+
 
