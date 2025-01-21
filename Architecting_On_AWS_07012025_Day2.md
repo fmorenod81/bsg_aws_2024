@@ -56,13 +56,21 @@ R:/ Primero me autocorrigo, al decir que no existe replicacion bidireccional, si
 
 ## Databases
 
+[NO Oficial: ElastiCache Redis vs InMemoryDB](https://cloudwellserved.com/amazon-elasticache-for-redis-vs-amazon-memorydb-for-redis/)
+
 [Read Replica Lag](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html#USER_ReadRepl.Monitoring.Lag)
 
 [Diferencias DB](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html#USER_ReadRepl.Overview.Differences)
 
 [CQRS Pattern](https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-data-persistence/cqrs-pattern.html)
 
+[MultiAZ Features](https://aws.amazon.com/rds/features/multi-az/)
+
 [MultiAZ Cluster](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/multi-az-db-clusters-concepts.html)
+
+[Aurora Pricing](https://aws.amazon.com/rds/aurora/pricing/)
+
+[CAP Theorem](https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/cap-theorem.html)
 
 [Queries and Languages for DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SQLtoNoSQL.ReadData.Query.html)
 
@@ -76,13 +84,17 @@ R:/ Primero me autocorrigo, al decir que no existe replicacion bidireccional, si
 
 [DynamoDB: Autoscaling](https://aws.amazon.com/blogs/database/amazon-dynamodb-auto-scaling-performance-and-cost-optimization-at-any-scale/)
 
-[DynamoDB: Global Tables](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables_HowItWorks.html)
+[DynamoDB: Global Tables](https://aws.amazon.com/dynamodb/global-tables/)
+
+[DynamoDB: Global Tables - How It Works!](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/V2globaltables_HowItWorks.html)
 
 [Cache: Lazy Load Redis](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/Strategies.html)
 
 [Cache: Lazy Load Memcached](https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/Strategies.html)
 
 [ElastiCache](https://aws.amazon.com/elasticache/)
+
+[ElastiCache Redis and ValKey](https://aws.amazon.com/elasticache/redis/)
 
 [Redis Vs MemCached](https://aws.amazon.com/elasticache/redis-vs-memcached/)
 
