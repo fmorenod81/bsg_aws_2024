@@ -46,12 +46,15 @@ Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introductio
 **QUESTIONS :**
 
 **Q: Los S3 Access Point tienen costo ?**
+
 R:/ No. Segun esta [informacion](https://aws.amazon.com/s3/features/access-points/#:~:text=S3%20Access%20Points%20are%20available%20in%20all%20regions%20at%20no%20additional%20cost.). Finalmente, puedes metodos de acceso para controlar costos de datos entre s3 y ec2 [aqui](https://repost.aws/articles/ARjzluyMS8RbeOOK4MGXRG6Q/cost-effective-methods-for-accessing-s3-buckets-cross-region)
 
 **Q: Tienes un diagrama que explica la encripcion en S3 ?**
+
 R:/ La mejor [Explicacion](https://faun.pub/aws-s3-encryption-2f6101573caa) que encontre fue esta.
 
 **Q: Cuales son los limitantes para la replicacion en S3?**
+
 R:/ Primero me autocorrigo, al decir que no existe replicacion bidireccional, si existe y aplica para casos de failover de region y de trafico. Mas informacion puede encontrarse [aqui](https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html). Adicionalmente, la replicacion puede existir desde el momento de activacion en adelante (live replication) o hacia atras (OnDemand replication). Adicionalmente se pueden visualizar las condiciones/consideraciones para la replicacion [aqui](https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication-requirements.html).
 
 ## Databases
@@ -103,3 +106,18 @@ R:/ Primero me autocorrigo, al decir que no existe replicacion bidireccional, si
 [ElastiCache: Global DataStore](https://aws.amazon.com/elasticache/faqs/#Global_Datastore)
 
 [DMS: Como funciona: 3 fases del Migration Tasks: FullLoad, Changes in FullLoad, CDC](https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Introduction.HighLevelView.html)
+
+**QUESTIONS :**
+
+**Q: Que incluye la replicacion en un DMS, por ejemplo, indices, stored procedures, etc ?**
+
+R:/ Dentro de la documentacion de las [mejores practicas](https://docs.aws.amazon.com/dms/latest/userguide/CHAP_BestPractices.html) y dentro de la resolucion de este [Re:Post](https://repost.aws/knowledge-center/dms-migrate-database-objects), se menciona que esa labora la realiza las herramientas nativas para el caso de la BD o Schema Conversion Tool (SCT). Sin embargo, en ambas fuentes de informacion se solicita que se revise el schema convertido o movido al nuevo destino en AWS. Incluso en el [DMS FAQ, section Schema Conversion](https://aws.amazon.com/dms/faqs/) se pueden usar herramienta de DMS para mirar conversiones en especifico.
+
+**Q: Se puede limitar las tablas para ejecutar la replicacion en un DMS ?**
+
+R:/ Si, se puede realizar configuraciones especiales para configurar el DMS, en esta [documentacion](https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Tasks.CustomizingTasks.TableMapping.SelectionTransformation.Selections.html) se puede mirar el ejemplo "Example Migrate some tables in a schema" cuales son las tablas ser usadas en la migracion.
+
+**Q: Donde se muestran las tecnologias de replicacion por motor de base de datos ?**
+**Q: COmo el DMS orquesta el full backup en una replicacion ?**
+
+R:/ Ambas preguntas estan relaciones desde el momento en que se realiza la marca de inicio de la replicacion, y el resto de los cambios en proceso (ongoing changes) que es el caso de Change Data Capture. En esta [pagina](https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Task.CDC.html) se mira las tecnologias nativas del motor donde se realizan las llamadas eficientes para los ongoing changes. Adicionalmente, se mira como se realiza la marca de CDC Start point, es decir, desde el lugar donde se realizo el Full Backup  y donde despues de ello, la BD sabe cuales son los cambios realizados y tienen que ser enviados a AWS. El proceso de orquestacion para migracion de una gran cantidad datos de BD se puede mirar en este [blog](https://aws.amazon.com/blogs/storage/enable-large-scale-database-migrations-with-aws-dms-and-aws-snowball/).
