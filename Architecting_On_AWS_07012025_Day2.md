@@ -4,6 +4,7 @@ Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introductio
 
 - [Storage](#storage)
 - [Databases](#databases)
+- [Monitoring and Scaling](#monitoring-and-scaling)
 
 ## Storage
 
@@ -121,3 +122,50 @@ R:/ Si, se puede realizar configuraciones especiales para configurar el DMS, en 
 **Q: COmo el DMS orquesta el full backup en una replicacion ?**
 
 R:/ Ambas preguntas estan relaciones desde el momento en que se realiza la marca de inicio de la replicacion, y el resto de los cambios en proceso (ongoing changes) que es el caso de Change Data Capture. En esta [pagina](https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Task.CDC.html) se mira las tecnologias nativas del motor donde se realizan las llamadas eficientes para los ongoing changes. Adicionalmente, se mira como se realiza la marca de CDC Start point, es decir, desde el lugar donde se realizo el Full Backup  y donde despues de ello, la BD sabe cuales son los cambios realizados y tienen que ser enviados a AWS. El proceso de orquestacion para migracion de una gran cantidad datos de BD se puede mirar en este [blog](https://aws.amazon.com/blogs/storage/enable-large-scale-database-migrations-with-aws-dms-and-aws-snowball/).
+
+## Monitoring and Scaling
+
+[Cloudwatch conceptos metricas](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html)
+
+[Cloudwatch conceptos logs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CloudWatchLogsConcepts.html)
+
+[Log Groups, misma configuracion](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Working-with-log-groups-and-streams.html)
+
+[Cloudwatch Pricing](https://aws.amazon.com/cloudwatch/pricing/)
+
+[Integracion de logs hacia metricas - Metric Filter Example Apache](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/ExtractBytesExample.html)
+
+[MI PROPIA CUENTA: Quien hizo que y cuando](https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?ReadOnly=false)
+
+[Verificar accesos no autorizados en near-RTime - VPC Flow](https://aws.amazon.com/blogs/mt/improve-security-by-analyzing-vpc-flow-logs-with-amazon-cloudwatch-contributor-insights/)
+
+[Clouwatch FAQs](https://www.amazonaws.cn/en/cloudwatch/faqs/)
+
+[ATM EventBridge](https://aws.amazon.com/blogs/compute/reducing-custom-code-by-using-advanced-rules-in-amazon-eventbridge/)
+
+[S3 Event Notification vs EventBridge](https://aws.amazon.com/blogs/aws/new-use-amazon-s3-event-notifications-with-amazon-eventbridge/)
+
+[Scheduler](https://aws.amazon.com/blogs/architecture/serverless-scheduling-with-amazon-eventbridge-aws-lambda-and-amazon-dynamodb/)
+
+[ELB Comparison](https://aws.amazon.com/elasticloadbalancing/features/?nc=sn&loc=2)
+
+[ELB FAQs](https://aws.amazon.com/elasticloadbalancing/faqs/?nc=sn&loc=5)
+
+[Gateway LB](https://aws.amazon.com/elasticloadbalancing/gateway-load-balancer/)
+
+[AWS autoscaling differente que EC2 Autoscaling](https://aws.amazon.com/autoscaling/features/)
+
+[Importancia: Escenario DC: Explicacion de Costos: Oportunidad, Desperdiciado (Infra significa UX)](https://aws.amazon.com/blogs/aws-cloud-financial-management/five-things-you-should-do-to-create-an-accurate-on-premises-vs-cloud-comparison-model/)
+
+[AS Policies: Type](https://docs.aws.amazon.com/autoscaling/ec2/userguide/scale-your-group.html)
+
+[AS Policies: Dynamic](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scale-based-on-demand.html)
+
+[Step vs Simple Policy](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-simple-step.html#SimpleScaling)
+
+[Predictive Policy](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-predictive-scaling.html)
+
+[Cost: Policies](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-mixed-instances-groups.html)
+
+[Spot on ASG](https://aws.amazon.com/getting-started/hands-on/ec2-auto-scaling-spot-instances/)
+
