@@ -5,6 +5,8 @@ Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introductio
 - [Storage](#storage)
 - [Databases](#databases)
 - [Monitoring and Scaling](#monitoring-and-scaling)
+- [Automation](#automation)
+- [Containers](#containers)
 
 ## Storage
 
@@ -169,3 +171,69 @@ R:/ Ambas preguntas estan relaciones desde el momento en que se realiza la marca
 
 [Spot on ASG](https://aws.amazon.com/getting-started/hands-on/ec2-auto-scaling-spot-instances/)
 
+## Automation
+
+[Complete CI/CD with AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy, and AWS CodePipeline](https://aws.amazon.com/blogs/devops/complete-ci-cd-with-aws-codecommit-aws-codebuild-aws-codedeploy-and-aws-codepipeline/. )
+
+
+[GitHub connections](https://docs.aws.amazon.com/codepipeline/latest/userguide/connections-github.html. )
+
+[Refer to resource outputs in another AWS CloudFormation stack](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/walkthrough-crossstackref.html)
+
+[Update CloudFormation stacks using change sets](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html)
+
+[AWS CloudFormation best practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)
+
+[Solutions Library](https://aws.amazon.com/solutions/)
+
+[CDK v2-Cloud Dev Kit](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
+
+[Simple Sys Mngr-SSM - Agent](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html)
+
+## Containers
+
+[Simple microservices architecture on AWS](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/simple-microservices-architecture-on-aws.html)
+
+[Use service discovery to connect Amazon ECS services with DNS names](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-discovery.html)
+
+[Kubernetes on AWS](https://aws.amazon.com/kubernetes/.)
+
+[Amazon EKS features](https://aws.amazon.com/eks/features/)
+
+[Amazon ECS features](https://aws.amazon.com/ecs/features/)
+
+[Automatically manage Amazon ECS capacity with cluster auto scaling](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-auto-scaling.html)
+
+[AWS Fargate](https://aws.amazon.com/fargate/)
+
+[Building your Cloud Operating Model](https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-cloud-operating-model/welcome.html)
+
+[Amazon EKS Distro ](https://aws.amazon.com/eks/eks-distro/)
+
+[Amazon EKS Anywhere](https://aws.amazon.com/eks/eks-anywhere/)
+
+[Amazon ECS Anywhere](https://aws.amazon.com/ecs/anywhere/)
+
+[Amazon Elastic Container Service -Amazon ECS](https://aws.amazon.com/ecs/)
+
+[Caso PrimeVideo de MicroSvr a Monolitos](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90)
+
+[Containers Overview](https://aws.amazon.com/containers/)
+
+[Image Scanning](https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-scanning.html)
+
+[Lifecycle](https://docs.aws.amazon.com/AmazonECR/latest/userguide/lifecycle_policy_examples.html)
+
+[Private Image Replication](https://docs.aws.amazon.com/AmazonECR/latest/userguide/replication.html)
+
+[Servicios (Opcionales) y Tasks](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_run_task.html)
+
+[Deteccion/Discovery: Namespaces en Cloud Map, VPC-DNS Private](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-discovery.html)
+
+[Running in your laptop or on the cloud](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)
+
+[Portable to any K8s, depends on version](https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html)
+
+[Fargate Ejemplo](https://docs.aws.amazon.com/es_es/AmazonECS/latest/developerguide/ECS_AWSCLI_Fargate.html#ECS_AWSCLI_Fargate_list_task_definitions)
+
+[ECS Task Specifications at CPU/Mem](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html)
