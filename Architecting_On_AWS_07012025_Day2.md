@@ -175,7 +175,6 @@ R:/ Ambas preguntas estan relaciones desde el momento en que se realiza la marca
 
 [Complete CI/CD with AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy, and AWS CodePipeline](https://aws.amazon.com/blogs/devops/complete-ci-cd-with-aws-codecommit-aws-codebuild-aws-codedeploy-and-aws-codepipeline/. )
 
-
 [GitHub connections](https://docs.aws.amazon.com/codepipeline/latest/userguide/connections-github.html. )
 
 [Refer to resource outputs in another AWS CloudFormation stack](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/walkthrough-crossstackref.html)
@@ -237,3 +236,21 @@ R:/ Ambas preguntas estan relaciones desde el momento en que se realiza la marca
 [Fargate Ejemplo](https://docs.aws.amazon.com/es_es/AmazonECS/latest/developerguide/ECS_AWSCLI_Fargate.html#ECS_AWSCLI_Fargate_list_task_definitions)
 
 [ECS Task Specifications at CPU/Mem](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html)
+
+**QUESTIONS :**
+
+**Q: Existe Ingenieria Reversa para recursos en AWS ?**
+
+R:/ Dentro de la documentacion de las [mejores practicas](https://docs.aws.amazon.com/dms/latest/userguide/CHAP_BestPractices.html) y dentro de la resolucion de este [Re:Post](https://repost.aws/knowledge-center/dms-migrate-database-objects), se menciona que esa labora la realiza las herramientas nativas para el caso de la BD o Schema Conversion Tool (SCT). Sin embargo, en ambas fuentes de informacion se solicita que se revise el schema convertido o movido al nuevo destino en AWS. Incluso en el [DMS FAQ, section Schema Conversion](https://aws.amazon.com/dms/faqs/) se pueden usar herramienta de DMS para mirar conversiones en especifico.
+
+**Q: Donde podria encontrar plantillas de CloudFormation para aprender ?**
+
+R:/ [Dentro de](https://github.com/aws-cloudformation/aws-cloudformation-templates/tree/main/EC2)
+
+**Q: Donde podria encontrar plantillas de CloudFormation para aprender ?**
+
+R:/ https://aws.amazon.com/cdk/faqs/
+
+**Q: Diferencias de lanzamiento de recursos entre ECS y EKS, especialmente con Balanceadores ?**
+
+R:/ 
