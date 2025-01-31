@@ -62,28 +62,48 @@ Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introductio
 
 ## Serverless
 
+[AWS Serverless](https://aws.amazon.com/serverless/)
+
 [API GW: AuthN&AuthZ: API Keys & OAuth/JWT-Lambda Authorizer](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html)
 
 [API GW: Brazilian Bank](https://github.com/aws-samples/openbanking-brazilian-auth-samples)
 
 [GraphQL](https://aws.amazon.com/graphql/serverless-api/)
 
-[SQS & SNS Use Case](https://aws.amazon.com/blogs/compute/building-loosely-coupled-scalable-c-applications-with-amazon-sqs-and-amazon-sns/)
+---
+
+[Building Loosely Coupled, Scalable, C# Applications with Amazon SQS and Amazon SNS](https://aws.amazon.com/blogs/compute/building-loosely-coupled-scalable-c-applications-with-amazon-sqs-and-amazon-sns/)
+
+[Loosely Coupled Scenarios](https://docs.aws.amazon.com/wellarchitected/latest/high-performance-computing-lens/loosely-coupled-scenarios.html)
+
+[Amazon SQS standard queues](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues.html)
+
+[Amazon SQS FIFO queues](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-fifo-queues.html)
 
 [SQS FIFO](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues-exactly-once-processing.html)
 
 [SQS Short vs Long Polling](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-short-and-long-polling.html#sqs-short-polling)
 
+---
+
 [SNS Retries](https://docs.aws.amazon.com/sns/latest/dg/sns-message-delivery-retries.html)
+
+---
+
+[Amazon Kinesis](https://aws.amazon.com/kinesis/)
+
+[What is Amazon Kinesis Data Streams?](https://docs.aws.amazon.com/streams/latest/dev/introduction.html)
 
 [Kinesis Data Streams](https://docs.aws.amazon.com/streams/latest/dev/building-consumers.html)
 
+[Amazon Managed Service for Apache Flink](https://aws.amazon.com/managed-service-apache-flink/)
+
+---
+
 [Step Functions Concepts](https://docs.aws.amazon.com/step-functions/latest/dg/concepts-states.html)
 
-[]()
+[Integrating services with Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/integrate-services.html)
 
-[]()
+[Discovering workflow states to use in Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/workflow-states.html)
 
-[]()
-
-[]()
+[Amazon States Language](https://states-language.net/spec.html)
