@@ -237,3 +237,16 @@ R:/ Ambas preguntas estan relaciones desde el momento en que se realiza la marca
 
 [ECS Task Specifications at CPU/Mem](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html)
 
+*QUESTIONS :*
+
+*Q: Existe Ingenieria Reversa para recursos en AWS ?*
+
+R:/ Dentro lo encontrado esta [IaC generator](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/generate-IaC.html) en Cloudformation.
+
+*Q: Donde podria encontrar plantillas de CloudFormation para aprender ?*
+
+R:/ Algunas ejemplos pueden ser las Plantillas de [AWS CloudFormation](https://github.com/aws-cloudformation) o [AWS Samples](https://github.com/aws-samples)
+
+*Q: Diferencias de lanzamiento de recursos entre ECS y EKS, especialmente con Balanceadores ?*
+
+R:/Se puede mirar en este (Ejemplo de Creacion de ELB desde la consola Web)[https://youtu.be/eul12XujVgQ?t=679] que se pide que se cree desde la consola, no de manera integrada. La documentacion oficial de ECS esta [aqui](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-load-balancing.html). Para EKS,  se realiza desde las anotaciones. Aqui esta el ejemplo para usar un Ingress y un ALB, aqui esta la [documentacion oficial](https://docs.aws.amazon.com/eks/latest/userguide/alb-ingress.html).

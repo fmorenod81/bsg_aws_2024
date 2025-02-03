@@ -4,6 +4,9 @@ Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introductio
 
 - [Network 2](#network-2)
 - [Serverless](#serverless)
+- [Edge](#edge)
+- [Backup and Recovery](#backup-and-recovery)
+- [Course Summary](#course-summary)
 
 ## Network 2
 
@@ -107,3 +110,103 @@ Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introductio
 [Discovering workflow states to use in Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/workflow-states.html)
 
 [Amazon States Language](https://states-language.net/spec.html)
+
+
+*QUESTIONS :*
+
+*Q: Cual es la opcion de Dead-Letter para el Servicio SNS ?*
+
+R:/ Es una cola de SQS que recibe las notificaciones que no se pueden recibir. La documentacion de la Cola de SQS en SNS esta [aqui](https://docs.aws.amazon.com/sns/latest/dg/sns-dead-letter-queues.html). Y la misma opcion en SQS esta [aqui](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html).
+
+*Q: Cuales pueden ser los casos de uso de Kinesis Video Streams ?*
+
+R:/En la pagina oficial, estan los [casos de uso](https://aws.amazon.com/kinesis/video-streams/?nc=sn&loc=2&dn=1&amazon-kinesis-video-streams-resources-blog.sort-by=item.additionalFields.createdDate&amazon-kinesis-video-streams-resources-blog.sort-order=desc)
+
+## Edge
+
+---
+
+[Monitoring health checks using CloudWatch](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/monitoring-health-checks.html)
+
+[Working with hosted zones](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-working-with.html)
+
+[Usage Cases using Route 53 Resolver: OnPrem](https://aws.amazon.com/blogs/security/simplify-dns-management-in-a-multiaccount-environment-with-route-53-resolver/)
+
+[Choosing a routing policy](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html)
+
+---
+
+[Cloudfront Sec: OAC Origina Access Control to access S3/Aug 22](https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-cloudfront-origin-access-control/)
+
+[Cloudfront Sec:](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html)
+
+[Cloudfront Cache Configuration: Static Assets](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/ConfiguringCaching.html)
+
+[Cloudfront Configuration: Dynamic Content](https://aws.amazon.com/cloudfront/dynamic-content/)
+
+[Cloudfront Configuration: Cache Policies](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-managed-cache-policies.html)
+
+[MI PROPIA CUENTA: WAF Console](https://us-east-1.console.aws.amazon.com/wafv2/homev2/web-acls/new?region=us-east-1)
+
+---
+[How AWS Shield and Shield Advanced work](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html)
+
+[AWS Shield Advanced pricing](https://aws.amazon.com/shield/pricing/)
+
+[Setting up AWS WAF and its components](https://docs.aws.amazon.com/waf/latest/developerguide/getting-started.html)
+
+[Using rule statements in AWS WAF](https://docs.aws.amazon.com/waf/latest/developerguide/waf-rule-statements.html)
+
+[Use AWS Firewall Manager to deploy protection at scale in AWS Organizations](https://aws.amazon.com/blogs/security/use-aws-firewall-manager-to-deploy-protection-at-scale-in-aws-organizations/)
+
+[Centrally manage AWS WAF (API v2) and AWS Managed Rules at scale with Firewall Manager](https://aws.amazon.com/blogs/security/centrally-manage-aws-waf-api-v2-and-aws-managed-rules-at-scale-with-firewall-manager/)
+
+[AWS Best Practices for DDoS Resiliency](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/welcome.html)
+
+---
+
+[Site requirements for Outposts racks](https://docs.aws.amazon.com/outposts/latest/userguide/outposts-requirements.html)
+
+[AWS resources on Outposts](https://docs.aws.amazon.com/outposts/latest/userguide/what-is-outposts.html#services)
+
+## Backup and Recovery
+
+---
+
+[AWS Backup](https://aws.amazon.com/blogs/aws/aws-backup-automate-and-centrally-manage-your-backups/)
+
+[AWS Backup: Supported AWS Resources and Applications](https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html#supported-resources)
+
+[AWS Backup – Automate and Centrally Manage Your Backups](https://aws.amazon.com/blogs/aws/aws-backup-automate-and-centrally-manage-your-backups/)
+
+[Monitoring AWS Backup](https://docs.aws.amazon.com/aws-backup/latest/devguide/monitoring.htm)
+
+[Managing AWS Backup Resources Across Multiple AWS Accounts](https://docs.aws.amazon.com/aws-backup/latest/devguide/manage-cross-account.html)
+
+[Creating a Backup Plan](https://docs.aws.amazon.com/aws-backup/latest/devguide/creating-a-backup-plan.html)
+
+[Disaster Recovery (DR) Architecture on AWS, Part III: Pilot Light and Warm Standby](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iii-pilot-light-and-warm-standby/)
+
+[Disaster Recovery (DR) Architecture on AWS, Part IV: Multi-Site Active/Active](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iv-multi-site-active-active/)
+
+## Course Summary
+
+[Certification Preparation](https://aws.amazon.com/certification/certification-prep)
+
+[Prepare for Examen](https://skillbuilder.aws/#prepare-for-exam)
+
+[Certification Preparation - Testing](https://aws.amazon.com/certification/certification-prep/testing/)
+
+[Digital Training](https://aws.amazon.com/training/digital)
+
+[Digital training](https://explore.skillbuilder.aws/)
+
+[Classroom training](https://aws.amazon.com/training)
+
+[AWS Certification](https://aws.amazon.com/certification)
+
+[AWS Workshops](https://workshops.aws/)
+
+[Tech Talks](https://aws.amazon.com/events/online-tech-talks/on-demand/)
+
+[AWS Ramp-Up Guides](https://aws.amazon.com/training/ramp-up-guides/)
