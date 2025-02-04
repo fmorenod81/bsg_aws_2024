@@ -5,6 +5,7 @@ Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introductio
 - [Network 2](#network-2)
 - [Serverless](#serverless)
 - [Edge](#edge)
+- [How do I configure geoproximity routing using the Route 53 console?](#how-do-i-configure-geoproximity-routing-using-the-route-53-console)
 - [Backup and Recovery](#backup-and-recovery)
 - [Course Summary](#course-summary)
 
@@ -134,7 +135,10 @@ R:/En la pagina oficial, estan los [casos de uso](https://aws.amazon.com/kinesis
 
 [Choosing a routing policy](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html)
 
+[How do I configure geoproximity routing using the Route 53 console?](https://youtu.be/zxSDRPQRd50?t=158)
 ---
+
+[Cloudfront How is work?](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/HowCloudFrontWorks.html)
 
 [Cloudfront Sec: OAC Origina Access Control to access S3/Aug 22](https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-cloudfront-origin-access-control/)
 
@@ -146,9 +150,14 @@ R:/En la pagina oficial, estan los [casos de uso](https://aws.amazon.com/kinesis
 
 [Cloudfront Configuration: Cache Policies](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-managed-cache-policies.html)
 
+[Using Amazon CloudFront Origin Shield](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/origin-shield.html)
+
 [MI PROPIA CUENTA: WAF Console](https://us-east-1.console.aws.amazon.com/wafv2/homev2/web-acls/new?region=us-east-1)
 
 ---
+
+[UDP reflection attacks](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/udp-reflection-attacks.html)
+
 [How AWS Shield and Shield Advanced work](https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html)
 
 [AWS Shield Advanced pricing](https://aws.amazon.com/shield/pricing/)
@@ -168,6 +177,8 @@ R:/En la pagina oficial, estan los [casos de uso](https://aws.amazon.com/kinesis
 [Site requirements for Outposts racks](https://docs.aws.amazon.com/outposts/latest/userguide/outposts-requirements.html)
 
 [AWS resources on Outposts](https://docs.aws.amazon.com/outposts/latest/userguide/what-is-outposts.html#services)
+
+[Connecting AWS Outposts to on-premises data sources](https://aws.amazon.com/blogs/storage/connecting-aws-outposts-to-on-premises-data-sources/)
 
 ## Backup and Recovery
 
