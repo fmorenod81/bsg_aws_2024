@@ -5,7 +5,6 @@ Technical Essentials 2024 - Start Date: 7 January 2025 - [Unofficial Introductio
 - [Network 2](#network-2)
 - [Serverless](#serverless)
 - [Edge](#edge)
-- [How do I configure geoproximity routing using the Route 53 console?](#how-do-i-configure-geoproximity-routing-using-the-route-53-console)
 - [Backup and Recovery](#backup-and-recovery)
 - [Course Summary](#course-summary)
 
@@ -136,6 +135,7 @@ R:/En la pagina oficial, estan los [casos de uso](https://aws.amazon.com/kinesis
 [Choosing a routing policy](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html)
 
 [How do I configure geoproximity routing using the Route 53 console?](https://youtu.be/zxSDRPQRd50?t=158)
+
 ---
 
 [Cloudfront How is work?](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/HowCloudFrontWorks.html)
@@ -181,8 +181,6 @@ R:/En la pagina oficial, estan los [casos de uso](https://aws.amazon.com/kinesis
 [Connecting AWS Outposts to on-premises data sources](https://aws.amazon.com/blogs/storage/connecting-aws-outposts-to-on-premises-data-sources/)
 
 ## Backup and Recovery
-
----
 
 [AWS Backup](https://aws.amazon.com/blogs/aws/aws-backup-automate-and-centrally-manage-your-backups/)
 
