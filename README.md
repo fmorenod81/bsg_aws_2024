@@ -42,3 +42,5 @@ As prerequisite, you need to take Architecting on AWS, so I add some links for t
 
 [Technical Essentials 26-March-2024](./Technical_Essentials_26032024.md)
 
+git reset --soft $(git merge-base main HEAD)
+git commit -m ":fire: Closing previous commits"
