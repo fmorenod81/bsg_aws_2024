@@ -1,6 +1,4 @@
-Technical_Essentials_01072024.md
-
-Technical Essentials 2024 - Start Date: 1 July 2024 - [Unofficial Introduction to the course](./00-Personal_Taughts_26032024.pdf)
+Technical_Essentials_11032025.md
 
 TABLE OF CONTENTS
 - [Introduction](#introduction)
