@@ -4,7 +4,9 @@ TABLE OF CONTENTS
 - [Introduction](#introduction)
 - [IAM](#iam)
 - [Budget](#budget)
+- [Questions I](#questions-i)
 - [Compute Services](#compute-services)
+- [Networking](#networking)
 
 ## Introduction
 
@@ -29,6 +31,30 @@ Example to use roles on IAM - Link: [AWS Repost](https://repost.aws/knowledge-ce
 ## Budget
 
 Budget Tutorial - Link: [AWS Tutorial](https://www.youtube.com/watch?v=O0sofGVT7uw)
+
+## Questions I
+
+1. Que otros tipos de cloud puede AWS ofrecerme y que servicios estarian asociados?
+   
+    R:/ Entender que tipos de nubes existen se pueden usar para despliegue se puede revisar en:
+
+    Selecting the right cloud for workloads – differences between public, private, and hybrid - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/public-sector-cloud-transformation/selecting-the-right-cloud-for-workloads-differences-between-public-private-and-hybrid.html)
+
+    Finalmente, los servicios asociados para la nube hibrida se encuentran en:
+
+    Hybrid Cloud with AWS - Link: [Official Page]((https://aws.amazon.com/hybrid/)
+
+2. Que estrategias tiene AWS para la migracion ?
+   
+    R:/ Existe una variedad de servicios, pero es mejor tener en cuenta los conceptos antes de empezar una implementacion:
+
+Understanding Your Application Readiness when Migrating to AWS - Link: [Whitepaper](https://d1.awsstatic.com/whitepapers/understanding-application-readiness-when-migrating-to-aws.pdf?did=wp_card&trk=wp_card)
+
+Migrating to AWS: Best Practices and Strategies - Link: [Whitepaper](https://d1.awsstatic.com/Migration/migrating-to-aws-ebook.pdf) 
+
+Adicionalmente, si quiere entener los conceptos de Disaster Recovery y Business continuity, el adecuado whitepaper sera este:
+
+Disaster Recovery of Workloads on AWS: Recovery in the Cloud - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html)
 
 ## Compute Services
 
@@ -61,3 +87,15 @@ How ECS works - Link [Official Page](https://docs.aws.amazon.com/AmazonECS/lates
 Serverless Portfolio - Link: [AWS Page](https://aws.amazon.com/serverless/)
 
 Lambda Service - Link: [AWS Page](https://aws.amazon.com/lambda/)
+
+## Networking
+
+VPC - All VPC Elements/Components - Link: [Official Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
+
+Networking Essentials - Link: [Official Documentation](https://aws.amazon.com/getting-started/aws-networking-essentials/)
+
+EIP - Pricing Change - Link [Official Documentation](https://aws.amazon.com/blogs/aws/new-aws-public-ipv4-address-charge-public-ip-insights/)
+
+ACL - Mejor grafica - Link [Official Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html)
+
+Sec Groups - Ejemplo - Link [Official Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html)
