@@ -1,6 +1,7 @@
 Technical_Essentials_11032025.md
 
 TABLE OF CONTENTS
+
 - [Introduction](#introduction)
 - [IAM](#iam)
 - [Budget](#budget)
@@ -22,6 +23,8 @@ Able a subnet with Local Zone - NOTE: My Own AWS Web Console - Link: [VPC Settin
 
 AWS Products - NOTE: Amazon RDS for DB2 - Link: [AWS Page](https://aws.amazon.com/products/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc&awsf.re%3AInvent=event-year%23aws-reinvent-2023&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all)
 
+Amazon Global Network Overview with James Hamilton - Link: [Re:Invent 2016 Video](https://youtu.be/uj7Ting6Ckk)
+
 ## IAM
 
 Multifactor Authenticator - Link: [Official Introduction](https://aws.amazon.com/iam/features/mfa)
@@ -35,7 +38,7 @@ Budget Tutorial - Link: [AWS Tutorial](https://www.youtube.com/watch?v=O0sofGVT7
 ## Questions I
 
 1. Que otros tipos de cloud puede AWS ofrecerme y que servicios estarian asociados?
-   
+
     R:/ Entender que tipos de nubes existen se pueden usar para despliegue se puede revisar en:
 
     Selecting the right cloud for workloads – differences between public, private, and hybrid - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/public-sector-cloud-transformation/selecting-the-right-cloud-for-workloads-differences-between-public-private-and-hybrid.html)
@@ -45,7 +48,7 @@ Budget Tutorial - Link: [AWS Tutorial](https://www.youtube.com/watch?v=O0sofGVT7
     Hybrid Cloud with AWS - Link: [Official Page]((https://aws.amazon.com/hybrid/)
 
 2. Que estrategias tiene AWS para la migracion ?
-   
+
     R:/ Existe una variedad de servicios, pero es mejor tener en cuenta los conceptos antes de empezar una implementacion:
 
 Understanding Your Application Readiness when Migrating to AWS - Link: [Whitepaper](https://d1.awsstatic.com/whitepapers/understanding-application-readiness-when-migrating-to-aws.pdf?did=wp_card&trk=wp_card)
@@ -55,6 +58,10 @@ Migrating to AWS: Best Practices and Strategies - Link: [Whitepaper](https://d1.
 Adicionalmente, si quiere entener los conceptos de Disaster Recovery y Business continuity, el adecuado whitepaper sera este:
 
 Disaster Recovery of Workloads on AWS: Recovery in the Cloud - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html)
+
+Finalmente, el resumen del whitepaper lo pueden encontrar en este blog, de 4 partes:
+
+Disaster Recovery (DR) Architecture on AWS, Part I: Strategies for Recovery in the Cloud - Link: [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-i-strategies-for-recovery-in-the-cloud/)
 
 ## Compute Services
 
