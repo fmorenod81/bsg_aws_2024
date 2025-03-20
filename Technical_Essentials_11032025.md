@@ -51,7 +51,7 @@ Budget Tutorial - Link: [AWS Tutorial](https://www.youtube.com/watch?v=O0sofGVT7
 
     Finalmente, los servicios asociados para la nube hibrida se encuentran en:
 
-    Hybrid Cloud with AWS - Link: [Official Page]((https://aws.amazon.com/hybrid/)
+    Hybrid Cloud with AWS - Link: [Official Page](https://aws.amazon.com/hybrid/)
 
 2. Que estrategias tiene AWS para la migracion ?
 
@@ -143,9 +143,17 @@ Types of Cloud Computing - IaaS/PaaS/SaaS - Link: [Official Documentation](https
 
 AWS DB Products - Link: [Official Documentation](https://aws.amazon.com/products/databases/)
 
+Codd's 12 rules - Link: [Wikipedia](https://en.wikipedia.org/wiki/Codd%27s_12_rules)
+
 RDS Web Page - Link: [Official Page](https://aws.amazon.com/relational-database/)
 
+"DB engines" on "Amazon Relational Database Service - User Guide" - Link: [Official Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html#Welcome.Concepts.DBInstance.engine)
+
 NoSQL WebPage - Link: [Official Page](https://aws.amazon.com/nosql/)
+
+How do I allow users to authenticate to an Amazon RDS for MySQL DB instance through their Amazon IAM credentials? - Link: [Blogs](https://repost.aws/knowledge-center/users-connect-rds-iam)
+
+IAM database authentication for MariaDB, MySQL, and PostgreSQL - Link: [Official Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.html)
 
 DB differences on Writable RR, backup or parallel replication on Read Replication - Link: [Official Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html#USER_ReadRepl.Overview.Differences)
 
