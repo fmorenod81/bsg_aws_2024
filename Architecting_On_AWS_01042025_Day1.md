@@ -1,4 +1,4 @@
-Architecting_On_AWS_01042025_Day1.md
+Architecting_On_AWS_01042025_Day1.md - [Unofficial Introduction to the course](./00-Personal_Taughts_01042025.pdf)
 
 [Join the Get AWS Certified: Foundational and Associate Challenge](https://pages.awscloud.com/GLOBAL-other-GC-Traincert-Foundational-and-Associate-Certification-Challenge-2025-reg.html)
 
