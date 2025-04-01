@@ -1,9 +1,8 @@
-Architecting_On_AWS_07012025_Day1.md
+Architecting_On_AWS_01042025_Day1.md
 
 [Join the Get AWS Certified: Foundational and Associate Challenge](https://pages.awscloud.com/GLOBAL-other-GC-Traincert-Foundational-and-Associate-Certification-Challenge-2025-reg.html)
 
-
-Technical Essentials 2024 - Start Date: 1 April 2025
+Architecting on AWS 2024 - Start Date: 1 April 2025
 
 - [Introduction](#introduction)
 - [Fundamentals](#fundamentals)
