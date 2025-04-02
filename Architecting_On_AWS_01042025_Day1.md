@@ -73,6 +73,17 @@ Architecting on AWS 2024 - Start Date: 1 April 2025
 
 [Shared-Responsability Model](https://aws.amazon.com/blogs/industries/applying-the-aws-shared-responsibility-model-to-your-gxp-solution/)
 
+**Questions**
+R:/ Que herramienta recomiendo para el uso de diagramas cloud en AWS?
+
+A:/ Mi preferido es [Draw.io](https://www.drawio.com/), estan en [version online](https://app.diagrams.net/?splash=0&libs=aws4) o [version offline](https://www.drawio.com/blog/diagrams-offline).
+
+Los iconos de AWS ya esta incluidos y no son necesarios descargarlos.
+
+R:/ Cual es la diferencia entre una Region y una Local Zone ?
+
+A:/ Segun dice la [documentacion](https://docs.aws.amazon.com/local-zones/latest/ug/what-is-aws-local-zones.html), "A Local Zone is an extension of an AWS Region in geographic proximity to your users" y que "AWS Local Zones places compute, storage, database, and other select AWS resources close to large population and industry centers. ". Si analizamos ambas respuestas tenemos que la Local Zone genera infrastructura extendida y limitada de una region cercana al usuario final, sin embargo, necesita de una region padre donde mantiene la mayor cantidad de servicios disponibles.
+
 ## Account Security
 
 [Root Account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html)
