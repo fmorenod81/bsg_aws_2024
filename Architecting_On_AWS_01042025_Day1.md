@@ -12,7 +12,6 @@ Architecting on AWS 2024 - Start Date: 1 April 2025
 
 ## Introduction
 
-
 [Deadlines - 4 certfs in 4 months](https://aws.amazon.com/blogs/training-and-certification/how-one-learner-earned-four-aws-certifications-in-four-months/)
 
 [Official SAA C03](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
@@ -61,7 +60,7 @@ Architecting on AWS 2024 - Start Date: 1 April 2025
 
 [Edge Location Vs Regional Edge Cache No Official](https://digitalcloud.training/amazon-cloudfront/#:~:text=Edge%20locations%20are%20not%20tied,cache%20longer%20at%20these%20locations.)
 
-[Official Summary in a whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/points-of-presence.html)
+[Isolation Boundaries in a whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/points-of-presence.html)
 
 [Analyze solutions for biz needs & reqs - 5 Things](https://aws.amazon.com/blogs/training-and-certification/successful-solutions-architects-do-these-five-things/)
 
@@ -100,13 +99,13 @@ A:/ Segun dice la [documentacion](https://docs.aws.amazon.com/local-zones/latest
 
 [TUTORIAL: IAM Assume Role CLI](https://repost.aws/knowledge-center/iam-assume-role-cli)
 
-[Env Variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
+[Using environment variables for CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
 
 [Cross-Account access using IAM](https://repost.aws/knowledge-center/cross-account-access-iam)
 
-[MI CUENTA SOLAMENTE: Manejadas por AWS o Usuario-Con](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies)
+[MI CUENTA SOLAMENTE: AWS-/Customer-Managed Policies](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies)
 
-[MI CUENTA SOLAMENTE: No-Manejadas - No Explicitas-Con](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/test2?section=permissions)
+[MI CUENTA SOLAMENTE: All Policies Managed and inline Policies](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users/details/test2?section=permissions)
 
 [MI CUENTA SOLAMENTE: Basadas en Recursos](https://s3.console.aws.amazon.com/s3/buckets/testfmorenodpublichtml?region=us-east-1&tab=permissions)
 
@@ -118,7 +117,7 @@ A:/ Segun dice la [documentacion](https://docs.aws.amazon.com/local-zones/latest
 
 [No-Official Video for Permission Boundaries](https://www.youtube.com/watch?v=D-1u0dBM-q8)
 
-[MI CUENTA SOLAMENTE: Simple Policies for AWS Services - Review Link](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonS3ReadOnlyAccess)
+[MI CUENTA SOLAMENTE: Simple Policies for AWS Services - Copy Link on Browser](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonS3ReadOnlyAccess)
 
 [MI CUENTA SOLAMENTE: Advanced Policies With Conditions - Review Link](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/policies/details/arn%3Aaws%3Aiam%3A%3A768312754627%3Apolicy%2FFJMD_IAMRotateOwnAcessKeys?section=policy_permissions)
 
@@ -142,8 +141,7 @@ c) Limitar los servicios que lo llaman [Doc Official](https://docs.aws.amazon.co
 
 **Q: AWS tiene un tool para simular la caida de una region o algo por el estilo?**
 
-R: Lo mas cercano puede ser un serivicio de Disaster Recovery. Existe un servicio llamado [Elastic Recovery Service](https://aws.amazon.com/disaster-recovery/features/?nc=sn&loc=2) aunque es importante conocer las limitaciones que ofrece, para ellos es importante leer los [FAQs](https://aws.amazon.com/disaster-recovery/faqs/?nc=sn&loc=4). Si se desea tener mas informacion, puede tomar el curso en [SkillBuilder](https://explore.skillbuilder.aws/learn/courses/11123/aws-elastic-disaster-recovery-a-technical-introduction).
-
+R: Lo mas cercano puede ser un servicio el servicio de [Fault Injection](https://aws.amazon.com/fis/) acompañado con el de [Elastic Disaster Recovery](https://aws.amazon.com/disaster-recovery/features/?nc=sn&loc=2). Es importante leer sus limitaciones y sus [FAQs](https://aws.amazon.com/disaster-recovery/faqs/?nc=sn&loc=4). Si se desea tener mas informacion, puede tomar el curso en [SkillBuilder](https://explore.skillbuilder.aws/learn/courses/11123/aws-elastic-disaster-recovery-a-technical-introduction).
 
 ## Network 1
 
@@ -201,13 +199,10 @@ R: Lo mas cercano puede ser un serivicio de Disaster Recovery. Existe un servici
 
 **QUESTIONS :**
 
-**Q: Tienes referencias externas a AWS sobre el subnetting ?**
-R:/ Este curso explica a un nivel aceptable la parte de [subnetting (division de redes)](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-vpc-and-subnets/) aunque se puede ver otros videos con [explicacion aplicado hacia AWS](https://www.youtube.com/watch?app=desktop&v=TUTqYEZZUdc&t=887s)
-
 **Q: El uso del Internet Gateway tiene costo o como se realiza el cobro del trafico ?**
 R:/ Como tal el uso del Internet Gateway no tiene costo. Ver Nota [aqui](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html). Sin embargo, si existe costo de transferencia de datos entre zonas de disponibilidad, uso del NAT Gateway, [componentes VPC](https://aws.amazon.com/vpc/pricing/), etc. Para ello es mejor que leas este [articulo](https://aws.amazon.com/blogs/architecture/overview-of-data-transfer-costs-for-common-architectures/) y el [pricing de EC2 seccion Data Transfer](https://aws.amazon.com/ec2/pricing/on-demand/#Data_Transfer)
 
-**Q: Existe una tabla con la isntancia de las familias EC2?**
+**Q: Existe una tabla con la instancia de las familias EC2?**
 R:/ Como tal no es una tabla pero las primeras 6 opciones de la izquierda son las familias de instancias. Se encuentra [aqui](https://aws.amazon.com/ec2/instance-types/)
 
 **Q: Dentro de los casos de uso de familias EC2, cual seria el adecuado para entrenamiento de ML?**
@@ -215,5 +210,3 @@ R:/ Encontre una blog alineado a la respuesta de GenAI, asi que aqui esta el [bl
 
 **Q: Como se llama el servicio Windows que ejecuta el script User Data, similar a cloud-init en Linux?**
 R:/ El servicio se llama [EC2Launch](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2launch-v2.html). Una mayor cantidad de informacion se encuentra [aqui.](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html)
-
-
