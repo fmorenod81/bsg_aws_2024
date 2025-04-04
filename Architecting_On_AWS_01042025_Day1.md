@@ -73,6 +73,7 @@ Architecting on AWS 2024 - Start Date: 1 April 2025
 [Shared-Responsability Model](https://aws.amazon.com/blogs/industries/applying-the-aws-shared-responsibility-model-to-your-gxp-solution/)
 
 **Questions**
+
 R:/ Que herramienta recomiendo para el uso de diagramas cloud en AWS?
 
 A:/ Mi preferido es [Draw.io](https://www.drawio.com/), estan en [version online](https://app.diagrams.net/?splash=0&libs=aws4) o [version offline](https://www.drawio.com/blog/diagrams-offline).
@@ -127,19 +128,21 @@ A:/ Segun dice la [documentacion](https://docs.aws.amazon.com/local-zones/latest
 
 **QUESTIONS :**
 
-**Q: Se puede establecer la duracion del token ?**
-R: Dentro de la Doc del CLI de [Assume Role](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sts/assume-role.html), se especifica en la opcion duration-seconds.
+Q: Se puede establecer la duracion del token ?
 
-**Q: Como se puede limitar quien puede hacer las llamadas a AssumeRole?**
-R: Aunque no he encontrado documentacion oficial, ve las siguientes opciones: 
+R:/ Dentro de la Doc del CLI de [Assume Role](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sts/assume-role.html), se especifica en la opcion duration-seconds.
 
-a) en el lab realizado en clase con [Bob]](https://repost.aws/knowledge-center/iam-assume-role-cli), se puede limitar en las APIs que puede llamar el usuario. 
+Q: Como se puede limitar quien puede hacer las llamadas a AssumeRole?
+
+R:/ Aunque no he encontrado documentacion oficial, ve las siguientes opciones: 
+
+a) en el lab realizado en clase con [Bob](https://repost.aws/knowledge-center/iam-assume-role-cli), se puede limitar en las APIs que puede llamar el usuario. 
 
 b) En las condiciones del Trusted Policy al configurar la seccion de Conditions o Principal.
 
 c) Limitar los servicios que lo llaman [Doc Official](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-calledvia)
 
-**Q: AWS tiene un tool para simular la caida de una region o algo por el estilo?**
+Q: AWS tiene un tool para simular la caida de una region o algo por el estilo?
 
 R: Lo mas cercano puede ser un servicio el servicio de [Fault Injection](https://aws.amazon.com/fis/) acompañado con el de [Elastic Disaster Recovery](https://aws.amazon.com/disaster-recovery/features/?nc=sn&loc=2). Es importante leer sus limitaciones y sus [FAQs](https://aws.amazon.com/disaster-recovery/faqs/?nc=sn&loc=4). Si se desea tener mas informacion, puede tomar el curso en [SkillBuilder](https://explore.skillbuilder.aws/learn/courses/11123/aws-elastic-disaster-recovery-a-technical-introduction).
 
