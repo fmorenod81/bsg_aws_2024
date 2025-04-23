@@ -193,6 +193,10 @@ R:/ Ambas preguntas estan relaciones desde el momento en que se realiza la marca
 
 [Simple Exercises with CloudFormation Templates](https://github.com/jennapederson/cloudformation-examples/tree/main)
 
+[Amazon Q – Generative AI Assistant](https://aws.amazon.com/q/)
+
+[Amazon Q Developer Getting Started in AWS Skill Builder ](https://explore.skillbuilder.aws/learn/course/19491/play/122791)
+
 ## Containers
 
 [Simple microservices architecture on AWS](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/simple-microservices-architecture-on-aws.html)
