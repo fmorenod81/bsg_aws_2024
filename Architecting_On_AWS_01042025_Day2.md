@@ -177,7 +177,7 @@ R:/ Ambas preguntas estan relaciones desde el momento en que se realiza la marca
 
 [Complete CI/CD with AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy, and AWS CodePipeline](https://aws.amazon.com/blogs/devops/complete-ci-cd-with-aws-codecommit-aws-codebuild-aws-codedeploy-and-aws-codepipeline/. )
 
-[GitHub connections](https://docs.aws.amazon.com/codepipeline/latest/userguide/connections-github.html. )
+[GitHub connections](https://docs.aws.amazon.com/codepipeline/latest/userguide/connections-github.html)
 
 [Refer to resource outputs in another AWS CloudFormation stack](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/walkthrough-crossstackref.html)
 
@@ -190,6 +190,8 @@ R:/ Ambas preguntas estan relaciones desde el momento en que se realiza la marca
 [CDK v2-Cloud Dev Kit](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
 
 [Simple Sys Mngr-SSM - Agent](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html)
+
+[Simple Exercises with CloudFormation Templates](https://github.com/jennapederson/cloudformation-examples/tree/main)
 
 ## Containers
 
