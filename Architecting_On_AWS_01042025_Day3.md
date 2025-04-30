@@ -121,6 +121,14 @@ Architecting_On_AWS_01042025_Day1.md - [Unofficial Introduction to the course](.
 
 *QUESTIONS :*
 
+*Q: Como el API Gateway podria consumir servicios que estan en una subnet privada ?*
+
+R:/Veo que depende de la exposicion del API Gateway: Privada o Publica. Si es privada es mas facil porque todo el trafico esto dentro de la VPC/OnPremise (a traves de DxC o VPN Site2Site) y aqui esta la [documentacion para ello](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-private-apis.html), mientras que el caso que tenga que exponer los API e ir hacia estos sitios privados, puede hacerlo desde VPC Link, mas informacion se encuentra en este [blog](https://aws.amazon.com/blogs/compute/architecting-for-scale-with-amazon-api-gateway-private-integrations/) y tra opcion es usar [certificados](https://aws.amazon.com/es/blogs/aws-spanish/consumiendo-apis-privadas-de-amazon-api-gateway-usando-mutual-tls/)
+
+*Q: Que es Signed URL dentro del contexto de Cloudfront ?*
+
+R:/ Es similar al Signed URL de S3, sin embargo aplica para Cloudfront, mas informacion [aqui](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-signed-urls.html).
+
 *Q: Cual es la opcion de Dead-Letter para el Servicio SNS ?*
 
 R:/ Es una cola de SQS que recibe las notificaciones que no se pueden recibir. La documentacion de la Cola de SQS en SNS esta [aqui](https://docs.aws.amazon.com/sns/latest/dg/sns-dead-letter-queues.html). Y la misma opcion en SQS esta [aqui](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html).
