@@ -234,3 +234,5 @@ R:/En la pagina oficial, estan los [casos de uso](https://aws.amazon.com/kinesis
 [Tech Talks](https://aws.amazon.com/events/online-tech-talks/on-demand/)
 
 [AWS Ramp-Up Guides](https://aws.amazon.com/training/ramp-up-guides/)
+
+[Tips and resources to prepare for Foundational, Associate and Professional AWS Certifications](https://repost.aws/articles/ARb_Y9l1DpTmyIXR2Ei-W_Lw/tips-and-resources-to-prepare-for-foundational-associate-and-professional-aws-certifications)
