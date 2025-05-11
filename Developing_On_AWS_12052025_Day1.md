@@ -4,36 +4,46 @@ Developing_On_AWS_12052025_Day1.md
 
 Developing On AWS 2025 - Start Date: 12 May 2025
 
-- [Introduction](#introduction)
+- [Course Overview](#course-overview)
 - [Getting Started with Development on AWS](#getting-started-with-development-on-aws)
 
-## Introduction
+## Course Overview
+
+Instructor' Certifications [Credly](https://credly.com/users/francisco-javier-moreno-diaz/)
 
 How one learner earned four AWS Certifications in four months [Amazon Blog](https://aws.amazon.com/blogs/training-and-certification/how-one-learner-earned-four-aws-certifications-in-four-months/)
 
-[Official SAA C03](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
+AWS Certified Developer - Associate [Official Certification Page](https://aws.amazon.com/certification/certified-developer-associate/)
 
-[Architecting on AWS – Online Course Supplement on Skill Builder](https://explore.skillbuilder.aws/learn/course/external/view/elearning/8319/architecting-on-aws-online-course-supplement)
+AWS Certified Developer - Associate [Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf)
 
-[Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
+Skill Builder as Official Digital Course[Skill Builder](https://explore.skillbuilder.aws/learn/signin)
 
-[RampUp Guides](https://aws.amazon.com/training/ramp-up-guides/)
+AWS Cloud Practitioner Essentials (Español de España)[Skill Builder](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/10455/Fundamentos-de-la-nube-de-AWS-para-profesionales-Espa%2525C3%2525B1ol-de-Espa%2525C3%2525B1a-%25257C-AWS-Cloud-Practitioner-Essentials-Spanish-from-Spain-)
 
-[Docs](https://docs.aws.amazon.com/)
+Exam Prep Standard Course: AWS Certified Developer - Associate (DVA-C02) [Skill Builder](https://explore.skillbuilder.aws/learn/courses/14724/exam-prep-standard-course-aws-certified-developer-associate-dva-c02)
 
-[Skill Builder](https://explore.skillbuilder.aws/learn/signin)
+Standard Exam Prep Plan: AWS Certified Developer - Associate (DVA-C02) [Skill Builder](https://explore.skillbuilder.aws/learn/learning-plans/2177/plan)
 
-[SB Essentials](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/10455/Fundamentos-de-la-nube-de-AWS-para-profesionales-Espa%2525C3%2525B1ol-de-Espa%2525C3%2525B1a-%25257C-AWS-Cloud-Practitioner-Essentials-Spanish-from-Spain-)
+Exam Prep Official Practice Question Set: AWS Certified Developer - Associate (DVA-C02 - English) [Skill Builder](https://explore.skillbuilder.aws/learn/courses/13757/exam-prep-official-practice-question-set-aws-certified-developer-associate-dva-c02-english)
 
-[Certfs Exam Readiness](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/125/exam-readiness-aws-certified-solutions-architect-associate-digital)
+AWS Ramp-Up Guides[Official Doc](https://aws.amazon.com/training/ramp-up-guides/)
 
-[Workshops](https://workshops.aws/)
+AWS Workshops [Workshops](https://workshops.aws/)
 
-[Events](https://aws-experience.com/latam/smb/events)
+AWS Connected Communities [LATAM Events](https://aws-experience.com/latam/smb/)
 
-https://aws.amazon.com/architecture/well-architected
+AWS Connected Communities [ES Events](https://aws-experience.com/emea/iberia)
+
+AWS Well-Architected [Official Page](https://aws.amazon.com/architecture/well-architected)
 
 
 ## Getting Started with Development on AWS
 
-[The future of business is here](https://aws.amazon.com/campaigns/migrating-to-the-cloud/)
+AWS Signature Version 4 for API requests [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_sigv.html)
+
+CreateBucket - [Official API Docs](https://docs.aws.amazon.com/AmazonS3/latest/API/API_CreateBucket.html)
+
+Installing or updating to the latest version of the AWS CLI - [Official Doc](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+Setting up the AWS CLI - [Official Doc](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
