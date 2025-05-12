@@ -6,6 +6,7 @@ Developing On AWS 2025 - Start Date: 12 May 2025
 
 - [Course Overview](#course-overview)
 - [Getting Started with Development on AWS](#getting-started-with-development-on-aws)
+- [Getting Started with Permissions](#getting-started-with-permissions)
 
 ## Course Overview
 
@@ -37,7 +38,6 @@ AWS Connected Communities [ES Events](https://aws-experience.com/emea/iberia)
 
 AWS Well-Architected [Official Page](https://aws.amazon.com/architecture/well-architected)
 
-
 ## Getting Started with Development on AWS
 
 AWS Signature Version 4 for API requests [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_sigv.html)
@@ -47,3 +47,126 @@ CreateBucket - [Official API Docs](https://docs.aws.amazon.com/AmazonS3/latest/A
 Installing or updating to the latest version of the AWS CLI - [Official Doc](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 Setting up the AWS CLI - [Official Doc](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
+
+CLI Reference - [Official Doc](http://docs.aws.amazon.com/cli/latest/reference/)
+
+DynamoDB SDK Example - [Official Doc](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/getting-started-step-1.html)
+
+Logging with the AWS SDK for .NET- [Amazon Blogs](https://aws.amazon.com/blogs/developer/logging-with-the-aws-sdk-for-net/)
+
+.AWS SDK for .NET, Advanced configuration- [Official Doc](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/net-dg-advanced-config.html )
+
+Enabling Metrics for the AWS SDK for Java - [Official Doc](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/metrics.html)
+
+Tools to Build on AWS - [Official Page](https://aws.amazon.com/developer/tools/)
+
+Example of Tools to Build on AWS - [Official Q Plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.amazon-q-vscode)
+
+---
+Python:
+
+Boto3 documentation - [Official Docs](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+
+Boto3 quickstart - [Official Docs](https://boto3.readthedocs.org/en/latest/guide/quickstart.html)
+
+AWS SDK for Python (Boto3)- [Official Docs](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+
+.NET:
+
+Install AWSSDK packages with NuGet - [Official Docs](https://docs.aws.amazon.com/AWSSdkDocsNET/latest/V3/DeveloperGuide/net-dg-install-assemblies.html)
+
+Starting a new AWS SDK for .NET project - [Official Docs](https://docs.aws.amazon.com/AWSSdkDocsNET/latest/V3/DeveloperGuide/net-dg-start-new-project.html)
+
+AWS SDK for .NET - [Official Docs](https://docs.aws.amazon.com/sdkfornet/v3/apidocs)
+
+Java:
+
+Developer guide - AWS SDK for Java 2.x- [Official Docs](https://docs.aws.amazon.com/AWSSdkDocsJava/latest/DeveloperGuide/java-dg-install-sdk.html)
+
+AWS SDK for Java - [Official Docs](https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/overview-summary.html)
+
+Other:
+
+AWS Amplify: Amplify Documentation- [Official Docs](https://docs.amplify.aws/)
+
+AWS SDK for Ruby- [Official Docs](https://aws.amazon.com/sdk-for-ruby/)
+
+AWS SDK for JavaScript in Node.js - [Official Docs](https://aws.amazon.com/sdk-for-javascript/)
+
+AWS SDK for Go- [Official Docs](https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/welcome.html)
+
+AWS SDK for JavaScript- [Official Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/)
+
+AWS SDK for PHP- [Official Docs](https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/welcome.html)
+
+AWS SDK for C++- [Official Docs](https://aws.amazon.com/sdk-for-cpp/)
+
+## Getting Started with Permissions
+
+IAM Identities - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html)
+
+Creating your first IAM admin user and user group - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html)
+
+Identity-based policies and resource-based policies - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html)
+
+AWS managed policies for job functions - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html)
+
+IAM roles - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html)
+
+AWS service role - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html#iam-term-service-role)
+
+Creating a role to delegate permissions to an AWS service - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html)
+
+Providing access to an IAM user in another AWS account that you own - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_aws-accounts.html)
+
+Policy evaluation logic - [Official Docs](http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_EvaluationLogic.html)
+
+Output format - [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-format)
+
+Named profiles - [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
+
+(JetBrains) “Setting AWS credentials for the AWS Toolkit for JetBrains - [Official Docs](https://docs.aws.amazon.com/toolkit-for-jetbrains/latest/userguide/setup-credentials.html)
+
+(Eclipse) “Set up AWS Credentials” in the AWS Toolkit for Eclipse User Guide  - [Official Docs](https://docs.aws.amazon.com/toolkit-for-eclipse/v1/user-guide/setup-credentials.html)
+
+(Visual Studio) "Creating profiles for your AWS credentials” in the AWS Toolkit for Visual Studio User Guide  - [Official Docs](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/keys-profiles-credentials.html)
+
+(Visual Studio) “Setting up your AWS credentials” in the AWS Toolkit for Visual Studio Code User Guide  - [Official Docs](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/setup-credentials.html)
+
+Global settings for config and credentials files - [Official Docs](https://docs.aws.amazon.com/sdkref/latest/guide/settings-global.html)
+
+Supported environment variables - [Official Docs](https://docs.aws.amazon.com/sdkref/latest/guide/environment-variables.html)
+
+(Java) Working with AWS Credentials - [Official Docs](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html)
+
+(.NET) Configuring AWS Credentials - [Official Docs](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/net-dg-config-creds.html)
+
+(Boto3) Credentials - [Official Docs](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html)
+
+Signature Version 4 signing process - [Official Docs](https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html)
+
+Signing AWS API requests - [Official Docs](http://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html)
+
+Temporary security credentials in IAM - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html)
+
+AWS Security Token Service API Reference - Actions - [Official Docs](https://docs.aws.amazon.com/STS/latest/APIReference/API_Operations.html)
+
+Using temporary security credentials with the AWS SDKs - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_use-resources.html#using-temp-creds-sdk)
+
+**Specific Java:**
+
+Setting the JVM TTL for DNS Name Lookups - [Official Docs](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-jvm-ttl.html)
+
+Environment variables to configure the AWS CLI - [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
+
+Error retries and exponential backoff in AWS - [Official Docs](https://docs.aws.amazon.com/general/latest/gr/api-retries.html)
+
+**Demos:**
+
+AWS CLI is setup with multiple named profiles- [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
+
+**Lab 1 Notes:**
+
+a) Review the ALL the notes on the Lab, i.e. TODO and the flags.
+
+b) The "AWS Toolkit" isn't install automatically, so you have to do it.
