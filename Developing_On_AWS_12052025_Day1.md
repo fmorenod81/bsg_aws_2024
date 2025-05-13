@@ -12,6 +12,8 @@ Developing On AWS 2025 - Start Date: 12 May 2025
 
 Instructor' Certifications [Credly](https://credly.com/users/francisco-javier-moreno-diaz/)
 
+AWS Instructor Led Training FAQs [FAQs](https://getready.aws.training/faq.html#labs-and-ebooks)
+
 How one learner earned four AWS Certifications in four months [Amazon Blog](https://aws.amazon.com/blogs/training-and-certification/how-one-learner-earned-four-aws-certifications-in-four-months/)
 
 AWS Certified Developer - Associate [Official Certification Page](https://aws.amazon.com/certification/certified-developer-associate/)
