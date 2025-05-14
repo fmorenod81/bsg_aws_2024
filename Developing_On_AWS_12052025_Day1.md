@@ -7,6 +7,8 @@ Developing On AWS 2025 - Start Date: 12 May 2025
 - [Course Overview](#course-overview)
 - [Getting Started with Development on AWS](#getting-started-with-development-on-aws)
 - [Getting Started with Permissions](#getting-started-with-permissions)
+- [Demos:](#demos)
+- [Lab 1 Notes](#lab-1-notes)
 
 ## Course Overview
 
@@ -44,6 +46,10 @@ AWS Well-Architected [Official Page](https://aws.amazon.com/architecture/well-ar
 
 AWS Signature Version 4 for API requests [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_sigv.html)
 
+Authenticating Requests (AWS Signature Version 4) [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/API/sig-v4-authenticating-requests.html)
+
+Authenticating Requests: Using the Authorization Header (AWS Signature Version 4) [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-auth-using-authorization-header.html)
+
 CreateBucket - [Official API Docs](https://docs.aws.amazon.com/AmazonS3/latest/API/API_CreateBucket.html)
 
 Installing or updating to the latest version of the AWS CLI - [Official Doc](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
@@ -63,6 +69,12 @@ Enabling Metrics for the AWS SDK for Java - [Official Doc](https://docs.aws.amaz
 Tools to Build on AWS - [Official Page](https://aws.amazon.com/developer/tools/)
 
 Example of Tools to Build on AWS - [Official Q Plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.amazon-q-vscode)
+
+Amazon Q Developer Getting Started  [Amazon Q SkillBuilder](https://explore.skillbuilder.aws/learn/course/19491/play/122791)
+
+Accelerate your Software Development Lifecycle with Amazon Q [AWS Blog](https://aws.amazon.com/blogs/devops/accelerate-your-software-development-lifecycle-with-amazon-q/)
+
+Supported languages for Amazon Q Developer in the IDE [Official Docs](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/q-language-ide-support.html)
 
 ---
 Python:
@@ -111,15 +123,29 @@ Creating your first IAM admin user and user group - [Official Docs](https://docs
 
 Identity-based policies and resource-based policies - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html)
 
+Examples of Amazon S3 bucket policies [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html#example-bucket-policies-encryption)
+
+Delegate Access across AWS Accounts Using IAM Roles: Switch Roles (Console)  [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
+
+Apply AWS IAM Permissions Boundary | Hands-on [NO-Official Tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-api.html)
+
+Permissions Boundaries Exercise [AWS Live re:Inforce Video](https://www.youtube.com/watch?v=eVNvjQ0wr84)
+
 AWS managed policies for job functions - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html)
 
 IAM roles - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html)
 
+Switching to an IAM role (AWS API) [Official Docs](https://youtu.be/D-1u0dBM-q8)
+
 AWS service role - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html#iam-term-service-role)
+
+How do I assume an IAM role using the AWS CLI? [AWS Re:Post](https://repost.aws/knowledge-center/iam-assume-role-cli)
 
 Creating a role to delegate permissions to an AWS service - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html)
 
 Providing access to an IAM user in another AWS account that you own - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_aws-accounts.html)
+
+Policy evaluation for requests within a single account [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic_policy-eval-basics.html)
 
 Policy evaluation logic - [Official Docs](http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_EvaluationLogic.html)
 
@@ -163,11 +189,13 @@ Environment variables to configure the AWS CLI - [Official Docs](https://docs.aw
 
 Error retries and exponential backoff in AWS - [Official Docs](https://docs.aws.amazon.com/general/latest/gr/api-retries.html)
 
-**Demos:**
+
+
+## Demos:
 
 AWS CLI is setup with multiple named profiles- [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
 
-**Lab 1 Notes:**
+## Lab 1 Notes
 
 a) Review the ALL the notes on the Lab, i.e. TODO and the flags.
 

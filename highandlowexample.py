@@ -7,6 +7,7 @@ def listClient():
     for content in response['Contents']:
         print(content['Key'], content['LastModified'])
         #print(content)
+        #print(list(content.keys()))
         print(dir(content))
 
 # Resources represent an object-oriented interface to AWS. They provide a
