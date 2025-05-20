@@ -7,8 +7,9 @@ Developing On AWS 2025 - Start Date: 12 May 2025
 - [Course Overview](#course-overview)
 - [Getting Started with Development on AWS](#getting-started-with-development-on-aws)
 - [Getting Started with Permissions](#getting-started-with-permissions)
-- [Demos:](#demos)
+- [Demos](#demos)
 - [Lab 1 Notes](#lab-1-notes)
+- [Getting Started with Storage](#getting-started-with-storage)
 
 ## Course Overview
 
@@ -191,7 +192,7 @@ Error retries and exponential backoff in AWS - [Official Docs](https://docs.aws.
 
 
 
-## Demos:
+## Demos
 
 AWS CLI is setup with multiple named profiles- [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
 
@@ -200,3 +201,20 @@ AWS CLI is setup with multiple named profiles- [Official Docs](https://docs.aws.
 a) Review the ALL the notes on the Lab, i.e. TODO and the flags.
 
 b) The "AWS Toolkit" isn't install automatically, so you have to do it.
+
+## Getting Started with Storage
+
+Cloud Storage on AWS [Official Page](https://aws.amazon.com/products/storage/)
+
+Bucket restrictions and limitations [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html)
+
+Organizing objects using prefixes [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ListingKeysUsingAPIs.html)
+
+Tagging Best Practices [AWS Whitepaper](https://d1.awsstatic.com/whitepapers/aws-tagging-best-practices.pdf)
+
+Managing access to shared datasets in general purpose buckets with access points [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-points.html)
+
+S3 access policy Vs S3 bucket policies ... how they interact [AWS RePost](https://repost.aws/questions/QU2lGn8dF5QmahMU_WS1vtJA/s3-access-policy-vs-s3-bucket-policies-how-they-interact)
+
+create_bucket [boto3 API](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/create_bucket.html)
+
