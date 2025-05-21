@@ -10,6 +10,7 @@ Developing On AWS 2025 - Start Date: 12 May 2025
 - [Demos](#demos)
 - [Lab 1 Notes](#lab-1-notes)
 - [Getting Started with Storage](#getting-started-with-storage)
+- [Processing Your Storage Operations](#processing-your-storage-operations)
 
 ## Course Overview
 
@@ -23,9 +24,9 @@ AWS Certified Developer - Associate [Official Certification Page](https://aws.am
 
 AWS Certified Developer - Associate [Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf)
 
-Skill Builder as Official Digital Course[Skill Builder](https://explore.skillbuilder.aws/learn/signin)
+Skill Builder as Official Digital Course [Skill Builder](https://explore.skillbuilder.aws/learn/signin)
 
-AWS Cloud Practitioner Essentials (Español de España)[Skill Builder](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/10455/Fundamentos-de-la-nube-de-AWS-para-profesionales-Espa%2525C3%2525B1ol-de-Espa%2525C3%2525B1a-%25257C-AWS-Cloud-Practitioner-Essentials-Spanish-from-Spain-)
+AWS Cloud Practitioner Essentials (Español de España) [Skill Builder](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/10455/Fundamentos-de-la-nube-de-AWS-para-profesionales-Espa%2525C3%2525B1ol-de-Espa%2525C3%2525B1a-%25257C-AWS-Cloud-Practitioner-Essentials-Spanish-from-Spain-)
 
 Exam Prep Standard Course: AWS Certified Developer - Associate (DVA-C02) [Skill Builder](https://explore.skillbuilder.aws/learn/courses/14724/exam-prep-standard-course-aws-certified-developer-associate-dva-c02)
 
@@ -33,7 +34,7 @@ Standard Exam Prep Plan: AWS Certified Developer - Associate (DVA-C02) [Skill Bu
 
 Exam Prep Official Practice Question Set: AWS Certified Developer - Associate (DVA-C02 - English) [Skill Builder](https://explore.skillbuilder.aws/learn/courses/13757/exam-prep-official-practice-question-set-aws-certified-developer-associate-dva-c02-english)
 
-AWS Ramp-Up Guides[Official Doc](https://aws.amazon.com/training/ramp-up-guides/)
+AWS Ramp-Up Guides [Official Doc](https://aws.amazon.com/training/ramp-up-guides/)
 
 AWS Workshops [Workshops](https://workshops.aws/)
 
@@ -51,13 +52,17 @@ Authenticating Requests (AWS Signature Version 4) [Official Docs](https://docs.a
 
 Authenticating Requests: Using the Authorization Header (AWS Signature Version 4) [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-auth-using-authorization-header.html)
 
-CreateBucket - [Official API Docs](https://docs.aws.amazon.com/AmazonS3/latest/API/API_CreateBucket.html)
+Signature Version 4 signing process - [Official Docs](https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html)
+
+Signing AWS API requests - [Official Docs](http://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html)
+
+CreateBucket API  [Official API Docs](https://docs.aws.amazon.com/AmazonS3/latest/API/API_CreateBucket.html)
 
 Installing or updating to the latest version of the AWS CLI - [Official Doc](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-Setting up the AWS CLI - [Official Doc](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
+Setting up the AWS CLI [Official Doc](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
 
-CLI Reference - [Official Doc](http://docs.aws.amazon.com/cli/latest/reference/)
+CLI Reference [Official Doc](http://docs.aws.amazon.com/cli/latest/reference/)
 
 DynamoDB SDK Example - [Official Doc](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/getting-started-step-1.html)
 
@@ -102,57 +107,57 @@ AWS SDK for Java - [Official Docs](https://docs.aws.amazon.com/AWSJavaSDK/latest
 
 Other:
 
-AWS Amplify: Amplify Documentation- [Official Docs](https://docs.amplify.aws/)
+AWS Amplify: Amplify Documentation [Official Docs](https://docs.amplify.aws/)
 
-AWS SDK for Ruby- [Official Docs](https://aws.amazon.com/sdk-for-ruby/)
+AWS SDK for Ruby [Official Docs](https://aws.amazon.com/sdk-for-ruby/)
 
-AWS SDK for JavaScript in Node.js - [Official Docs](https://aws.amazon.com/sdk-for-javascript/)
+AWS SDK for JavaScript in Node.js [Official Docs](https://aws.amazon.com/sdk-for-javascript/)
 
-AWS SDK for Go- [Official Docs](https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/welcome.html)
+AWS SDK for Go [Official Docs](https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/welcome.html)
 
-AWS SDK for JavaScript- [Official Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/)
+AWS SDK for JavaScript [Official Docs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/)
 
-AWS SDK for PHP- [Official Docs](https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/welcome.html)
+AWS SDK for PHP [Official Docs](https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/welcome.html)
 
-AWS SDK for C++- [Official Docs](https://aws.amazon.com/sdk-for-cpp/)
+AWS SDK for C++ [Official Docs](https://aws.amazon.com/sdk-for-cpp/)
 
 ## Getting Started with Permissions
 
 IAM Identities - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html)
 
-Creating your first IAM admin user and user group - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html)
+Creating your first IAM admin user and user group [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html)
 
-Identity-based policies and resource-based policies - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html)
+Identity-based policies and resource-based policies [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html)
 
 Examples of Amazon S3 bucket policies [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html#example-bucket-policies-encryption)
 
-Delegate Access across AWS Accounts Using IAM Roles: Switch Roles (Console)  [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
+Delegate Access across AWS Accounts Using IAM Roles: Switch Roles (Console) [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
 Apply AWS IAM Permissions Boundary | Hands-on [NO-Official Tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-api.html)
 
 Permissions Boundaries Exercise [AWS Live re:Inforce Video](https://www.youtube.com/watch?v=eVNvjQ0wr84)
 
-AWS managed policies for job functions - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html)
+AWS managed policies for job functions [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html)
 
-IAM roles - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html)
+IAM roles [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html)
 
 Switching to an IAM role (AWS API) [Official Docs](https://youtu.be/D-1u0dBM-q8)
 
-AWS service role - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html#iam-term-service-role)
+AWS service role [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html#iam-term-service-role)
 
 How do I assume an IAM role using the AWS CLI? [AWS Re:Post](https://repost.aws/knowledge-center/iam-assume-role-cli)
 
-Creating a role to delegate permissions to an AWS service - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html)
+Creating a role to delegate permissions to an AWS service [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html)
 
-Providing access to an IAM user in another AWS account that you own - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_aws-accounts.html)
+Providing access to an IAM user in another AWS account that you own [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_aws-accounts.html)
 
 Policy evaluation for requests within a single account [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic_policy-eval-basics.html)
 
-Policy evaluation logic - [Official Docs](http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_EvaluationLogic.html)
+Policy evaluation logic [Official Docs](http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_EvaluationLogic.html)
 
-Output format - [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-format)
+Output format [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-format)
 
-Named profiles - [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
+Named profiles [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
 
 (JetBrains) “Setting AWS credentials for the AWS Toolkit for JetBrains - [Official Docs](https://docs.aws.amazon.com/toolkit-for-jetbrains/latest/userguide/setup-credentials.html)
 
@@ -162,39 +167,33 @@ Named profiles - [Official Docs](https://docs.aws.amazon.com/cli/latest/userguid
 
 (Visual Studio) “Setting up your AWS credentials” in the AWS Toolkit for Visual Studio Code User Guide  - [Official Docs](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/setup-credentials.html)
 
-Global settings for config and credentials files - [Official Docs](https://docs.aws.amazon.com/sdkref/latest/guide/settings-global.html)
+Global settings for config and credentials files [Official Docs](https://docs.aws.amazon.com/sdkref/latest/guide/settings-global.html)
 
-Supported environment variables - [Official Docs](https://docs.aws.amazon.com/sdkref/latest/guide/environment-variables.html)
+Supported environment variables [Official Docs](https://docs.aws.amazon.com/sdkref/latest/guide/environment-variables.html)
 
-(Java) Working with AWS Credentials - [Official Docs](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html)
+(Java) Working with AWS Credentials [Official Docs](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html)
 
-(.NET) Configuring AWS Credentials - [Official Docs](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/net-dg-config-creds.html)
+(.NET) Configuring AWS Credentials [Official Docs](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/net-dg-config-creds.html)
 
-(Boto3) Credentials - [Official Docs](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html)
-
-Signature Version 4 signing process - [Official Docs](https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html)
-
-Signing AWS API requests - [Official Docs](http://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html)
+(Boto3) Credentials [Official Docs](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html)
 
 Temporary security credentials in IAM - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html)
 
-AWS Security Token Service API Reference - Actions - [Official Docs](https://docs.aws.amazon.com/STS/latest/APIReference/API_Operations.html)
+AWS Security Token Service API Reference - Actions [Official Docs](https://docs.aws.amazon.com/STS/latest/APIReference/API_Operations.html)
 
 Using temporary security credentials with the AWS SDKs - [Official Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_use-resources.html#using-temp-creds-sdk)
 
 **Specific Java:**
 
-Setting the JVM TTL for DNS Name Lookups - [Official Docs](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-jvm-ttl.html)
+Setting the JVM TTL for DNS Name Lookups [Official Docs](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-jvm-ttl.html)
 
-Environment variables to configure the AWS CLI - [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
+Environment variables to configure the AWS CLI [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
 
-Error retries and exponential backoff in AWS - [Official Docs](https://docs.aws.amazon.com/general/latest/gr/api-retries.html)
-
-
+Error retries and exponential backoff in AWS [Official Docs](https://docs.aws.amazon.com/general/latest/gr/api-retries.html)
 
 ## Demos
 
-AWS CLI is setup with multiple named profiles- [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
+AWS CLI is setup with multiple named profiles [Official Docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
 
 ## Lab 1 Notes
 
@@ -210,11 +209,34 @@ Bucket restrictions and limitations [Official Docs](https://docs.aws.amazon.com/
 
 Organizing objects using prefixes [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ListingKeysUsingAPIs.html)
 
+S3 Security [AWS Blogs](https://aws.amazon.com/blogs/security/iam-policies-and-bucket-policies-and-acls-oh-my-controlling-access-to-s3-resources/)
+
+S3 FAQs, specially on Security [Official FAQs](https://aws.amazon.com/s3/faqs/?nc=sn&loc=7#Security)
+
 Tagging Best Practices [AWS Whitepaper](https://d1.awsstatic.com/whitepapers/aws-tagging-best-practices.pdf)
 
 Managing access to shared datasets in general purpose buckets with access points [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-points.html)
 
+S3 Access Points [Official Page](https://aws.amazon.com/s3/features/access-points/)
+
 S3 access policy Vs S3 bucket policies ... how they interact [AWS RePost](https://repost.aws/questions/QU2lGn8dF5QmahMU_WS1vtJA/s3-access-policy-vs-s3-bucket-policies-how-they-interact)
+
+S3 API Reference [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html)
 
 create_bucket [boto3 API](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/create_bucket.html)
 
+## Processing Your Storage Operations
+
+How do I use the AWS CLI to perform a multipart upload of a file to Amazon S3?”  [AWS RePost](https://aws.amazon.com/premiumsupport/knowledge-center/s3-multipart-upload-cli)
+
+Uploading and copying objects using multipart upload in Amazon S3 [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html)
+
+Paginators [Boto3 Calls](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/paginators.html)
+
+How do I use CloudFront to serve a static website hosted on Amazon S3 [AWS RePost](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serve-static-website/)
+
+Requiring HTTPS for communication between viewers and CloudFront [Official Docs](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-https-viewers-to-cloudfront.html)
+
+Using cross-origin resource sharing (CORS) [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html) 
+
+CORS configuration [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/dev/ManageCorsUsing.html) 

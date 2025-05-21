@@ -1,6 +1,7 @@
 import boto3
 
 # Return type: dict / additional API calls needed to get objects
+# Low-Level call
 def listClient():
     s3client = boto3.client('s3')
     response = s3client.list_objects_v2(Bucket='testfmorenodpublichtml')
