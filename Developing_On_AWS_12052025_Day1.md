@@ -229,7 +229,15 @@ create_bucket [boto3 API](https://boto3.amazonaws.com/v1/documentation/api/lates
 
 How do I use the AWS CLI to perform a multipart upload of a file to Amazon S3?”  [AWS RePost](https://aws.amazon.com/premiumsupport/knowledge-center/s3-multipart-upload-cli)
 
+How do I use the AWS CLI to upload a large file in multiple parts to Amazon S3? [AWS RePost](https://repost.aws/knowledge-center/s3-multipart-upload-cli)
+
 Uploading and copying objects using multipart upload in Amazon S3 [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html)
+
+Logging HOWTO [Python Docs](https://docs.python.org/3/howto/logging.html#logging-basic-tutorial)
+
+Introducing Amazon S3 Object Lambda – Use Your Code to Process Data as It Is Being Retrieved from S3 [AWS Blog](https://aws.amazon.com/blogs/aws/introducing-amazon-s3-object-lambda-use-your-code-to-process-data-as-it-is-being-retrieved-from-s3/)
+
+Amazon S3 Object Lambda [Official Page](https://aws.amazon.com/s3/features/object-lambda/)
 
 Paginators [Boto3 Calls](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/paginators.html)
 
@@ -237,6 +245,6 @@ How do I use CloudFront to serve a static website hosted on Amazon S3 [AWS RePos
 
 Requiring HTTPS for communication between viewers and CloudFront [Official Docs](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-https-viewers-to-cloudfront.html)
 
-Using cross-origin resource sharing (CORS) [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html) 
+Using cross-origin resource sharing (CORS) [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html)
 
-CORS configuration [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/dev/ManageCorsUsing.html) 
+CORS configuration [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/dev/ManageCorsUsing.html)
