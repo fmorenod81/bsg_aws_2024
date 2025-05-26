@@ -6,6 +6,8 @@ Links for Official AWS Courses
 
 [Developing on AWS 12-May-2025 Day 1](./Developing_On_AWS_12052025_Day1.md)
 
+[Developing on AWS 12-May-2025 Day 2](./Developing_On_AWS_12052025_Day2.md)
+
 As prerequisite, you need to take Architecting on AWS, so I add some links for that course:
 
 ![Inactive Courses](./old_courses.png)  **Inactive Courses**:

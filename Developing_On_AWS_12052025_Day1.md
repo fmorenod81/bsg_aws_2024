@@ -264,3 +264,5 @@ Requiring HTTPS for communication between viewers and CloudFront [Official Docs]
 Using cross-origin resource sharing (CORS) [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html)
 
 CORS configuration [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/dev/ManageCorsUsing.html)
+
+Victor Okunev [GitHub from ex-AWS](https://github.com/realokun/aws/)
