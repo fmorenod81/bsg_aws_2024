@@ -1,4 +1,4 @@
-Developing_On_AWS_12052025_Day1.md 
+Developing_On_AWS_12052025_Day1.md
 
 [Join the Get AWS Certified: Foundational and Associate Challenge](https://pages.awscloud.com/GLOBAL-other-GC-Traincert-Foundational-and-Associate-Certification-Challenge-2025-reg.html)
 
@@ -225,21 +225,19 @@ S3 API Reference [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/API
 
 create_bucket [boto3 API](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/create_bucket.html)
 
-** Questions 21/05/2025 **
+**Questions 21/05/2025**
 
 1. Cual es la diferencia entre Terabyte y Tebibyte ?
 
 R:/ La explicacion de diferencia entre las unidades binarias y las decimales las puede encontrar [aqui](https://www.ibm.com/docs/en/storage-insights?topic=overview-units-measurement-storage-data), sin embargo, la implicacion en almacenamiento de S3 dice asi "Amazon S3 storage usage is calculated in binary gigabytes (GB), where 1 GB is 2^30 bytes. This unit of measurement is also known as a gibibyte (GiB), defined by the International Electrotechnical Commission (IEC). Similarly, 1 TB is 2^40 bytes, i.e. 1024 GBs.", en la pagina de [S3 Pricing](https://aws.amazon.com/s3/pricing/), section "S3 Pricing Details".
 
-2. Existe mauor informacion sobre las capas de S3?
+2. Existe mayor informacion sobre las capas de S3?
 
 R:/ Si puedes encontrar una tabla comparativa [aqui](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html), o en la [FAQ](https://aws.amazon.com/s3/storage-classes/).
 
 3. Donde se puede obtener la informacion sobre el multipart upload ?
 
 R: Puede verse [aqui](https://repost.aws/knowledge-center/s3-multipart-upload-cli) donde se especifica cuantos chunks simultaneos se pueden cargar, y en [esta pagina](https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpu-upload-object.html) en la parte de High-level API de Python, se puede ver como se establece los tamanos del chunk. Otra opcion es configurando desde el CLI, como se especifica en [esta pagina](https://docs.aws.amazon.com/de_de/cli/latest/topic/s3-config.html).
-
-
 
 ## Processing Your Storage Operations
 

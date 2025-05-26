@@ -1,4 +1,4 @@
-Developing_On_AWS_12052025_Day2.md 
+Developing_On_AWS_12052025_Day2.md
 
 [Join the Get AWS Certified: Foundational and Associate Challenge](https://pages.awscloud.com/GLOBAL-other-GC-Traincert-Foundational-and-Associate-Certification-Challenge-2025-reg.html)
 
