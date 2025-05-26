@@ -4,16 +4,16 @@ import boto3
 session = boto3.session.Session(profile_name='staging')
 
 # Retrieve region from session object
-current_region = session.region_name
+current_region = "us-west-2"
 
 
 # Create a high-level resource from custom session
 resource = session.resource('s3')
-bucket = resource.Bucket('notes-bucket-19052025')
+bucket = resource.Bucket('notes-bucket-21052025')
 
 
 # Region-specific endpoints require the LocationConstraint parameter
-bucket.create(
+X=bucket.create(
     CreateBucketConfiguration={
         'LocationConstraint': current_region
     }
