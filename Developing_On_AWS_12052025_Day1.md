@@ -225,6 +225,8 @@ S3 API Reference [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/API
 
 create_bucket [boto3 API](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/create_bucket.html)
 
+Best practices design patterns: optimizing Amazon S3 performance[Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance.html)
+
 **Questions 21/05/2025**
 
 1. Cual es la diferencia entre Terabyte y Tebibyte ?

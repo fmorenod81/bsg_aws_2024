@@ -23,7 +23,13 @@ Service, Account, and Table Quotas in Amazon DynamoDB [Developer Guide](https://
 
 Improving Data Access with Secondary Indexes [Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html).
 
-Understanding DynamoDB Adaptive Capacity[Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html)
+Understanding DynamoDB Adaptive Capacity [Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html)
+
+DynamoDB Indexes: Making the right choice between GSI and LSI - Amazon DynamoDB Nuggets [Official Video](https://youtu.be/BkEu7zBWge8)
+
+Indices en DynamoDB: Escogiendo entre GSI y LSI - Amazon DynamoDB Nuggets | Amazon Web Services [Official Video](https://youtu.be/6A3HfcPuo0o)
+
+Using write sharding to distribute workloads evenly in your DynamoDB table [Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-sharding.html)
 
 NoSQL Workbench for DynamoDB [Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html)
 
