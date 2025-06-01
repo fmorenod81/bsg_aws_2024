@@ -133,5 +133,6 @@ Getting Started Lambda quotas [Official Docs](https://docs.aws.amazon.com/lambda
 
 Lambda runtimes [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)
 
+Quick Hands-on with Lambda Layer [Demo](https://aws-dojo.com/excercises/excercise17/)
 
 ## Managing the APIs
