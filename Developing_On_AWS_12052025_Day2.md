@@ -139,6 +139,8 @@ Quick Hands-on with Lambda Layer [Demo](https://aws-dojo.com/excercises/excercis
 
 Choose between REST APIs and HTTP APIs [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html)
 
+Can SOAP API directly integrate with AWS API Gateway ? [AWS RePost](https://repost.aws/questions/QUoy5UHNJAQIKHK_i22mTaQw/can-soap-api-directly-integrate-with-aws-api-gateway)
+
 Setting up a stage for a REST API [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-stages.html)
 
 Creating and using usage plans with API keys [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-usage-plans.html)
