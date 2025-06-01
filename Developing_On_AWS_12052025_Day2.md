@@ -136,3 +136,34 @@ Lambda runtimes [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/lam
 Quick Hands-on with Lambda Layer [Demo](https://aws-dojo.com/excercises/excercise17/)
 
 ## Managing the APIs
+
+Choose between REST APIs and HTTP APIs [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html)
+
+Setting up a stage for a REST API [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-stages.html)
+
+Creating and using usage plans with API keys [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-usage-plans.html)
+
+Throttle API requests for better throughput [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html)
+
+Controlling and managing access to a REST API in API Gateway [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-control-access-to-api.html)
+
+Setting up data transformations for REST APIs [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/rest-api-data-transformations.html)
+
+Generating an SDK for a REST API in API Gateway [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-generate-sdk.html)
+
+Set up mock integrations in API Gateway [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-mock-integration.html)
+
+Enabling API caching to enhance responsiveness [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-caching.html)
+
+Troubleshooting Amazon API Gateway with enhanced observability variables [AWS Blog](https://aws.amazon.com/blogs/compute/troubleshooting-amazon-api-gateway-with-enhanced-observability-variables/)
+
+Integration passthrough behavior [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/integration-passthrough-behaviors.html)
+
+Set up mock integrations in API Gateway [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-mock-integration.html)
+
+Setting up stage variables for a REST API deployment [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/stage-variables.html)
+
+Performing canary deployments for service integrations with Amazon API Gateway [Developer Guide](https://aws.amazon.com/blogs/compute/performing-canary-deployments-for-service-integrations-with-amazon-api-gateway/)
+
+
+Amazon API Gateway tutorials and workshops [AWS Tutorials](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-tutorials.html)
