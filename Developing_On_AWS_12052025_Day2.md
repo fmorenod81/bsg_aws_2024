@@ -87,15 +87,29 @@ Caching patterns [AWS Whitepaper](https://docs.aws.amazon.com/whitepapers/latest
 
 ## Processing Your Application Logic
 
+![Mandatory](./mandatory.png) Invoking a Lambda function asynchronously [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html)
+
+AWS Lambda Destination to SQS for Asynchronous Invocations — DLQ Example [No-Official Article](https://medium.com/aws-lambda-serverless-developer-guide-with-hands/aws-lambda-destination-to-sqs-for-asynchronous-invocations-dlq-example-4c64f47b1024)
+
+![Mandatory](./mandatory.png) Understanding the Lambda execution environment lifecycle [Official Documentation](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtime-environment.html)
+
+AWS Lambda standardizes billing for INIT Phase [AWS Blog](https://aws.amazon.com/blogs/compute/aws-lambda-standardizes-billing-for-init-phase/)
+
 Lambda Schedule [Official Docs](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-run-lambda-schedule.html)
 
-Cold Start [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html)
+![Mandatory](./mandatory.png) Configuring provisioned concurrency for a function [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/provisioned-concurrency.html)
 
-AddPermission [Developer Guide](http://docs.aws.amazon.com/lambda/latest/dg/API_AddPermission.html)
+Improving startup performance with Lambda SnapStart [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html)
 
-AWS Lambda permissions [Developer Guide](http://docs.aws.amazon.com/lambda/latest/dg/intro-permission-model.html)
+AddPermission API Call [Developer Guide](http://docs.aws.amazon.com/lambda/latest/dg/API_AddPermission.html)
+
+![Mandatory](./mandatory.png) AWS Lambda permissions [Developer Guide](http://docs.aws.amazon.com/lambda/latest/dg/intro-permission-model.html)
 
 CreateEventSourceMapping [Developer Guide](http://docs.aws.amazon.com/lambda/latest/dg/API_CreateEventSourceMapping.html)
+
+![Mandatory](./mandatory.png) How Lambda processes records from stream and queue-based event sources [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/invocation-eventsourcemapping.html)
+
+What Is Event Source Mapping In Lambda? [No-Official Blog](https://towardsaws.com/what-is-event-source-mapping-in-lambda-e8e4ed92e1a4)
 
 “Using Lambda with the Toolkit for Eclipse” in the AWS Toolkit for Eclipse User Guide [Official Docs](http://docs.aws.amazon.com/AWSToolkitEclipse/latest/GettingStartedGuide/lambda.html)
 
@@ -103,9 +117,19 @@ AWS Lambda Developer Guide: AWS Toolkit for Visual Studio [Official Docs](https:
 
 AWS Toolkit for PyCharm in the Jet Brains Marketplace [Official Docs](https://plugins.jetbrains.com/plugin/11349-aws-toolkit)
 
+Manage Lambda function versions [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/configuration-versions.html)
+
+Create an alias for a Lambda function [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html)
+
+Implement Lambda canary deployments using a weighted alias [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/configuring-alias-routing.html)
+
+Optimizing static initialization [No-Official Blog](https://serverlessland.com/content/service/lambda/guides/aws-lambda-operator-guide/static-initialization)
+
+AWS Lambda | Function URL | Environment Vars | Lambda Layers - Step by Step Tutorial (Part -17) [No-Official Video](https://youtu.be/XFGSuj83wdc?t=1790)
+
 Lambda quotas [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/limits.html).
 
-Lambda quotas x2 [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html)
+Getting Started Lambda quotas [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html)
 
 Lambda runtimes [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)
 
