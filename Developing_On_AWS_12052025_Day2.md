@@ -41,8 +41,6 @@ PartiQL [Official Webpage](https://partiql.org/)
 
 PartiQL - A SQL-Compatible Query Language for Amazon DynamoDB [Developer Guide](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html)
 
-
-
 **Questions 28/05/2025**
 
 1. Solo puede existir un Sort Key por Tabla?
@@ -161,11 +159,16 @@ Troubleshooting Amazon API Gateway with enhanced observability variables [AWS Bl
 
 Integration passthrough behavior [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/integration-passthrough-behaviors.html)
 
-Set up mock integrations in API Gateway [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-mock-integration.html)
-
 Setting up stage variables for a REST API deployment [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/stage-variables.html)
 
 Performing canary deployments for service integrations with Amazon API Gateway [Developer Guide](https://aws.amazon.com/blogs/compute/performing-canary-deployments-for-service-integrations-with-amazon-api-gateway/)
 
-
 Amazon API Gateway tutorials and workshops [AWS Tutorials](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-tutorials.html)
+
+Choose an AWS Lambda integration tutorial [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-with-lambda-integration.html)
+
+Invoke REST APIs in API Gateway [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-call-api.html)
+
+Using Stages in AWS API Gateway [No-Official Blog](https://medium.com/tuanhdotnet/using-stages-in-aws-api-gateway-582ac414dcf2)
+
+Deploy REST APIs in API Gateway [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-deploy-api.html)
