@@ -133,6 +133,28 @@ Lambda runtimes [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/lam
 
 Quick Hands-on with Lambda Layer [Demo](https://aws-dojo.com/excercises/excercise17/)
 
+![Mandatory](./mandatory.png) Best practices for working with AWS Lambda functions [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html)
+
+![Mandatory](./mandatory.png) Configuring provisioned concurrency for a function [Official Docs](https://docs.aws.amazon.com/lambda/latest/dg/provisioned-concurrency.html)
+
+**Question 03/06/2025**
+
+1. Se puede llamar a Lambda de manera asincronica desde API Gateway ?
+
+R:/ Si, se puede ver en la [documentacion](https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-integration-async.html), como mencione no es un caso comun sin embargo, existe la posibilidad.
+
+2. Que pasa cuando invoco mas lambda de los que estan en el limite ?
+
+R:/ Existira un throtling y los mensajes de error que se encuentran detallado [aqui](https://repost.aws/knowledge-center/lambda-troubleshoot-throttling) asi como sugerencias para solucionarlo, sin embargo, creo que es bueno leer esta [respuesta](https://stackoverflow.com/questions/62294399/getting-throttlingexception-rate-exceeded-status-code-400-on-aws-api) para mirar la manera de implementacion de reintentos externos a AWS.
+
+3. Cual es el costo de aplicar Warm Standby (Provisioned Concurrency) ?
+
+R:/ Si existe una diferencia en esta seccion del [pricing](https://aws.amazon.com/lambda/pricing/#Provisioned_Concurrency_Pricing), no son iguales. Una gran explicacion esta en este [blog](https://aws.amazon.com/blogs/aws/new-provisioned-concurrency-for-lambda-functions/) acerca de como aplicarlo.
+
+
+
+
+
 ## Managing the APIs
 
 Choose between REST APIs and HTTP APIs [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html)
