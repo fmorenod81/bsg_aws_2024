@@ -20,22 +20,36 @@ Developing On AWS 2025 - Start Date: 12 May 2025
 
 ## Course Wrap-Up
 
-[Certification Preparation](https://aws.amazon.com/certification/certification-prep)
+Serverless Architectures with AWS Lambda [Whitepaper](https://d1.awsstatic.com/whitepapers/serverless-architectures-with-aws-lambda.pdf)
 
-[Prepare for Examen](https://skillbuilder.aws/#prepare-for-exam)
+How AWS Pricing Works [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/welcome.html)
 
-[Certification Preparation - Testing](https://aws.amazon.com/certification/certification-prep/testing/)
+Back to Basics [Whitepaper](https://aws.amazon.com/architecture/back-to-basics/?tma.sort-by=item.additionalFields.airDate&tma.sort-order=desc&awsf.categories=*all&awsm.page-tma=2)
 
-[Digital Training](https://aws.amazon.com/training/digital)
+Advanced Developing on AWS [Courses](https://www.aws.training/SessionSearch?pageNumber=1&courseId=36896&languageId=1 )
 
-[Digital training](https://explore.skillbuilder.aws/)
+Developing Serverless Solutions on AWS [Courses](https://www.aws.training/SessionSearch?pageNumber=1&courseId=53785&languageId=1)
 
-[Classroom training](https://aws.amazon.com/training)
+Getting Started with DevOps on AWS [Courses](https://www.aws.training/Details/eLearning?id=66768) 
 
-[AWS Certification](https://aws.amazon.com/certification)
+AWS Cloud Development Kit Primer [Courses](https://www.aws.training/Details/Curriculum?id=64511)
 
-[AWS Workshops](https://workshops.aws/)
+Certification Preparation [Official Page](https://aws.amazon.com/certification/certification-prep)
 
-[Tech Talks](https://aws.amazon.com/events/online-tech-talks/on-demand/)
+Prepare for Examen [Official Page](https://skillbuilder.aws/#prepare-for-exam)
 
-[AWS Ramp-Up Guides](https://aws.amazon.com/training/ramp-up-guides/)
+Certification Preparation - Testing [Official Page](https://aws.amazon.com/certification/certification-prep/testing/)
+
+Digital Training [Official Page](https://aws.amazon.com/training/digital)
+
+Digital training [Official Page](https://explore.skillbuilder.aws/)
+
+Classroom training [Official Page](https://aws.amazon.com/training)
+
+AWS Certification [Official Page](https://aws.amazon.com/certification)
+
+AWS Workshops [Official Page](https://workshops.aws/)
+
+Tech Talks [Official Page](https://aws.amazon.com/events/online-tech-talks/on-demand/)
+
+AWS Ramp-Up Guides [Official Page](https://aws.amazon.com/training/ramp-up-guides/)
