@@ -151,19 +151,15 @@ R:/ Existira un throtling y los mensajes de error que se encuentran detallado [a
 
 R:/ Si existe una diferencia en esta seccion del [pricing](https://aws.amazon.com/lambda/pricing/#Provisioned_Concurrency_Pricing), no son iguales. Una gran explicacion esta en este [blog](https://aws.amazon.com/blogs/aws/new-provisioned-concurrency-for-lambda-functions/) acerca de como aplicarlo.
 
-
-
-
-
 ## Managing the APIs
 
-Choose between REST APIs and HTTP APIs [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html)
+![Mandatory](./mandatory.png) Choose between REST APIs and HTTP APIs [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html)
 
-Can SOAP API directly integrate with AWS API Gateway ? [AWS RePost](https://repost.aws/questions/QUoy5UHNJAQIKHK_i22mTaQw/can-soap-api-directly-integrate-with-aws-api-gateway)
+![Mandatory](./mandatory.png) Can SOAP API directly integrate with AWS API Gateway ? [AWS RePost](https://repost.aws/questions/QUoy5UHNJAQIKHK_i22mTaQw/can-soap-api-directly-integrate-with-aws-api-gateway)
 
 Setting up a stage for a REST API [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-stages.html)
 
-Creating and using usage plans with API keys [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-usage-plans.html)
+![Mandatory](./mandatory.png) Creating and using usage plans with API keys [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-usage-plans.html)
 
 Throttle API requests for better throughput [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html)
 
@@ -173,7 +169,7 @@ Setting up data transformations for REST APIs [Developer Guide](https://docs.aws
 
 Generating an SDK for a REST API in API Gateway [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-generate-sdk.html)
 
-Set up mock integrations in API Gateway [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-mock-integration.html)
+![Mandatory](./mandatory.png) Set up mock integrations in API Gateway [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-mock-integration.html)
 
 Enabling API caching to enhance responsiveness [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-caching.html)
 
@@ -185,12 +181,20 @@ Setting up stage variables for a REST API deployment [Developer Guide](https://d
 
 Performing canary deployments for service integrations with Amazon API Gateway [Developer Guide](https://aws.amazon.com/blogs/compute/performing-canary-deployments-for-service-integrations-with-amazon-api-gateway/)
 
-Amazon API Gateway tutorials and workshops [AWS Tutorials](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-tutorials.html)
+![Mandatory](./mandatory.png) Amazon API Gateway tutorials and workshops [AWS Tutorials](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-tutorials.html)
 
-Choose an AWS Lambda integration tutorial [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-with-lambda-integration.html)
+![Mandatory](./mandatory.png) Choose an AWS Lambda integration tutorial [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started-with-lambda-integration.html)
 
 Invoke REST APIs in API Gateway [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-call-api.html)
 
-Using Stages in AWS API Gateway [No-Official Blog](https://medium.com/tuanhdotnet/using-stages-in-aws-api-gateway-582ac414dcf2)
+![Mandatory](./mandatory.png) Using Stages in AWS API Gateway [No-Official Blog](https://medium.com/tuanhdotnet/using-stages-in-aws-api-gateway-582ac414dcf2)
 
 Deploy REST APIs in API Gateway [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-deploy-api.html)
+
+Amazon API Gateway Developer Guide [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html)
+
+Architecting for scale with Amazon API Gateway private integrations [AWS Blogs](https://aws.amazon.com/blogs/compute/architecting-for-scale-with-amazon-api-gateway-private-integrations/)
+
+Velocity Template Language (VTL) [Official Page](https://velocity.apache.org/engine/devel/vtl-reference.html)
+
+Cross-Origin Resource Sharing (CORS) [Official Page](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)

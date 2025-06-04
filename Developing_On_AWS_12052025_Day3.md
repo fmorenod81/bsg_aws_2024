@@ -12,6 +12,19 @@ Developing On AWS 2025 - Start Date: 12 May 2025
 
 ## Building a Modern Application
 
+Advanced Developing on AWS [Official Course](https://aws.amazon.com/training/classroom/advanced-developing-on-aws/)
+
+Serverless on AWS  [Official Page](https://aws.amazon.com/serverless/)
+
+Iterating a Loop Using Lambda [Official Docs](https://docs.aws.amazon.com/step-functions/latest/dg/tutorial-create-iterate-pattern-section.html)
+
+Simple microservices architecture on AWS [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/simple-microservices-architecture-on-aws.html)
+
+Building your Cloud Operating Model [Prescriptive Guide](https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-cloud-operating-model/welcome.html)
+
+Prime Video Switched from Serverless to EC2 and ECS to Save Costs [No-Official Blog](https://www.infoq.com/news/2023/05/prime-ec2-ecs-saves-costs/)
+
+
 ## Granting Access to Your Application Users
 
 ## Deploying Your Application
