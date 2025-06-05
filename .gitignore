@@ -5,3 +5,5 @@ X*.png
 *.pem
 *.ppk
 *.tmp
+temp.json
+OpenAPI*.json

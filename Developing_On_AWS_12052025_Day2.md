@@ -200,3 +200,9 @@ Architecting for scale with Amazon API Gateway private integrations [AWS Blogs](
 Velocity Template Language (VTL) [Official Page](https://velocity.apache.org/engine/devel/vtl-reference.html)
 
 Cross-Origin Resource Sharing (CORS) [Official Page](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+
+**Question 04/06/2025**
+
+1. Que relacion tienen el metodo OPTIONS y el CORS en API Gateway ?
+
+R:/ El navegador usa OPTIONS como una metodo para hacer una llamada posterior a la falla solicitando la capacidades del servidor para el CORS, como se [muestra en esta pagina](https://auth0.com/blog/cors-tutorial-a-guide-to-cross-origin-resource-sharing/).
