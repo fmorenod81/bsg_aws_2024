@@ -18,6 +18,8 @@ Serverless on AWS  [Official Page](https://aws.amazon.com/serverless/)
 
 Iterating a Loop Using Lambda [Official Docs](https://docs.aws.amazon.com/step-functions/latest/dg/tutorial-create-iterate-pattern-section.html)
 
+Pattern: Strangler application [Official Page](https://microservices.io/patterns/refactoring/strangler-application.html)
+
 Simple microservices architecture on AWS [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/simple-microservices-architecture-on-aws.html)
 
 Building your Cloud Operating Model [Prescriptive Guide](https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-cloud-operating-model/welcome.html)

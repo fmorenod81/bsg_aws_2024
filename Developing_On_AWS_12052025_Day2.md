@@ -155,6 +155,8 @@ R:/ Si existe una diferencia en esta seccion del [pricing](https://aws.amazon.co
 
 ![Mandatory](./mandatory.png) Choose between REST APIs and HTTP APIs [Official Docs](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html)
 
+API Gateway REST vs. HTTP API: What Are The Differences? [No-Official Blog](https://dev.to/tinystacks/api-gateway-rest-vs-http-api-what-are-the-differences-2nj)
+
 ![Mandatory](./mandatory.png) Can SOAP API directly integrate with AWS API Gateway ? [AWS RePost](https://repost.aws/questions/QUoy5UHNJAQIKHK_i22mTaQw/can-soap-api-directly-integrate-with-aws-api-gateway)
 
 Setting up a stage for a REST API [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-stages.html)
