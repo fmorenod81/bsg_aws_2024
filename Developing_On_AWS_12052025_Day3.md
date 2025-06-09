@@ -26,10 +26,45 @@ Building your Cloud Operating Model [Prescriptive Guide](https://docs.aws.amazon
 
 Prime Video Switched from Serverless to EC2 and ECS to Save Costs [No-Official Blog](https://www.infoq.com/news/2023/05/prime-ec2-ecs-saves-costs/)
 
-
 ## Granting Access to Your Application Users
 
+AWS Cognito user pool group precedence - working as expected and useless or broken? [Unofficial Blog](https://stackoverflow.com/questions/55180987/aws-cognito-user-pool-group-precedence-working-as-expected-and-useless-or-brok)
+
+Controlling access to resources with Cognito groups and IAM roles - Authenticated users in Cognito Identity pools, Part 1 [Unofficial Blog](https://arpadt.com/articles/cognito-groups-iam-roles)
+
+Implementing item-level access control to DynamoDB tables - Authenticated users in Cognito Identity pools, Part 2 [Unofficial Blog](https://arpadt.com/articles/item-level-control-ddb)
+
+Integrating Amazon Cognito With Web and Mobile Apps [Developer Guide](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-integrate-apps.html)
+
 ## Deploying Your Application
+
+![Mandatory](./mandatory.png) Whitepaper: Introduction to DevOps on AWS - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-devops-aws.pdf)
+
+Thinking Serverless: From Business Problem to Serverless Solution - Link: [AWS re:Invent 2020 Video](https://youtu.be/Z57KLdJZnGA)
+
+Infrastructure as Code on AWS - Link: [AWS Online Tech Talks](https://youtu.be/cKQtPZwf97s)
+
+![Mandatory](./mandatory.png) Getting Started with DevOps on AWS - Link: [Training](https://www.aws.training/Details/Curriculum?id=67465)
+
+![Mandatory](./mandatory.png) How to migrate your AWS CodeCommit repository to another Git provider - Link: [Blog](https://aws.amazon.com/blogs/devops/how-to-migrate-your-aws-codecommit-repository-to-another-git-provider/)
+
+AWS CodePipeline product integrations - Link: [Official Webpage](https://aws.amazon.com/codepipeline/product-integrations/)
+
+![Mandatory](./mandatory.png) Developer Tools on AWS - Link: [Official Webpage](https://aws.amazon.com/products/developer-tools)
+
+Section "Developer tools" on AWS Overview - Link: [AWS Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/developer-tools.html)
+
+![Mandatory](./mandatory.png) AWS CodeDeploy Integrations - Link: [Official Webpage](https://docs.aws.amazon.com/codedeploy/latest/userguide/integrations.html)
+
+Build specification reference for CodeBuild (buildspec.yaml) - Link: [Official Docs](https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html)
+
+CodeDeploy AppSpec file reference (AppSpec .yaml) - Link: [Official Docs](https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file.html)
+
+Blue/Green Deployment with CodeDeploy - Link: [Official Doc](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-bluegreen.html)
+
+Fine-Tuning Blue/Green Deployments on Application Load Balancer- Link: [Official Doc](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer/)
+
+Understanding How Deployments Affect Application Performance - Link: [AWS re:Invent 2020 Video](https://youtu.be/O9tDtJje-EA)
 
 ## Observing Your Application
 
