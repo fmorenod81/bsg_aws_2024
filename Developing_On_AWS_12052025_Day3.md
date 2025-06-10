@@ -78,6 +78,12 @@ Fine-Tuning Blue/Green Deployments on Application Load Balancer- Link: [Official
 
 Understanding How Deployments Affect Application Performance - Link: [AWS re:Invent 2020 Video](https://youtu.be/O9tDtJje-EA)
 
+**Question 09/06/2025**
+
+1. Cloudformation tienen caracteristicas de multiples archivos de configuracion con la misma plantilla ? "Algo parecido a Workspaces de Terraform".
+
+R:/ Cloudformation tiene solo un archivo de configuracion por entrada, por tanto no separa los ambientes basados en variables de ingreso, como puede ser lo mencionado por la otra alternativa. Una comparativa puede ser encontrada [aqui](https://www.geeksforgeeks.org/difference-between-cloudformation-vs-terraform/).
+
 ## Observing Your Application
 
 ## Course Wrap-Up
