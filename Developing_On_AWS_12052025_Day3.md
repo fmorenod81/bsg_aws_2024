@@ -36,9 +36,21 @@ Implementing item-level access control to DynamoDB tables - Authenticated users 
 
 Integrating Amazon Cognito With Web and Mobile Apps [Developer Guide](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-integrate-apps.html)
 
+Setting up Facebook as an identity pools IdP [Developer Guide](https://docs.aws.amazon.com/cognito/latest/developerguide/facebook.html)
+
 ## Deploying Your Application
 
 ![Mandatory](./mandatory.png) Whitepaper: Introduction to DevOps on AWS - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-devops-aws.pdf)
+
+What is DevOps? [Product Page](https://aws.amazon.com/devops/what-is-devops/)
+
+AWS SAM template anatomy [Developer Guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy.html)
+
+Controlling access to an API with API Gateway resource policies [Developer Guide](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-resource-policies.html)
+
+Create a deployment configuration with CodeDeploy [User Guide](https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations-create.html)
+
+Deployment configurations on an AWS Lambda compute platform [User Guide](https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-configurations.html#deployment-configuration-lambda)
 
 Thinking Serverless: From Business Problem to Serverless Solution - Link: [AWS re:Invent 2020 Video](https://youtu.be/Z57KLdJZnGA)
 
