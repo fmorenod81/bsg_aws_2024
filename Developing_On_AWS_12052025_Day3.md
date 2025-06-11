@@ -78,6 +78,8 @@ Fine-Tuning Blue/Green Deployments on Application Load Balancer- Link: [Official
 
 Understanding How Deployments Affect Application Performance - Link: [AWS re:Invent 2020 Video](https://youtu.be/O9tDtJje-EA)
 
+Conference for Serverless Framework - Leonardo Sarmiento - ex-EPAM[GitHub](https://github.com/lesarmiento37/serverless-ds)
+
 **Question 09/06/2025**
 
 1. Cloudformation tienen caracteristicas de multiples archivos de configuracion con la misma plantilla ? "Algo parecido a Workspaces de Terraform".
@@ -85,6 +87,26 @@ Understanding How Deployments Affect Application Performance - Link: [AWS re:Inv
 R:/ Cloudformation tiene solo un archivo de configuracion por entrada, por tanto no separa los ambientes basados en variables de ingreso, como puede ser lo mencionado por la otra alternativa. Una comparativa puede ser encontrada [aqui](https://www.geeksforgeeks.org/difference-between-cloudformation-vs-terraform/).
 
 ## Observing Your Application
+
+Cloudwatch Metrics concepts [Official Docs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html)
+
+Using Amazon CloudWatch alarms [User Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/AlarmThatSendsEmail.html)
+
+AWS CloudWatch Logs Deep Dive [No-Official Blog](https://medium.com/@joudwawad/aws-cloudwatch-logs-deep-dive-d52b5bb7c40d)
+
+Serverless Application Lens [Whitepaper](https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf)
+
+AWS Lambda Logging tools and best practices — Python [No-Official Blog](https://medium.com/codex/aws-lambda-logging-tools-and-best-practices-python-e156a76f52a7)
+
+Complexities and Best Practices for AWS Lambda Logging [AWS Partner Blog](https://aws.amazon.com/blogs/apn/complexities-and-best-practices-for-aws-lambda-logging/)
+
+Guidance for Observability on AWS [Solutions Library](https://aws.amazon.com/solutions/guidance/observability-on-aws/)
+
+Anti-patterns for strategic instrumentation [Official Docs](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/anti-patterns-for-strategic-instrumentation.html)
+
+AWS X-Ray concepts [Developer Guide](https://docs.aws.amazon.com/xray/latest/devguide/xray-concepts.html)
+
+Tracing [Prescriptive Guide](https://docs.aws.amazon.com/prescriptive-guidance/latest/performance-engineering-aws/tracing.html)
 
 ## Course Wrap-Up
 
@@ -98,7 +120,7 @@ Advanced Developing on AWS [Courses](https://www.aws.training/SessionSearch?page
 
 Developing Serverless Solutions on AWS [Courses](https://www.aws.training/SessionSearch?pageNumber=1&courseId=53785&languageId=1)
 
-Getting Started with DevOps on AWS [Courses](https://www.aws.training/Details/eLearning?id=66768) 
+Getting Started with DevOps on AWS [Courses](https://www.aws.training/Details/eLearning?id=66768)
 
 AWS Cloud Development Kit Primer [Courses](https://www.aws.training/Details/Curriculum?id=64511)
 
