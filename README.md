@@ -1,16 +1,19 @@
 README.md
 
-Links for Official AWS Courses
+Links for Official AWS Courses - 2024/2025
+
+Courses that I taught (5 courses):
+
+Cloud Practitioner (for the "Cloud Practitioner" certification ), Technical Essentials, Developing on AWS (for the "Developer Associate" certification), Architecting on AWS (for the "Solutions Architect Associate" certification),  and Advanced Architecting on AWS (for the "Solutions Architect Professional" certification).
 
 ![Current Courses](./current_course.png)  **Current Courses**:
 
-[Developing on AWS 12-May-2025 Day 2](./Developing_On_AWS_12052025_Day2.md)
+
+![Inactive Courses](./old_courses.png)  **Inactive Courses**:
 
 [Developing on AWS 12-May-2025 Day 3](./Developing_On_AWS_12052025_Day3.md)
 
-As prerequisite, you need to take Architecting on AWS, so I add some links for that course:
-
-![Inactive Courses](./old_courses.png)  **Inactive Courses**:
+[Developing on AWS 12-May-2025 Day 2](./Developing_On_AWS_12052025_Day2.md)
 
 [Developing on AWS 12-May-2025 Day 1](./Developing_On_AWS_12052025_Day1.md)
 
