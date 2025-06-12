@@ -80,7 +80,7 @@ Understanding How Deployments Affect Application Performance - Link: [AWS re:Inv
 
 Conference for Serverless Framework - Leonardo Sarmiento - ex-EPAM[GitHub](https://github.com/lesarmiento37/serverless-ds)
 
-Tutorial: Deploy a Hello World application with AWS SAM [Official Docs](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html)
+![Mandatory](./mandatory.png) Tutorial: Deploy a Hello World application with AWS SAM [Official Docs](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html)
 
 **Question 09/06/2025**
 
@@ -90,7 +90,7 @@ R:/ Cloudformation tiene solo un archivo de configuracion por entrada, por tanto
 
 ## Observing Your Application
 
-Cloudwatch Metrics concepts [Official Docs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html)
+![Mandatory](./mandatory.png) Cloudwatch Metrics concepts [Official Docs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html)
 
 Using Amazon CloudWatch alarms [User Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/AlarmThatSendsEmail.html)
 
@@ -98,7 +98,7 @@ AWS CloudWatch Logs Deep Dive [No-Official Blog](https://medium.com/@joudwawad/a
 
 Serverless Application Lens [Whitepaper](https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf)
 
-AWS Lambda Logging tools and best practices — Python [No-Official Blog](https://medium.com/codex/aws-lambda-logging-tools-and-best-practices-python-e156a76f52a7)
+![Mandatory](./mandatory.png) AWS Lambda Logging tools and best practices — Python [No-Official Blog](https://medium.com/codex/aws-lambda-logging-tools-and-best-practices-python-e156a76f52a7)
 
 Complexities and Best Practices for AWS Lambda Logging [AWS Partner Blog](https://aws.amazon.com/blogs/apn/complexities-and-best-practices-for-aws-lambda-logging/)
 
@@ -106,17 +106,17 @@ Guidance for Observability on AWS [Solutions Library](https://aws.amazon.com/sol
 
 Anti-patterns for strategic instrumentation [Official Docs](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/anti-patterns-for-strategic-instrumentation.html)
 
-AWS X-Ray concepts [Developer Guide](https://docs.aws.amazon.com/xray/latest/devguide/xray-concepts.html)
+![Mandatory](./mandatory.png) AWS X-Ray concepts [Developer Guide](https://docs.aws.amazon.com/xray/latest/devguide/xray-concepts.html)
 
-Tracing [Prescriptive Guide](https://docs.aws.amazon.com/prescriptive-guidance/latest/performance-engineering-aws/tracing.html)
+![Mandatory](./mandatory.png) Tracing [Prescriptive Guide](https://docs.aws.amazon.com/prescriptive-guidance/latest/performance-engineering-aws/tracing.html)
 
 ## Course Wrap-Up
 
-Serverless Architectures with AWS Lambda [Whitepaper](https://d1.awsstatic.com/whitepapers/serverless-architectures-with-aws-lambda.pdf)
+![Mandatory](./mandatory.png) Serverless Architectures with AWS Lambda [Whitepaper](https://d1.awsstatic.com/whitepapers/serverless-architectures-with-aws-lambda.pdf)
 
 How AWS Pricing Works [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/welcome.html)
 
-Back to Basics [Whitepaper](https://aws.amazon.com/architecture/back-to-basics/?tma.sort-by=item.additionalFields.airDate&tma.sort-order=desc&awsf.categories=*all&awsm.page-tma=2)
+![Mandatory](./mandatory.png) Back to Basics [Whitepaper](https://aws.amazon.com/architecture/back-to-basics/?tma.sort-by=item.additionalFields.airDate&tma.sort-order=desc&awsf.categories=*all&awsm.page-tma=2)
 
 Advanced Developing on AWS [Courses](https://www.aws.training/SessionSearch?pageNumber=1&courseId=36896&languageId=1 )
 
@@ -126,9 +126,9 @@ Getting Started with DevOps on AWS [Courses](https://www.aws.training/Details/eL
 
 AWS Cloud Development Kit Primer [Courses](https://www.aws.training/Details/Curriculum?id=64511)
 
-Certification Preparation [Official Page](https://aws.amazon.com/certification/certification-prep)
+![Mandatory](./mandatory.png) Certification Preparation [Official Page](https://aws.amazon.com/certification/certification-prep)
 
-Prepare for Examen [Official Page](https://skillbuilder.aws/#prepare-for-exam)
+![Mandatory](./mandatory.png) Prepare for Examen [Official Page](https://skillbuilder.aws/#prepare-for-exam)
 
 Certification Preparation - Testing [Official Page](https://aws.amazon.com/certification/certification-prep/testing/)
 
@@ -144,4 +144,4 @@ AWS Workshops [Official Page](https://workshops.aws/)
 
 Tech Talks [Official Page](https://aws.amazon.com/events/online-tech-talks/on-demand/)
 
-AWS Ramp-Up Guides [Official Page](https://aws.amazon.com/training/ramp-up-guides/)
+![Mandatory](./mandatory.png) AWS Ramp-Up Guides [Official Page](https://aws.amazon.com/training/ramp-up-guides/)
