@@ -80,6 +80,8 @@ Understanding How Deployments Affect Application Performance - Link: [AWS re:Inv
 
 Conference for Serverless Framework - Leonardo Sarmiento - ex-EPAM[GitHub](https://github.com/lesarmiento37/serverless-ds)
 
+Tutorial: Deploy a Hello World application with AWS SAM [Official Docs](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html)
+
 **Question 09/06/2025**
 
 1. Cloudformation tienen caracteristicas de multiples archivos de configuracion con la misma plantilla ? "Algo parecido a Workspaces de Terraform".
