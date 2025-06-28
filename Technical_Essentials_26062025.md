@@ -32,6 +32,10 @@ g) El servicio QLDB es blockchain ? SI no es asi cual seria el servicio?
 
 h) Cual es el mas reciente motor para RDS ?
 
+i) Donde estan localizadas los snapshots de EBS ?
+
+R:/ Como se mencionó en la clase (26-Junio), los snapshots de EBS estan a nivel regional, y son almacenados en buckets S3 manejados por Amazon y el cliente no puede acceder a ellos directamente sino a traves de la consola de EBS. [Mayor información aqui](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-snapshots.html)
+
 ## Cloud
 
 Course Overview - NOTE: Labs - Link: [Official Page](https://d1.awsstatic.com/training-and-certification/classroom-training/aws-technical-essentials.pdf)
