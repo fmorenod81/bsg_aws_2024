@@ -2,6 +2,7 @@ Technical_Essentials_20082024.md
 
 TABLE OF CONTENTS
 - [Questions](#questions)
+- [Populares](#populares)
 - [Cloud](#cloud)
 - [IAM](#iam)
 - [Budget](#budget)
@@ -13,6 +14,7 @@ TABLE OF CONTENTS
 - [Load Balancers](#load-balancers)
 - [AutoScaling](#autoscaling)
 - [Amazon Q Developer](#amazon-q-developer)
+
 
 ## Questions
 
@@ -35,6 +37,18 @@ h) Cual es el mas reciente motor para RDS ?
 i) Donde estan localizadas los snapshots de EBS ?
 
 R:/ Como se mencionó en la clase (26-Junio), los snapshots de EBS estan a nivel regional, y son almacenados en buckets S3 manejados por Amazon y el cliente no puede acceder a ellos directamente sino a traves de la consola de EBS. [Mayor información aqui](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-snapshots.html)
+
+j) Cual es la definicion de ARN ? 
+
+R:/ Es la identificacion unica de recursos en AWS, significa Amazon Resource Name, mas [información aqui.](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference-arns.html)
+
+k) Cual es la diferencia entre el protocolo y sistema de archivos ?
+
+R:/ Protocolos se enfocan a como se usan los sistemas de archivos compartidos, los mas compunes son NFS y SMB, aqui un [comparativo](https://aws.amazon.com/compare/the-difference-between-nfs-smb/?trk=faq_card), mientras que los sistemas de archivos son la manera en que se escriben los archivos en un disco duro, ya sea local (como EBS) o en red (EFS o FSx).
+
+## Populares
+
+[Centro de conceptos de computación en la nube](https://aws.amazon.com/es/what-is/?faq-hub-cards.sort-by=item.additionalFields.sortDate&faq-hub-cards.sort-order=desc&awsf.tech-category=*all)
 
 ## Cloud
 
@@ -119,6 +133,10 @@ How control access to S3: IAM Policies, S3 Policies and ACLs - Link: [Official B
 Looks Intelligent Tier - S3 Pricing - Link: [Official Pricing Page](https://aws.amazon.com/s3/pricing/)
 
 Versioning for Dummies - Link: [AWS Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html)
+
+Siempre usar EFS para sistemas compartidos ? Un ejemplo, que no - Clustered storage simplified: GFS2 on Amazon EBS Multi-Attach enabled volumes - Links: [AWS Storage Blog](https://aws.amazon.com/blogs/storage/clustered-storage-simplified-gfs2-on-amazon-ebs-multi-attach-enabled-volumes)
+
+Amazon EFS now supports a larger number of concurrent file locks - Link: [AWS New](https://aws.amazon.com/about-aws/whats-new/2022/05/amazon-efs-larger-number-concurrent-file-locks/)
 
 ## Databases
 
