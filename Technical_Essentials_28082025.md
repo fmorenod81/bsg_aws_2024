@@ -19,27 +19,43 @@ TABLE OF CONTENTS
 
 ## Populares
 
-[Centro de conceptos de computación en la nube](https://aws.amazon.com/es/what-is/?faq-hub-cards.sort-by=item.additionalFields.sortDate&faq-hub-cards.sort-order=desc&awsf.tech-category=*all)
+Centro de conceptos de computación en la nube - Link:  [Official Docs](https://aws.amazon.com/es/what-is/?faq-hub-cards.sort-by=item.additionalFields.sortDate&faq-hub-cards.sort-order=desc&awsf.tech-category=*all)
+
+AWS Learning Badges - Link: [Training Page](https://aws.amazon.com/training/badges/)
 
 ## Cloud
 
 Course Overview - NOTE: Labs - Link: [Official Page](https://d1.awsstatic.com/training-and-certification/classroom-training/aws-technical-essentials.pdf)
 
-Cloud Definition - NIST Definition - NOTE: Service Models and Deployment Models - Link: [Official NIST Page](https://ccsp.alukos.com/standards/nist-sp-800-145/)
+Cloud Definition - NIST Definition - NOTE: Service Models and Deployment Models - Link: [Official NIST Page](https://csrc.nist.gov/pubs/sp/800/145/final)
+
+Introduction to AWS Economics - Link: [AWS Whitepaper](https://d1.awsstatic.com/whitepapers/introduction-to-aws-cloud-economics-final.pdf)
 
 AWS Infrastructure - Regions - NOTE: New region on Mexico and Edge Locations on Mx, Co, Pe - Link: [AWS Page](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
 
 AWS Infrastructure - Local Zones - NOTE: LZ on Queretaro, Santiago, Lima and Bogota (Announced) - Link: [AWS Page](https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/?nc=sn&loc=3)
 
+AWS Regions and Zones- Link: [AWS Workshop](https://disaster-recovery.workshop.aws/en/intro/infra-aws/regions-az.html)
+
 AWS Infrastructure - Local Zones - Features - Link: [AWS Page](https://aws.amazon.com/about-aws/global-infrastructure/localzones/features/?nc=sn&loc=2)
+
+Edge Location vs Regional Edge Location - Link: [AWS Cloudfront FAQ](https://aws.amazon.com/cloudfront/faqs/#topic-1)
 
 AWS Products - NOTE: Amazon RDS for DB2 - Link: [AWS Page](https://aws.amazon.com/products/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc&awsf.re%3AInvent=event-year%23aws-reinvent-2023&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all)
 
-AWS Learning Badges - Link: [Training Page](https://aws.amazon.com/training/badges/)
+Pizza Analogy to explain Service Model (IaaS, PaaS and SaaS) - Link: [SaaS, PaaS and IaaS explained in one graphic](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*bl4PsuSnNz7xHpri5uqaow.jpeg)
 
 ## IAM
 
 Multifactor Authenticator - Link: [Official Introduction](https://aws.amazon.com/iam/features/mfa)
+
+AWS Federated Authentication with Active Directory Federation Services (AD FS) - Use the diagrama to explain IdP and SvcP - Link: [AWS Blog](https://aws.amazon.com/blogs/security/aws-federated-authentication-with-active-directory-federation-services-ad-fs/)
+
+Use the New Visual Editor to Create and Modify Your AWS IAM Policies - Link: [AWS Blog](https://aws.amazon.com/blogs/security/use-the-new-visual-editor-to-create-and-modify-your-aws-iam-policies/)
+
+Get to Grips with AWS IAM Roles: Terms, Concepts, and Examples - Link: [Unofficial Blog](https://awsfundamentals.com/blog/aws-iam-roles-terms-concepts-and-examples)
+
+AWS IAM | AWS Identity and Access Management | What is AWS IAM | AWS for Beginners - Picture to Explain - Link: [Unofficial Video](https://youtu.be/jXHJDk4lA9Q?t=216)
 
 Example to use roles on IAM - Link: [AWS Repost](https://repost.aws/knowledge-center/iam-assume-role-cli)
 
