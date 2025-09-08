@@ -2,20 +2,20 @@ Technical_Essentials_25082025.md
 
 TABLE OF CONTENTS
 - [Preguntas](#preguntas)
-  - [Populares](#populares)
-  - [Cloud](#cloud)
-  - [IAM](#iam)
-  - [Budget](#budget)
-  - [Compute Services](#compute-services)
-  - [Networking](#networking)
-  - [Storage](#storage)
-  - [Databases](#databases)
-  - [Monitoring](#monitoring)
-  - [Load Balancers](#load-balancers)
-  - [AutoScaling](#autoscaling)
-  - [Amazon Q Developer](#amazon-q-developer)
+- [Populares](#populares)
+- [Cloud](#cloud)
+- [IAM](#iam)
+- [Budget](#budget)
+- [Compute Services](#compute-services)
+- [Networking](#networking)
+- [Storage](#storage)
+- [Databases](#databases)
+- [Monitoring](#monitoring)
+- [Load Balancers](#load-balancers)
+- [AutoScaling](#autoscaling)
+- [Amazon Q Developer](#amazon-q-developer)
 
-# Preguntas
+## Preguntas
 
 ## Populares
 
@@ -108,6 +108,10 @@ ACL - Mejor grafica - Link [Official Documentation](https://docs.aws.amazon.com/
 Sec Groups - Ejemplo - Link [Official Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/security-group-rules.html)
 
 ## Storage
+
+Comparing your on-premises storage patterns with AWS Storage services - Link: [AWS Blog](https://aws.amazon.com/blogs/storage/comparing-your-on-premises-storage-patterns-with-aws-storage-services/)
+
+What is NAS (Network-Attached Storage)? - Link: [Cloud Computing Concepts Hub](https://aws.amazon.com/what-is/nas/)
 
 EBS Types - Use Cases- Link: [Official Service Page](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html)
 
