@@ -133,6 +133,8 @@ RDS Web Page - Link: [Official Page](https://aws.amazon.com/relational-database/
 
 NoSQL WebPage - Link: [Official Page](https://aws.amazon.com/nosql/)
 
+Types of NoSQL databases - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/choosing-an-aws-nosql-database/types-of-nosql-databases.html)
+
 DB differences on Writable RR, backup or parallel replication on Read Replication - Link: [Official Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html#USER_ReadRepl.Overview.Differences)
 
 Multi-AZ DB instance deployments - Link: [Official Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZSingleStandby.html)
