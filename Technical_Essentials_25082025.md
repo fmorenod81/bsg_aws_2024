@@ -121,6 +121,10 @@ Simple Storage Service - S3 - Link: [Official Features Page](https://aws.amazon.
 
 How control access to S3: IAM Policies, S3 Policies and ACLs - Link: [Official Blog](https://aws.amazon.com/blogs/security/iam-policies-and-bucket-policies-and-acls-oh-my-controlling-access-to-s3-resources/)
 
+Understanding and managing Amazon S3 storage classes - Link: [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html)
+
+Replicating objects within and across Regions - Link: [Official Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html)
+
 Looks Intelligent Tier - S3 Pricing - Link: [Official Pricing Page](https://aws.amazon.com/s3/pricing/)
 
 Versioning for Dummies - Link: [AWS Docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html)
