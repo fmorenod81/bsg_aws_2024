@@ -79,6 +79,8 @@ Instance Explorer - Link: [Official Page](https://aws.amazon.com/ec2/instance-ex
 
 Instance Family on Console - Link: [AWS Console](https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#InstanceTypes:)
 
+Burstable performance instances - Link: [Official Doc](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-performance-instances.html)
+
 AWS Calculator, case on EC2 - Link: [Official Page](https://calculator.aws/#/addService/ec2-enhancement)
 
 How Amazon EC2 instance hibernation works - Link: [Official Page](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-hibernate-overview.html)
@@ -142,6 +144,10 @@ RDS Web Page - Link: [Official Page](https://aws.amazon.com/relational-database/
 NoSQL WebPage - Link: [Official Page](https://aws.amazon.com/nosql/)
 
 Types of NoSQL databases - Link: [Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/choosing-an-aws-nosql-database/types-of-nosql-databases.html)
+
+Types of NoSQL Databases - Link: [Unofficial Blog](https://www.geeksforgeeks.org/dbms/types-of-nosql-databases/)
+
+Types Of NoSQL Database Management Systems - Link: [Unofficial Whitepaper](https://www.mongodb.com/resources/basics/databases/nosql-explained/types-of-nosql-database-management-systems)
 
 DB differences on Writable RR, backup or parallel replication on Read Replication - Link: [Official Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html#USER_ReadRepl.Overview.Differences)
 
