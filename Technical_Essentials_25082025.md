@@ -17,6 +17,13 @@ TABLE OF CONTENTS
 
 ## Preguntas
 
+**Para que sirven los tags?**
+R:/ En mi concepto pueden aplicar para otro tipo de permisos basados en atributos/Tags, aqui puedes encontrar mas informacion acerca de este tipo de politicas: [Define permissions based on attributes with ABAC authorization](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_attribute-based-access-control.html). Adicionalmente, aplicar modelo de costos usando reportes, usando tags especificos: [Using user-defined cost allocation tags](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/custom-tags.html). Finalmente, invito a que puedan conocer mas de marcos de trabajo acerca del manejo de costos de manera agnostica en [Finops](https://www.finops.org/).
+
+**Como puedo hacer un tunelling a una RDS**
+R:/ Es una conexion hacia un SSM Managed Node, que funcionaria como bastion host sin IP publica, los pasos graficos los puedes ver en este [blog no oficial](https://blog.wkhoo.com/posts/ssm-port-forwarding-part1), mientras que para la respuesta oficial en un [blog](https://repost.aws/knowledge-center/systems-manager-ssh-vpc-resources).
+
+
 ## Populares
 
 Centro de conceptos de computación en la nube - Link:  [Official Docs](https://aws.amazon.com/es/what-is/?faq-hub-cards.sort-by=item.additionalFields.sortDate&faq-hub-cards.sort-order=desc&awsf.tech-category=*all)
@@ -160,6 +167,8 @@ MultiAZ DB Cluster - !Readable! MultiAZ Deploy - Link: [Official Documentation](
 Core Components of Amazon DynamoDB - Link: [Official Page](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html)
 
 Use Cases for DynamoDB - Link: [Official Page](https://aws.amazon.com/blogs/database/amazon-dynamodb-gaming-use-cases-and-design-patterns/)
+
+Best practices for designing and using partition keys effectively in DynamoDB - Link: [Official Page](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html)
 
 General Guide for Pricing  - Link: [Official Page](https://aws.amazon.com/dynamodb/pricing/)
 
