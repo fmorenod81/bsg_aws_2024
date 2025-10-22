@@ -8,9 +8,11 @@ Cloud Practitioner (for the "Cloud Practitioner" certification ), Technical Esse
 
 ![Current Courses](./current_course.png)  **Current Courses**:
 
-[Technical Essentials 25-August-2025](./Technical_Essentials_25082025.md)
+[Technical Essentials 22-October-2025](./Technical_Essentials_22102025.md)
 
 ![Inactive Courses](./old_courses.png)  **Inactive Courses**:
+
+[Technical Essentials 25-August-2025](./Technical_Essentials_25082025.md)
 
 [Technical Essentials 26-July-2025](./Technical_Essentials_26062025.md)
 
