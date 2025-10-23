@@ -19,11 +19,13 @@ TABLE OF CONTENTS
 
 ## Populares
 
-[Presentacion No-Oficial](./00-Personal_Taughts_22102025.pdf)
+No-Official Presentation - Link: [Instructor Thoughts](./00-Personal_Taughts_22102025.pdf)
 
-[Linkedin Instructor](https://www.linkedin.com/in/fmorenod/)
+Instructor Profile - Link: [Linkedin](https://www.linkedin.com/in/fmorenod/)
 
-[Badges Instructor](http://credly.com/users/francisco-javier-moreno-diaz/)
+Badges Instructor - Link: [Credly](http://credly.com/users/francisco-javier-moreno-diaz/)
+
+Garnet Magic Quadrant 2025 - Link: [AWS Page](https://aws.amazon.com/blogs/aws/aws-named-as-a-leader-in-2025-gartner-magic-quadrant-for-strategic-cloud-platform-services-for-15-years-in-a-row/)
 
 Centro de conceptos de computación en la nube - Link:  [Official Docs](https://aws.amazon.com/es/what-is/?faq-hub-cards.sort-by=item.additionalFields.sortDate&faq-hub-cards.sort-order=desc&awsf.tech-category=*all)
 
