@@ -17,6 +17,18 @@ TABLE OF CONTENTS
 
 ## Preguntas
 
+De la clase del 12/Noviembre:
+
+Identity-based policies and resource-based policies - Link: [Official Doc](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html)
+
+Policy evaluation logic - Link: [Official Doc](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
+
+S3 Pricing  - Link: [Official Doc](https://aws.amazon.com/s3/pricing/)
+
+Understanding and managing Amazon S3 storage classes - Link: [Official Doc](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html)
+
+Nivel gratuito de AWS -  revisar si su cuenta fue creada 15 Julio 2025 y Despues - Link: [Official Doc](https://aws.amazon.com/es/free/)
+
 ## Populares
 
 No-Official Presentation - Link: [Instructor Thoughts](./00-Personal_Taughts_22102025.pdf)
