@@ -1,14 +1,18 @@
 README.md
 
-Links for Official AWS Courses - 2024/2025
+Links for Official AWS Courses - 2024/2025/2026
 
 Courses that I taught (5 courses):
 
-Cloud Practitioner (for the "Cloud Practitioner" certification ), Technical Essentials, Developing on AWS (for the "Developer Associate" certification), Architecting on AWS (for the "Solutions Architect Associate" certification),  and Advanced Architecting on AWS (for the "Solutions Architect Professional" certification).
+* Cloud Practitioner (for the "Cloud Practitioner" certification)
+* Technical Essentials
+* Developing on AWS (for the "Developer Associate" certification)
+* Architecting on AWS (for the "Solutions Architect Associate" certification)
+* Advanced Architecting on AWS (for the "Solutions Architect Professional" certification)
 
 ![Current Courses](./current_course.png)  **Current Courses**:
 
-[Technical Essentials 22-October-2025](./Technical_Essentials_22102025.md)
+[Technical Essentials 2-December-2025](./Technical_Essentials_02122025.md)
 
 ![Inactive Courses](./old_courses.png)  **Inactive Courses**:
 
@@ -61,4 +65,3 @@ Cloud Practitioner (for the "Cloud Practitioner" certification ), Technical Esse
 [Advanced Architecting 29-April-2024 Day 1](./Advanced_Architecting_29042024_Day1.md)
 
 [Technical Essentials 26-March-2024](./Technical_Essentials_26032024.md)
-
