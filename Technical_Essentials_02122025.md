@@ -1,4 +1,4 @@
-Technical_Essentials_25082025.md
+Technical_Essentials_02122025.md
 
 TABLE OF CONTENTS
 - [Preguntas](#preguntas)
@@ -17,9 +17,31 @@ TABLE OF CONTENTS
 
 ## Preguntas
 
+Preguntas Clase 2-Diciembre:
+
+1. Este es un curso orientado directamente en una certificacion ?
+
+R:/ No. El curso [AWS Technical Essentials](https://d1.awsstatic.com/training-and-certification/classroom-training/aws-technical-essentials.pdf) no esta orientado a una certificacion. Es un curso fundacional, y quizas la certificacion mas cercana sea la [AWS Certified Cloud Practitioner](https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/certification/approved/pdfs/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf), cuyo curso orientado es [AWS Cloud Practitioner Essentials](https://d1.awsstatic.com/training-and-certification/classroom-training/aws-cloud-practitioner-essentials.pdf). Puede comparar ambos Exam Guides para mirar diferencias y enfocarse en las diferencias.
+
+2. Tengo mucho enfasis en mi vida profesional, como podria AWS enfocarme por medio de las certificaciones?
+
+R:/ AWS tiene una [ruta de certificaciones](https://d1.awsstatic.com/training-and-certification/docs/AWS_certification_paths.pdf) que depende de los interes de los estudiantes, es bueno, mirar las rutas y luego, los Exam Guides de cada una para mirar alineacion con la vida profesional.
+
+3. Existe alguna manera de determinar eficiencia y eficacia en servicios nube?
+
+R:/ Existen marcos de trabajo agnosticos a la nube como [Finops](https://learn.finops.org/), pero AWS tambien tiene un pillar del Well-Architected Framework: [Cost Optimization Pillar](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html)y otras  recomendaciones como puede ser en [Cost Optimization with AWS](https://aws.amazon.com/aws-cost-management/cost-optimization/) y [Architecture Best Practices for Cost Optimization](https://aws.amazon.com/architecture/cost-optimization/)
+
+4. Si trabajo en ambito academico, que servicio educativo podria estar involucrado ?
+
+R:/ Mas informacion con [AWS Academy](https://aws.amazon.com/training/awsacademy/).
+
+5. Tienes algunas enlaces recomendados para Arquitectura ?
+
+R:/ Si, el [Prescriptive Guidance](https://aws.amazon.com/prescriptive-guidance/) y el [AWS Solutions Library](https://aws.amazon.com/solutions/).
+
 ## Populares
 
-No-Official Presentation - Link: [Instructor Thoughts](./00-Personal_Taughts_20122025.pdf)
+No-Official Presentation - Link: [Instructor Thoughts](./00-Personal_Taughts_02122025.pdf)
 
 Instructor Profile - Link: [Linkedin](https://www.linkedin.com/in/fmorenod/)
 
