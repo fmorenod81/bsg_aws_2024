@@ -17,7 +17,7 @@ TABLE OF CONTENTS
 
 ## Preguntas
 
-Preguntas Clase 2-Diciembre:
+**Preguntas Clase 2-Diciembre:**
 
 1. Este es un curso orientado directamente en una certificacion ?
 
@@ -38,6 +38,12 @@ R:/ Mas informacion con [AWS Academy](https://aws.amazon.com/training/awsacademy
 5. Tienes algunas enlaces recomendados para Arquitectura ?
 
 R:/ Si, el [Prescriptive Guidance](https://aws.amazon.com/prescriptive-guidance/) y el [AWS Solutions Library](https://aws.amazon.com/solutions/).
+
+**Preguntas Clase 16-Diciembre:**
+
+1. Cual es la replicacion para EBS ?
+
+R:/ EBS tiene un alcance dentro de la zona de disponibilidad lo mismo que un EC2; por tanto su replicacion tendria que ser dentro de la AZ. Para mirar su alcance estaria aqui su [alta disponibilidad](https://docs.aws.amazon.com/ebs/latest/userguide/EBSFeatures.html#availability-benefit)
 
 ## Populares
 
