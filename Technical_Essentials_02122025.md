@@ -45,6 +45,11 @@ R:/ Si, el [Prescriptive Guidance](https://aws.amazon.com/prescriptive-guidance/
 
 R:/ EBS tiene un alcance dentro de la zona de disponibilidad lo mismo que un EC2; por tanto su replicacion tendria que ser dentro de la AZ. Para mirar su alcance estaria aqui su [alta disponibilidad](https://docs.aws.amazon.com/ebs/latest/userguide/EBSFeatures.html#availability-benefit)
 
+2. Se tiene alguna pagina para mirar arquitecturas hibridas de referencia ?
+
+R:/ Un buen whitepaper para estos casos es [Hybrid Connectivity](https://docs.aws.amazon.com/whitepapers/latest/hybrid-connectivity/hybrid-connectivity.html)
+
+
 ## Populares
 
 No-Official Presentation - Link: [Instructor Thoughts](./00-Personal_Taughts_02122025.pdf)
