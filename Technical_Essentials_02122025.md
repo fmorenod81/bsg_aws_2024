@@ -206,9 +206,13 @@ Core Components of Amazon DynamoDB - Link: [Official Page](https://docs.aws.amaz
 
 Use Cases for DynamoDB - Link: [Official Page](https://aws.amazon.com/blogs/database/amazon-dynamodb-gaming-use-cases-and-design-patterns/)
 
+DynamoDB - Global Tables - Link: [Official Page](https://aws.amazon.com/dynamodb/global-tables/)
+
+DynamoDB Local for Developers - Link: [Official Page](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html)
+
 Best practices for designing and using partition keys effectively in DynamoDB - Link: [Official Page](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html)
 
-General Guide for Pricing  - Link: [Official Page](https://aws.amazon.com/dynamodb/pricing/)
+DynamoDB - General Guide for Pricing  - Link: [Official Page](https://aws.amazon.com/dynamodb/pricing/)
 
 ## Monitoring
 
