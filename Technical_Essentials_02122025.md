@@ -49,6 +49,11 @@ R:/ EBS tiene un alcance dentro de la zona de disponibilidad lo mismo que un EC2
 
 R:/ Un buen whitepaper para estos casos es [Hybrid Connectivity](https://docs.aws.amazon.com/whitepapers/latest/hybrid-connectivity/hybrid-connectivity.html)
 
+**Preguntas Clase 18-Diciembre:**
+
+1. Existe algun servicio nativo de AWS que optimize las bases de datos ?
+
+R:/ No, como tal existen servicio que verifican el aprovisionamiento correcto de las intancias usando [Compute Optimizer](https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html) o lo que mas se parece es el [DevOps Guru for RDS](https://aws.amazon.com/awstv/watch/d3d6f81911f/) aunque no toma acciones por si solo sino que toma informacion de RDS Performance Insigths para hacer recomendaciones.
 
 ## Populares
 
