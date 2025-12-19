@@ -55,6 +55,12 @@ R:/ Un buen whitepaper para estos casos es [Hybrid Connectivity](https://docs.aw
 
 R:/ No, como tal existen servicio que verifican el aprovisionamiento correcto de las intancias usando [Compute Optimizer](https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html) o lo que mas se parece es el [DevOps Guru for RDS](https://aws.amazon.com/awstv/watch/d3d6f81911f/) aunque no toma acciones por si solo sino que toma informacion de RDS Performance Insigths para hacer recomendaciones.
 
+2. Existe alguna promo de entrenamiento de AWS ?
+
+R:/ En este momento este es el mensaje de [Skill Builder](https://skillbuilder.aws/)
+"Free AWS Foundational Certification Prep Resources | Limited Time Offer
+Access subscription-based exam prep materials for AWS Certified Cloud Practitioner and AI Practitioner - including official practice exams, SimuLearn, AWS Escape Room, and official pretests. Available in up to 13 languages through January 5, 2026."
+
 ## Populares
 
 No-Official Presentation - Link: [Instructor Thoughts](./00-Personal_Taughts_02122025.pdf)
