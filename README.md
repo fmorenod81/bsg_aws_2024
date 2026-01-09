@@ -1,6 +1,6 @@
 README.md
 
-Links for Official AWS Courses - 2024/2025/2026
+Links for Official AWS Courses - 2024/2025
 
 Courses that I taught (5 courses):
 
@@ -12,9 +12,10 @@ Courses that I taught (5 courses):
 
 ![Current Courses](./current_course.png)  **Current Courses**:
 
-[Technical Essentials 2-December-2025](./Technical_Essentials_02122025.md)
 
 ![Inactive Courses](./old_courses.png)  **Inactive Courses**:
+
+[Technical Essentials 2-December-2025](./Technical_Essentials_02122025.md)
 
 [Technical Essentials 25-August-2025](./Technical_Essentials_25082025.md)
 

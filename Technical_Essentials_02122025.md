@@ -61,6 +61,16 @@ R:/ En este momento este es el mensaje de [Skill Builder](https://skillbuilder.a
 "Free AWS Foundational Certification Prep Resources | Limited Time Offer
 Access subscription-based exam prep materials for AWS Certified Cloud Practitioner and AI Practitioner - including official practice exams, SimuLearn, AWS Escape Room, and official pretests. Available in up to 13 languages through January 5, 2026."
 
+**Preguntas Clase 6-Enero:**
+
+1. Se puede hacer balanceo por peso en un Load Balancer ?
+
+R:/ Como mencione en la clase, ademas de usar el servicio DNS de AWS (Route 53), se puede usar el balanceador ALB (aqui esta un [tutorial oficial](https://repost.aws/knowledge-center/elb-make-weighted-target-groups-for-alb), de hace 7 meses) y el NLB (Aqui esta la [noticia](https://aws.amazon.com/blogs/networking-and-content-delivery/network-load-balancers-now-support-weighted-target-groups/) de hace 5 meses)
+
+2. Que es mejor colocar primero, API Gateway o Load Balancer ?
+
+R:/ Segun el tipo de arquitectura (i.e. BFF) es necesario exponer el API Gateway primero para hacer el routing, pero tambien se puede hacer el ELB para adicionar seguridad como se vé en este [ejemplo](https://aws.amazon.com/es/blogs/aws-spanish/implementado-enterprise-service-bus-con-amazon-api-gateway-y-aws-fargate/).
+
 ## Populares
 
 No-Official Presentation - Link: [Instructor Thoughts](./00-Personal_Taughts_02122025.pdf)
